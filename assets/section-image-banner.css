@@ -502,7 +502,7 @@
   }
 }
 
-.mob-image {
-  width: 100%;
+.mob-image img {
+  max-width: 100%;
   height: auto;
 }

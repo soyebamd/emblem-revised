@@ -128,13 +128,16 @@
 
 
 
-        <div class="for-desk slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
+        <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
          
         
         
       {% comment %}
         Desktop image
  
+     {% endcomment %}
+
+     <div class="for-desk ">
         {%- if block.settings.image -%}
             {%- liquid
               assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
@@ -171,9 +174,8 @@
               {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
           {%- endif -%}
-        
+        </div>
 
-     {% endcomment %}
         
       {% comment %}
         Mob image

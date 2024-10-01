@@ -50,9 +50,15 @@ h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5{  font-family: "Barlow Condense
           
 
         }
-/* 
-        .for-mob{}
+
+        .for-mob{display: none; }
 
         .for-desk{}
 
-        @media(){} */
+        @media(max-width:749px){
+
+              .for-mob{display: block!important; }
+
+        .for-desk{ display:none}
+
+        }

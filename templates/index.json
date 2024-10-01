@@ -35,6 +35,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/image_116_1.png",
+            "mob_image": "shopify://shop_images/image_116_e1f7839b-2b5a-465d-a226-a98ee1ecd65f.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -42,9 +43,9 @@
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 60,
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
@@ -61,7 +62,7 @@
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
-        "show_text_below": true,
+        "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
     },

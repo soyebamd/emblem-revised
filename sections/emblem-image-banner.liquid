@@ -157,13 +157,13 @@
               {{
                 block.settings.image
                 | image_url: width: 3840
-                | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority,  class: 'w-100'
+                | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority,  class: 'w-100 cover'
               }}
             {%- else -%}
               {{
                 block.settings.image
                 | image_url: width: 3840
-                | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths,  class: 'w-100'
+                | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths,  class: 'w-100 cover'
               }}
             {%- endif -%}
           {%- else -%}
@@ -191,13 +191,13 @@
               {{
                 block.settings.mob_image
                 | image_url: width: 700
-                | image_tag: class: 'img-fluid'
+                | image_tag: class: 'img-fluid cover'
               }}
             {%- else -%}
               {{
                 block.settings.mob_image
                 | image_url: width: 700
-                | image_tag : class: 'img-fluid'
+                | image_tag : class: 'img-fluid cover,
               }}
             {%- endif -%}
           {%- endif -%}

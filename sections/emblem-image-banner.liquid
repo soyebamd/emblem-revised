@@ -186,13 +186,13 @@
               {{
                 block.settings.mob_image
                 | image_url: width: 700
-                | image_tag
+                | image_tag: class: 'img-fluid'
               }}
             {%- else -%}
               {{
                 block.settings.mob_image
                 | image_url: width: 700
-                | image_tag
+                | image_tag : class: 'img-fluid'
               }}
             {%- endif -%}
           {%- endif -%}

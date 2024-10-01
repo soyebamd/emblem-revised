@@ -34,6 +34,7 @@
         "slide_4XqimD": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/image_116_1.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",

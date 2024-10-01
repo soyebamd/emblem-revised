@@ -30,30 +30,10 @@
             "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_4XqimD": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/image_116_1.png",
-            "mob_image": "shopify://shop_images/image_116_e1f7839b-2b5a-465d-a226-a98ee1ecd65f.png",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 60,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "slide_tajP3B",
-        "slide_4XqimD"
+        "slide_tajP3B"
       ],
       "settings": {
         "layout": "full_bleed",

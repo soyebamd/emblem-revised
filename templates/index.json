@@ -11,38 +11,6 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "PERFORMANCE GEARBUILT FOR SERVICE",
-            "heading_size": "h0"
-          }
-        },
-        "text_PGUEix": {
-          "type": "text",
-          "settings": {
-            "text": "Purpose built performance wear designed for American military and First Responders",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "sadsadsa",
-            "button_link_2": "#",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text_PGUEix",
-        "button"
-      ],
       "settings": {
         "image": "shopify://shop_images/image_116.png",
         "image_overlay_opacity": 50,

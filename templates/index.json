@@ -13,8 +13,8 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify://shop_images/image_116.png",
-        "image_overlay_opacity": 50,
-        "image_height": "medium",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",

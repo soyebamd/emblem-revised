@@ -13,7 +13,7 @@
       "type": "emblem-image-banner",
       "settings": {
         "image": "shopify://shop_images/image_116_e1f7839b-2b5a-465d-a226-a98ee1ecd65f.png",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 40,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,

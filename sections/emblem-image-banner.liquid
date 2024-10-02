@@ -254,17 +254,17 @@
             {%- endif -%}
 
 
-               {%- if block.settings.button_label_1 != blank -%}
+               {%- if block.settings.button_label_2 != blank -%}
               <div class="banner__buttons mt-0">
                 <a
-                  {% if block.settings.link_1 %}
-                    href="{{ block.settings.link_1 }}"
+                  {% if block.settings.link_2 %}
+                    href="{{ block.settings.link_2 }}"
                   {% else %}
                     role="link" aria-disabled="true"
                   {% endif %}
                   class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %} btn"
                 >
-                  {{- block.settings.button_label_1 | escape -}}
+                  {{- block.settings.button_label_2 | escape -}}
                 </a>
 
 

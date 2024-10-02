@@ -83,10 +83,10 @@ h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5{  font-family: "Barlow Condense
 
 
 /* Slider image overlay*/
-.emblemSlider{
+.emblemSlider .slideshow__media{
     position:relative;
 }
-.emblemSlider:after {
+.emblemSlider .slideshow__media:after {
     content:'';
   width: 100%;
   height: 100%;
@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5{  font-family: "Barlow Condense
   position: absolute;
   z-index: 9;
   left: 0;
-  bottom: 0;
+  bottom: 24px;
   width: 100%;
   text-align: center;
 }
@@ -131,4 +131,8 @@ h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5{  font-family: "Barlow Condense
 
 .emblemSlider .slider-counter__link {
   padding: 0.4rem;
+}
+
+.emblemSlider .slider-button{
+    display:none; 
 }

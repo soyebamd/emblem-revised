@@ -262,7 +262,7 @@
                   {% else %}
                     role="link" aria-disabled="true"
                   {% endif %}
-                  class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %} btn"
+                  class="button {% if block.settings.button_style_secondary_2 %}button--secondary{% else %}button--primary{% endif %} btn"
                 >
                   {{- block.settings.button_label_2 | escape -}}
                 </a>
@@ -530,6 +530,17 @@
         },
 
 
+        
+
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary",
+          "label": "t:sections.slideshow.blocks.slide.settings.secondary_style.label",
+          "default": false
+        },
+
+
+
          {
           "type": "text",
           "id": "button_label_2",
@@ -546,12 +557,15 @@
 
 
 
-        {
+
+         {
           "type": "checkbox",
-          "id": "button_style_secondary",
+          "id": "button_style_secondary_2",
           "label": "t:sections.slideshow.blocks.slide.settings.secondary_style.label",
           "default": false
         },
+
+
         {
           "type": "select",
           "id": "box_align",

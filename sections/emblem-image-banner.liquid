@@ -247,8 +247,32 @@
                 >
                   {{- block.settings.button_label | escape -}}
                 </a>
+
+
+
               </div>
             {%- endif -%}
+
+
+               {%- if block.settings.button_label_1 != blank -%}
+              <div class="banner__buttons mt-0">
+                <a
+                  {% if block.settings.link_1 %}
+                    href="{{ block.settings.link_1 }}"
+                  {% else %}
+                    role="link" aria-disabled="true"
+                  {% endif %}
+                  class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %} btn"
+                >
+                  {{- block.settings.button_label_1 | escape -}}
+                </a>
+
+
+
+              </div>
+            {%- endif -%}
+
+
           </div>
         </div>
       </div>
@@ -504,6 +528,24 @@
           "id": "link",
           "label": "t:sections.slideshow.blocks.slide.settings.link.label"
         },
+
+
+         {
+          "type": "text",
+          "id": "button_label_2",
+          "default": "t:sections.slideshow.blocks.slide.settings.button_label.default",
+          "label": "t:sections.slideshow.blocks.slide.settings.button_label.label",
+          "info": "t:sections.slideshow.blocks.slide.settings.button_label.info"
+        },
+        {
+          "type": "url",
+          "id": "link_2",
+          "label": "t:sections.slideshow.blocks.slide.settings.link.label"
+        },
+
+
+
+
         {
           "type": "checkbox",
           "id": "button_style_secondary",

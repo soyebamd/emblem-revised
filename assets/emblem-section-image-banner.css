@@ -1,0 +1,62 @@
+/* Slider image overlay*/
+.emblemSlider .slideshow__slide {
+  position: relative;
+}
+.emblemSlider .slideshow__slide:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  display: block;
+  top: 0;
+  background: linear-gradient(90deg, #191c00 0.77%, rgba(91, 91, 91, 0) 84.8%);
+}
+/* End slider image overlay*/
+
+/* slider control */
+.emblemSlider .slideshow__controls {
+  position: absolute;
+  z-index: 9;
+  left: 0;
+  bottom: 24px;
+  width: 100%;
+  text-align: center;
+}
+
+.emblemSlider .slider-button {
+  color: #ffffff;
+}
+
+.emblemSlider .slider-counter__link--dots .dot {
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  border: 1px solid #86895d;
+  padding: 0;
+  display: block;
+  background: #fff;
+}
+
+.emblemSlider .slider-counter__link--active .dot {
+  border: solid 2px #befa23 !important;
+  background: transparent !important;
+  width: 2rem;
+  height: 2rem;
+}
+
+.emblemSlider .slider-counter__link {
+  padding: 0.4rem;
+}
+
+.emblemSlider .slider-button {
+  display: none;
+}
+
+@media screen and (min-width: 750px) {
+  .banner__box {
+    width: 100%;
+    max-width: 86rem;
+    min-width: auto;
+  }
+}

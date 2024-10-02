@@ -83,8 +83,10 @@ h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5{  font-family: "Barlow Condense
 
 
 /* Slider image overlay*/
-
-.emblemSlider slideshow-component.slider-mobile-gutter:after {
+.emblemSlider{
+    position:relative;
+}
+.emblemSlider:after {
     content:'';
   width: 100%;
   height: 100%;

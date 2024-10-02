@@ -95,10 +95,21 @@ text-transform: uppercase;
 
 }
 
-.button.button--secondary, .button--secondary {
-    border: solid 2px #BEFA23;
-    color: #BEFA23;
+
+.color-scheme-2 {
+          
+        --color-secondary-button-border: #BEFA23;
+        --color-secondary-button-text: #BEFA23;
+       
+      }
+
+      .button.button--secondary, .button--secondary {
+    border: solid 2px var(--color-secondary-button-border);
+    color: var(--color-secondary-button-text);
 }
+
+
+
 
 
 

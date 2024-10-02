@@ -12,6 +12,26 @@
     "emblem_image_banner_nBjkXU": {
       "type": "emblem-image-banner",
       "blocks": {
+        "slide_xWBtUh": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "subheading": "Tell your brand's story through images",
+            "content": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "button_label_2": "Button label",
+            "link_2": "",
+            "button_style_secondary_2": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_tajP3B": {
           "type": "slide",
           "settings": {
@@ -30,7 +50,7 @@
             "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
+            "color_scheme": "scheme-3",
             "text_alignment_mobile": "center"
           }
         },
@@ -58,6 +78,7 @@
         }
       },
       "block_order": [
+        "slide_xWBtUh",
         "slide_tajP3B",
         "slide_XTirHC"
       ],

@@ -16,20 +16,20 @@
 
   .content-container:after{
     content:'';
-background-image: url({{ section.settings.image |  image_url }}) !important;
-background-size:cover;
+background-image: url({{ section.settings.image |  image_url }}),  url({{ section.settings.content_box_image | image_url  }}) !important;
+background-size:cover, contain;
 mix-blend-mode: multiply;
 
   }
 
-  
+/*   
   .content-container:before{
     content:'';
 background-image: url({{ section.settings.content_box_image | image_url  }}) !important;
 background-size: contain;
 
 
-  }
+  } */
 
 {%- endstyle -%}
 

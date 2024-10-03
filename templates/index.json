@@ -104,6 +104,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Dirt_Texture.png",
+        "content_box_image": "shopify://shop_images/Flag_1.png",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "scheme-3",

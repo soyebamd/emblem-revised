@@ -14,7 +14,7 @@
   }
 
 
-  .content-container:after{
+ .bg-cover-{{ section.id }}:after{
     content:'';
 background-image: url({{ section.settings.image |  image_url }}) !important;
 background-size:cover;
@@ -23,22 +23,25 @@ mix-blend-mode: multiply;
   }
 
   
-  .content-container:before{
+  .bg-cover-{{ section.id }}:before{
     content:'';
     position: absolute;
     width:100%;
     height:100%;
     
-background-image: url({{ section.settings.content_box_image | image_url  }}) !important;
-background-size: contain;
+    background-image: url({{ section.settings.content_box_image | image_url  }}) !important;
 
+    background-size: 750px;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center;
 
   }
 
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
+  <div class="rich-text content-container bg-cover-{{ section.id }} color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
       <div class="rich-text__blocks {{ section.settings.content_alignment }} rich-text-container">
         {%- for block in section.blocks -%}
@@ -121,7 +124,7 @@ background-size: contain;
 {
   "name": "Emblem Rich Text",
   "tag": "section",
-  "class": "section",
+  "class": "section emblem-rich-text",
   "disabled_on": {
     "groups": ["header", "footer"]
   },

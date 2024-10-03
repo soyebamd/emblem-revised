@@ -19,7 +19,7 @@
   position: absolute;
   z-index: 9;
   left: 0;
-  bottom: 24px;
+  bottom: 20px;
   width: 100%;
   text-align: center;
 }
@@ -41,8 +41,8 @@
 .emblemSlider .slider-counter__link--active .dot {
   border: solid 2px #befa23 !important;
   background: transparent !important;
-  width: 2rem;
-  height: 2rem;
+  width: 1.6rem;
+  height: 1.6rem;
 }
 
 .emblemSlider .slider-counter__link {

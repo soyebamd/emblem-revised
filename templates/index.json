@@ -85,24 +85,13 @@
         "text_h6hEk9": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_NiCqtB": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>We are beyond humbled at Emblem Athletic to design completely custom, mission-inspiring, heirloom-treasuring, super comfortable Badges of Honor for you and everyone who wears your design. Thanks for letting us be part of your story, your emblem, and your performance.</p>"
           }
         },
         "caption_XaJYEx": {
           "type": "caption",
           "settings": {
-            "caption": "Add a tagline",
+            "caption": "It will never be “just” a T-Shirt",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
@@ -111,7 +100,6 @@
       "block_order": [
         "heading_AbpjEh",
         "text_h6hEk9",
-        "button_NiCqtB",
         "caption_XaJYEx"
       ],
       "settings": {

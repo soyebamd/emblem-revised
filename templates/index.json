@@ -79,7 +79,8 @@
           "type": "heading",
           "settings": {
             "heading": "Our Mission",
-            "heading_size": "h2"
+            "heading_size": "h3",
+            "heading_text_style": "caption-with-letter-spacing"
           }
         },
         "text_h6hEk9": {

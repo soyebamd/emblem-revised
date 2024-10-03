@@ -22,6 +22,15 @@ mix-blend-mode: multiply;
 
   }
 
+  
+  .content-container:before{
+    content:'';
+background-image: url({{ section.settings.content_box_image | image_url  }}) !important;
+background-size: contain;
+
+
+  }
+
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
@@ -116,8 +125,15 @@ mix-blend-mode: multiply;
      {
           "type": "image_picker",
           "id": "image",
-          "label": "Background Image"
+          "label": "Background image"
      },
+
+     {
+          "type": "image_picker",
+          "id": "content_box_image",
+          "label": "Content background image"
+     },
+
     {
       "type": "select",
       "id": "desktop_content_position",

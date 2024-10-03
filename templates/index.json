@@ -72,55 +72,43 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "rich_text_LGVpkj": {
-      "type": "rich-text",
+    "emblem_rich_text_RExHBE": {
+      "type": "emblem-rich-text",
       "blocks": {
-        "heading_LxhQJd": {
+        "heading_AbpjEh": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Our Mission",
             "heading_size": "h1"
           }
         },
-        "text_BdTX7E": {
+        "text_h6hEk9": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>We are beyond humbled at Emblem Athletic to design completely custom, mission-inspiring, heirloom-treasuring, super comfortable Badges of Honor for you and everyone who wears your design. Thanks for letting us be part of your story, your emblem, and your performance.</p>"
           }
         },
-        "button_hM8QmR": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "caption_iBe9Gx": {
+        "caption_XaJYEx": {
           "type": "caption",
           "settings": {
-            "caption": "Add a tagline",
+            "caption": "It will never be “just” a T-Shirt",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
         }
       },
       "block_order": [
-        "heading_LxhQJd",
-        "text_BdTX7E",
-        "button_hM8QmR",
-        "caption_iBe9Gx"
+        "heading_AbpjEh",
+        "text_h6hEk9",
+        "caption_XaJYEx"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "scheme-3",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 56,
+        "padding_bottom": 56
       }
     },
     "featured_collection": {
@@ -154,7 +142,7 @@
   },
   "order": [
     "emblem_image_banner_nBjkXU",
-    "rich_text_LGVpkj",
+    "emblem_rich_text_RExHBE",
     "featured_collection"
   ]
 }

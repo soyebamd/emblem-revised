@@ -92,8 +92,8 @@
           "type": "caption",
           "settings": {
             "caption": "It will never be “just” a T-Shirt",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "text_style": "subtitle",
+            "text_size": "large"
           }
         }
       },

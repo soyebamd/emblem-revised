@@ -76,7 +76,7 @@
 
   .banner--small:not(.banner--mobile-bottom):not(.banner--adapt)
     .banner__content {
-    min-height: 40rem;
+    min-height: 56rem;
   }
 
   .banner--medium:not(.banner--mobile-bottom):not(.banner--adapt)

@@ -98,12 +98,21 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "caption_iBe9Gx": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
         }
       },
       "block_order": [
         "heading_LxhQJd",
         "text_BdTX7E",
-        "button_hM8QmR"
+        "button_hM8QmR",
+        "caption_iBe9Gx"
       ],
       "settings": {
         "desktop_content_position": "center",

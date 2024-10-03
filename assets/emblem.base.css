@@ -22,6 +22,10 @@ body {
   font-weight: 400;
 }
 
+.barlow {
+  font-family: "Barlow", sans-serif !important;
+}
+
 h1,
 h2,
 h3,
@@ -75,9 +79,14 @@ h5,
   font-size: 3.2rem;
   line-height: 3.2rem;
 }
-.h0 {
+.h0,
+.hxl {
   font-size: 7.7rem;
   line-height: 6.1rem;
+}
+
+.hxxl {
+  font-size: 9.7rem;
 }
 
 /* Font Weight Classes */

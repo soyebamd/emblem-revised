@@ -10,7 +10,8 @@
   left: 0;
   display: block;
   top: 0;
-  background: linear-gradient(90deg, #191c00 0.77%, rgba(91, 91, 91, 0) 84.8%);
+
+  background: linear-gradient(0deg, #191c00 0.77%, rgba(91, 91, 91, 0) 86.48%);
 }
 /* End slider image overlay*/
 
@@ -54,6 +55,13 @@
 }
 
 @media screen and (min-width: 750px) {
+  .emblemSlider .slideshow__slide:after {
+    background: linear-gradient(
+      90deg,
+      #191c00 0.77%,
+      rgba(91, 91, 91, 0) 84.8%
+    );
+  }
   .banner__box {
     width: 100%;
     max-width: 56rem !important;

@@ -16,7 +16,7 @@
 
   .content-container:after{
     content:'';
-  background-image:url({{ section.settings.image }})!importants;
+  background-image:url({{ section.settings.image |   image_url  }})!importants;
 
   }
 

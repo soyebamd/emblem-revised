@@ -118,6 +118,10 @@ h5,
   font-weight: 900;
 }
 
+.text-cream {
+  color: var(--text-color-4);
+}
+
 .btn-wrappper {
   display: flex;
   gap: 24px;

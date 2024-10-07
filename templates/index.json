@@ -147,6 +147,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Tees.png",
+        "image_background": "shopify://shop_images/DtoZxu.png",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",

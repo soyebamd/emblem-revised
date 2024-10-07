@@ -244,6 +244,10 @@ h5,
   transform: rotate(-4deg) !important;
 }
 
+.color-scheme-4 span {
+  color: var(--text-color-1);
+}
+
 @media (max-width: 749px) {
   .fs-75,
   .fs-78,

@@ -146,11 +146,12 @@
         "button_PWqMJa"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify://shop_images/Tees.png",
+        "height": "medium",
         "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-4",
         "color_scheme": "",

@@ -81,7 +81,7 @@
                     {{ block.settings.caption | escape }}
                   </p>
                 {%- when 'text' -%}
-                  <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+                  <div class="image-with-text__text rte {{ block.settings.text_style }} list-items" {{ block.shopify_attributes }}>
                     {{ block.settings.text }}
                   </div>
                 {%- when 'button' -%}

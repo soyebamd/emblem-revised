@@ -273,6 +273,19 @@ h5,
   }
 }
 
+.list-items ul {
+  margin: 0 !important;
+  padding: 0;
+}
+
+.list-items ul li {
+  list-style-image: url(https://cdn.shopify.com/s/files/1/2141/7697/files/icon-chekd.svg?v=1728293203) !important;
+  padding: 0;
+  margin: 8px 0;
+  font-size: 24px;
+  line-height: 32px;
+}
+
 @media (max-width: 456px) {
   .btn-wrappper {
     flex-direction: column;

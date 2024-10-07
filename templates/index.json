@@ -120,7 +120,7 @@
         "heading_aiYENM": {
           "type": "heading",
           "settings": {
-            "heading": "READY TO CREATE YOUR  STORE?",
+            "heading": "<span>READY TO CREATE YOUR  </span> STORE?",
             "heading_size": "h3"
           }
         },

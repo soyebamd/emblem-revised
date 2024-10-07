@@ -245,7 +245,7 @@ h5,
 }
 
 .color-scheme-4 span {
-  color: var(--text-color-1);
+  color: var(--text-color-1) !important;
 }
 
 @media (max-width: 749px) {

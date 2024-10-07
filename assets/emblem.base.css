@@ -229,6 +229,10 @@ h5,
   margin-bottom: 13px !important;
 }
 
+.position-relative {
+  position: relative;
+}
+
 .super-accent {
   color: var(--super-accent);
 }

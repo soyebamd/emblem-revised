@@ -291,6 +291,15 @@ h5,
   opacity: 1;
 }
 
+body,
+.color-scheme-1,
+.color-scheme-2,
+.color-scheme-3,
+.color-scheme-4,
+.color-scheme-5 {
+  color: rgba(var(--color-foreground), 1);
+}
+
 @media (max-width: 456px) {
   .btn-wrappper {
     flex-direction: column;

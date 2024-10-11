@@ -265,6 +265,25 @@ h5,
   color: var(--text-color-1) !important;
 }
 
+.search {
+}
+
+.field__input,
+.select__select,
+.customer .field input,
+.customer select {
+  height: 5.2px;
+}
+
+.search .field__input {
+  background: transparent;
+  border-bottom: 2px solid #86895d;
+}
+
+.search .field:after {
+  box-shadow: none;
+}
+
 @media (max-width: 749px) {
   .fs-75,
   .fs-78,

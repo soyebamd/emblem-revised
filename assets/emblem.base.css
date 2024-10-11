@@ -280,7 +280,7 @@ h5,
   border-bottom: 2px solid #86895d;
   padding: 0.8rem 1.6rem;
 }
-.search .field__input {
+.search .field__input:focus {
   box-shadow: none;
   border: solid 1px #86895d;
 }

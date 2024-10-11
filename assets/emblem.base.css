@@ -296,9 +296,7 @@ h5,
   padding: 0.8rem 1.6rem;
 }
 .search .field__input:focus,
-.search .field__input:focus-visible,
-.search .field:hover,
-.search .field__input:hover {
+.search .field__input:focus-visible {
   box-shadow: none;
   border: solid 1px #86895d;
 }

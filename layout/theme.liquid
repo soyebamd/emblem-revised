@@ -255,8 +255,9 @@
       }
     {% endstyle %}
 
-    {{ 'helping-classes.css' | asset_url | stylesheet_tag }}
+ 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'helping-classes.css' | asset_url | stylesheet_tag }}
     {{ 'emblem.base.css' | asset_url | stylesheet_tag }}
 
 
@@ -284,6 +285,7 @@
     {%- if localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}
       {{ 'component-localization-form.css' | asset_url | stylesheet_tag: preload: true }}
       <script src="{{ 'localization-form.js' | asset_url }}" defer="defer"></script>
+
     {%- endif -%}
 
     {%- if settings.predictive_search_enabled -%}
@@ -300,6 +302,9 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+
+    <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
+
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">

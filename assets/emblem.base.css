@@ -153,6 +153,11 @@ h5,
   text-transform: uppercase;
 }
 
+.btn-primary {
+  background: var(--super-accent);
+  color: var(--text-color-1);
+}
+
 .color-scheme-2 {
   --color-secondary-button-border: #befa23;
   --color-secondary-button-text: #befa23;

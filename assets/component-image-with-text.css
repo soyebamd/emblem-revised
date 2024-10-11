@@ -95,8 +95,10 @@
 
 @media (max-width: 749px) {
   .image-with-text__content {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 23px 0;
+  }
+  .mob-buttonpos {
+    margin: 22px 0 64px;
   }
 }
 

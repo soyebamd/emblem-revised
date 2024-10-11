@@ -300,6 +300,10 @@ h5,
   border: solid 1px #86895d;
 }
 
+.search .field:hover.field:after {
+  box-shadow: none;
+}
+
 #custom-search .ls-dropdown-menu {
   display: none !important;
 }

@@ -279,6 +279,9 @@ h5,
 .customer .field input,
 .customer select {
   height: 5.6rem;
+  min-width: 0;
+  width: 100%;
+  max-width: 512px;
 }
 
 .search .btn--primary {

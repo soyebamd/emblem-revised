@@ -203,6 +203,12 @@ h5,
 .for-desk {
 }
 
+/*custom search*/
+
+#custom-search {
+  width: 100%;
+}
+
 @media (max-width: 749px) {
   .for-mob {
     display: block !important;

@@ -313,6 +313,10 @@ h5,
   box-shadow: none;
 }
 
+.max-438 {
+  max-width: 438px;
+}
+
 @media (max-width: 749px) {
   .fs-75,
   .fs-78,

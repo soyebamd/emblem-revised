@@ -161,17 +161,17 @@ mix-blend-mode: multiply;
 
   // Function to move the button
 function moveButton() {
-  const button = document.querySelector('.movetosmallscreen');
+  const mButton = document.querySelector('.movetosmallscreen');
   const mobileContainer = document.querySelector('.mob-buttonpos');
   
   // Check the screen width
   if (window.innerWidth < 750) {
-    if (button && mobileContainer && !mobileContainer.contains(button)) {
-      mobileContainer.appendChild(button); // Move the button to .mob-buttonpos
+    if (mButton && mobileContainer && !mobileContainer.contains(mButton)) {
+      mobileContainer.appendChild(mButton); // Move the button to .mob-buttonpos
     }
   } else {
-    if (button && document.body.contains(button) && !document.body.contains(mobileContainer)) {
-      document.body.appendChild(button); // Move the button back to its original location
+    if (mButton && document.body.contains(mButton) && !document.body.contains(mobileContainer)) {
+      document.body.appendChild(mButton); // Move the button back to its original location
     }
   }
 }

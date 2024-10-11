@@ -153,7 +153,7 @@ h5,
   text-transform: uppercase;
 }
 
-.btn-primary {
+.btn--primary {
   background: var(--super-accent);
   color: var(--text-color-1);
 }

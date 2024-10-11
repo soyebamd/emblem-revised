@@ -315,6 +315,7 @@ h5,
 
 .max-438 {
   max-width: 438px;
+  width: 100%;
 }
 
 @media (max-width: 749px) {

@@ -100,7 +100,9 @@ mix-blend-mode: multiply;
               {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
 
+  <div class="mob-buttonpos">
 
+  </div>
             
 
           </div>
@@ -112,24 +114,7 @@ mix-blend-mode: multiply;
           >
             {%- for block in section.blocks -%}
               {% case block.type %}
-
-                 {%- when 'button' -%}
-                  {%- if block.settings.button_label != blank -%}
-                    <a
-                      {% if block.settings.button_link == blank %}
-                        role="link" aria-disabled="true"
-                      {% else %}
-                        href="{{ block.settings.button_link }}"
-                      {% endif %}
-                      class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
-                      {{ block.shopify_attributes }}
-                    >
-                      {{ block.settings.button_label | escape }}
-                    </a>
-                  {%- endif -%}
-
-
-                  
+              
                 {%- when 'heading' -%}
                   <h2
                     class="image-with-text__heading inline-richtext {{ block.settings.heading_size }} mb-3"
@@ -156,7 +141,7 @@ mix-blend-mode: multiply;
                       {% else %}
                         href="{{ block.settings.button_link }}"
                       {% endif %}
-                      class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                      class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} movetosmallscreen"
                       {{ block.shopify_attributes }}
                     >
                       {{ block.settings.button_label | escape }}
@@ -170,6 +155,36 @@ mix-blend-mode: multiply;
     </div>
   </div>
 </div>
+
+
+<script>
+
+  // Function to move the button
+function moveButton() {
+  const button = document.querySelector('.movetosmallscreen');
+  const mobileContainer = document.querySelector('.mob-buttonpos');
+  
+  // Check the screen width
+  if (window.innerWidth < 750) {
+    if (button && mobileContainer && !mobileContainer.contains(button)) {
+      mobileContainer.appendChild(button); // Move the button to .mob-buttonpos
+    }
+  } else {
+    if (button && document.body.contains(button) && !document.body.contains(mobileContainer)) {
+      document.body.appendChild(button); // Move the button back to its original location
+    }
+  }
+}
+
+// Run the function when the page loads
+window.addEventListener('load', moveButton);
+
+// Run the function whenever the window is resized
+window.addEventListener('resize', moveButton);
+
+
+
+</script>
 
 {% schema %}
 {

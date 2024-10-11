@@ -293,12 +293,13 @@ h5,
   padding: 0.8rem 1.6rem;
 }
 .search .field__input:focus,
-.search .field__input:focus-visible {
+.search .field__input:focus-visible,
+.search .field:hover {
   box-shadow: none;
   border: solid 1px #86895d;
 }
 
-.search .ls-dropdown-menu {
+#custom-search .ls-dropdown-menu {
   display: none !important;
 }
 .search .field:after {

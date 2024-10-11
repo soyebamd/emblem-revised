@@ -24,10 +24,6 @@ body {
   font-weight: 400;
 }
 
-.super-accent {
-  color: var(--super-accent) !important;
-}
-
 .smooch {
   font-family: "Smooch", cursive;
   font-weight: 400;
@@ -36,6 +32,10 @@ body {
 
 .barlow {
   font-family: "Barlow", sans-serif !important;
+}
+
+.super-accent {
+  color: var(--super-accent) !important;
 }
 
 h1,
@@ -261,7 +261,7 @@ h5,
   transform: rotate(-4deg) !important;
 }
 
-.color-scheme-4 span {
+.color-scheme-4 image-with-text__heading span {
   color: var(--text-color-1) !important;
 }
 

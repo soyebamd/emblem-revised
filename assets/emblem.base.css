@@ -217,8 +217,9 @@ h5,
 #custom-search {
   width: 100%;
   gap: 32px;
-  padding: 32px 64px 48px 64px;
+  padding: 32px 64px 30px 64px;
   background: var(--text-color-1);
+  border: solid 18px var(--super-accent);
 }
 
 @media (max-width: 749px) {
@@ -278,6 +279,12 @@ h5,
 .customer .field input,
 .customer select {
   height: 5.6rem;
+}
+
+.search .btn--primary {
+  min-height: 0;
+  height: 40px;
+  margin-top: 8px;
 }
 
 .search .field__input {

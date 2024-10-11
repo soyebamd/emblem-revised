@@ -24,6 +24,10 @@ body {
   font-weight: 400;
 }
 
+.super-accent {
+  color: var(--super-accent);
+}
+
 .smooch {
   font-family: "Smooch", cursive;
   font-weight: 400;
@@ -209,7 +213,7 @@ h5,
   width: 100%;
   gap: 32px;
   padding: 32px 64px 48px 64px;
-  background: #191c00;
+  background: var(--text-color-1);
 }
 
 @media (max-width: 749px) {

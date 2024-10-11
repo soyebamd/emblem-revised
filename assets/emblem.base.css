@@ -219,7 +219,7 @@ h5,
   gap: 32px;
   padding: 32px 64px 30px 64px;
   background: var(--text-color-1);
-  border: solid 18px var(--super-accent);
+  border-bottom: solid 18px var(--super-accent);
 }
 
 @media (max-width: 749px) {

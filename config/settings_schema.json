@@ -78,6 +78,12 @@
           },
           {
             "type": "color",
+            "id": "secondary_button_label_border",
+            "label": "Secondary Button Label border color",
+            "default": "#121212"
+          },
+          {
+            "type": "color",
             "id": "shadow",
             "label": "t:settings_schema.colors.settings.shadow.label",
             "default": "#121212"

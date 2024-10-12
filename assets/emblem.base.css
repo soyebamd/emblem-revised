@@ -334,6 +334,7 @@ h5,
     flex-direction: column;
     padding: 16px;
     border-width: 16px;
+    margin-top: 0;
   }
   .fs-75,
   .fs-78,

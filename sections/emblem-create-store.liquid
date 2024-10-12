@@ -156,7 +156,7 @@ mix-blend-mode: multiply;
 
       </div>
     </div>
-    <div  {{ block.shopify_attributes }} >
+    <div  class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {{ block.shopify_attributes }} >
     {% render 'custom-search' %}
     </div>
   </div>

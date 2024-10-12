@@ -154,8 +154,8 @@ h5,
 }
 
 .btn--primary {
-  background: var(--super-accent) !important;
-  color: var(--text-color-1) !important;
+  /* background: var(--super-accent) !important;
+  color: var(--text-color-1) !important; */
 }
 
 .color-scheme-2 {

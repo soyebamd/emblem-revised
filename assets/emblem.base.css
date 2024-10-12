@@ -329,6 +329,7 @@ h5,
 @media (max-width: 749px) {
   #custom-search {
     flex-direction: column;
+    padding: 16px;
   }
   .fs-75,
   .fs-78,

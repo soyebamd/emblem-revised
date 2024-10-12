@@ -330,6 +330,7 @@ h5,
   #custom-search {
     flex-direction: column;
     padding: 16px;
+    border-width: 16px;
   }
   .fs-75,
   .fs-78,
@@ -338,6 +339,12 @@ h5,
     font-size: 5.1rem;
 
     line-height: 5.1rem;
+  }
+
+  h3,
+  .h3 {
+    font-size: 40px;
+    line-height: normal;
   }
 
   .text-big,

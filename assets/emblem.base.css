@@ -305,6 +305,14 @@ h5,
   box-shadow: none;
 }
 
+#custom-search {
+  margin-top: 60px;
+}
+
+.max-450 {
+  max-width: 450px;
+}
+
 #custom-search .ls-dropdown-menu {
   display: none !important;
 }

@@ -312,6 +312,9 @@ h5,
 .max-450 {
   max-width: 450px;
 }
+.max-400 {
+  max-width: 400px;
+}
 
 #custom-search .ls-dropdown-menu {
   display: none !important;

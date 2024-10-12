@@ -159,14 +159,14 @@ h5,
 }
 
 .color-scheme-2 {
-  --color-secondary-button-border: #befa23;
-  --color-secondary-button-text: #befa23;
+  /* --color-secondary-button-border: #befa23;
+  --color-secondary-button-text: #befa23; */
 }
 
 .button.button--secondary,
 .button--secondary {
-  border: solid 2px var(--color-secondary-button-border);
-  color: var(--color-secondary-button-text);
+  /* border: solid 2px var(--color-secondary-button-border);
+  color: var(--color-secondary-button-text); */
 }
 
 .text-big,

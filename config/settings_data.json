@@ -200,8 +200,8 @@
           "text": "#fffdf3",
           "button": "#191c00",
           "button_label": "#ffffff",
-          "secondary_button_label": "#fd3535",
-          "secondary_button_border": "#121212",
+          "secondary_button_label": "#fffdf3",
+          "secondary_button_border": "#fd3535",
           "shadow": "#fd3535"
         }
       }

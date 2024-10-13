@@ -91,6 +91,11 @@ h5,
   font-size: 3.2rem;
   line-height: 3.2rem;
 }
+h6,
+.h6 {
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+}
 .h0,
 .hxl {
   font-size: 7.7rem;

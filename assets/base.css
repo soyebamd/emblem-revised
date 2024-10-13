@@ -259,7 +259,7 @@ h5,
 .h3,
 .h4,
 .h5 {
-  font-family: var(--font-heading-family);
+  font-family: "Barlow Condensed", sans-serif;
   font-style: var(--font-heading-style);
   font-weight: var(--font-heading-weight);
   letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
@@ -492,11 +492,11 @@ h6:empty {
   display: inline-block;
   border: none;
   box-shadow: none;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   text-underline-offset: 0.3rem;
   color: rgb(var(--color-link));
   background-color: transparent;
-  font-size: 1.4rem;
+
   font-family: inherit;
 }
 
@@ -1236,7 +1236,8 @@ button.shopify-payment-button__button--unbranded {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  border: 0;
+  /* border: 0; */
+  border-color: var(--color-badge-border);
   padding: 0 3rem;
   cursor: pointer;
   font: inherit;

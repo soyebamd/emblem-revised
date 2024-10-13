@@ -151,7 +151,7 @@
 }
 
 .align-self-center {
-  align-self: center;
+  align-self: center !important;
 }
 
 /* Text Utilities */

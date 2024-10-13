@@ -171,13 +171,6 @@
             "heading_size": "h4"
           }
         },
-        "text_4HQYPT": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        },
         "button_xyGeDD": {
           "type": "button",
           "settings": {
@@ -189,7 +182,6 @@
       },
       "block_order": [
         "heading_hdYVbt",
-        "text_4HQYPT",
         "button_xyGeDD"
       ],
       "settings": {

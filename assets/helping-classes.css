@@ -150,6 +150,10 @@
   align-items: center !important;
 }
 
+.align-self-center {
+  align-self: center;
+}
+
 /* Text Utilities */
 .text-left {
   text-align: left !important;

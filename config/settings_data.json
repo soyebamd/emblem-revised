@@ -21,7 +21,7 @@
     "spacing_grid_vertical": 8,
     "animations_reveal_on_scroll": true,
     "animations_hover_elements": "none",
-    "buttons_border_thickness": 0,
+    "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
     "buttons_shadow_opacity": 0,
@@ -164,7 +164,7 @@
           "text": "#fffdf3",
           "button": "#befa23",
           "button_label": "#191c00",
-          "secondary_button_label": "#121212",
+          "secondary_button_label": "#befa23",
           "secondary_button_label_border": "#121212",
           "shadow": "#121212"
         }
@@ -177,7 +177,7 @@
           "button": "#befa23",
           "button_label": "#191c00",
           "secondary_button_label": "#ffffff",
-          "secondary_button_label_border": "#121212",
+          "secondary_button_label_border": "#fd3535",
           "shadow": "#121212"
         }
       },
@@ -198,9 +198,9 @@
           "background": "#191c00",
           "background_gradient": "",
           "text": "#ffffff",
-          "button": "#191c00",
+          "button": "#befa23",
           "button_label": "#fd3535",
-          "secondary_button_label": "#fffdf3",
+          "secondary_button_label": "#fd3535",
           "secondary_button_label_border": "#fd3535",
           "shadow": "#fd3535"
         }

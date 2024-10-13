@@ -203,7 +203,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "CHECK OUT OUR EXCLUSIVE READY-MADE COLLECTIONS",
+        "title": "CHECK OUT OUR EXCLUSIVE <span>READY-MADE</span> COLLECTIONS",
         "heading_size": "h4",
         "description": "<p>Predesigned. Customizable. Ready to Order</p>",
         "content_alignment": "center",

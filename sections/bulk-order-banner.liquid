@@ -6,6 +6,10 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+    .bulk-page .image-with-text__media-item{
+        min-height:250px; 
+    }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -18,6 +22,9 @@
           }
    .bulk-page .image-with-text__heading{
         padding-right:50px;
+    }
+      .bulk-page .image-with-text__media-item{
+        min-height:210px; 
     }
   }
   @media screen and (max-width: 1280px) {

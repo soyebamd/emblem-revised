@@ -213,7 +213,9 @@ h5,
 }
 
 /*custom search*/
-
+.gap-32 {
+  gap: 32px;
+}
 #custom-search {
   width: 100%;
   gap: 32px;

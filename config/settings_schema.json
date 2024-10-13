@@ -78,8 +78,8 @@
           },
           {
             "type": "color",
-            "id": "secondary_button_label_border",
-            "label": "Secondary Button Label border color",
+            "id": "secondary_button_border",
+            "label": "Secondary Button border color",
             "default": "#121212"
           },
           {

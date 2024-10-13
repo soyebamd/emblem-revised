@@ -397,6 +397,14 @@ body,
   max-width: 540px;
 }
 
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
 @media (max-width: 456px) {
   .btn-wrappper {
     flex-direction: column;

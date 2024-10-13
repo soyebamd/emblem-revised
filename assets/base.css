@@ -1193,8 +1193,7 @@ deferred-media {
       var(--secondary-button-border-color),
     var(--border-opacity),
     0 0 0 var(--buttons-border-width)
-      rgba(var(--color-button), var(--alpha-button-background));
-  transition: box-shadow var(--duration-short) ease;
+      rgba(var(--color-button), var(--alpha-button-background)) !important;
 }
 
 .button--tertiary {

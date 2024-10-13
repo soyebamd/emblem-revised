@@ -6,10 +6,6 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
-    .bulk-page .image-with-text__media-item{
-        min-height:250px; 
-    }
-
     
 
   @media screen and (min-width: 750px) {
@@ -18,42 +14,9 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
     
-    .bulk-page .image-with-text__content {
-        padding: 6rem 6rem 7rem 0rem;
-            justify-content: stretch;
-          }
-   .bulk-page .image-with-text__heading{
-        padding-right:50px;
-    }
-      .bulk-page .image-with-text__media-item{
-        min-height:210px; 
-    }
+  
   }
 
-  @media screen and (max-width: 750px) {
-   .bulk-page .image-with-text__content{
-        padding:24px 24px 32px;
-            flex-direction: column !important;
-    
-    }
- .bulk-page    .button{    align-self: start !important; padding:1.2rem 1.6rem}
-
-  .bulk-page  .gap-32 {
-    gap: 16px !important;
-}
-
-}
-
-
-
-  @media screen and (max-width: 1280px) {
- .bulk-page .image-with-text__heading br{
-    display:none; 
-  }
-     .bulk-page .image-with-text__heading{
-        padding-right:00px;
-    }
-  }
 
 
 {%- endstyle -%}

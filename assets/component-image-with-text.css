@@ -450,9 +450,53 @@
   row-gap: var(--grid-mobile-vertical-spacing);
 }
 
+.bulk-page .image-with-text__media-item {
+  min-height: 250px;
+}
+
+/* Bulk Page */
 @media screen and (min-width: 750px) {
+  .bulk-page .image-with-text__content {
+    padding: 6rem 6rem 7rem 0;
+    justify-content: stretch;
+  }
+
+  .bulk-page .image-with-text__heading {
+    padding-right: 50px;
+  }
+
+  .bulk-page .image-with-text__media-item {
+    min-height: 210px;
+  }
+
   .multirow__inner {
     row-gap: var(--grid-desktop-vertical-spacing);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .bulk-page .image-with-text__content {
+    padding: 24px 24px 32px;
+    flex-direction: column !important;
+  }
+
+  .bulk-page .button {
+    align-self: start !important;
+    padding: 1.2rem 1.6rem;
+  }
+
+  .bulk-page .gap-32 {
+    gap: 16px !important;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .bulk-page .image-with-text__heading br {
+    display: none;
+  }
+
+  .bulk-page .image-with-text__heading {
+    padding-right: 0;
   }
 }
 

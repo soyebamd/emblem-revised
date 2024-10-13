@@ -1186,6 +1186,9 @@ deferred-media {
 .button--tertiary {
   --color-button: var(--color-secondary-button);
   --color-button-text: var(--color-secondary-button-text);
+}
+
+.button--secondary:after {
   box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
       var(--secondary-button-border-color),
     var(--border-opacity),

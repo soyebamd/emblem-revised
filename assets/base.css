@@ -1186,6 +1186,7 @@ deferred-media {
 .button--tertiary {
   --color-button: var(--color-secondary-button);
   --color-button-text: var(--color-secondary-button-text);
+  border: solid 1px rgb(var(--button-border-color));
 }
 
 .button--tertiary {
@@ -1267,8 +1268,7 @@ button.shopify-payment-button__button--unbranded {
   z-index: -1;
   border-radius: var(--buttons-radius-outset);
   box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset)
-    var(--shadow-blur-radius)
-    rgba(var(--secondary-button-border-color), var(--shadow-opacity));
+    var(--shadow-blur-radius) rgba(var(--color-shadow), var(--shadow-opacity));
 }
 
 .button:after,
@@ -1284,8 +1284,7 @@ button.shopify-payment-button__button--unbranded {
   z-index: 1;
   border-radius: var(--buttons-radius);
   box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
-      var(--secondary-button-border-color),
-    var(--border-opacity),
+      rgba(--secondary-button-border-color, var(--border-opacity)),
     0 0 0 var(--buttons-border-width)
       rgba(var(--color-button), var(--alpha-button-background));
   transition: box-shadow var(--duration-short) ease;

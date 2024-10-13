@@ -335,6 +335,10 @@ h5,
   clip-path: polygon(0 -370px, 100% 100%, 0 100%);
 }
 
+.max-width-540 {
+  max-width: 540px !important;
+}
+
 @media (max-width: 749px) {
   .max-width-540 {
     max-width: 100% !important;
@@ -409,10 +413,6 @@ body,
 
 .image-with-text__heading span {
   color: rgba(var(--secondary-button-border-color));
-}
-
-.max-width-540 {
-  max-width: 540px !important;
 }
 
 .text-uppercase {

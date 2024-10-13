@@ -1247,10 +1247,7 @@ button.shopify-payment-button__button--unbranded {
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
-  background-color: rgba(
-    var(--color-secondary_button_label_border),
-    var(--alpha-button-background)
-  );
+  background-color: rgba(var(--color-button), var(--alpha-button-background));
 }
 
 .button:before,

@@ -143,8 +143,8 @@ mix-blend-mode: multiply;
                       {% endif %}
                       class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} movetosmallscreen"
                       {{ block.shopify_attributes }}
-                    > 
-                      {{ block.settings.button_label | escape }} color-{{ section.settings.color_scheme.settings.secondary_button_label_border }}  
+                    >
+                      {{ block.settings.button_label | escape }} 
                     </a>
                   {%- endif -%}
               {%- endcase -%}

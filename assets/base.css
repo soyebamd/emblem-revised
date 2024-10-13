@@ -1186,6 +1186,7 @@ deferred-media {
 .button--tertiary {
   --color-button: var(--color-secondary-button);
   --color-button-text: var(--color-secondary-button-text);
+  border: solid 1px rgb(var(--button-border-color));
 }
 
 .button--tertiary {
@@ -1236,15 +1237,14 @@ button.shopify-payment-button__button--unbranded {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  /* border: 0; */
-  border: solid 1px;
-  border-color: var(--button-border-color);
+
   padding: 0 3rem;
   cursor: pointer;
   font: inherit;
   font-size: 1.5rem;
   text-decoration: none;
   color: rgb(var(--color-button-text));
+
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;

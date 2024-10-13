@@ -10,7 +10,12 @@
         min-height:250px; 
     }
 
+   .bulk-page .image-with-text__content{
+        padding:24px;
+    }
+
   @media screen and (min-width: 750px) {
+
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
@@ -25,6 +30,9 @@
     }
       .bulk-page .image-with-text__media-item{
         min-height:210px; 
+    }
+     .bulk-page .image-with-text__content{
+        padding:0;
     }
   }
   @media screen and (max-width: 1280px) {

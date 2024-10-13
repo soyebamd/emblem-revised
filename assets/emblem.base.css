@@ -393,6 +393,10 @@ body,
   color: rgba(var(--color-foreground), 1);
 }
 
+.max-width-540 {
+  max-width: 540px;
+}
+
 @media (max-width: 456px) {
   .btn-wrappper {
     flex-direction: column;

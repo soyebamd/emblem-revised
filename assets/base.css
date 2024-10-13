@@ -1245,7 +1245,7 @@ button.shopify-payment-button__button--unbranded {
   text-decoration: none;
   color: rgb(var(--color-button-text));
 
-  border: solid 1px var(--secondary-button-border-color);
+  /* border: solid 1px var(--secondary-button-border-color); */
 
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
@@ -1268,7 +1268,8 @@ button.shopify-payment-button__button--unbranded {
   z-index: -1;
   border-radius: var(--buttons-radius-outset);
   box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset)
-    var(--shadow-blur-radius) rgba(var(--color-shadow), var(--shadow-opacity));
+    var(--shadow-blur-radius)
+    rgba(var(--secondary-button-border-color), var(--shadow-opacity));
 }
 
 .button:after,

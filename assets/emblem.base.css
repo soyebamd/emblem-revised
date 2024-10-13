@@ -396,6 +396,10 @@ body,
   color: rgba(var(--color-foreground), 1);
 }
 
+.image-with-text__heading span {
+  color: rgba(var(--secondary-button-border-color));
+}
+
 .max-width-540 {
   max-width: 540px !important;
 }

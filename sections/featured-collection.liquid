@@ -24,6 +24,7 @@
   <script src="{{ 'quick-order-list.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -36,6 +37,14 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  
+.featured-collection .card__content{
+  background:#D8DAB8;
+  border-bottom:solid 8px #86895D;
+}
+
+
 {%- endstyle -%}
 
 {%- liquid
@@ -205,7 +214,7 @@
 {
   "name": "t:sections.featured-collection.name",
   "tag": "section",
-  "class": "section",
+  "class": "section featured-collection",
   "disabled_on": {
     "groups": ["header", "footer"]
   },

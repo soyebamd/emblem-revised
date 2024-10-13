@@ -167,7 +167,7 @@
         "heading_hdYVbt": {
           "type": "heading",
           "settings": {
-            "heading": "interested in placing a bulk order?",
+            "heading": "interested in placing <br> a <span> bulk order</span> ?",
             "heading_size": "h4"
           }
         },

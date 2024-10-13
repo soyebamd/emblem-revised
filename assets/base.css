@@ -1186,7 +1186,6 @@ deferred-media {
 .button--tertiary {
   --color-button: var(--color-secondary-button);
   --color-button-text: var(--color-secondary-button-text);
-  border: solid 1px rgb(var(--button-border-color));
 }
 
 .button--tertiary {

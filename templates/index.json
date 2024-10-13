@@ -203,12 +203,12 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "CHECK OUT OUR EXCLUSIVE READY-MADE COLLECTIONS",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Predesigned. Customizable. Ready to Order</p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
+        "collection": "1-113th-cav-c-trp-store-1",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,

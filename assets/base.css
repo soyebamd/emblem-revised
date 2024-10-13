@@ -1238,7 +1238,7 @@ button.shopify-payment-button__button--unbranded {
   align-items: center;
   /* border: 0; */
   border: solid 1px;
-  border-color: var(--color-badge-border);
+  border-color: var(--color-button);
   padding: 0 3rem;
   cursor: pointer;
   font: inherit;

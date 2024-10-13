@@ -401,6 +401,10 @@ body,
   text-transform: uppercase;
 }
 
+.clip-path-v1 {
+  clip-path: polygon(0 -370px, 100% 100%, 0 100%);
+}
+
 .text-italic {
   font-style: italic;
 }

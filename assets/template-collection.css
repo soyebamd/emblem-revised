@@ -97,3 +97,9 @@
 .collection__view-all a:not(.link) {
   margin-top: 1rem;
 }
+
+/*custom template css*/
+
+.slider-mobile-gutter {
+  margin: 32px 0;
+}

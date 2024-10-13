@@ -211,11 +211,12 @@ h5,
 
 .for-desk {
 }
-
-/*custom search*/
 .gap-32 {
   gap: 32px !important;
 }
+
+/*custom search*/
+
 #custom-search {
   width: 100%;
   gap: 32px;

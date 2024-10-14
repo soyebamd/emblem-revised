@@ -278,8 +278,35 @@
   </header>
 
 
-  <div class="tag"> PRINTED AND SEWN IN THE U.S.A  </div>
+  <style>
+    .tag-cover{ width: 298.111px;  position: fixed;}
 
+   .tag {
+    color: var(--Dark-Green, #191C00);
+    text-align: center;
+    font-family: "Barlow Semi Condensed";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.108px;
+    text-transform: uppercase;
+    background: white;
+    display: flex;
+   
+    transform: rotate(0);
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    right: 0;
+   
+}
+
+  </style>
+
+<div class="tag-cover">
+  <div class="tag"> PRINTED AND SEWN IN THE U.S.A  </div>
+</div>
 
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
 

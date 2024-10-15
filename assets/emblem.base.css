@@ -235,7 +235,7 @@ h6,
   width: 382px;
   position: fixed;
   top: 82px;
-  transition: all 1s;
+  transition: all 600ms;
   right: 0;
 }
 

@@ -53,6 +53,14 @@ h5,
   font-weight: 800;
 }
 
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span {
+  color: rgba(var(--title-highlighted)) !important;
+}
+
 .fs-75 {
   font-size: 7.5rem;
   line-height: 5.9rem;
@@ -346,10 +354,6 @@ h6,
   transform: rotate(-4deg) !important;
 }
 
-.color-scheme-4 .image-with-text__heading span {
-  color: var(--text-color-1) !important;
-}
-
 .search {
 }
 
@@ -486,10 +490,6 @@ body,
 .color-scheme-4,
 .color-scheme-5 {
   color: rgba(var(--color-foreground), 1);
-}
-
-.image-with-text__heading span {
-  color: rgba(var(--secondary-button-border-color));
 }
 
 .text-uppercase {

@@ -509,6 +509,10 @@ body,
 }
 
 @media (max-width: 456px) {
+  .tablet-down-mobile-full {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
   .btn-wrappper {
     flex-direction: column;
     width: 100%;

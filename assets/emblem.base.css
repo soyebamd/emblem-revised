@@ -512,7 +512,7 @@ body,
   .tablet-down-mobile-full {
     display: flex !important;
     flex-direction: column !important;
-    gap: 32px;
+    gap: 32px !important;
   }
   .tablet-down-mobile-full li.grid__item {
     width: 100% !important;

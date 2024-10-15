@@ -195,7 +195,7 @@
     </slider-component>
 
     {%- if section.settings.show_view_all and more_in_collection -%}
-      <div class="center collection__view-all{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <div class="center collection__view-all{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} mt-32">
         <a
           href="{{ section.settings.collection.url }}"
           class="{% if section.settings.view_all_style == 'link' %}link underlined-link{% elsif section.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %}"

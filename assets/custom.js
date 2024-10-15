@@ -2,7 +2,6 @@
 function moveButton() {
   const mButton = document.querySelector(".movetosmallscreen");
   const mobileContainer = document.querySelector(".mob-buttonpos");
-  const scrollTop = window.scrollY || document.documentElement.scrollTop;
 
   // Check the screen width
   if (window.innerWidth < 750) {
@@ -23,6 +22,8 @@ function moveButton() {
 // detect top scroll position
 
 function topScrollPos() {
+  const scrollTop = window.scrollY || document.documentElement.scrollTop;
+
   console.log("Scroll Position:", scrollTop);
 }
 

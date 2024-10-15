@@ -413,7 +413,7 @@ h6,
 }
 
 .max-width-540 {
-  max-width: 540px !important;
+  max-width: 40% !important;
 }
 
 @media (max-width: 749px) {

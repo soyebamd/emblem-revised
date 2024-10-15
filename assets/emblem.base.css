@@ -170,6 +170,11 @@ h6,
   color: var(--text-color-1) !important;
 }
 
+.btn--primary:hover {
+  background: var(--super-accent) !important;
+  color: var(--text-color-1) !important;
+}
+
 .button.button--secondary,
 .button--secondary {
   /* border: solid 2px var(--color-secondary-button-border);

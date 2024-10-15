@@ -509,7 +509,7 @@ body,
 }
 
 @media (max-width: 456px) {
-  .tablet-down-mobile-full {
+  .tablet-down-mobile-full li {
     width: 100% !important;
     max-width: 100% !important;
   }

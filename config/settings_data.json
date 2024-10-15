@@ -168,7 +168,7 @@
           "button_label": "#191c00",
           "secondary_button_label": "#befa23",
           "secondary_button_border": "#86895d",
-          "button_bg": "#000",
+          "button_bg": "#191c00",
           "button_bg_text": "#befa23",
           "shadow": "#121212"
         }

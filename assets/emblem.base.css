@@ -424,6 +424,9 @@ h6,
 .max-width-540 {
   max-width: 40% !important;
 }
+#custom-search {
+  margin-top: 60px !important;
+}
 @media (min-width: 749px) {
   .tag-cover {
     display: none;
@@ -437,10 +440,6 @@ h6,
 @media (max-width: 749px) {
   .max-width-540 {
     max-width: 100% !important;
-  }
-
-  #custom-search {
-    margin-top: 60px;
   }
 
   #custom-search {

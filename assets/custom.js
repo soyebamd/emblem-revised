@@ -23,7 +23,7 @@ function moveButton() {
 // detect top scroll position
 
 function topScrollPos() {
-  console.log(scrollTop);
+  console.log("Scroll Position:", scrollTop);
 }
 
 topScrollPos();

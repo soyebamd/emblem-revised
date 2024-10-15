@@ -166,13 +166,8 @@ h6,
 }
 
 .btn--primary {
-  /* background: var(--super-accent) !important;
-  color: var(--text-color-1) !important; */
-}
-
-.color-scheme-2 {
-  /* --color-secondary-button-border: #befa23;
-  --color-secondary-button-text: #befa23; */
+  background: var(--super-accent) !important;
+  color: var(--text-color-1) !important;
 }
 
 .button.button--secondary,

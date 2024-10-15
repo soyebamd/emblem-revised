@@ -331,6 +331,10 @@ h6,
   margin-top: 32px !important;
 }
 
+.mb-32 {
+  margin-bottom: 32px !important;
+}
+
 .mb-24 {
   margin-bottom: 24px !important;
 }

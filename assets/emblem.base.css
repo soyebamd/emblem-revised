@@ -432,6 +432,10 @@ h6,
   .tag-cover {
     display: none;
   }
+
+  #custom-search {
+    margin-top: 110px;
+  }
 }
 
 @media (max-width: 749px) {

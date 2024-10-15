@@ -26,9 +26,7 @@ function topScrollPos() {
 
   const scrollTop = window.scrollY || document.documentElement.scrollTop;
 
-  if (scrollTop >= 8) {
-    tag.style.top = "82px";
-  }
+  tag.style.top = scrollTop >= 8 ? "82px" : "150px";
 
   console.log("Scroll Position:", scrollTop);
 }

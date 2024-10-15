@@ -513,7 +513,7 @@ body,
     display: flex !important;
     flex-direction: column !important;
   }
-  .tablet-down-mobile-full li.grid--2-col-tablet-down.grid__item {
+  .tablet-down-mobile-full li.grid__item {
     width: 100% !important;
     max-width: 100% !important;
   }

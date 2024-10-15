@@ -252,6 +252,7 @@ h6,
   top: 72px;
   transition: all 600ms;
   right: 0;
+  display: block;
 }
 
 .fix-top {
@@ -426,6 +427,11 @@ h6,
 
 .max-width-540 {
   max-width: 40% !important;
+}
+@media (min-width: 749px) {
+  .tag-cover {
+    display: none;
+  }
 }
 
 @media (max-width: 749px) {

@@ -82,6 +82,21 @@
             "label": "Secondary Button border color",
             "default": "#121212"
           },
+
+          {
+            "type": "color",
+            "id": "button_bg",
+            "label": "Hover Background Color",
+            "default": "#000"
+          },
+
+          {
+            "type": "color",
+            "id": "button_bg_text",
+            "label": "Hover Background Text Color",
+            "default": "#befa23"
+          },
+
           {
             "type": "color",
             "id": "shadow",

@@ -156,6 +156,13 @@ h6,
   font-weight: 800;
   line-height: 2.4rem;
   text-transform: uppercase;
+  transition: all 1s;
+}
+
+.button:hover,
+.btn:hover {
+  background: var(--button-hover-bg);
+  color: var(--button-hover-text);
 }
 
 .btn--primary {

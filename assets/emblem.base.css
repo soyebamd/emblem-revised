@@ -161,8 +161,8 @@ h6,
 
 .button:hover,
 .btn:hover {
-  background: var(--button-hover-bg);
-  color: var(--button-hover-text);
+  background: rgba(var(--button-hover-bg));
+  color: rgba(var(--button-hover-text));
 }
 
 .btn--primary {

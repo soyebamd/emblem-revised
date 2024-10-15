@@ -510,8 +510,8 @@ body,
 
 @media (max-width: 456px) {
   .tablet-down-mobile-full {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
   }
   .tablet-down-mobile-full li {
     width: 100% !important;

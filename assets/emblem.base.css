@@ -234,13 +234,13 @@ h6,
 .tag-cover {
   width: 382px;
   position: fixed;
-  top: 82px;
+  top: 72px;
   transition: all 600ms;
   right: 0;
 }
 
 .fix-top {
-  top: 82px;
+  top: 72px;
 }
 
 .section-header.shopify-section-group-header-group {
@@ -248,7 +248,7 @@ h6,
 }
 
 .section-header .tag-cover {
-  top: 150px;
+  top: 142px;
 }
 
 .shopify-section-header-hidden .tag-cover {

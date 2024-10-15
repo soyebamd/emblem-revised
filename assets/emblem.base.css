@@ -277,7 +277,7 @@ h6,
   text-transform: uppercase;
   background: white;
   display: flex;
-  padding: 12px 16px;
+  padding: 0;
   justify-content: center;
   align-items: center;
   gap: 4px;

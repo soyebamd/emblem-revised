@@ -252,7 +252,7 @@ h6,
   top: 72px;
   transition: all 600ms;
   right: 0;
-  display: block;
+  display: none;
 }
 
 .fix-top {
@@ -429,7 +429,7 @@ h6,
 }
 @media (min-width: 749px) {
   .tag-cover {
-    display: none;
+    display: block;
   }
 }
 

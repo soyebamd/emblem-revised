@@ -60,6 +60,12 @@
           },
           {
             "type": "color",
+            "id": "highlighted_color",
+            "label": "Highlighted text color",
+            "default": "#121212"
+          },
+          {
+            "type": "color",
             "id": "button",
             "label": "t:settings_schema.colors.settings.button_background.label",
             "default": "#121212"

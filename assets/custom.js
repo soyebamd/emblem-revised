@@ -26,6 +26,9 @@ function topScrollPos() {
   console.log(scrollTop);
 }
 
+topScrollPos();
+window.addEventListener("scroll", topScrollPos);
+
 // Run the function when the page loads
 window.addEventListener("load", moveButton);
 

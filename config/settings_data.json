@@ -150,11 +150,12 @@
           "background": "#fffdf3",
           "background_gradient": "",
           "text": "#191c00",
+          "highlighted_color": "#ffffff",
           "button": "#befa23",
           "button_label": "#191c00",
           "secondary_button_label": "#191c00",
           "secondary_button_border": "#121212",
-          "button_bg": "#000",
+          "button_bg": "#000000",
           "button_bg_text": "#befa23",
           "shadow": "#121212"
         }
@@ -164,6 +165,7 @@
           "background": "#191c00",
           "background_gradient": "",
           "text": "#fffdf3",
+          "highlighted_color": "#ffffff",
           "button": "#befa23",
           "button_label": "#191c00",
           "secondary_button_label": "#befa23",
@@ -178,11 +180,12 @@
           "background": "#191c00",
           "background_gradient": "",
           "text": "#befa23",
+          "highlighted_color": "#ffffff",
           "button": "#befa23",
           "button_label": "#191c00",
           "secondary_button_label": "#ffffff",
           "secondary_button_border": "#121212",
-          "button_bg": "#000",
+          "button_bg": "#000000",
           "button_bg_text": "#befa23",
           "shadow": "#121212"
         }
@@ -192,11 +195,12 @@
           "background": "#86895d",
           "background_gradient": "",
           "text": "#ffffff",
+          "highlighted_color": "#191c00",
           "button": "#befa23",
           "button_label": "#191c00",
           "secondary_button_label": "#befa23",
           "secondary_button_border": "#121212",
-          "button_bg": "#000",
+          "button_bg": "#000000",
           "button_bg_text": "#befa23",
           "shadow": "#86895d"
         }
@@ -206,6 +210,7 @@
           "background": "#191c00",
           "background_gradient": "",
           "text": "#fffdf3",
+          "highlighted_color": "#fd3535",
           "button": "#191c00",
           "button_label": "#ffffff",
           "secondary_button_label": "#fffdf3",

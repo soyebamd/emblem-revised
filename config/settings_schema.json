@@ -87,7 +87,7 @@
             "type": "color",
             "id": "button_bg",
             "label": "Hover Background Color",
-            "default": "#000000"
+            "default": "#000"
           },
 
           {

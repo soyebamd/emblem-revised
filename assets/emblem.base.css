@@ -171,8 +171,8 @@ h6,
 }
 
 .btn--primary:hover {
-  background: var(--super-accent) !important;
-  color: var(--text-color-1) !important;
+  background: var(--text-color-1) !important;
+  color: var(--super-accent) !important;
 }
 
 .button.button--secondary,

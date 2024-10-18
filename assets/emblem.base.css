@@ -206,6 +206,9 @@ a:hover,
   left: 40px;
 }
 
+.field__button {
+  width: 3rem;
+}
 /* Font Weight Classes */
 .fw-100 {
   font-weight: 100;

@@ -142,6 +142,16 @@ a:hover,
   padding-right: 8px;
 }
 
+.header__menu-item:hover span {
+  text-decoration: none;
+  height: 2px;
+  width: 100%;
+
+  background: var(--super-accent);
+
+  transition: all 600ms;
+}
+
 .list-menu li a {
   position: relative;
   color: var(--text-color-4);
@@ -150,18 +160,6 @@ a:hover,
 
 .list-menu li a:after {
   content: "";
-  height: 2px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  display: block;
-  background: var(--super-accent);
-  left: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 8px;
-  opacity: 0;
-  transition: all 600ms;
 }
 
 .list-menu li a:hover:after {

@@ -150,8 +150,12 @@ a:hover,
   transition: all 600ms;
 }
 
+.header__menu-item span.header__active-menu-item {
+  border-color: var(--text-color-3);
+}
+
 .header__menu-item:hover span {
-  border-bottom: solid 2px var(--super-accent);
+  border-color: var(--super-accent);
 }
 
 .list-menu li a {

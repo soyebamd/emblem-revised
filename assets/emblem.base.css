@@ -142,6 +142,8 @@ a:hover,
 
 .list-menu li a {
   position: relative;
+  color: var(--text-color-4);
+  opacity: 1;
 }
 
 .list-menu li a:after {

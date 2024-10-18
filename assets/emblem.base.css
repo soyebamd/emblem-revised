@@ -114,7 +114,8 @@ h6,
   font-size: 9.7rem;
 }
 
-a {
+a,
+a:hover {
   text-decoration: none;
 }
 

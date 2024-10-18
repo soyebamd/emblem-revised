@@ -159,14 +159,14 @@ a:hover,
   color: var(--text-color-4);
   opacity: 1;
 }
-
+/* 
 .list-menu li a:after {
   content: "";
 }
 
 .list-menu li a:hover:after {
   opacity: 1;
-}
+} */
 
 /* Font Weight Classes */
 .fw-100 {

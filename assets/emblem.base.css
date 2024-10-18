@@ -138,18 +138,13 @@ a:hover,
   font-weight: 600;
   line-height: 28.003px; /* 175% */
   text-transform: uppercase;
-  padding-left: 8px;
-  padding-right: 8px;
 }
 
 .header__menu-item span {
   text-decoration: none;
-  height: 2px;
-  width: 100%;
-
-  display: block;
-
-  background: var(--super-accent);
+  padding-left: 8px;
+  padding-right: 8px;
+  border-bottom: solid 2px var(--super-accent);
 
   transition: all 600ms;
 }

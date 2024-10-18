@@ -189,6 +189,11 @@ a:hover,
   min-width: 248px;
 }
 
+.search__button .icon,
+.header__icon .icon {
+  color: var(--super-accent);
+}
+
 .header__search .field__label,
 .header__search .customer .field label {
   font-size: 1.6rem;

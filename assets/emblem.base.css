@@ -172,6 +172,28 @@ a:hover,
   opacity: 1;
 } */
 
+.header__search {
+}
+
+.header__search .field__input {
+  height: 4rem;
+}
+
+.header__search .search__button {
+  right: auto;
+  left: 0;
+}
+
+.header__search .search__input.field__input {
+  padding-left: 3.6rem;
+}
+
+.field__label,
+.customer .field label {
+  font-size: 1.6rem;
+  left: 40px;
+}
+
 /* Font Weight Classes */
 .fw-100 {
   font-weight: 100;

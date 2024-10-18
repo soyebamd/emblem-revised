@@ -194,6 +194,11 @@ a:hover,
   color: var(--super-accent);
 }
 
+.header__icon .svg-wrapper {
+  width: 36px;
+  height: 36px;
+}
+
 .header__search .field__label,
 .header__search .customer .field label {
   font-size: 1.6rem;

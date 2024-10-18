@@ -144,9 +144,14 @@ a:hover,
   text-decoration: none;
   padding-left: 8px;
   padding-right: 8px;
-  border-bottom: solid 2px var(--super-accent);
+  padding-bottom: 8px;
+  border-bottom: solid 2px transparent;
 
   transition: all 600ms;
+}
+
+.header__menu-item:hover span {
+  border-bottom: solid 2px var(--super-accent);
 }
 
 .list-menu li a {

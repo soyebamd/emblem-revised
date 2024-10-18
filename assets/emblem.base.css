@@ -186,6 +186,7 @@ a:hover,
 
 .header__search .search__input.field__input {
   padding-left: 3.6rem;
+  min-width: 248px;
 }
 
 .header__search .field__label,

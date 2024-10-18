@@ -114,6 +114,10 @@ h6,
   font-size: 9.7rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*menu items*/
 
 .header__menu-item {

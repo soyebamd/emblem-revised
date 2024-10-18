@@ -114,6 +114,24 @@ h6,
   font-size: 9.7rem;
 }
 
+/*menu items*/
+
+.list-menu {
+}
+
+.list-menu li {
+  text-align: center;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 16.002px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28.003px; /* 175% */
+  text-transform: uppercase;
+}
+
+.list-menu li a {
+}
+
 /* Font Weight Classes */
 .fw-100 {
   font-weight: 100;

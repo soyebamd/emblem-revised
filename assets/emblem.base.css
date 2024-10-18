@@ -115,7 +115,8 @@ h6,
 }
 
 a,
-a:hover {
+a:hover,
+.header__menu-item:hover span {
   text-decoration: none;
 }
 

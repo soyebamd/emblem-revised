@@ -142,10 +142,12 @@ a:hover,
   padding-right: 8px;
 }
 
-.header__menu-item:hover span {
+.header__menu-item span {
   text-decoration: none;
   height: 2px;
   width: 100%;
+
+  display: block;
 
   background: var(--super-accent);
 

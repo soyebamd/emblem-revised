@@ -116,6 +116,11 @@ h6,
 
 /*menu items*/
 
+.header__menu-item {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
 .list-menu {
 }
 

@@ -123,8 +123,8 @@ a:hover,
 /*menu items*/
 
 .header__menu-item {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .list-menu {
@@ -138,6 +138,8 @@ a:hover,
   font-weight: 600;
   line-height: 28.003px; /* 175% */
   text-transform: uppercase;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .list-menu li a {
@@ -149,7 +151,7 @@ a:hover,
 .list-menu li a:after {
   content: "";
   height: 2px;
-  width: 74%;
+  width: 100%;
   position: absolute;
   bottom: 0;
   display: block;

@@ -188,8 +188,8 @@ a:hover,
   padding-left: 3.6rem;
 }
 
-.field__label,
-.customer .field label {
+.header__search .field__label,
+.header__search .customer .field label {
   font-size: 1.6rem;
   left: 40px;
 }

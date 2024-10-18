@@ -190,7 +190,8 @@ a:hover,
 }
 
 .search__button .icon,
-.header__icon .icon {
+.header__icon .icon,
+.localization-selector.link {
   color: var(--super-accent);
 }
 

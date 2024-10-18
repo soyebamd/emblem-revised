@@ -135,6 +135,25 @@ h6,
 }
 
 .list-menu li a {
+  position: relative;
+}
+
+.list-menu li a:after {
+  content: "";
+  height: 2px;
+  width: 74%;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  background: transparent;
+  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 8px;
+}
+
+.list-menu li a:hover:after {
+  background: #86895d;
 }
 
 /* Font Weight Classes */

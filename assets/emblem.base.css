@@ -151,15 +151,16 @@ a:hover,
   position: absolute;
   bottom: 0;
   display: block;
-  background: transparent;
+  background: var(--super-accent);
   left: 0;
   left: 50%;
   transform: translateX(-50%);
   bottom: 8px;
+  opacity: 0;
 }
 
 .list-menu li a:hover:after {
-  background: #86895d;
+  opacity: 1;
 }
 
 /* Font Weight Classes */

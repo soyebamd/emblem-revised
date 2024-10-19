@@ -20,12 +20,10 @@
     padding: 0;
     margin: 4rem 0;
     width: 100%;
-    flex: 1;
   }
 
   .footer-block.grid__item:first-child {
     margin-top: 0;
-    flex: 2;
   }
 
   .footer__content-top {
@@ -120,6 +118,10 @@
   .footer-block {
     display: block;
     margin-top: 0;
+    flex: 1;
+  }
+  .footer-block:last-child {
+    flex: 2;
   }
 }
 

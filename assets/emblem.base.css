@@ -621,7 +621,11 @@ body,
 
 .footer-form .field__input {
   background: rgba(var(--title-highlighted)) !important;
-  color: rgba(var(--title-highlighted)) !important;
+  color: var(--text-color-2) !important;
+}
+
+.footer-form label {
+  color: var(--text-color-2) !important;
 }
 
 .newsletter-form__button {

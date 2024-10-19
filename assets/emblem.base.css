@@ -623,7 +623,8 @@ body,
   max-width: 45rem;
 }
 
-.footer-form h2 {
+.footer-form h2,
+.footer-form .h2 {
   line-height: normal;
 }
 

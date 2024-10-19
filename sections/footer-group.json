@@ -40,7 +40,7 @@
           "type": "checkbox",
           "settings": {
             "newsletter_enable": true,
-            "newsletter_heading": "Subscribe to our emails"
+            "newsletter_heading": "Never miss an update"
           }
         }
       },

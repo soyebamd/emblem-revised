@@ -130,6 +130,10 @@ a:hover,
 .list-menu {
 }
 
+.text-left {
+  text-align: left !important;
+}
+
 .list-menu li {
   text-align: center;
   font-family: "Barlow Semi Condensed", sans-serif;

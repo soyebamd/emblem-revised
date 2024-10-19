@@ -620,8 +620,8 @@ body,
 }
 
 .newsletter-form__button {
-  background: var(--color-button) !important;
-  color: var(--title-highlighted) !important;
+  background: rgba(var(--color-button)) !important;
+  color: rgba(var(--title-highlighted)) !important;
 }
 
 .footer-form .newsletter-form__field-wrapper {

@@ -153,6 +153,23 @@
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                       {%- endif -%}
                     </div>
+
+
+
+
+{%- when 'checkbox' -%}
+
+                      <div class="footer-block__newsletter ">
+
+Newsletter
+                      </div>
+
+
+
+
+
+
+
                 {%- endcase -%}
               </div>
             {%- endfor -%}
@@ -389,7 +406,7 @@
 
   {
       "type": "checkbox",
-      "name": "newsletter_activated",
+      "name": "Newsletter",
       "limit":1,
       "settings": [
      {

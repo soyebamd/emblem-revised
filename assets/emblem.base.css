@@ -619,6 +619,11 @@ body,
   max-width: 100%;
 }
 
+.footer-form .field__input {
+  background: rgba(var(--title-highlighted)) !important;
+  color: rgba(var(--title-highlighted)) !important;
+}
+
 .newsletter-form__button {
   background: rgba(var(--color-button)) !important;
   color: rgba(var(--title-highlighted)) !important;

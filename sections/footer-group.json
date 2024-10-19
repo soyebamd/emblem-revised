@@ -13,6 +13,35 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "image_cyMPHa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_21118.svg",
+            "image_width": 245,
+            "alignment": "center"
+          }
+        },
+        "link_list_fmrWLr": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "emblem-main-menu"
+          }
+        },
+        "link_list_7rpYgg": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "emblem-main-menu-with-drop-down"
+          }
+        }
+      },
+      "block_order": [
+        "image_cyMPHa",
+        "link_list_fmrWLr",
+        "link_list_7rpYgg"
+      ],
       "settings": {
         "color_scheme": "scheme-3",
         "newsletter_enable": true,

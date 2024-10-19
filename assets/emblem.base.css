@@ -624,6 +624,11 @@ body,
   color: rgba(var(--title-highlighted)) !important;
 }
 
+.field__button > .svg-wrapper {
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
 .footer-form .newsletter-form__field-wrapper {
   max-width: 45rem;
 }

@@ -35,17 +35,23 @@
             "heading": "Quick links",
             "menu": "emblem-main-menu-with-drop-down"
           }
+        },
+        "checkbox_zqcEL3": {
+          "type": "checkbox",
+          "settings": {
+            "newsletter_enable": true,
+            "newsletter_heading": "Subscribe to our emails"
+          }
         }
       },
       "block_order": [
         "image_cyMPHa",
         "link_list_fmrWLr",
-        "link_list_7rpYgg"
+        "link_list_7rpYgg",
+        "checkbox_zqcEL3"
       ],
       "settings": {
         "color_scheme": "scheme-3",
-        "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,

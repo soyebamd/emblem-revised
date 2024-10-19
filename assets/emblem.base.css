@@ -623,6 +623,10 @@ body,
   max-width: 45rem;
 }
 
+.footer-form h2 {
+  line-height: normal;
+}
+
 @media (max-width: 456px) {
   .tablet-down-mobile-full {
     display: flex !important;

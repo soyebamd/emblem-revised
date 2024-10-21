@@ -60,6 +60,9 @@
   height: 100%;
   left: auto;
   right: 10%;
+
+  animation: move 1s ease-in-out infinite;
+  animation-delay: 5s; /* 5 seconds delay before starting the animation */
 }
 
 @media screen and (max-width: 749px) {
@@ -82,5 +85,15 @@
     width: 100%;
     max-width: 56rem !important;
     min-width: auto;
+  }
+}
+
+@keyframes move {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
   }
 }

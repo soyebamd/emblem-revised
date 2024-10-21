@@ -90,7 +90,7 @@
 @keyframes move {
   0%,
   100% {
-    transform: translateX(0);
+    transform: translateX(-20px);
   }
   50% {
     transform: translateX(20px);

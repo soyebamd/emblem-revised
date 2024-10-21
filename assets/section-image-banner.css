@@ -343,47 +343,47 @@
     padding: 5rem;
   }
 
-  .banner__content--top-left {
+  .banner__content_mob--top-left {
     align-items: flex-start;
     justify-content: flex-start;
   }
 
-  .banner__content--top-center {
+  .banner__content_mob--top-center {
     align-items: flex-start;
     justify-content: center;
   }
 
-  .banner__content--top-right {
+  .banner__content_mob--top-right {
     align-items: flex-start;
     justify-content: flex-end;
   }
 
-  .banner__content--middle-left {
+  .banner__content_mob--middle-left {
     align-items: center;
     justify-content: flex-start;
   }
 
-  .banner__content--middle-center {
+  .banner__content_mob--middle-center {
     align-items: center;
     justify-content: center;
   }
 
-  .banner__content--middle-right {
+  .banner__content_mob--middle-right {
     align-items: center;
     justify-content: flex-end;
   }
 
-  .banner__content--bottom-left {
+  .banner__content_mob--bottom-left {
     align-items: flex-end;
     justify-content: flex-start;
   }
 
-  .banner__content--bottom-center {
+  .banner__content_mob--bottom-center {
     align-items: flex-end;
     justify-content: center;
   }
 
-  .banner__content--bottom-right {
+  .banner__content_mob--bottom-right {
     align-items: flex-end;
     justify-content: flex-end;
   }

@@ -68,8 +68,8 @@
   .slideshow__media.banner__media .character-img {
     left: 0;
     right: 0;
-    transform: translateX(-50%);
-    animation: none;
+    transform: translateX(0);
+    animation: none !important;
   }
 }
 

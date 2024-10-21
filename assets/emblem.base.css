@@ -642,7 +642,7 @@ body,
   display: inline-block !important;
 }
 .footer__content-bottom {
-  border-top: 0;
+  border-top: 0 !importantd;
 }
 
 .get-list {

@@ -24,6 +24,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/image_109_1.png",
+            "mob_image": "shopify://shop_images/image_109_1.png",
             "character_img": "shopify://shop_images/army-man.png",
             "heading": "<strong>CREATE YOUR</strong>",
             "subheading": "Custom Gear",
@@ -54,7 +55,7 @@
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
-        "show_text_below": true,
+        "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
     }

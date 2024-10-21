@@ -643,10 +643,11 @@ body,
 }
 .footer__content-bottom {
   border-top: 0 !important;
+  margin-top: 2.4rem;
 }
 
 .footer__copyright {
-  margin: 0;
+  margin: 0 !important;
 }
 
 .footer__content-top {

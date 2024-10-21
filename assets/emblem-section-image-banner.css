@@ -63,6 +63,12 @@
 }
 
 @media screen and (min-width: 750px) {
+  .character-img {
+    left: 50%;
+    right: 0;
+    transform: translateX(-50%);
+  }
+
   .emblemSlider .slideshow__slide:after {
     background: linear-gradient(
       90deg,

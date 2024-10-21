@@ -136,7 +136,17 @@
 
         <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
          
-        {% comment %}
+
+
+      {% comment %}
+        Desktop image
+ 
+     {% endcomment %}
+
+     <div class="for-desk ">
+
+
+             {% comment %}
           Character image
 
 
@@ -153,12 +163,8 @@
 
         {% endif %}
 
-      {% comment %}
-        Desktop image
- 
-     {% endcomment %}
 
-     <div class="for-desk ">
+
         {%- if block.settings.image -%}
             {%- liquid
               assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
@@ -207,6 +213,29 @@
 
 
  <div class="for-mob mob_slideshow__media mob-image">
+
+
+
+         {% comment %}
+          Character image
+
+
+          {% endcomment %}
+{% if block.settings.character_img_mob %}
+   
+   {{
+                block.settings.character_img_mob
+                | image_url: width: 1000
+                | image_tag: loading: 'lazy', class: 'character-img'
+              }}
+
+
+
+        {% endif %}
+
+
+
+
           {%- if block.settings.mob_image -%}
             {%- if forloop.first %}
               {{
@@ -523,6 +552,15 @@
           "id": "character_img",
           "label": "Character image"
         },
+
+  {
+          "type": "image_picker",
+          "id": "character_img_mob",
+          "label": "Character mob image"
+        },
+        
+
+
         {
           "type": "inline_richtext",
           "id": "heading",

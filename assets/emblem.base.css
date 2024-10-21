@@ -633,6 +633,11 @@ body,
   color: rgba(var(--title-highlighted)) !important;
 }
 
+.footer__copyright caption a,
+.footer__copyright small a {
+  color: rgba(var(--color-foreground), 1);
+}
+
 .mt-16 {
   margin-top: 16px !important;
 }

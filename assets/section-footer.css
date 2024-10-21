@@ -322,6 +322,14 @@
   margin-bottom: 4rem;
 }
 
+.footer-block__details-content .list-menu__item--link {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 18px; /* 112.5% */
+  text-transform: uppercase;
+}
+
 @media screen and (min-width: 750px) {
   .footer-block__details-content {
     margin-bottom: 0;

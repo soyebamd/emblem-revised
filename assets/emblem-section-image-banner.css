@@ -93,6 +93,9 @@
     transform: translateX(0);
   }
   50% {
-    transform: translateX(20px);
+    transform: translateX(20px); /* Move 20px to the right */
+  }
+  75% {
+    transform: translateX(-20px); /* Move 20px to the left */
   }
 }

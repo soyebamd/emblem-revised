@@ -638,6 +638,14 @@ body,
   font-size: 14px;
 }
 
+.get-list {
+  position: relative;
+}
+
+.get-list::after {
+  content: "";
+}
+
 .mt-16 {
   margin-top: 16px !important;
 }

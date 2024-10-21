@@ -342,12 +342,17 @@
 
     <small>Any questions? Contact us at <a href="#" class="super-accent">goat@emblemathletic.com </a></small>
 
-        <small class="copyright__content"
+
+        <small class="copyright__content get-list"
           >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
         </small>
-        <small class="copyright__content">{{ powered_by_link }}</small>
+
+
+        <small class="copyright__content get-list">{{ powered_by_link }}</small>
+
+
         {%- if section.settings.show_policy -%}
-          <ul class="policies list-unstyled">
+          <ul class="policies list-unstyled get-list">
             {%- for policy in shop.policies -%}
               {%- if policy != blank -%}
                 <li>
@@ -358,6 +363,9 @@
               {%- endif -%}
             {%- endfor -%}
           </ul>
+
+
+
         {%- endif -%}
       </div>
     </div>

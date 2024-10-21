@@ -69,6 +69,7 @@
     left: 0;
     right: 0;
     transform: translateX(-50%);
+    animation: none;
   }
 }
 

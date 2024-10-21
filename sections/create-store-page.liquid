@@ -12,11 +12,16 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+
+
+
+
 {%- endstyle -%}
 
 <div class="page-width page-width--narrow section-{{ section.id }}-padding">
 
-Store Page
+
   <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {{ page.title | escape }}
   </h1>

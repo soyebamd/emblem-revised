@@ -24,6 +24,19 @@
         display: block;
       }
     }
+
+.smooch-subheading{font-family: font-family: "Smooch", cursive;
+    font-family: "Smooch", cursive;
+    font-size: 11rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120px;
+    position: relative;
+    top: -36px;
+    height: 87px;
+}
+
+    
   {%- endstyle -%}
 {%- endif -%}
 
@@ -219,7 +232,12 @@
               </h2>
             {%- endif -%}
             {%- if block.settings.subheading != blank -%}
-              <h3 class="rte fs-78 fw-800 mb-16 super-accent mt-4 " {{ block.shopify_attributes }}>
+              <h3 class="rte fs-78 fw-800 mb-16 super-accent mt-4 
+              {%- if block.settings.subheading_smooch  -%}
+              smooch smooch-subheading
+              {%- endif -%}
+              
+              " {{ block.shopify_attributes }}>
                 {{ block.settings.subheading }}
               </h3>
             {%- endif -%}
@@ -507,6 +525,14 @@
           "id": "subheading",
           "default": "t:sections.slideshow.blocks.slide.settings.subheading.default",
           "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"
+        },
+
+        
+        {
+          "type": "checkbox",
+          "id": "subheading_smooch",
+          "label": "Subheading Smooch Font Style",
+          "default": false
         },
 
 

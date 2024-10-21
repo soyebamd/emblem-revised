@@ -26,6 +26,7 @@
             "image": "shopify://shop_images/image_109_1.png",
             "mob_image": "shopify://shop_images/image_109_1.png",
             "character_img": "shopify://shop_images/army-man.png",
+            "character_img_mob": "shopify://shop_images/Man.png",
             "heading": "<strong>CREATE YOUR</strong>",
             "subheading": "Custom Gear",
             "subheading_smooch": true,

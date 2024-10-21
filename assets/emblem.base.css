@@ -629,7 +629,7 @@ body,
 }
 
 .mt-16 {
-  margin-top: 16px;
+  margin-top: 16px !important;
 }
 
 .footer-form label {

@@ -141,10 +141,17 @@
 
 
           {% endcomment %}
+{% if block.settings.character_img %}
+   
+   {{
+                block.settings.character_img
+                | image_url: width: 1000
+                | image_tag: loading: 'lazy', class: 'character-img'
+              }}
 
-          
-          <img src="https://cdn.shopify.com/s/files/1/2141/7697/files/army-man.png?v=1729496544" class="character-img">
 
+
+        {% endif %}
 
       {% comment %}
         Desktop image

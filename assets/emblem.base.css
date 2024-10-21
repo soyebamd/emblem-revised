@@ -30,6 +30,16 @@ body {
   font-style: normal;
 }
 
+.smooch-subheading {
+  font-size: 11rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120px;
+  position: relative;
+  top: -36px;
+  height: 87px;
+}
+
 .barlow {
   font-family: "Barlow", sans-serif !important;
 }

@@ -628,11 +628,11 @@ body,
   color: var(--text-color-2) !important;
 }
 
-.ml-16 {
-  margin-left: 16px !important;
+.mt-16 {
+  margin-top: 16px !important;
 }
 
-em {
+.ml-8 {
   margin-left: 8px;
 }
 

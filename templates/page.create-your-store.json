@@ -24,6 +24,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/image_109_1.png",
+            "character_img": "shopify://shop_images/army-man.png",
             "heading": "<strong>CREATE YOUR</strong>",
             "subheading": "Custom Gear",
             "subheading_smooch": true,
@@ -48,7 +49,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,

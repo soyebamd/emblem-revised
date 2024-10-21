@@ -645,6 +645,10 @@ body,
   border-top: 0 !important;
 }
 
+.footer__content-top {
+  border-bottom: 1px #fff solid;
+}
+
 .get-list {
   position: relative;
   padding-right: 20px;

@@ -136,8 +136,15 @@
 
         <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
          
-        
-        
+        {% comment %}
+          Character image
+
+
+          {% endcomment %}
+          
+          <img src="https://cdn.shopify.com/s/files/1/2141/7697/files/army-man.png?v=1729496544" class="character-img">
+
+
       {% comment %}
         Desktop image
  
@@ -496,12 +503,17 @@
         {
           "type": "image_picker",
           "id": "image",
-          "label": "t:sections.slideshow.blocks.slide.settings.image.label"
+          "label": "Background image"
         },
         {
           "type": "image_picker",
           "id": "mob_image",
-          "label": "Mobile Image"
+          "label": "Mobile background image"
+        },
+         {
+          "type": "image_picker",
+          "id": "character_img",
+          "label": "Character image"
         },
         {
           "type": "inline_richtext",

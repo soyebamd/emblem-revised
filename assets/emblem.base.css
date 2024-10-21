@@ -31,10 +31,9 @@ body {
 }
 
 .smooch-subheading {
-  font-size: 11rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120px;
+  font-size: 11rem !important;
+
+  line-height: 120px !important;
   position: relative;
   top: -36px;
   height: 87px;

@@ -61,6 +61,10 @@ h5 span {
   color: rgba(var(--title-highlighted)) !important;
 }
 
+.fs-normal {
+  font-style: normal !important;
+}
+
 .fs-75 {
   font-size: 7.5rem;
   line-height: 5.9rem;
@@ -622,6 +626,10 @@ body,
 .footer-form .field__input {
   background: rgba(var(--title-highlighted)) !important;
   color: var(--text-color-2) !important;
+}
+
+.mt-16 {
+  margin-top: 16px;
 }
 
 .footer-form label {

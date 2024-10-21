@@ -61,6 +61,8 @@
   left: auto;
   right: 10%;
 
+  position: absolute;
+
   animation: move 6s ease-in-out infinite;
 }
 

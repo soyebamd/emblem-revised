@@ -645,8 +645,13 @@ body,
   border-top: 0 !important;
 }
 
+.footer__copyright {
+  margin: 0;
+}
+
 .footer__content-top {
-  border-bottom: 1px #fff solid;
+  padding-bottom: 2.4rem;
+  border-bottom: 1px #fffdf3 solid;
 }
 
 .get-list {

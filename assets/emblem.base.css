@@ -643,7 +643,7 @@ body,
 }
 .footer__content-bottom {
   border-top: 0 !important;
-  margin-top: 2.4rem;
+  margin-top: 2.4rem !important;
 }
 
 .footer__copyright {
@@ -651,7 +651,7 @@ body,
 }
 
 .footer__content-top {
-  padding-bottom: 2.4rem;
+  padding-bottom: 2.4rem !important;
   border-bottom: 1px #fffdf3 solid;
 }
 

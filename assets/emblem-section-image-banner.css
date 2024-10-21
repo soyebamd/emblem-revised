@@ -61,8 +61,7 @@
   left: auto;
   right: 10%;
 
-  animation: move 1s ease-in-out infinite;
-  animation-delay: 5s; /* 5 seconds delay before starting the animation */
+  animation: move 6s ease-in-out infinite;
 }
 
 @media screen and (max-width: 749px) {

@@ -508,7 +508,11 @@
 {% if section.settings.show_tag and section.settings.description %}
 
   <div class="tag-cover">
-    <div class="tag"> <img class="icon-flag" src="https://cdn.shopify.com/s/files/1/2141/7697/files/Vector.svg?v=1728932099"> 
+  
+    <div class="tag"> <img class="icon-flag" src="{{  Vector.svg |  file_url }}"> 
+
+    
+    
     {{ section.settings.description }}
     </div>
   </div>

@@ -635,7 +635,7 @@ body,
 .footer__copyright caption,
 .footer__copyright small {
   color: rgba(var(--title-highlighted)) !important;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .mt-16 {

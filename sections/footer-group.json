@@ -25,14 +25,14 @@
         "link_list_fmrWLr": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "",
             "menu": "emblem-main-menu"
           }
         },
         "link_list_7rpYgg": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "",
             "menu": "emblem-main-menu-with-drop-down"
           }
         },

@@ -640,17 +640,18 @@ body,
 
 .get-list {
   position: relative;
+  padding-right: 20px;
 }
 
 .get-list:after {
   content: "";
   width: 1px;
-  height: 8px;
+  height: 12px;
   display: block;
-  background: white;
+  background: #fff;
   position: absolute;
-  right: 0;
-  top: 50%;
+  right: 12px;
+  top: 4px;
 }
 
 .mt-16 {

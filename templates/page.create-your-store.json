@@ -23,6 +23,7 @@
         "slide_4HiBTj": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/image_109_1.png",
             "heading": "Image slide",
             "subheading": "Tell your brand's story through images",
             "content": "Tell your brand's story through images",
@@ -36,7 +37,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "scheme-3",
             "text_alignment_mobile": "center"
           }
         },

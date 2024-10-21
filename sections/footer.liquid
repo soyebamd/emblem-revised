@@ -207,6 +207,13 @@
                       </span>
                     </button>
                   </div>
+
+         <h2 class="footer-block__heading inline-richtext text-left fw-400">
+
+         {{ 'icon-mail.svg' |  asset_url  |  image_tag  }} <span>Only the latest updates. No spam. </span>
+
+         </h2>
+
                   {%- if form.errors -%}
                     <small class="newsletter-form__message form__message" id="ContactFooter-error">
                       <span class="svg-wrapper">

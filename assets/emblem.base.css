@@ -628,8 +628,12 @@ body,
   color: var(--text-color-2) !important;
 }
 
-.mt-16 {
-  margin-top: 16px !important;
+.ml-16 {
+  margin-left: 16px !important;
+}
+
+em {
+  margin-left: 8px;
 }
 
 .footer-form label {

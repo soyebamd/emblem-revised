@@ -11,11 +11,54 @@
   "sections": {
     "main": {
       "type": "create-store-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "emblem_image_banner_yyHke6": {
+      "type": "emblem-image-banner",
+      "blocks": {
+        "slide_4HiBTj": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/image_109_1.png",
+            "heading": "<strong>CREATE YOUR</strong>",
+            "subheading": "Custom Gear",
+            "content": "",
+            "button_label": "LAUNCH A NEW STORE",
+            "link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "UPDATE AN EXISTING STORE",
+            "link_2": "#",
+            "button_style_secondary_2": true,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_4HiBTj"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main",
+    "emblem_image_banner_yyHke6"
+  ]
 }

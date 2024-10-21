@@ -638,6 +638,10 @@ body,
   font-size: 14px;
 }
 
+.list-inline-block {
+  display: inline-block;
+}
+
 .get-list {
   position: relative;
   padding-right: 20px;

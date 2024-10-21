@@ -166,6 +166,10 @@ a:hover,
   border-color: var(--super-accent);
 }
 
+.super-accent {
+  color: var(--super-accent);
+}
+
 .list-menu li a {
   position: relative;
   color: var(--text-color-4);

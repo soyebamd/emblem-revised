@@ -628,6 +628,11 @@ body,
   color: var(--text-color-2) !important;
 }
 
+.footer__copyright caption,
+.footer__copyright small {
+  color: rgba(var(--title-highlighted)) !important;
+}
+
 .mt-16 {
   margin-top: 16px !important;
 }

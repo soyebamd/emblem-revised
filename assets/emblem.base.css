@@ -641,6 +641,9 @@ body,
 .list-inline-block {
   display: inline-block !important;
 }
+.footer__content-bottom {
+  border-top: 0;
+}
 
 .get-list {
   position: relative;

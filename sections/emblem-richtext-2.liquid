@@ -119,7 +119,7 @@
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
               >
-                {{ section.settings.text }}
+                {{ section.settings.list_items }}
               </li>
 
 
@@ -381,7 +381,7 @@
 
          {
           "type": "richtext",
-          "id": "richtext",
+          "id": "list_items",
           "default": "t:sections.rich-text.blocks.text.settings.text.default",
           "label": "t:sections.rich-text.blocks.text.settings.text.label"
         }

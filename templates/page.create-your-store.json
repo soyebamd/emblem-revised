@@ -67,8 +67,8 @@
         "column_FNzQTE": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "1",
+            "text": "<p>Fill out the quick form with your details and submit your artwork for the free Starter Package.</p>",
             "link_label": "",
             "link": ""
           }
@@ -76,8 +76,8 @@
         "column_anNwEP": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "2",
+            "text": "<p>Our design team will create kick-ass designs and send them to you for your approval.</p>",
             "link_label": "",
             "link": ""
           }
@@ -85,8 +85,8 @@
         "column_WnwMiX": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "3",
+            "text": "<p>Once you approve the designs, we set up a full free custom store.</p>",
             "link_label": "",
             "link": ""
           }

@@ -144,22 +144,28 @@
           "type": "button",
           "settings": {
           }
+        },
+        "heading_LnW66d": {
+          "type": "heading",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "heading_99wHX3",
         "text_HxR94W",
-        "button_eYN7x6"
+        "button_eYN7x6",
+        "heading_LnW66d"
       ],
       "settings": {
-        "heading": "Talk about your brandd",
+        "heading": "Starter Package",
         "heading_size": "h1",
-        "caption": "Add a tagline",
+        "caption": "",
         "text_style": "caption-with-letter-spacing",
         "text_size": "medium",
-        "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-        "button_label": "Button label",
-        "button_link": "",
+        "text": "<p>The design process starts when you fill out a 2-minute style quiz and share your logos</p>",
+        "button_label": "CREATE YOUR GEAR",
+        "button_link": "#",
         "button_style_secondary": false,
         "button_label_2": "",
         "button_link_2": "",

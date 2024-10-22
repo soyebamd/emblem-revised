@@ -345,6 +345,9 @@ a:hover,
 .gap-32 {
   gap: 32px !important;
 }
+.gap-16 {
+  gap: 16px !important;
+}
 #custom-search {
   width: 100%;
   gap: 32px;

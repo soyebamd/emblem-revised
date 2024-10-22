@@ -36,9 +36,14 @@ mix-blend-mode: multiply;
   }
 
 
+    .emblem-multicolumn .multicolumn-card__info  {    border-bottom: 12px solid rgba(var(--title-highlighted));;
+    height: 100%; }
+
+
   .emblem-multicolumn .multicolumn-card__info .inline-richtext{
     color:rgba(var(--title-highlighted));
     font-size:8rem;
+        line-height: 8rem;
   }
 
 
@@ -152,7 +157,7 @@ mix-blend-mode: multiply;
                   </div>
                 </div>
               {%- endif -%}
-              <div class="multicolumn-card__info d-flex">
+              <div class="multicolumn-card__info d-flex gap-16">
                 {%- if block.settings.title != blank -%}
                   <h3 class="inline-richtext">{{ block.settings.title }}</h3>
                 {%- endif -%}

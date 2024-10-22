@@ -110,7 +110,7 @@
       "settings": {
         "image_background": "shopify://shop_images/Background_1.png",
         "title": "CREATE A NEW STORE IN <span>four simple steps</span>",
-        "heading_size": "h2",
+        "heading_size": "h3",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,

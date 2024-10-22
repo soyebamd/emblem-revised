@@ -39,11 +39,17 @@ mix-blend-mode: multiply;
     .emblem-multicolumn .multicolumn-card__info  {    border-bottom: 12px solid rgba(var(--title-highlighted));;
     height: 100%; }
 
+ .emblem-multicolumn h3{
+    font-size:5.6rem;
+    line-height:5.6rem;
+ }
+
 
   .emblem-multicolumn .multicolumn-card__info .inline-richtext{
     color:rgba(var(--title-highlighted));
     font-size:8rem;
         line-height: 8rem;
+
   }
 
 
@@ -256,6 +262,10 @@ mix-blend-mode: multiply;
       "type": "select",
       "id": "heading_size",
       "options": [
+        {
+          "value": "h3",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
         {
           "value": "h2",
           "label": "t:sections.all.heading_size.options__1.label"

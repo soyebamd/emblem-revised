@@ -112,14 +112,14 @@
                 
 
  <li
-                class="rich-text__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                {{ settings.shopify_attributes }}
-                {% if settings.animations_reveal_on_scroll %}
+                class="rich-text__text rte{% if block.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                {{ block.shopify_attributes }}
+                {% if block.animations_reveal_on_scroll %}
                   data-cascade
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
               >
-                {{ section.settings.list_items }}
+                {{ block.settings.list_items }}
               </li>
 
 

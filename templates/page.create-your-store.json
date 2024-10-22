@@ -130,29 +130,29 @@
     "emblem_richtext_2_NW9Ez4": {
       "type": "emblem-richtext-2",
       "blocks": {
+        "text_NPHgR6": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>1 Free Design</p>"
+          }
+        },
         "text_HxR94W": {
           "type": "text",
           "settings": {
-            "richtext": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "richtext": "<p>Free Custom Webstore</p>"
           }
         },
         "text_YY6RXk": {
           "type": "text",
           "settings": {
-            "richtext": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "text_XGX7Am": {
-          "type": "text",
-          "settings": {
-            "richtext": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "richtext": "<p>Up to 8 items from our catalog</p>"
           }
         }
       },
       "block_order": [
+        "text_NPHgR6",
         "text_HxR94W",
-        "text_YY6RXk",
-        "text_XGX7Am"
+        "text_YY6RXk"
       ],
       "settings": {
         "heading": "Starter Package",

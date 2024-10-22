@@ -278,6 +278,7 @@ a:hover,
 .btn:hover {
   background: rgba(var(--button-hover-bg));
   color: rgba(var(--button-hover-text));
+  border-color: rgba(var(--button-hover-text));
 }
 
 .btn--primary {

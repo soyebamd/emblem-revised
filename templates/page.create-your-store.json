@@ -60,10 +60,74 @@
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "emblem_multicolumn_gKjd3d": {
+      "type": "emblem-multicolumn",
+      "blocks": {
+        "column_FNzQTE": {
+          "type": "column",
+          "settings": {
+            "title": "1",
+            "text": "<p>Fill out the quick form with your details and submit your artwork for the free Starter Package.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_anNwEP": {
+          "type": "column",
+          "settings": {
+            "title": "2",
+            "text": "<p>Our design team will create kick-ass designs and send them to you for your approval.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WnwMiX": {
+          "type": "column",
+          "settings": {
+            "title": "3",
+            "text": "<p>Once you approve the designs, we set up a full free custom store.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kndT7w": {
+          "type": "column",
+          "settings": {
+            "title": "4",
+            "text": "<p>You will receive the store link and a flyer to share with your group for placing orders.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_FNzQTE",
+        "column_anNwEP",
+        "column_WnwMiX",
+        "column_kndT7w"
+      ],
+      "settings": {
+        "title": "CREATE A NEW STORE IN four simple steps",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "GET STARTED NOW",
+        "button_link": "#",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "emblem_image_banner_yyHke6"
+    "emblem_image_banner_yyHke6",
+    "emblem_multicolumn_gKjd3d"
   ]
 }

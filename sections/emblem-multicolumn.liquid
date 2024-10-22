@@ -13,6 +13,27 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+
+  
+.bg-store-{{ section.id }}{
+  position:relative;
+}
+
+ .bg-store-{{ section.id }}:after{
+    content:'';
+background-image: url({{ section.settings.image_background |  image_url }}) !important;
+background-size:cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+mix-blend-mode: multiply;
+
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -23,7 +44,7 @@
   endif
 -%}
 
-<div class="multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
+<div class="multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}  bg-store-{{ section.id }}">
   <div
     class="page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
@@ -193,14 +214,22 @@
 {% schema %}
 {
   "name":  "Emblem multicolumn",
-  "class": "section",
+  "class": "section emblem-multicolumn",
   "tag": "section",
   "disabled_on": {
     "groups": ["header", "footer"]
   },
   "settings": [
+
+   {
+      "type": "image_picker",
+      "id": "image_background",
+      "label": "background Image"
+    },
+
+
     {
-      "type": "inline_richtext",
+      "type": "html",
       "id": "title",
       "default": "t:sections.multicolumn.settings.title.default",
       "label": "t:sections.multicolumn.settings.title.label"

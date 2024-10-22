@@ -130,43 +130,50 @@
     "emblem_richtext_2_NW9Ez4": {
       "type": "emblem-richtext-2",
       "blocks": {
-        "text_NPHgR6": {
-          "type": "text",
-          "settings": {
-            "list_items": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "text_nWP4pW": {
-          "type": "text",
-          "settings": {
-            "list_items": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "text_6FX3W6": {
-          "type": "text",
-          "settings": {
-            "list_items": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "text_HxR94W": {
-          "type": "text",
-          "settings": {
-            "list_items": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
         "text_YY6RXk": {
           "type": "text",
           "settings": {
-            "list_items": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "list_items": "<p>1 Free Design</p>"
+          }
+        },
+        "text_dcNLw9": {
+          "type": "text",
+          "settings": {
+            "list_items": "<p>Free Custom Webstore</p>"
+          }
+        },
+        "text_JNXJRr": {
+          "type": "text",
+          "settings": {
+            "list_items": "<p>Up to 8 items from our catalog</p>"
+          }
+        },
+        "text_GBFM4c": {
+          "type": "text",
+          "settings": {
+            "list_items": "<p>2 different garment base colors</p>"
+          }
+        },
+        "text_MQ7jDP": {
+          "type": "text",
+          "settings": {
+            "list_items": "<p>free personalization (name, rank, etc.)</p>"
+          }
+        },
+        "text_HCG6cY": {
+          "type": "text",
+          "settings": {
+            "list_items": "<p>free professional design</p>"
           }
         }
       },
       "block_order": [
-        "text_NPHgR6",
-        "text_nWP4pW",
-        "text_6FX3W6",
-        "text_HxR94W",
-        "text_YY6RXk"
+        "text_YY6RXk",
+        "text_dcNLw9",
+        "text_JNXJRr",
+        "text_GBFM4c",
+        "text_MQ7jDP",
+        "text_HCG6cY"
       ],
       "settings": {
         "heading": "Starter Package",

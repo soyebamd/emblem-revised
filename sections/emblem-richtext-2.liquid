@@ -351,52 +351,38 @@
     }
   ],
   "blocks": [
-    {
-      "type": "heading",
-      "name": "t:sections.rich-text.blocks.heading.name",
-      "limit": 3,
-      "settings": [
-   
-      ]
-    },
-    {
-      "type": "caption",
-      "name": "t:sections.rich-text.blocks.caption.name",
-      "limit": 3,
-      "settings": [
-     
-      ]
-    },
+  
     {
       "type": "text",
       "name": "t:sections.rich-text.blocks.text.name",
       "limit": 3,
       "settings": [
+
+      
+
+
+
+
+         {
+          "type": "richtext",
+          "id": "richtext",
+          "default": "t:sections.rich-text.blocks.text.settings.text.default",
+          "label": "t:sections.rich-text.blocks.text.settings.text.label"
+        }
        
       ]
-    },
-    {
-      "type": "button",
-      "name": "t:sections.rich-text.blocks.buttons.name",
-      "limit": 2,
-      "settings": [
-      
-      ]
     }
+   
   ],
   "presets": [
     {
       "name": "Emblem rich text 2",
       "blocks": [
-        {
-          "type": "heading"
-        },
+       
         {
           "type": "text"
-        },
-        {
-          "type": "button"
         }
+       
       ]
     }
   ]

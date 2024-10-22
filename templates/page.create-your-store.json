@@ -127,43 +127,46 @@
         "padding_bottom": 36
       }
     },
-    "emblem_richtext_2_WgdEx3": {
+    "emblem_richtext_2_NW9Ez4": {
       "type": "emblem-richtext-2",
       "blocks": {
-        "heading_CFxTjX": {
+        "heading_99wHX3": {
           "type": "heading",
           "settings": {
-            "heading": "Starter Package",
-            "heading_size": "h1"
           }
         },
-        "text_VAzFXH": {
+        "text_HxR94W": {
           "type": "text",
           "settings": {
-            "text": "<p>The design process starts when you fill out a 2-minute style quiz and share your logos</p>"
           }
         },
-        "button_qL3NHH": {
+        "button_eYN7x6": {
           "type": "button",
           "settings": {
-            "button_label": "CREATE YOUR GEAR",
-            "button_link": "#",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "#",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_CFxTjX",
-        "text_VAzFXH",
-        "button_qL3NHH"
+        "heading_99wHX3",
+        "text_HxR94W",
+        "button_eYN7x6"
       ],
       "settings": {
+        "heading": "Talk about your brandd",
+        "heading_size": "h1",
+        "caption": "Add a tagline",
+        "text_style": "caption-with-letter-spacing",
+        "text_size": "medium",
+        "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+        "button_label": "Button label",
+        "button_link": "",
+        "button_style_secondary": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_style_secondary_2": false,
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-5",
+        "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -174,6 +177,6 @@
     "main",
     "emblem_image_banner_yyHke6",
     "emblem_multicolumn_gKjd3d",
-    "emblem_richtext_2_WgdEx3"
+    "emblem_richtext_2_NW9Ez4"
   ]
 }

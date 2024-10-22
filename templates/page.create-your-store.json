@@ -119,6 +119,8 @@
         "button_label": "GET STARTED NOW",
         "button_link": "#",
         "color_scheme": "scheme-5",
+        "color_scheme_boxes": "scheme-2",
+        "background_style_boxes": "primary",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 48,

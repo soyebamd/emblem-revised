@@ -101,20 +101,36 @@
 
 
 
-
+<ul>
 
         {%- for block in section.blocks -%}
           {%- case block.type -%}
-            {%- when 'heading' -%}
-            
-            {%- when 'caption' -%}
+           
              
             {%- when 'text' -%}
+
+                
+
+ <li
+                class="rich-text__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                {{ settings.shopify_attributes }}
+                {% if settings.animations_reveal_on_scroll %}
+                  data-cascade
+                  style="--animation-order: {{ forloop.index }};"
+                {% endif %}
+              >
+                {{ section.settings.text }}
+              </li>
+
+
+
              
-            {%- when 'button' -%}
+         
               
           {%- endcase -%}
         {%- endfor -%}
+
+        </ul>
       </div>
     </div>
   </div>

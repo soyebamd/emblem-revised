@@ -281,15 +281,6 @@ a:hover,
   border-color: rgba(var(--button-hover-text));
 }
 
-.button:hover:after {
-  content: "";
-
-  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
-      rgba(var(--button-hover-text), var(--border-opacity)),
-    0 0 0 var(--buttons-border-width)
-      rgba(var(--color-button), var(--alpha-button-background));
-}
-
 .btn--primary {
   background: var(--super-accent) !important;
   color: var(--text-color-1) !important;

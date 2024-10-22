@@ -90,12 +90,22 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_kndT7w": {
+          "type": "column",
+          "settings": {
+            "title": "4",
+            "text": "<p>You will receive the store link and a flyer to share with your group for placing orders.</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_FNzQTE",
         "column_anNwEP",
-        "column_WnwMiX"
+        "column_WnwMiX",
+        "column_kndT7w"
       ],
       "settings": {
         "title": "CREATE A NEW STORE IN four simple steps",

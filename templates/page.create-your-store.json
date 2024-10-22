@@ -176,6 +176,7 @@
         "text_HCG6cY"
       ],
       "settings": {
+        "image_background": "shopify://shop_images/Background_1.png",
         "heading": "Starter Package",
         "heading_size": "h1",
         "caption": "",

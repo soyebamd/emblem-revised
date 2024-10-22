@@ -130,32 +130,29 @@
     "emblem_richtext_2_NW9Ez4": {
       "type": "emblem-richtext-2",
       "blocks": {
-        "heading_99wHX3": {
-          "type": "heading",
-          "settings": {
-          }
-        },
         "text_HxR94W": {
           "type": "text",
           "settings": {
+            "richtext": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
-        "button_eYN7x6": {
-          "type": "button",
+        "text_YY6RXk": {
+          "type": "text",
           "settings": {
+            "richtext": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
-        "heading_LnW66d": {
-          "type": "heading",
+        "text_XGX7Am": {
+          "type": "text",
           "settings": {
+            "richtext": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         }
       },
       "block_order": [
-        "heading_99wHX3",
         "text_HxR94W",
-        "button_eYN7x6",
-        "heading_LnW66d"
+        "text_YY6RXk",
+        "text_XGX7Am"
       ],
       "settings": {
         "heading": "Starter Package",

@@ -133,24 +133,38 @@
         "text_NPHgR6": {
           "type": "text",
           "settings": {
-            "richtext": "<p>1 Free Design</p>"
+            "list_items": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "text_nWP4pW": {
+          "type": "text",
+          "settings": {
+            "list_items": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "text_6FX3W6": {
+          "type": "text",
+          "settings": {
+            "list_items": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
         "text_HxR94W": {
           "type": "text",
           "settings": {
-            "richtext": "<p>Free Custom Webstore</p>"
+            "list_items": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
         "text_YY6RXk": {
           "type": "text",
           "settings": {
-            "richtext": "<p>Up to 8 items from our catalog</p>"
+            "list_items": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         }
       },
       "block_order": [
         "text_NPHgR6",
+        "text_nWP4pW",
+        "text_6FX3W6",
         "text_HxR94W",
         "text_YY6RXk"
       ],

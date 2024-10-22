@@ -108,8 +108,8 @@
         "column_kndT7w"
       ],
       "settings": {
-        "title": "CREATE A NEW STORE IN four simple steps",
-        "heading_size": "h1",
+        "title": "CREATE A NEW STORE IN <span>four simple steps</span>",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,

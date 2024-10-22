@@ -65,6 +65,49 @@
 
 
 
+
+<ul>
+
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+           
+             
+            {%- when 'text' -%}
+
+                
+
+ <li
+                class="rich-text__text rte{% if block.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                {{ block.shopify_attributes }}
+                {% if block.animations_reveal_on_scroll %}
+                  data-cascade
+                  style="--animation-order: {{ forloop.index }};"
+                {% endif %}
+              >
+                {{ block.settings.list_items }}
+              </li>
+
+
+
+             
+         
+              
+          {%- endcase -%}
+        {%- endfor -%}
+
+        </ul>
+
+
+
+
+
+
+
+
+
+
+        
+
 <div
                 class="rich-text__buttons{% if section.settings.button_label != blank and section.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ settings.shopify_attributes }}
@@ -101,36 +144,12 @@
 
 
 
-<ul>
-
-        {%- for block in section.blocks -%}
-          {%- case block.type -%}
-           
-             
-            {%- when 'text' -%}
-
-                
-
- <li
-                class="rich-text__text rte{% if block.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                {{ block.shopify_attributes }}
-                {% if block.animations_reveal_on_scroll %}
-                  data-cascade
-                  style="--animation-order: {{ forloop.index }};"
-                {% endif %}
-              >
-                {{ block.settings.list_items }}
-              </li>
 
 
 
-             
-         
+
+
               
-          {%- endcase -%}
-        {%- endfor -%}
-
-        </ul>
       </div>
     </div>
   </div>

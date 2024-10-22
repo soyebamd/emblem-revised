@@ -22,28 +22,28 @@
 
 
         <h2
-                class="rich-text__heading rte inline-richtext {{ settings.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="rich-text__heading rte inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ settings.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
               >
-                {{ settings.settings.heading }}
+                {{ section.settings.heading }}
               </h2>
 
 
 
 
                <p
-                class="rich-text__caption {{ settings.settings.text_style }} {{ settings.settings.text_style }}--{{ settings.settings.text_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="rich-text__caption {{ section.settings.text_style }} {{ section.settings.text_style }}--{{ section.settings.text_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ settings.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
               >
-                {{ settings.settings.caption | escape }}
+                {{ section.settings.caption | escape }}
               </p>
 
 
@@ -58,7 +58,7 @@
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
               >
-                {{ settings.settings.text }}
+                {{ section.settings.text }}
               </div>
 
 
@@ -66,35 +66,35 @@
 
 
 <div
-                class="rich-text__buttons{% if settings.settings.button_label != blank and settings.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="rich-text__buttons{% if section.settings.button_label != blank and section.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ settings.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
               >
-                {%- if settings.settings.button_label != blank -%}
+                {%- if section.settings.button_label != blank -%}
                   <a
-                    {% if settings.settings.button_link == blank %}
+                    {% if section.settings.button_link == blank %}
                       role="link" aria-disabled="true"
                     {% else %}
-                      href="{{ settings.settings.button_link }}"
+                      href="{{ section.settings.button_link }}"
                     {% endif %}
-                    class="button{% if settings.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                    class="button{% if section.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                   >
-                    {{- settings.settings.button_label | escape -}}
+                    {{- section.settings.button_label | escape -}}
                   </a>
                 {%- endif -%}
-                {%- if settings.settings.button_label_2 != blank -%}
+                {%- if section.settings.button_label_2 != blank -%}
                   <a
-                    {% if settings.settings.button_link_2 == blank %}
+                    {% if section.settings.button_link_2 == blank %}
                       role="link" aria-disabled="true"
                     {% else %}
-                      href="{{ settings.settings.button_link_2 }}"
+                      href="{{ section.settings.button_link_2 }}"
                     {% endif %}
-                    class="button{% if settings.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
+                    class="button{% if section.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
                   >
-                    {{- settings.settings.button_label_2 | escape -}}
+                    {{- section.settings.button_label_2 | escape -}}
                   </a>
                 {%- endif -%}
               </div>

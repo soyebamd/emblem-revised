@@ -203,30 +203,58 @@
         "text_tUPGJM": {
           "type": "text",
           "settings": {
-            "list_items": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "list_items": "<p>Add a new design</p>"
+          }
+        },
+        "text_rEcTCq": {
+          "type": "text",
+          "settings": {
+            "list_items": "<p>Modify a current design</p>"
+          }
+        },
+        "text_phTejB": {
+          "type": "text",
+          "settings": {
+            "list_items": "<p>Add a new base color</p>"
+          }
+        },
+        "text_DY6aRg": {
+          "type": "text",
+          "settings": {
+            "list_items": "<p>Add new products to a current design</p>"
+          }
+        },
+        "text_yKedB9": {
+          "type": "text",
+          "settings": {
+            "list_items": "<p>Remove old products</p>"
           }
         }
       },
       "block_order": [
-        "text_tUPGJM"
+        "text_tUPGJM",
+        "text_rEcTCq",
+        "text_phTejB",
+        "text_DY6aRg",
+        "text_yKedB9"
       ],
       "settings": {
         "image_background": "shopify://shop_images/Background_1.png",
-        "heading": "Talk about your brand",
-        "heading_size": "h1",
-        "caption": "Add a tagline",
+        "heading": "Want to update your store?",
+        "heading_size": "f-56",
+        "caption": "",
         "text_style": "caption-with-letter-spacing",
         "text_size": "medium",
-        "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-        "button_label": "Button label",
-        "button_link": "",
+        "text": "<p>We offer a simple form to update your store</p>",
+        "button_label": "UPDATE YOUR unit store",
+        "button_link": "#",
         "button_style_secondary": false,
         "button_label_2": "",
         "button_link_2": "",
         "button_style_secondary_2": false,
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-5",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-3ad8ffdf-550c-4532-8ec6-a8ef0654a5d0",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52

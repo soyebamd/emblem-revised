@@ -627,7 +627,7 @@ body,
 }
 
 .max-600 {
-  max-width: 600px;
+  max-width: 600px !important;
 }
 
 .text-italic {

@@ -626,6 +626,10 @@ body,
   text-transform: uppercase !important;
 }
 
+.max-600 {
+  max-width: 600px;
+}
+
 .text-italic {
   font-style: italic;
 }

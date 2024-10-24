@@ -284,6 +284,7 @@
         "button_QVENfP"
       ],
       "settings": {
+        "image": "shopify://shop_images/image_95_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

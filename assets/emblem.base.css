@@ -623,7 +623,7 @@ body,
 }
 
 .text-uppercase {
-  text-transform: uppercase;
+  text-transform: uppercase !important;
 }
 
 .text-italic {

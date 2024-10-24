@@ -178,7 +178,7 @@
       "settings": {
         "image_background": "shopify://shop_images/Background_1.png",
         "heading": "Starter Package",
-        "heading_size": "h1",
+        "heading_size": "f-56",
         "caption": "",
         "text_style": "caption-with-letter-spacing",
         "text_size": "medium",

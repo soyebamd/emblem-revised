@@ -252,9 +252,9 @@
       },
       "scheme-17c6dc68-292c-4fad-8029-edc4b5ab9ebd": {
         "settings": {
-          "background": "#fffdf3",
+          "background": "#191c00",
           "background_gradient": "",
-          "text": "#191c00",
+          "text": "#ecff44",
           "highlighted_color": "#54582f",
           "button": "#befa23",
           "button_label": "#191c00",

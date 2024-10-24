@@ -139,31 +139,31 @@
         "text_dcNLw9": {
           "type": "text",
           "settings": {
-            "list_items": "<p>Free Custom Webstore</p>"
+            "list_items": "<p>2 different garment base colors</p>"
           }
         },
         "text_JNXJRr": {
           "type": "text",
           "settings": {
-            "list_items": "<p>Up to 8 items from our catalog</p>"
+            "list_items": "<p>Free Custom Webstore</p>"
           }
         },
         "text_GBFM4c": {
           "type": "text",
           "settings": {
-            "list_items": "<p>2 different garment base colors</p>"
+            "list_items": "<p>Free personalization (name, rank, etc.)</p>"
           }
         },
         "text_MQ7jDP": {
           "type": "text",
           "settings": {
-            "list_items": "<p>free personalization (name, rank, etc.)</p>"
+            "list_items": "<p>Up to 8 items from our catalog</p>"
           }
         },
         "text_HCG6cY": {
           "type": "text",
           "settings": {
-            "list_items": "<p>free professional design</p>"
+            "list_items": "<p>Free professional design</p>"
           }
         }
       },

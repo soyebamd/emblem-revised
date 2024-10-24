@@ -92,7 +92,7 @@ mix-blend-mode: multiply;
               
 
 
-{% if section.settings.text %}
+
 
 
  <div
@@ -106,9 +106,6 @@ mix-blend-mode: multiply;
                 {{ section.settings.text }}
               </div>
 
-
-{% if section.settings.caption %}
-
  <p
                 class="rich-text__caption {{ section.settings.text_style }} {{ section.settings.text_style }}--{{ section.settings.text_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ settings.shopify_attributes }}
@@ -120,7 +117,6 @@ mix-blend-mode: multiply;
                 {{ section.settings.caption | escape }}
               </p>
 
-{% endif %}
 
 
 

@@ -266,29 +266,21 @@
         "heading_zPEA7m": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text_Qt49nP": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
+            "heading": "nterested in placing",
+            "heading_size": "h3"
           }
         },
         "button_QVENfP": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "LEARN MORE ABOUT BULK ORDERS",
+            "button_link": "#",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_zPEA7m",
-        "text_Qt49nP",
         "button_QVENfP"
       ],
       "settings": {

@@ -314,27 +314,18 @@
         "collapsible_row_3abEAz": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Can I delete the store whenever I want?",
+            "icon": "none",
+            "row_content": "<p>Aceptamos las principales tarjetas de crédito y débito. Contamos con todas las seguridades de un corredor de pagos tercerizado.</p>",
             "page": ""
           }
         },
         "collapsible_row_BHXtiX": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_z8tcP4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "How many items can I upload?",
+            "icon": "none",
+            "row_content": "<p>Aceptamos las principales tarjetas de crédito y débito. Contamos con todas las seguridades de un corredor de pagos tercerizado.</p>",
             "page": ""
           }
         }
@@ -342,8 +333,7 @@
       "block_order": [
         "collapsible_row_H984aL",
         "collapsible_row_3abEAz",
-        "collapsible_row_BHXtiX",
-        "collapsible_row_z8tcP4"
+        "collapsible_row_BHXtiX"
       ],
       "settings": {
         "caption": "Answers to frequently asked questions",

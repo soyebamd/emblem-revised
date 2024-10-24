@@ -310,6 +310,18 @@ a:hover,
   line-height: 3.2rem;
 }
 
+.package-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+
+.package-list li {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
 .link,
 .customer a {
   font-size: 1.6rem;

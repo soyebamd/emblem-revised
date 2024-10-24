@@ -80,6 +80,11 @@
   padding-top: 3rem !important;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Position */
 .position-static {
   position: static !important;

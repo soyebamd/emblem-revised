@@ -305,9 +305,9 @@
         "collapsible_row_H984aL": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "What payment methods do you accept?",
+            "icon": "none",
+            "row_content": "<p>Aceptamos las principales tarjetas de crédito y débito. Contamos con todas las seguridades de un corredor de pagos tercerizado.</p>",
             "page": ""
           }
         },

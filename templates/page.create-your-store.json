@@ -346,12 +346,12 @@
         "collapsible_row_z8tcP4"
       ],
       "settings": {
-        "caption": "sadfdsafsafasd sdf",
-        "heading": "Collapsible content",
+        "caption": "Answers to frequently asked questions",
+        "heading": "FAQs",
         "heading_size": "h2",
         "heading_alignment": "center",
-        "button_label": "Button label",
-        "button_link": "",
+        "button_label": "SEE ALL FAQ",
+        "button_link": "#",
         "button_style_secondary": false,
         "button_label_2": "",
         "button_link_2": "",

@@ -211,6 +211,7 @@
         "text_tUPGJM"
       ],
       "settings": {
+        "image_background": "shopify://shop_images/Background_1.png",
         "heading": "Talk about your brand",
         "heading_size": "h1",
         "caption": "Add a tagline",
@@ -225,7 +226,7 @@
         "button_style_secondary_2": false,
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-5",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52

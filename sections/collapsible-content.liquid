@@ -21,6 +21,10 @@
   .accordion details[open]>summary .plus{ display:none; }
     .accordion details[open]>summary .minus{ display:block; }
 
+    .icon-accordion{
+      font-size:24px;
+    }
+
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
@@ -140,8 +144,8 @@
                     {% render 'icon-accordion', icon: block.settings.icon %}
 
 
-                    <div class="plus">+</div>
-                    <div class="minus">-</div>
+                    <span class="icon-accordion plus">+</span>
+                    <span class="icon-accordion minus">-</span>
 
 
                     <h3 class="accordion__title inline-richtext h4">

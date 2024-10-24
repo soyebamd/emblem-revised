@@ -254,15 +254,15 @@
         "settings": {
           "background": "#191c00",
           "background_gradient": "",
-          "text": "#ecff44",
-          "highlighted_color": "#54582f",
-          "button": "#befa23",
-          "button_label": "#191c00",
-          "secondary_button_label": "#191c00",
+          "text": "#ffffff",
+          "highlighted_color": "#fd3535",
+          "button": "#191c00",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#fd3535",
           "secondary_button_border": "#121212",
           "button_bg": "#000000",
           "button_bg_text": "#befa23",
-          "shadow": "#121212"
+          "shadow": "#fd3535"
         }
       }
     }

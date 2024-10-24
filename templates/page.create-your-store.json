@@ -187,11 +187,11 @@
         "button_link": "#",
         "button_style_secondary": false,
         "button_label_2": "",
-        "button_link_2": "",
+        "button_link_2": "#",
         "button_style_secondary_2": false,
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-3ad8ffdf-550c-4532-8ec6-a8ef0654a5d0",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52

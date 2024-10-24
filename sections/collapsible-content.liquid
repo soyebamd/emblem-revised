@@ -19,29 +19,56 @@
   <div class="collapsible-content collapsible-{{ section.settings.layout }}-layout isolate{% if section.settings.layout == 'section' %} page-width{% elsif section.settings.layout == 'none' %} content-container content-container--full-width{% endif %}">
     <div class="collapsible-content__wrapper section-{{ section.id }}-padding{% if section.settings.layout == 'section' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}">
       <div class="{% if section.settings.image == blank %}collapsible-content-wrapper-narrow{% else %}page-width{% endif %}">
-        <div
-          class="collapsible-content__header{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          style="text-align: {{ section.settings.heading_alignment }};"
-        >
-          {%- if section.settings.caption != blank -%}
-            <p class="caption-with-letter-spacing">
-              {{ section.settings.caption | escape }}
-            </p>
-          {% endif %}
-          {%- if section.settings.heading != blank -%}
+       
+        <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+         
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="grid__item collapsible-content__grid-item">
+             
+            
+
+              {%- if section.settings.heading != blank -%}
             <h2 class="collapsible-content__heading inline-richtext {{ section.settings.heading_size }}">
               {{ section.settings.heading }}
             </h2>
           {%- else -%}
             <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
           {% endif %}
-        </div>
-        <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-          {%- if section.settings.image != blank -%}
-            <div class="grid__item collapsible-content__grid-item">
-              sadsadsad
-            </div>
+
+{%- if section.settings.caption != blank -%}
+            <p class="caption-with-letter-spacing">
+              {{ section.settings.caption | escape }}
+            </p>
           {% endif %}
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
           <div class="grid__item">
             {%- for block in section.blocks -%}
               <div
@@ -90,9 +117,9 @@
   },
   "settings": [
     {
-      "type": "text",
+      "type": "inline_richtext",
       "id": "caption",
-      "label": "t:sections.collapsible_content.settings.caption.label"
+      "label": "Text"
     },
     {
       "type": "inline_richtext",
@@ -191,42 +218,18 @@
       "type": "header",
       "content": "t:sections.collapsible_content.settings.header.content"
     },
-    {
-      "type": "image_picker",
-      "id": "image",
-      "label": "t:sections.collapsible_content.settings.image.label"
-    },
-    {
-      "type": "select",
-      "id": "image_ratio",
-      "options": [
-        {
-          "value": "adapt",
-          "label": "t:sections.collapsible_content.settings.image_ratio.options__1.label"
-        },
-        {
-          "value": "small",
-          "label": "t:sections.collapsible_content.settings.image_ratio.options__2.label"
-        },
-        {
-          "value": "large",
-          "label": "t:sections.collapsible_content.settings.image_ratio.options__3.label"
-        }
-      ],
-      "default": "adapt",
-      "label": "t:sections.collapsible_content.settings.image_ratio.label"
-    },
+
     {
       "type": "select",
       "id": "desktop_layout",
       "options": [
         {
           "value": "image_first",
-          "label": "t:sections.collapsible_content.settings.desktop_layout.options__1.label"
+          "label": "Heading container first"
         },
         {
           "value": "image_second",
-          "label": "t:sections.collapsible_content.settings.desktop_layout.options__2.label"
+          "label": "Heading container second"
         }
       ],
       "default": "image_second",

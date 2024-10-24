@@ -298,6 +298,68 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "collapsible_content_F6qnyG": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_H984aL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_3abEAz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_BHXtiX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_z8tcP4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_H984aL",
+        "collapsible_row_3abEAz",
+        "collapsible_row_BHXtiX",
+        "collapsible_row_z8tcP4"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": true,
+        "image": "shopify://shop_images/thinblueline-gardenflag-blueln.png",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_first",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
     }
   },
   "order": [
@@ -306,6 +368,7 @@
     "emblem_multicolumn_gKjd3d",
     "emblem_richtext_2_NW9Ez4",
     "emblem_update_store_wJe3yr",
-    "bulk_order_banner_fkMeUT"
+    "bulk_order_banner_fkMeUT",
+    "collapsible_content_F6qnyG"
   ]
 }

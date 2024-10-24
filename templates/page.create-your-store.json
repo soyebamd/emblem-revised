@@ -259,6 +259,45 @@
         "padding_top": 48,
         "padding_bottom": 52
       }
+    },
+    "bulk_order_banner_fkMeUT": {
+      "type": "bulk-order-banner",
+      "blocks": {
+        "heading_zPEA7m": {
+          "type": "heading",
+          "settings": {
+            "heading": "nterested in placing<br><span>a bulk order</span>?",
+            "heading_size": "h3"
+          }
+        },
+        "button_QVENfP": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE ABOUT BULK ORDERS",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zPEA7m",
+        "button_QVENfP"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/image_95_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-17c6dc68-292c-4fad-8029-edc4b5ab9ebd",
+        "color_scheme": "scheme-17c6dc68-292c-4fad-8029-edc4b5ab9ebd",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -266,6 +305,7 @@
     "emblem_image_banner_yyHke6",
     "emblem_multicolumn_gKjd3d",
     "emblem_richtext_2_NW9Ez4",
-    "emblem_update_store_wJe3yr"
+    "emblem_update_store_wJe3yr",
+    "bulk_order_banner_fkMeUT"
   ]
 }

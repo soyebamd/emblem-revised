@@ -114,6 +114,10 @@ h6,
   line-height: 6.1rem;
 }
 
+.f-56 {
+  font-size: 56px;
+}
+
 .hxxl {
   font-size: 9.7rem;
 }
@@ -638,6 +642,9 @@ body,
   color: var(--text-color-2) !important;
 }
 
+.color-highlight {
+  color: rgba(var(--title-highlighted)) !important;
+}
 .footer__copyright caption,
 .footer__copyright small {
   color: rgba(var(--title-highlighted)) !important;

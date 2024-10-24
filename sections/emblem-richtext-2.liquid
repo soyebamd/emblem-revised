@@ -38,7 +38,8 @@ mix-blend-mode: multiply;
   .rich-custom-bg{
     background-image:url('https://cdn.shopify.com/s/files/1/2141/7697/files/1.svg?v=1729595334');
         background-repeat: no-repeat;
-    background-position: top center;
+       background-position: center;
+    padding: 50px 0;
   }
 
 
@@ -52,7 +53,7 @@ mix-blend-mode: multiply;
 
 
         <h2
-                class="rich-text__heading rte inline-richtext  {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="rich-text__heading rte inline-richtext color-highlight fw-700  {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ settings.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
@@ -215,7 +216,7 @@ mix-blend-mode: multiply;
           "id": "heading_size",
           "options": [
             {
-              "value": "h2",
+              "value": "f-56",
               "label": "t:sections.all.heading_size.options__1.label"
             },
             {

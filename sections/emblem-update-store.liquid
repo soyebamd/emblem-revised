@@ -61,6 +61,10 @@ mix-blend-mode: multiply;
     font-family: "Barlow Condensed", sans-serif;
 }
 
+.d-block{
+    display:block!important; 
+}
+
 
 {%- endstyle -%}
 
@@ -156,7 +160,7 @@ mix-blend-mode: multiply;
 
               <div class="grid__item">
 
-<ul class="package-list text-left">
+<ul class="package-list text-left d-block">
 
         {%- for block in section.blocks -%}
           {%- case block.type -%}

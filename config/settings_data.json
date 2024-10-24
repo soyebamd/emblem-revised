@@ -259,7 +259,7 @@
           "button": "#191c00",
           "button_label": "#ffffff",
           "secondary_button_label": "#fd3535",
-          "secondary_button_border": "#121212",
+          "secondary_button_border": "#fd3535",
           "button_bg": "#000000",
           "button_bg_text": "#befa23",
           "shadow": "#fd3535"

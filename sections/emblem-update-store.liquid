@@ -47,12 +47,12 @@ mix-blend-mode: multiply;
    
 }
 
-.package-list li {
+.package-list li.white {
     width: calc(50% - 10px); 
   box-sizing: border-box;
   list-style:none;
 
-  background:url({{ 'icon-check.svg' |  asset_url }});
+  background:url({{ 'icon-check-white.svg' |  asset_url }});
 
       background-repeat: no-repeat;
     padding-left: 32px;
@@ -173,7 +173,7 @@ mix-blend-mode: multiply;
                 
 
  <li
-                class="rich-text__text rte{% if block.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="rich-text__text white rte{% if block.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if block.animations_reveal_on_scroll %}
                   data-cascade

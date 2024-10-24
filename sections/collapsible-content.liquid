@@ -13,6 +13,13 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+
+  summary .plus{ display:block}
+
+  .accordion details[open]>summary .plus{ display:block; }
+    .accordion details[open]>summary .minus{ display:none; }
+
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
@@ -130,10 +137,21 @@
                 >
                   <summary id="Summary-{{ block.id }}-{{ section.id }}">
                     {% render 'icon-accordion', icon: block.settings.icon %}
+
+
+                    <div class="plus">+</div>
+                    <div class="minus">+</div>
+
+
                     <h3 class="accordion__title inline-richtext h4">
                       {{ block.settings.heading | default: block.settings.page.title | escape }}
                     </h3>
+
+
                     {{- 'icon-caret.svg' | inline_asset_content -}}
+
+
+
                   </summary>
                   <div
                     class="accordion__content rte"

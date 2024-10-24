@@ -275,7 +275,7 @@
           "settings": {
             "button_label": "LEARN MORE ABOUT BULK ORDERS",
             "button_link": "#",
-            "button_style_secondary": false
+            "button_style_secondary": true
           }
         }
       },

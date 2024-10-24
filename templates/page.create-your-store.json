@@ -346,7 +346,7 @@
         "collapsible_row_z8tcP4"
       ],
       "settings": {
-        "caption": "",
+        "caption": "sadfdsafsafasd sdf",
         "heading": "Collapsible content",
         "heading_size": "h2",
         "heading_alignment": "center",
@@ -354,8 +354,6 @@
         "color_scheme": "",
         "container_color_scheme": "",
         "open_first_collapsible_row": true,
-        "image": "shopify://shop_images/thinblueline-gardenflag-blueln.png",
-        "image_ratio": "adapt",
         "desktop_layout": "image_first",
         "padding_top": 48,
         "padding_bottom": 48

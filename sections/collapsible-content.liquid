@@ -53,7 +53,7 @@
             
 
               {%- if section.settings.heading != blank -%}
-            <h2 class="collapsible-content__heading inline-richtext {{ section.settings.heading_size }}">
+            <h2 class="collapsible-content__heading inline-richtext m-0 mb-8 {{ section.settings.heading_size }}">
               {{ section.settings.heading }}
             </h2>
           {%- else -%}
@@ -61,7 +61,7 @@
           {% endif %}
 
 {%- if section.settings.caption != blank -%}
-            <p >
+            <p class="text-big mt-0" >
               {{ section.settings.caption | escape }}
             </p>
           {% endif %}

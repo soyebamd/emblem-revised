@@ -115,10 +115,12 @@ mix-blend-mode: multiply;
  border:0!important
 }
 
-.note{ color:#54582F; margin:8px; }
+.note{ color: rgba(var( --title-highlighted ))!important; margin:8px; }
    
     
-    
+    .note a{
+       color:rgba(var(--color-foreground));
+    }
 
 {%- endstyle -%}
 
@@ -235,7 +237,7 @@ mix-blend-mode: multiply;
           {%- endif -%}
         </form>
 
-      <p class="note"> If you're having trouble finding your store, contact us. </p>
+      <p class="note"> If you're having trouble finding your store, <a href="#">contact us.</a> </p>
 
 
         </div>

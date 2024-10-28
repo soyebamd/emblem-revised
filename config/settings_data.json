@@ -144,6 +144,14 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "9379897962128965429": {
+        "type": "shopify://apps/okas-live-search-filter/blocks/app-block/77de2d4b-51b0-46d6-9fa5-dbe675e819d8",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
@@ -165,7 +173,7 @@
           "background": "#191c00",
           "background_gradient": "",
           "text": "#fffdf3",
-          "highlighted_color": "#ffffff",
+          "highlighted_color": "#fd3535",
           "button": "#befa23",
           "button_label": "#191c00",
           "secondary_button_label": "#befa23",

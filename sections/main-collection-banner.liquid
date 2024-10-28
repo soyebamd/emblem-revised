@@ -30,7 +30,11 @@
 
 <div class="collection-hero{% if section.settings.show_collection_image and collection.image %} p-0 collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient">
   <div class="collection-hero__inner page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-    <div class="collection-hero__text-wrapper">
+    <div class="collection-hero__text-wrapper
+  {{  section.settings.text_alignment }}
+    
+    
+    ">
 
 
   {% if section.settings.show_collection_title %} 
@@ -108,6 +112,27 @@
       "default": true,
       "label": "t:sections.main-collection-banner.settings.show_collection_description.label"
     },
+    {
+       
+        "type": "select",
+        "id": "text_alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__1.label"
+          },
+          {
+            "value": "center",
+            "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__2.label"
+          },
+          {
+            "value": "right",
+            "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__3.label"
+          }
+        ],
+        "default": "left",
+        "label": "t:sections.image-with-text.settings.mobile_content_alignment.label"
+      },
     {
       "type": "checkbox",
       "id": "show_collection_image",

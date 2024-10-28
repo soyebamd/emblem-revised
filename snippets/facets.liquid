@@ -33,6 +33,8 @@
 
  
 
+  <h2 class="h5 m-0">{{ collection.title }}</h2>
+
 
 {%- if filter_type == 'vertical' or filter_type == 'horizontal' -%}
     <facet-filters-form class="facets small-hide">
@@ -61,8 +63,6 @@
             {% endif %}
           >
 
-
-  <h2 class="h5 m-0">{{ collection.title }}</h2>
 
 
             {%- if filter_type == 'horizontal' and results.filters != empty -%}

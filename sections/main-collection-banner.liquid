@@ -83,8 +83,7 @@
 
 
 
-           {{ collection.description | strip_html | strip_newlines | replace: '\n', ' ' }}
-
+          {{ collection.description | remove: '<p>' | remove: '</p>' }}
 
 
            </h1>       

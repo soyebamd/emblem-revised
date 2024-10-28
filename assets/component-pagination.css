@@ -71,6 +71,10 @@ a.pagination__item:hover::after {
   background-color: currentColor;
 }
 
+.pagination__list > li:not(.pagination__list) {
+  width: 20px;
+}
+
 .pagination__item--next .icon {
   margin-left: -0.2rem;
   transform: rotate(90deg);

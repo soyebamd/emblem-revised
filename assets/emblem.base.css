@@ -214,6 +214,7 @@ a:hover,
 .header__search .search__button {
   right: auto;
   left: 0;
+  top: 0;
 }
 
 .header__search .search__input.field__input {

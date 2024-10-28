@@ -12,7 +12,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "show_collection_title": false,
+        "show_collection_title": true,
         "show_collection_description": true,
         "text_alignment": "center",
         "show_collection_image": true,

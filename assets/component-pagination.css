@@ -49,7 +49,7 @@ a.pagination__item:hover::after {
 
 .pagination__item--current::after,
 .pagination__item:hover::after {
-  content: '';
+  content: "";
   display: block;
   width: 2rem;
   position: absolute;
@@ -75,6 +75,14 @@ a.pagination__item:hover::after {
 
 .pagination__item--prev:hover .icon {
   transform: rotate(-90deg) scale(1.07);
+}
+
+.pagination__item-arrow {
+  border: solid 1px;
+}
+
+.pagination__item .icon-caret {
+  height: 1.3rem;
 }
 
 .pagination__item-arrow:hover::after {

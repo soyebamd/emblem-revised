@@ -13,6 +13,19 @@
     color: rgba(var( --title-highlighted ))
   }
 
+  .collection-hero__title__styled {
+    color:rgba(var(--color-foreground));
+  }
+
+
+.collection-hero__title__styled em{
+     color: rgba(var( --title-highlighted ));
+     font-family: "Smooch", cursive !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  }
+
+
 {%- endstyle -%}
 
 <div class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient">
@@ -32,18 +45,15 @@
       {%- if section.settings.show_collection_description -%}
 
         {% if show_collection_title  %} 
-          <div class="collection-hero__description rte">
-          
-            {{ collection.description }}
-        
-        </div>
+
+
+          <div class="collection-hero__description rte">          
+            {{ collection.description }}        
+          </div>
          
         
         {% else  %}
-
-           <h1 class="collection-hero__title">{{ collection.description }}</h1>   
-
-      
+           <h1 class="collection-hero__title collection-hero__title__styled">{{ collection.description }}</h1>       
 
        {% endif %}
         

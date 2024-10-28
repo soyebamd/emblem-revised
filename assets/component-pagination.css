@@ -22,6 +22,10 @@
 
 .pagination__list > li {
   flex: 1 0 4.4rem;
+  max-width: 1.4rem;
+}
+
+.pagination__list > li.pg {
   max-width: 4.4rem;
 }
 

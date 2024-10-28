@@ -9,7 +9,7 @@
   }
 
 
-    .collection-search  .collection-hero__title{
+ .shop-collection .collection-hero__title{
     color: rgba(var( --title-highlighted ));
     font-weight:800;
     font-size:64px;
@@ -116,7 +116,7 @@ mix-blend-mode: multiply;
 
 {%- endstyle -%}
 
-<div class="collection-hero position-relative {% if section.settings.show_collection_image and collection.image %} p-0 collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient ">
+<div class="collection-hero position-relative shop-collection {% if section.settings.show_collection_image and collection.image %} p-0 collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient ">
   
 
 <img src="{{ section.settings.image_background |  image_url: width: 2000 }}" class="collection-bg" width="auto" height="auto">       

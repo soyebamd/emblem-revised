@@ -102,6 +102,17 @@
   margin-top: 1rem;
 }
 
+.card__heading.h5 {
+  font-family: "Barlow", sans-serif !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 /*custom template css*/
 
 /* .slider-mobile-gutter {

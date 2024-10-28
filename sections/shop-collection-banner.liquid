@@ -122,9 +122,18 @@ mix-blend-mode: multiply;
        color:rgba(var(--color-foreground)); text-decoration:underline;
     }
 
+    .collection-hero-image-bg{
+      position:relative;
+    }
+
+        .collection-hero {
+          content:'';
+          background-image:url({{'text-background.png' |  asset_url }})
+        }
+
 {%- endstyle -%}
 
-<div class="collection-hero position-relative shop-collection {% if section.settings.show_collection_image and collection.image %} p-0 collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient ">
+<div class="collection-hero collection-hero-image-bg position-relative shop-collection {% if section.settings.show_collection_image and collection.image %} p-0 collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient ">
   
 
 <img src="{{ section.settings.image_background |  image_url: width: 2000 }}" class="collection-bg" width="auto" height="auto">       

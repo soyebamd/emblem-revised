@@ -112,6 +112,13 @@
   text-transform: uppercase;
 }
 
+.product-grid__emblem li {
+  border-radius: 8px;
+  border: 1px solid var(--text-color-5);
+  background: var(--text-color-6);
+  padding: 24px 20px;
+}
+
 /*custom template css*/
 
 /* .slider-mobile-gutter {

@@ -98,7 +98,7 @@
       </facet-filters-form>
     {%- endif -%}
 
-      <h2>{{ collection.title }}</h2>
+   
 
 
     <div class="{% if section.settings.filter_type == 'vertical' %} facets-vertical page-width{% endif %}">
@@ -111,6 +111,11 @@
           id="main-collection-filters"
           data-id="{{ section.id }}"
         >
+
+
+           <h2>{{ collection.title }}</h2>
+
+           
           {% render 'facets',
             results: collection,
             enable_filtering: section.settings.enable_filtering,

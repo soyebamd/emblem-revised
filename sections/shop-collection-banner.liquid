@@ -179,7 +179,7 @@ mix-blend-mode: multiply;
        <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form header__search">
           <div class="field">
            
-            <label class="field__label" for="{{ input_id }}">| Search Unit Name </label>
+            <label class="field__label" for="{{ input_id }}">Search Unit Name </label>
             <input type="hidden" name="options[prefix]" value="last">
             <button
               type="reset"
@@ -203,7 +203,7 @@ mix-blend-mode: multiply;
               type="search"
               name="q"
               value="{{ search.terms | escape }}"
-              placeholder="| Search Unit Name"
+              placeholder="Search Unit Name"
               {%- if settings.predictive_search_enabled -%}
                 role="combobox"
                 aria-expanded="false"

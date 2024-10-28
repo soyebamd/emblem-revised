@@ -44,12 +44,9 @@
         <form class="facets-vertical-form" id="FacetSortForm">
           <div class="facet-filters sorting caption">
             <div class="facet-filters__field">
-
-            <h2>{{ collection.title }}</h2>
-
-
+              
               <h2 class="facet-filters__label caption-large text-body">
-                <label for="SortBy">{{ 'products.facets.sort_by_label' | t }}sdfsdfds</label>
+                <label for="SortBy">{{ 'products.facets.sort_by_label' | t }}</label>
               </h2>
               <div class="select">
                 {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
@@ -100,6 +97,9 @@
         </form>
       </facet-filters-form>
     {%- endif -%}
+
+      <h2>{{ collection.title }}</h2>
+
 
     <div class="{% if section.settings.filter_type == 'vertical' %} facets-vertical page-width{% endif %}">
       {{ 'component-facets.css' | asset_url | stylesheet_tag }}

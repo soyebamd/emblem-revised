@@ -9,8 +9,20 @@
  */
 {
   "sections": {
+    "shop_collection_banner_9TR9zf": {
+      "type": "shop-collection-banner",
+      "settings": {
+        "image_background": "shopify://shop_images/Tees_1.png",
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "text_alignment": "left",
+        "show_collection_image": false,
+        "color_scheme": "scheme-557b3865-4fac-45eb-8701-2ee7acdacb22"
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_title": false,
         "show_collection_description": true,
@@ -40,5 +52,9 @@
       }
     }
   },
-  "order": ["banner", "product-grid"]
+  "order": [
+    "shop_collection_banner_9TR9zf",
+    "banner",
+    "product-grid"
+  ]
 }

@@ -44,9 +44,9 @@
       >
 
 
-       <h2 class="h5 m-0">{{ collection.title }}</h2>
+     
 
-       
+
         {%- if results.terms -%}
           <input type="hidden" name="q" value="{{ results.terms | escape }}">
           <input name="options[prefix]" type="hidden" value="last">
@@ -60,6 +60,11 @@
               class="facets__wrapper"
             {% endif %}
           >
+
+
+  <h2 class="h5 m-0">{{ collection.title }}</h2>
+
+
             {%- if filter_type == 'horizontal' and results.filters != empty -%}
               <h2 class="facets__heading caption-large text-body" id="verticalTitle" tabindex="-1">
                 {{ 'products.facets.filter_by_label' | t }}

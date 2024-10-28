@@ -40,6 +40,7 @@
   width: 100%;
   padding: 0;
   text-decoration: none;
+  font-weight: 500 !important;
 }
 
 a.pagination__item:hover::after {
@@ -52,6 +53,10 @@ a.pagination__item:hover::after {
 
 .pagination__item--current::after {
   height: 0.1rem;
+}
+
+.pagination__item--current {
+  font-weight: 700;
 }
 
 .pagination__item--current::after,

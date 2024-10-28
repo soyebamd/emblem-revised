@@ -75,6 +75,18 @@ mix-blend-mode: multiply;
     width:100%;
   }
 
+
+  .collection-search{}
+
+
+  .collection-search .header__search.search__input.field__input {
+    padding-left: 3.6rem;
+    min-width: 544px;
+    background: #fff;
+    height: 48px;
+    margin: auto;
+}
+
    
     
     
@@ -138,6 +150,7 @@ mix-blend-mode: multiply;
       {% endcomment %}
 
 
+      <div class="collection-search">
       
        <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form header__search">
           <div class="field">
@@ -192,6 +205,8 @@ mix-blend-mode: multiply;
             <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
           {%- endif -%}
         </form>
+
+        </div>
 
         
 

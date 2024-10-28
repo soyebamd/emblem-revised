@@ -92,6 +92,19 @@ mix-blend-mode: multiply;
    
 }
 
+
+  .collection-search .header__search .search__input.field__input {
+    padding-left: 3.6rem;
+    min-width: 0;
+    max-width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+  .collection-search .ls-dropdown-menu{
+ border:0!important
+}
+
    
     
     
@@ -184,7 +197,7 @@ mix-blend-mode: multiply;
               type="search"
               name="q"
               value="{{ search.terms | escape }}"
-              placeholder="{{ 'general.search.search' | t }}"
+              placeholder="| Search Unit Name"
               {%- if settings.predictive_search_enabled -%}
                 role="combobox"
                 aria-expanded="false"

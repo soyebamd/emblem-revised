@@ -298,8 +298,8 @@
           "button_label": "#191c00",
           "secondary_button_label": "#191c00",
           "secondary_button_border": "#121212",
-          "button_bg": "#54582f",
-          "button_bg_text": "#fffdf3",
+          "button_bg": "#ffffff",
+          "button_bg_text": "#191c00",
           "shadow": "#121212"
         }
       },

@@ -79,7 +79,15 @@
          
         
         {% else  %}
-           <h1 class="collection-hero__title collection-hero__title__styled">{{ collection.description }}</h1>       
+           <h1 class="collection-hero__title collection-hero__title__styled">
+
+
+
+           {{ collection.description | strip_html | strip_newlines | replace: '\n', ' ' }}
+
+
+
+           </h1>       
 
        {% endif %}
         

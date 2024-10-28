@@ -20,26 +20,30 @@
     <div class="collection-hero__text-wrapper">
 
 
- {{ show_collection_title }}
+  {% if show_collection_title %} 
 
       <h1 class="collection-hero__title">
         <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
         {{- collection.title | escape -}}
       </h1>
 
+  {% endif %}
+
       {%- if section.settings.show_collection_description -%}
 
-        {% if show_collection_title == '' %} 
-        
-            <h1 class="collection-hero__title">{{ collection.description }}</h1>   
-        
-        {% else  %}
-
-        <div class="collection-hero__description rte">
+        {% if show_collection_title  %} 
+          <div class="collection-hero__description rte">
           
             {{ collection.description }}
         
         </div>
+         
+        
+        {% else  %}
+
+           <h1 class="collection-hero__title">{{ collection.description }}</h1>   
+
+      
 
        {% endif %}
         

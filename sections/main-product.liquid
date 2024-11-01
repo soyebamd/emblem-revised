@@ -85,7 +85,7 @@
   <div class="page-width">
 
     {% render 'breadcrumb' %}
-    
+
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
         {% render 'product-media-gallery', variant_images: variant_images %}
@@ -743,8 +743,10 @@
   "class": "section",
   "blocks": [
     {
+      "name":"App",
       "type": "@app"
     },
+    
     {
       "type": "text",
       "name": "t:sections.main-product.blocks.text.name",
@@ -2089,6 +2091,11 @@
     }
   ],
   "settings": [
+      {
+      "type": "checkbox",
+      "id": "product_breadcrumb",
+      "label": "Show breadcrumb links"
+    },
     {
       "type": "checkbox",
       "id": "enable_sticky_info",

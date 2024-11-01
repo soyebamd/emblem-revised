@@ -1,76 +1,65 @@
-{% comment %}
-  Renders a set of links for paginated results. Must be used within paginate tags.
+<style>
 
-  Usage:
-  {% paginate results by 2 %}
-    {% render 'pagination', paginate: paginate, anchor: '#yourID' %}
-  {% endpaginate %}
 
-  Accepts:
-  - paginate: {Object}
-  - anchor: {String} (optional) This can be added so that on page reload it takes you to wherever you've placed your anchor tag.
-{% endcomment %}
+.breadcrumb {
+      font-size: .9rem;
+    margin: 0 0 2rem 0;
+  color: #000000; }
 
-{{ 'component-pagination.css' | asset_url | stylesheet_tag }}
+  
+  .breadcrumbs__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
-{%- if paginate.parts.size > 0 -%}
-  <div class="pagination-wrapper">
-    <nav class="pagination" role="navigation" aria-label="{{ 'general.pagination.label' | t }}">
-      <ul class="pagination__list list-unstyled" role="list">
-        {%- if paginate.previous -%}
-          <li>
-            <a
-              href="{{ paginate.previous.url }}{{ anchor }}"
-              class="pagination__item pagination__item--next pagination__item-arrow link motion-reduce"
-              aria-label="{{ 'general.pagination.previous' | t }}"
-            >
-              {% render 'icon-caret' %}
-            </a>
-          </li>
-        {%- endif -%}
+  .breadcrumbs__item {
+    display: inline-block;
+   
+  }
 
-        {%- for part in paginate.parts -%}
-          <li>
-            {%- if part.is_link -%}
-              <a
-                href="{{ part.url }}{{ anchor }}"
-                class="pagination__item link"
-                aria-label="{{ 'general.pagination.page' | t: number: part.title }}"
-              >
-                {{- part.title -}}
-              </a>
-            {%- else -%}
-              {%- if part.title == paginate.current_page -%}
-                <a
-                  role="link"
-                  aria-disabled="true"
-                  class="pagination__item pagination__item--current light"
-                  aria-current="page"
-                  aria-label="{{ 'general.pagination.page' | t: number: part.title }}"
-                >
-                  {{- part.title -}}
-                </a>
-              {%- else -%}
-                <span class="pagination__item">{{ part.title }}</span>
-              {%- endif -%}
-            {%- endif -%}
-          </li>
-        {%- endfor -%}
+  .breadcrumb i{ font-size:12px; padding: 0 4px; }
 
-        {%- if paginate.next -%}
-          <li>
-            <a
-              href="{{ paginate.next.url }}{{ anchor }}"
-              class="pagination__item pagination__item--prev pagination__item-arrow link motion-reduce"
-              aria-label="{{ 'general.pagination.next' | t }}"
-            >
-              {%- render 'icon-caret' -%}
-            </a>
-          </li>
-        {%- endif -%}
-      </ul>
-    </nav>
-  </div>
-{%- endif -%}
+  .breadcrumb a{ color:#b3341c; }
 
-PAgination
+.breadcrumb .icon-arrow-right {
+  font-size: 8px;
+  position: relative;
+  top: -1px; }
+
+.breadcrumb a.ss-icon:hover {
+  color: #0d3ff0; }
+</style>
+
+{% if section.settings.product_breadcrumb %}
+
+
+    
+<nav class="breadcrumb_text breadcrumb" role="navigation" aria-label="breadcrumbs">
+  <ol class="breadcrumbs__list">
+
+    
+    <li class="breadcrumbs__item">
+      <a class="breadcrumbs__link" href="/">Home</a>
+
+       <i class="fa-solid fa-chevron-right"></i>
+    </li> 
+<li class="breadcrumbs__item">
+
+  {% assign collection =  product.collections %}
+
+   {% assign collectionSize = collection.size %}
+  
+    {% for collection in collection %}{{ collection.title | link_to: collection.url }}{% if collectionSize > 1  %}{% unless forloop.last and collectionSize > 1 %}, {% endunless %}{% endif %}{% endfor %}<i class="fa-solid fa-chevron-right"></i></li>
+
+     <li class="breadcrumbs__item">
+        {{ product.title }}
+        </li>
+
+    
+    
+  </ol>
+</nav>
+
+    
+{% endif %}

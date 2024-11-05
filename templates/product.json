@@ -29,6 +29,11 @@
           "settings": {
           }
         },
+        "price_ggn6fK": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -64,6 +69,7 @@
         "vendor",
         "title",
         "price",
+        "price_ggn6fK",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",

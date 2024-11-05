@@ -98,10 +98,10 @@
           {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
           {%- for block in section.blocks -%}
-            
+            <div class="price___wrapper"></div>
             {%- case block.type -%}
 
-              <div class="price___wrapper">
+              
 
               {%- when '@app' -%}
                 {% render block %}

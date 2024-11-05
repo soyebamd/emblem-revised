@@ -146,12 +146,79 @@
         "padding_top": 32,
         "padding_bottom": 52
       }
+    },
+    "collapsible_content_7AmaTU": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_xGXfPG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_nHLLVe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_mwNn8E": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_6N9CEb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_xGXfPG",
+        "collapsible_row_nHLLVe",
+        "collapsible_row_mwNn8E",
+        "collapsible_row_6N9CEb"
+      ],
+      "settings": {
+        "caption": "Answers to frequently asked questions",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "right",
+        "button_label": "SEE ALL FAQ",
+        "button_link": "#",
+        "button_style_secondary": false,
+        "button_label_2": "",
+        "button_link_2": "#",
+        "button_style_secondary_2": true,
+        "layout": "none",
+        "color_scheme": "scheme-b226f1da-dc29-42d4-a623-d2890884c752",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "desktop_layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "custom_liquid_d9FDbB",
     "related-products",
-    "custom_liquid_tJQ6mD"
+    "custom_liquid_tJQ6mD",
+    "collapsible_content_7AmaTU"
   ]
 }

@@ -5,3 +5,20 @@
 .related-products__heading {
   margin: 0 0 3rem;
 }
+
+.card__heading.h5 {
+  font-family: "Barlow", sans-serif !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+}
+
+.product-grid__emblem li {
+  border-radius: 8px;
+  border: 1px solid var(--text-color-5);
+  background: var(--text-color-6);
+  padding: 24px 20px;
+}

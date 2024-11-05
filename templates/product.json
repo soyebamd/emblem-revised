@@ -106,6 +106,18 @@
         "padding_bottom": 56
       }
     },
+    "custom_liquid_d9FDbB": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".line-devider {width: 100%; height: 1px; background: #d8dab8; display: block;}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<div class=\"line-devider\"></div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -123,23 +135,11 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "custom_liquid_d9FDbB": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".line-devider {width: 100%; height: 1px; background: #D8DAB8; display: block;}"
-      ],
-      "settings": {
-        "custom_liquid": "<div class=\"line-devider\"></div>",
-        "color_scheme": "",
-        "padding_top": 32,
-        "padding_bottom": 32
-      }
     }
   },
   "order": [
     "main",
-    "related-products",
-    "custom_liquid_d9FDbB"
+    "custom_liquid_d9FDbB",
+    "related-products"
   ]
 }

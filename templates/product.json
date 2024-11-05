@@ -138,15 +138,6 @@
         "padding_bottom": 56
       }
     },
-    "custom_liquid_tJQ6mD": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 32,
-        "padding_bottom": 52
-      }
-    },
     "collapsible_content_7AmaTU": {
       "type": "collapsible-content",
       "blocks": {
@@ -211,6 +202,15 @@
         "desktop_layout": "image_first",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "custom_liquid_tJQ6mD": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 52
       }
     }
   },

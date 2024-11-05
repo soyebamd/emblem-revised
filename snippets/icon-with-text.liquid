@@ -14,6 +14,7 @@
   assign heading_1_empty = false
   assign heading_2_empty = false
   assign heading_3_empty = false
+  assign heading_4_empty = false
   assign text_only_all_items = true
 
   if block.settings.heading_1 == empty
@@ -34,6 +35,10 @@
     assign text_only_all_items = false
   elsif heading_3_empty == false and block.settings.icon_3 != 'none' or block.settings.image_3 != null
     assign text_only_all_items = false
+
+     elsif heading_4_empty == false and block.settings.icon_4 != 'none' or block.settings.image_4 != null
+    assign text_only_all_items = false
+
   endif
 -%}
 <ul
@@ -103,6 +108,28 @@
       {%- endif -%}
       <span class="h4 inline-richtext">
         {{- block.settings.heading_3 -}}
+      </span>
+    </li>
+  {%- endunless -%}
+    {%- unless heading_4_empty -%}
+    <li class="icon-with-text__item">
+      {%- if block.settings.image_4 == null -%}
+        {% render 'icon-accordion', icon: block.settings.icon_4 -%}
+      {%- else -%}
+        <img
+          src="{{ block.settings.image_4 | image_url }}"
+          {% if block.settings.image_4.alt != blank %}
+            alt="{{ block.settings.image_4.alt | escape }}"
+          {% else %}
+            role="presentation"
+          {% endif %}
+          height="auto"
+          width="auto"
+          loading="lazy"
+        >
+      {%- endif -%}
+      <span class="h4 inline-richtext">
+        {{- block.settings.heading_4 -}}
       </span>
     </li>
   {%- endunless -%}

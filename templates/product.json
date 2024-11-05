@@ -91,8 +91,8 @@
       ],
       "settings": {
         "product_breadcrumb": true,
-        "product_text_left": "Headingsdf",
-        "product_text_right": "Headingdsfsd",
+        "product_text_left": "<ul><li>Warm & Ultra Soft Micro Poly Fabric</li><li>HD DTF Graphic Print</li><li>Pre-Shrunk Fabric</li></ul>",
+        "product_text_right": "<ul><li>Adult Fit</li><li>Gets Softer with Every Wash</li><li>Machine Wash and Dry</li><li>Manufactured in USA</li></ul>",
         "enable_sticky_info": true,
         "color_scheme": "scheme-932773f0-57a9-4aec-84e0-6a8de361157e",
         "media_size": "small",

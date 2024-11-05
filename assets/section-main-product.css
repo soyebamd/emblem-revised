@@ -1324,6 +1324,14 @@ a.product__text {
   width: calc(50% - 3rem);
 }
 
+.feature-title {
+  color: var(--text-color-3);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28;
+}
 .icon-with-text--vertical .icon-with-text__item {
   margin-bottom: var(--icon-size);
 }

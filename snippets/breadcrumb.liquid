@@ -1,5 +1,8 @@
 <style>
 
+.breadcrumb_text{
+  margin-bottom: 32px;
+}
 
 .breadcrumb {
     
@@ -55,7 +58,7 @@ line-height: 24px; /* 150% */
 
    {% assign collectionSize = collection.size %}
   
-    {% for collection in collection %}{{ collection.title | link_to: collection.url }}{% if collectionSize > 1  %}{% unless forloop.last and collectionSize > 1 %}, {% endunless %}{% endif %}{% endfor %}<i class="fa-solid fa-chevron-right"></i></li>
+    {% for collection in collection %}{{ collection.title | link_to: collection.url }}{% if collectionSize > 1  %}{% unless forloop.last and collectionSize > 1 %}, {% endunless %}{% endif %}{% endfor %} &gt; </li>
 
      <li class="breadcrumbs__item">
         {{ product.title }}

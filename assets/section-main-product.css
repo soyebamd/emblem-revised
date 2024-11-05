@@ -1329,7 +1329,7 @@ a.product__text {
 }
 
 .feature-title {
-  color: var(--text-color-3);
+  color: var(--title-highlighted);
 
   font-size: 16px;
   font-style: normal;

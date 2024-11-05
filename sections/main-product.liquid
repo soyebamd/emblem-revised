@@ -98,11 +98,7 @@
           {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
           {%- for block in section.blocks -%}
-            <div class="price___wrapper"></div>
             {%- case block.type -%}
-
-              
-
               {%- when '@app' -%}
                 {% render block %}
               {%- when 'text' -%}
@@ -121,9 +117,7 @@
                     </h2>
                   </a>
                 </div>
-              
               {%- when 'price' -%}
-                <div class="price__container">
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
                     product: product,
@@ -158,8 +152,6 @@
                     {{ form | payment_terms }}
                   {%- endform -%}
                 </div>
-                </div>
-               
               {%- when 'inventory' -%}
                 <p
                   class="product__inventory{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
@@ -680,7 +672,6 @@
                 </product-recommendations>
               {%- when 'icon-with-text' -%}
                 {% render 'icon-with-text', block: block %}
-                </div>
             {%- endcase -%}
           {%- endfor -%}
           <a href="{{ product.url }}" class="link product__view-details animate-arrow">
@@ -796,7 +787,7 @@
     {
       "type": "price",
       "name": "t:sections.main-product.blocks.price.name",
-      "limit": 4
+      "limit": 1
     },
     {
       "type": "sku",

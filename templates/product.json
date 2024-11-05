@@ -127,7 +127,7 @@
     "custom_liquid_d9FDbB": {
       "type": "custom-liquid",
       "custom_css": [
-        ".line-devider {width: 100%; height: 10px; background: #54582f;}"
+        ".line-devider {width: 100%; height: 1px; background: #54582f; display:block;}"
       ],
       "settings": {
         "custom_liquid": "<div class=\"line-devider\"></div>",

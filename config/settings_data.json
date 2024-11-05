@@ -335,12 +335,12 @@
       },
       "scheme-76bc791e-ad03-467a-b734-feeb878236f0": {
         "settings": {
-          "background": "#fffdf3",
+          "background": "#ffffff",
           "background_gradient": "",
-          "text": "#191c00",
+          "text": "#54582f",
           "highlighted_color": "#54582f",
-          "button": "#befa23",
-          "button_label": "#191c00",
+          "button": "#191c00",
+          "button_label": "#ffffff",
           "secondary_button_label": "#191c00",
           "secondary_button_border": "#121212",
           "button_bg": "#000000",

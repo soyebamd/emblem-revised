@@ -138,6 +138,15 @@
         "padding_bottom": 56
       }
     },
+    "custom_liquid_tJQ6mD": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 52
+      }
+    },
     "collapsible_content_7AmaTU": {
       "type": "collapsible-content",
       "blocks": {
@@ -197,20 +206,11 @@
         "button_style_secondary_2": true,
         "layout": "none",
         "color_scheme": "scheme-b226f1da-dc29-42d4-a623-d2890884c752",
-        "container_color_scheme": "",
+        "container_color_scheme": "scheme-76bc791e-ad03-467a-b734-feeb878236f0",
         "open_first_collapsible_row": false,
         "desktop_layout": "image_first",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "custom_liquid_tJQ6mD": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 32,
-        "padding_bottom": 52
       }
     }
   },

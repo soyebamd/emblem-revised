@@ -142,6 +142,10 @@ a:hover,
   color: #fff !important;
 }
 
+.text-primary {
+  color: var(--text-color-2);
+}
+
 #shopify-section-template--17649956716743__bulk_order_banner_fkMeUT .button {
   color: #fff !important;
 }

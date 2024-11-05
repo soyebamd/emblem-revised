@@ -123,10 +123,23 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "custom_liquid_d9FDbB": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".line-devider {width: 100%; height: 10px; background: #54582f;}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"line-devider\"></div>",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "custom_liquid_d9FDbB"
   ]
 }

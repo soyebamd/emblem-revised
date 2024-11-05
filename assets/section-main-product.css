@@ -1265,6 +1265,7 @@ a.product__text {
 
 .icon-with-text--horizontal {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   column-gap: 3rem;
   flex-direction: row;

@@ -91,6 +91,8 @@
       ],
       "settings": {
         "product_breadcrumb": true,
+        "product_text_left": "Headingsdf",
+        "product_text_right": "Headingdsfsd",
         "enable_sticky_info": true,
         "color_scheme": "scheme-932773f0-57a9-4aec-84e0-6a8de361157e",
         "media_size": "small",

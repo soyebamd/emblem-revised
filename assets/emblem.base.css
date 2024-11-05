@@ -124,6 +124,10 @@ h6,
   font-size: 9.7rem;
 }
 
+.fs-40 {
+  font-size: 40px;
+}
+
 a,
 a:hover,
 .header__menu-item:hover span {

@@ -776,3 +776,7 @@ body,
     column-gap: 4.8rem;
   }
 }
+
+.gap-32 {
+  gap: 32px;
+}

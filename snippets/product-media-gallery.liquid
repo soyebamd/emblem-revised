@@ -329,10 +329,40 @@
       </button>
     </slider-component>
   {%- endif -%}
-asd
-{{ section.settings.product_text_left }}
 
- {{ section.settings.product_text_right }}
+
+  {% if section.settings.product_text_left or section.settings.product_text_right %}
+
+    <div class="d-flex product-info justify-content-between">
+
+    {% if section.settings.product_text_left %}
+
+    <div class="product-info__text">
+
+      {{ section.settings.product_text_left }}
+
+    </div>
+
+    {% endif  %}
+
+
+     {% if section.settings.product_text_right %}
+
+    <div class="product-info__text">
+
+       {{ section.settings.product_text_right }}
+
+    </div>
+
+    {% endif  %}
+
+    </div>
+
+  {% endif %}
+
+
+
+
 
 
 </media-gallery>

@@ -1296,6 +1296,7 @@ a.product__text {
   height: var(--icon-size);
   width: var(--icon-size);
   object-fit: contain;
+  margin: 0 !important;
 }
 
 .icon-with-text--vertical img {

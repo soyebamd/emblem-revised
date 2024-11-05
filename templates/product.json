@@ -29,6 +29,24 @@
           "settings": {
           }
         },
+        "icon_with_text_eabm8j": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "image_1": "shopify://shop_images/Vector_3.svg",
+            "heading_1": "Made in U.S.A.",
+            "icon_2": "return",
+            "image_2": "shopify://shop_images/Icon.svg",
+            "heading_2": "Ultra Premium Fabrics",
+            "icon_3": "truck",
+            "image_3": "shopify://shop_images/Icon_1.svg",
+            "heading_3": "Sustainability Made",
+            "icon_4": "truck",
+            "image_4": "shopify://shop_images/Icon_2.svg",
+            "heading_4": "Inclusive sizing"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -58,36 +76,18 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "icon_with_text_eabm8j": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "horizontal",
-            "icon_1": "heart",
-            "image_1": "shopify://shop_images/Vector_3.svg",
-            "heading_1": "Made in U.S.A.",
-            "icon_2": "return",
-            "image_2": "shopify://shop_images/Icon.svg",
-            "heading_2": "Ultra Premium Fabrics",
-            "icon_3": "truck",
-            "image_3": "shopify://shop_images/Icon_1.svg",
-            "heading_3": "Sustainability Made",
-            "icon_4": "truck",
-            "image_4": "shopify://shop_images/Icon_2.svg",
-            "heading_4": "Inclusive sizing"
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
         "price",
+        "icon_with_text_eabm8j",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "icon_with_text_eabm8j"
+        "share"
       ],
       "settings": {
         "product_breadcrumb": true,

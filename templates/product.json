@@ -64,11 +64,14 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "heart",
-            "heading_1": "Heading",
+            "image_1": "shopify://shop_images/Vector_3.svg",
+            "heading_1": "Made in U.S.A.",
             "icon_2": "return",
-            "heading_2": "Heading",
+            "image_2": "shopify://shop_images/Icon.svg",
+            "heading_2": "Ultra Premium Fabrics",
             "icon_3": "truck",
-            "heading_3": "Heading",
+            "image_3": "shopify://shop_images/Icon_1.svg",
+            "heading_3": "Sustainability Made",
             "icon_4": "truck",
             "heading_4": "Heading"
           }

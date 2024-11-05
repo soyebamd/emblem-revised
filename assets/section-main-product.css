@@ -227,7 +227,7 @@ product-info {
 /* Product info */
 
 .product__info-container > * + * {
-  margin: 1.5rem 0;
+  margin: 2.4rem 0;
 }
 
 .product__info-container iframe {

@@ -1323,6 +1323,7 @@ a.product__text {
   flex-direction: row;
   gap: 0.8rem;
   width: calc(50% - 3rem);
+  margin: 0.4rem 0;
 }
 
 .feature-title {

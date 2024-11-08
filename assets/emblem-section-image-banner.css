@@ -106,7 +106,7 @@
   text-transform: uppercase;
 }
 
-.page-banner .character-img {
+.slideshow__media.banner__media .page-banner .character-img {
   max-width: 710px;
   height: auto;
   top: 50%;

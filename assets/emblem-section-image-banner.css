@@ -47,7 +47,7 @@
   height: 1.6rem;
 }
 
-.banner__heading h3 {
+.banner__sub-heading {
   color: rgba(var(--title-highlighted));
 }
 

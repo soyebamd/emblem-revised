@@ -21,27 +21,25 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "icon_with_text_eabm8j": {
           "type": "icon-with-text",
           "settings": {
             "layout": "horizontal",
-            "icon_1": "heart",
+            "icon_1": "none",
             "image_1": "shopify://shop_images/Vector_3.svg",
-            "heading_1": "Made in U.S.A.",
+            "heading_1": "Printed and Sewn in U.S.A.",
             "icon_2": "return",
             "image_2": "shopify://shop_images/Icon.svg",
             "heading_2": "Ultra Premium Fabrics",
             "icon_3": "truck",
             "image_3": "shopify://shop_images/Icon_1.svg",
-            "heading_3": "Sustainability Made",
+            "heading_3": "Sustainably Made",
             "icon_4": "truck",
             "image_4": "shopify://shop_images/Icon_2.svg",
             "heading_4": "Inclusive sizing"
@@ -56,8 +54,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -68,8 +65,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -146,12 +142,79 @@
         "padding_top": 32,
         "padding_bottom": 52
       }
+    },
+    "collapsible_content_7AmaTU": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_xGXfPG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "none",
+            "row_content": "<p>Aceptamos las principales tarjetas de crédito y débito. Contamos con todas las seguridades de un corredor de pagos tercerizado.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nHLLVe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "none",
+            "row_content": "<p>Aceptamos las principales tarjetas de crédito y débito. Contamos con todas las seguridades de un corredor de pagos tercerizado.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mwNn8E": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "none",
+            "row_content": "<p>Aceptamos las principales tarjetas de crédito y débito. Contamos con todas las seguridades de un corredor de pagos tercerizado.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6N9CEb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "none",
+            "row_content": "<p>Aceptamos las principales tarjetas de crédito y débito. Contamos con todas las seguridades de un corredor de pagos tercerizado.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_xGXfPG",
+        "collapsible_row_nHLLVe",
+        "collapsible_row_mwNn8E",
+        "collapsible_row_6N9CEb"
+      ],
+      "settings": {
+        "caption": "Answers to frequently asked questions",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "right",
+        "button_label": "SEE ALL FAQ",
+        "button_link": "#",
+        "button_style_secondary": false,
+        "button_label_2": "",
+        "button_link_2": "#",
+        "button_style_secondary_2": true,
+        "layout": "none",
+        "color_scheme": "scheme-76bc791e-ad03-467a-b734-feeb878236f0",
+        "container_color_scheme": "scheme-76bc791e-ad03-467a-b734-feeb878236f0",
+        "open_first_collapsible_row": false,
+        "desktop_layout": "image_first",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
     }
   },
   "order": [
     "main",
     "custom_liquid_d9FDbB",
     "related-products",
-    "custom_liquid_tJQ6mD"
+    "custom_liquid_tJQ6mD",
+    "collapsible_content_7AmaTU"
   ]
 }

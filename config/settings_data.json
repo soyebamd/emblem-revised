@@ -141,15 +141,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "9379897962128965429": {
         "type": "shopify://apps/okas-live-search-filter/blocks/app-block/77de2d4b-51b0-46d6-9fa5-dbe675e819d8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     },
     "color_schemes": {
@@ -330,6 +327,36 @@
           "secondary_button_border": "#121212",
           "button_bg": "#000000",
           "button_bg_text": "#befa23",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-76bc791e-ad03-467a-b734-feeb878236f0": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#54582f",
+          "highlighted_color": "#54582f",
+          "button": "#191c00",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#191c00",
+          "secondary_button_border": "#121212",
+          "button_bg": "#000000",
+          "button_bg_text": "#befa23",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-2a438c20-1f5c-4baa-b277-aa5ac316f5a5": {
+        "settings": {
+          "background": "#fffdf3",
+          "background_gradient": "",
+          "text": "#191c00",
+          "highlighted_color": "#fd3535",
+          "button": "#fd3535",
+          "button_label": "#191c00",
+          "secondary_button_label": "#191c00",
+          "secondary_button_border": "#121212",
+          "button_bg": "#000000",
+          "button_bg_text": "#fd3535",
           "shadow": "#121212"
         }
       }

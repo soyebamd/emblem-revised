@@ -26,6 +26,7 @@
             "image": "shopify://shop_images/DtoZxu_1.png",
             "mob_image": "shopify://shop_images/DtoZxu_1.png",
             "character_img": "shopify://shop_images/Boxes.png",
+            "character_animation": true,
             "heading": "TEAM STORES <strong>& BULK ORDERS</strong>",
             "subheading": "Made Easy",
             "subheading_smooch": false,
@@ -39,6 +40,7 @@
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
+            "custom_shadow": true,
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-2a438c20-1f5c-4baa-b277-aa5ac316f5a5",
             "text_alignment_mobile": "left",
@@ -48,6 +50,7 @@
         "slide_4qPUa8": {
           "type": "slide",
           "settings": {
+            "character_animation": false,
             "heading": "Image slide",
             "subheading": "Tell your brand's story through images",
             "subheading_smooch": false,
@@ -61,6 +64,7 @@
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
+            "custom_shadow": true,
             "image_overlay_opacity": 0,
             "color_scheme": "",
             "text_alignment_mobile": "center",

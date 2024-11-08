@@ -118,7 +118,7 @@
         }
       </style>
       <div
-        class="slideshow__slide grid__item grid--1-col slider__slide custom-shadow"
+        class="slideshow__slide grid__item grid--1-col slider__slide {% if block.settings.custom_shadow %} custom-shadow {% endif %}"
         id="Slide-{{ section.id }}-{{ forloop.index }}"
         {{ block.shopify_attributes }}
         role="group"
@@ -713,6 +713,12 @@
           "default": "center",
           "label": "t:sections.slideshow.blocks.slide.settings.text_alignment.label"
         },
+        {
+      "type": "checkbox",
+      "id": "custom_shadow",
+      "label": "Custom Shadow",
+      "default": false
+    },
         {
           "type": "range",
           "id": "image_overlay_opacity",

@@ -152,16 +152,14 @@
 
           {% endcomment %}
 {% if block.settings.character_img %}
-
-  <div class="{% if block.settings.character_animation %} character-img__animation {% endif %}">
    
    {{
                 block.settings.character_img
                 | image_url: width: 1000
-                | image_tag: loading: 'lazy', class: 'character-img fsfdfdsf'
+                | image_tag: loading: 'lazy', class: 'character-img {% if block.settings.character_animation %} character-img__animation {% endif %}'
               }}
 
-</div>
+
 
         {% endif %}
 
@@ -224,16 +222,13 @@
 
           {% endcomment %}
 {% if block.settings.character_img_mob %}
-
-    <div class="{% if block.settings.character_animation %} character-img__animation {% endif %}">
-
    
    {{
                 block.settings.character_img_mob
                 | image_url: width: 1000
-                | image_tag: loading: 'lazy', class: 'character-img wer'
+                | image_tag: loading: 'lazy', class: 'character-img {% if block.settings.character_animation %} character-img__animation {% endif %}'
               }}
-</div>
+
 
 
         {% endif %}

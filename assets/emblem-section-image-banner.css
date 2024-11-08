@@ -82,6 +82,28 @@
   height: 87px;
 }
 
+.page-banner h2 {
+  font-family: "Barlow", sans-serif;
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85.054px;
+}
+
+.page-banner h3 {
+  font-size: 85px;
+
+  font-weight: 800;
+  line-height: 85.054px; /* 100.064% */
+}
+
+.page-banner h3.banner__sub-heading {
+  font-size: 122px;
+  font-weight: 700;
+  line-height: 123.036px; /* 100.849% */
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 749px) {
   .slideshow__media.banner__media .character-img {
     left: 0;

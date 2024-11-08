@@ -222,12 +222,13 @@
 
           {% endcomment %}
 {% if block.settings.character_img_mob %}
-   
-   {{
-                block.settings.character_img_mob
-                | image_url: width: 1000
-                | image_tag: loading: 'lazy', class: 'character-img {% if block.settings.character_animation %} character-img__animation {% endif %}'
-              }}
+  {{
+    block.settings.character_img_mob
+    | image_url: width: 1000
+    | image_tag: loading: 'lazy', class: 'character-img{% if block.settings.character_animation %} character-img__animation{% endif %}'
+  }}
+{% endif %}
+
 
 
 

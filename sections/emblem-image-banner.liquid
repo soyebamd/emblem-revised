@@ -157,13 +157,17 @@
 
 {% if block.settings.character_img %}
 
-
+  {% if block.settings.character_animation %} 
+  
+    <div class="character-img__animation"></div>
+  
+  {% endif %}
 
    
    {{
                 block.settings.character_img
                 | image_url: width: 1000
-                | image_tag: loading: 'lazy', class: 'character-img   {% if block.settings.character_animation %} soyeb ahmed {% endif %}'
+                | image_tag: loading: 'lazy', class: 'character-img'
               }}
 
 

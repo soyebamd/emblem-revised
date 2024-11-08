@@ -285,6 +285,18 @@
               </h3>
             {%- endif -%}
 
+             {%- if block.settings.subheading_2 != blank -%}
+              <h3 class="rte fs-78 fw-800 mb-16 banner__sub-heading mt-4  {% if block.settings.subheading_smooch %}
+               smooch smooch-subheading
+              {% endif %}
+              
+              " {{ block.shopify_attributes }}>
+                {{ block.settings.subheading_2 }}
+              </h3>
+            {%- endif -%}
+
+
+
 
              {%- if block.settings.content != blank -%}
               <div class="banner__text rte text-big mt-0 mb-13" {{ block.shopify_attributes }}>
@@ -591,6 +603,15 @@
           "default": "t:sections.slideshow.blocks.slide.settings.subheading.default",
           "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"
         },
+
+         {
+          "type": "inline_richtext",
+          "id": "subheading_2",
+          "default": "t:sections.slideshow.blocks.slide.settings.subheading.default",
+          "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"
+        },
+
+        
 
         
         {

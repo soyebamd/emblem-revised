@@ -63,7 +63,9 @@
   right: 10%;
 
   position: absolute;
+}
 
+.character-img__animation {
   animation: move 6s ease-in-out infinite;
 }
 

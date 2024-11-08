@@ -156,7 +156,7 @@
    {{
                 block.settings.character_img
                 | image_url: width: 1000
-                | image_tag: loading: 'lazy', class: 'character-img'
+                | image_tag: loading: 'lazy', class: 'character-img {% if block.settings.character_animation %} character-img__animation {% endif %}'
               }}
 
 
@@ -226,7 +226,7 @@
    {{
                 block.settings.character_img_mob
                 | image_url: width: 1000
-                | image_tag: loading: 'lazy', class: 'character-img'
+                | image_tag: loading: 'lazy', class: 'character-img {% if block.settings.character_animation %} character-img__animation {% endif %}'
               }}
 
 
@@ -552,6 +552,14 @@
           "id": "character_img",
           "label": "Character image"
         },
+        
+
+          {
+          "type": "checkbox",
+          "id": "character_animation",
+          "label": "Character image",
+          "default": false
+        },
 
   {
           "type": "image_picker",
@@ -717,7 +725,7 @@
       "type": "checkbox",
       "id": "custom_shadow",
       "label": "Custom Shadow",
-      "default": false
+      "default": true
     },
         {
           "type": "range",

@@ -88,17 +88,19 @@
   font-style: normal;
   font-weight: 700;
   line-height: 85.054px;
+  margin: 0;
 }
 
 .page-banner h3 {
-  font-size: 85px;
-
+  font-size: 83px;
+  margin: 0;
   font-weight: 800;
   line-height: 85.054px; /* 100.064% */
 }
 
 .page-banner h3.banner__sub-heading {
   font-size: 122px;
+  margin: 0;
   font-weight: 700;
   line-height: 123.036px; /* 100.849% */
   text-transform: uppercase;

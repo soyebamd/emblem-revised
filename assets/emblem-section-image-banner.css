@@ -106,6 +106,14 @@
   text-transform: uppercase;
 }
 
+.page-banner .slideshow__media.banner__media .character-img {
+  max-width: 710px;
+  height: auto;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
 @media screen and (max-width: 749px) {
   .slideshow__media.banner__media .character-img {
     left: 0;

@@ -152,11 +152,19 @@
 
           {% endcomment %}
 {% if block.settings.character_img %}
+
+
+  {% if block.settings.character_animation %} 
+  
+    <div class="character-img__animation"></div>
+  
+  {% endif %}
+
    
    {{
                 block.settings.character_img
                 | image_url: width: 1000
-                | image_tag: loading: 'lazy', class: 'character-img {% if block.settings.character_animation %} character-img__animation {% endif %}'
+                | image_tag: loading: 'lazy', class: 'character-img'
               }}
 
 
@@ -225,7 +233,7 @@
   {{
     block.settings.character_img_mob
     | image_url: width: 1000
-    | image_tag: loading: 'lazy', class: 'character-img{% if block.settings.character_animation %} character-img__animation{% endif %}'
+    | image_tag: loading: 'lazy', class: 'character-img'
   }}
 {% endif %}
 

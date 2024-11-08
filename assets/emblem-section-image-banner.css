@@ -65,7 +65,7 @@
   position: absolute;
 }
 
-.character-img__animation {
+.character-img__animation + img {
   animation: move 6s ease-in-out infinite;
 }
 

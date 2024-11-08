@@ -27,7 +27,7 @@
             "mob_image": "shopify://shop_images/DtoZxu_1.png",
             "character_img": "shopify://shop_images/Boxes.png",
             "character_animation": false,
-            "heading": "<p>TEAM STORES <strong><br/>& BULK ORDERS</strong></p>",
+            "heading": "<h1>TEAM STORES <strong><br/>& BULK ORDERS</strong></h1>",
             "subheading": "<p>Made Easy</p>",
             "subheading_smooch": false,
             "content": "",

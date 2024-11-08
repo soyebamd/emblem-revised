@@ -21,27 +21,25 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "icon_with_text_eabm8j": {
           "type": "icon-with-text",
           "settings": {
             "layout": "horizontal",
-            "icon_1": "heart",
+            "icon_1": "none",
             "image_1": "shopify://shop_images/Vector_3.svg",
-            "heading_1": "Made in U.S.A.",
+            "heading_1": "Printed and Sewn in U.S.A.",
             "icon_2": "return",
             "image_2": "shopify://shop_images/Icon.svg",
             "heading_2": "Ultra Premium Fabrics",
             "icon_3": "truck",
             "image_3": "shopify://shop_images/Icon_1.svg",
-            "heading_3": "Sustainability Made",
+            "heading_3": "Sustainably Made",
             "icon_4": "truck",
             "image_4": "shopify://shop_images/Icon_2.svg",
             "heading_4": "Inclusive sizing"
@@ -56,8 +54,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -68,8 +65,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",

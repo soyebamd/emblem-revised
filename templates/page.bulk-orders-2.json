@@ -16,9 +16,55 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "emblem_image_banner_wK4LG6": {
+      "type": "emblem-image-banner",
+      "blocks": {
+        "slide_w6qbBW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/DtoZxu_1.png",
+            "character_img": "shopify://shop_images/Boxes.png",
+            "character_animation": false,
+            "heading": "TEAM STORES",
+            "subheading": "& BULK ORDERS",
+            "subheading_2": "Made Easy",
+            "subheading_smooch": false,
+            "content": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "custom_shadow": false,
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2a438c20-1f5c-4baa-b277-aa5ac316f5a5",
+            "text_alignment_mobile": "center",
+            "box_align_mob": "middle-left"
+          }
+        }
+      },
+      "block_order": [
+        "slide_w6qbBW"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "emblem_image_banner_wK4LG6"
   ]
 }

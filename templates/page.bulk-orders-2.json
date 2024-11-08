@@ -17,18 +17,18 @@
         "padding_bottom": 28
       }
     },
-    "emblem_image_banner_xEjtbr": {
+    "emblem_image_banner_wK4LG6": {
       "type": "emblem-image-banner",
       "blocks": {
-        "slide_7Mpmcx": {
+        "slide_w6qbBW": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/DtoZxu_1.png",
-            "mob_image": "shopify://shop_images/DtoZxu_1.png",
             "character_img": "shopify://shop_images/Boxes.png",
             "character_animation": false,
-            "heading": "<h1>TEAM STORES <strong><br/>& BULK ORDERS</strong></h1>",
-            "subheading": "<p>Made Easy</p>",
+            "heading": "TEAM STORES",
+            "subheading": "& BULK ORDERS",
+            "subheading_2": "MADE EASY",
             "subheading_smooch": false,
             "content": "",
             "button_label": "",
@@ -40,41 +40,16 @@
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
-            "custom_shadow": true,
+            "custom_shadow": false,
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-2a438c20-1f5c-4baa-b277-aa5ac316f5a5",
-            "text_alignment_mobile": "left",
-            "box_align_mob": "middle-center"
-          }
-        },
-        "slide_4qPUa8": {
-          "type": "slide",
-          "settings": {
-            "character_animation": false,
-            "heading": "<p>Image slide</p>",
-            "subheading": "<p>Tell your brand's story through images</p>",
-            "subheading_smooch": false,
-            "content": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "button_label_2": "Button label",
-            "link_2": "",
-            "button_style_secondary_2": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "custom_shadow": true,
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
             "text_alignment_mobile": "center",
-            "box_align_mob": "middle-center"
+            "box_align_mob": "middle-left"
           }
         }
       },
       "block_order": [
-        "slide_7Mpmcx",
-        "slide_4qPUa8"
+        "slide_w6qbBW"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -90,6 +65,6 @@
   },
   "order": [
     "main",
-    "emblem_image_banner_xEjtbr"
+    "emblem_image_banner_wK4LG6"
   ]
 }

@@ -276,7 +276,7 @@
               </h2>
             {%- endif -%}
             {%- if block.settings.subheading != blank -%}
-              <h3 class="rte fs-78 fw-800 mb-16 banner__sub-heading mt-4  {% if block.settings.subheading_smooch %}
+              <h3 class="rte fs-78 fw-800 mb-16 banner__heading mt-4  {% if block.settings.subheading_smooch %}
                smooch smooch-subheading
               {% endif %}
               
@@ -579,14 +579,14 @@
 
 
         {
-          "type": "richtext",
+          "type": "inline_richtext",
           "id": "heading",
           "default": "t:sections.slideshow.blocks.slide.settings.heading.default",
           "label": "t:sections.slideshow.blocks.slide.settings.heading.label"
         },        
       
         {
-          "type": "richtext",
+          "type": "inline_richtext",
           "id": "subheading",
           "default": "t:sections.slideshow.blocks.slide.settings.subheading.default",
           "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"

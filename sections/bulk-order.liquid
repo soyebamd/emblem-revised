@@ -87,7 +87,17 @@
             endif
           endfor
         -%}
+
+        {%  assign count = 0 %}
+
         {%- for block in section.blocks -%}
+
+            {{ count |  plus: 1 }}
+
+            {{ count }}
+
+
+
           {%- assign empty_column = '' -%}
           {%- if block.settings.image == blank
             and block.settings.title == blank
@@ -131,7 +141,7 @@
 
               <div class="multicolumn-card__info d-flex">
 
-              <div class="number">1</div>
+              <div class="number h1">1</div>
 
               <div class="items">
 

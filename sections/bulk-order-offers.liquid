@@ -156,7 +156,13 @@
               {%- endif -%}
               <div class="multicolumn-card__info p-0">
                 {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext inline-richtext-heading p-16  ">{{ block.settings.title }}</h3>
+                  <h3 class="inline-richtext inline-richtext-heading p-16  ">{{ block.settings.title }}
+                    
+{% if block.settings.caption %}
+<span class="offer-caption">{{ block.settings.caption }}</span>
+{% endif %}
+
+                  </h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
@@ -484,6 +490,11 @@
           "id": "text",
           "default": "t:sections.multicolumn.blocks.column.settings.text.default",
           "label": "t:sections.multicolumn.blocks.column.settings.text.label"
+        },
+         {
+          "type": "text",
+          "id": "caption",
+          "label": "Caption"
         },
         {
           "type": "text",

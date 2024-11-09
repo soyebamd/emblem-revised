@@ -71,6 +71,7 @@
         "column_xRB9t3": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/white-glossy-mug-white-15-oz-front-view-672e78fedf8ff.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
@@ -80,6 +81,7 @@
         "column_mYTt4V": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/white-glossy-mug-white-20-oz-front-view-672e78fedea19.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",

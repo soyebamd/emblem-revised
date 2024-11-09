@@ -142,7 +142,7 @@
 
 
 
-            <div class="multicolumn-card content-container">
+            <div class="multicolumn-card content-container bg-white">
               {%- if block.settings.image != blank -%}
                {{
                       block.settings.image
@@ -156,14 +156,14 @@
               {%- endif -%}
 
 
-              <div class="multicolumn-card__info d-flex">
+              <div class="multicolumn-card__info d-flex gap-16">
 
               <div class="number h1">{{ block_count }}</div>
 
               <div class="items">
 
                 {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext m-0">{{ block.settings.title }}</h3>
+                  <h3 class="inline-richtext my-5 h5 fw-700">{{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>

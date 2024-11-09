@@ -26,6 +26,10 @@ body {
   font-weight: 400;
 }
 
+.bg-white {
+  background: var(--text-color-6);
+}
+
 .smooch {
   font-family: "Smooch", cursive !important;
   font-weight: 400 !important;
@@ -374,7 +378,9 @@ a:hover,
 
 .for-desk {
 }
-
+.my-5 {
+  margin: 8px 0;
+}
 /*custom search*/
 .gap-32 {
   gap: 32px !important;

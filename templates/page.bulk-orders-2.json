@@ -70,7 +70,15 @@
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36,
-        "section_color_scheme": ""
+        "section_color_scheme": "",
+        "heading_text": "<h1>We are a company that values quality.</h1>",
+        "content": "<h1><strong>We are a company that values quality.</strong></h1>",
+        "button_label": "Button label",
+        "button_link": "#",
+        "button_style_secondary": true,
+        "button_label_2": "ssadfsdaf",
+        "button_link_2": "#",
+        "button_style_secondary_2": false
       }
     }
   },

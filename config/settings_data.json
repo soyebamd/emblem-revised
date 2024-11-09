@@ -353,10 +353,10 @@
           "highlighted_color": "#fd3535",
           "button": "#fd3535",
           "button_label": "#ffffff",
-          "secondary_button_label": "#191c00",
+          "secondary_button_label": "#fd3535",
           "secondary_button_border": "#fd3535",
-          "button_bg": "#000000",
-          "button_bg_text": "#fd3535",
+          "button_bg": "#fd3535",
+          "button_bg_text": "#ffffff",
           "shadow": "#121212"
         }
       }

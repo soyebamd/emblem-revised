@@ -115,8 +115,8 @@
         "column_c467Lm": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "5% OFF",
+            "text": "<p>for orders of<br/><strong>20+<br/></strong>items or more</p>",
             "link_label": "",
             "link": ""
           }
@@ -151,7 +151,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "Button label",
         "button_link": "",

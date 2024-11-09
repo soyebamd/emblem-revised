@@ -15,7 +15,7 @@
   }
 
 @media screen and (min-width: 750px) {
-  .grid__item-4{ max-width:calc(40% - var(--grid-desktop-horizontal-spacing) / 2)}
+  .grid__item-4{ max-width:calc(46% - var(--grid-desktop-horizontal-spacing) / 2)}
 
 
   .grid__item-6{max-width:calc(60% - var(--grid-desktop-horizontal-spacing) / 2)}
@@ -55,7 +55,7 @@
  {% comment %} button {% endcomment %}
 
 
- <div class="button-cover-v2 d-flex">
+ <div class="button-cover-v2 d-flex mt-24">
    {%- if section.settings.button_label != blank -%}
                   <a
                     {% if section.settings.button_link == blank %}
@@ -63,7 +63,7 @@
                     {% else %}
                       href="{{ section.settings.button_link }}"
                     {% endif %}
-                    class="button{% if section.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} mt-24"
+                    class="button{% if section.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} "
                   >
                     {{- section.settings.button_label | escape -}}
                   </a>
@@ -75,7 +75,7 @@
                     {% else %}
                       href="{{ section.settings.button_link_2 }}"
                     {% endif %}
-                    class="button{% if section.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %} mt-24"
+                    class="button{% if section.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %} "
                   >
                     {{- section.settings.button_label_2 | escape -}}
                   </a>

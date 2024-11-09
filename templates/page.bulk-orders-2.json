@@ -124,8 +124,8 @@
         "column_drTmcC": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "10% OFF",
+            "text": "<p>for orders of</p><h1>50<strong>+</strong></h1><p>items or more</p>",
             "link_label": "",
             "link": ""
           }
@@ -133,8 +133,8 @@
         "column_byC4hd": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "15% OFF + FREE SHIPPING",
+            "text": "<p>for orders of</p><h1><strong>100+</strong></h1><p>items or more</p>",
             "link_label": "",
             "link": ""
           }

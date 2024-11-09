@@ -22,6 +22,10 @@
 
 }
 
+.button-cover-v2 .button{
+    padding:0 1.6rem;
+}
+
 {%- endstyle -%}
 
 
@@ -51,7 +55,7 @@
  {% comment %} button {% endcomment %}
 
 
- 
+ <div class="button-cover-v2 d-flex">
    {%- if section.settings.button_label != blank -%}
                   <a
                     {% if section.settings.button_link == blank %}
@@ -76,7 +80,7 @@
                     {{- section.settings.button_label_2 | escape -}}
                   </a>
  {% endif %}
-
+</div>
  </div>
 
 

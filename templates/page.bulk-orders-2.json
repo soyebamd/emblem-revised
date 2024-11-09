@@ -108,11 +108,65 @@
         "button_style_secondary_2": true,
         "footer_info": "<p>Download our order spreadsheet forms <a href=\"#\" title=\"#\"><strong>here</strong></a> | Any questions? Email <a href=\"mailto:sales@emblemathletic.com\" title=\"mailto:sales@emblemathletic.com\"><strong>sales@emblemathletic.com</strong></a></p>"
       }
+    },
+    "bulk_order_offers_qTpypV": {
+      "type": "bulk-order-offers",
+      "blocks": {
+        "column_c467Lm": {
+          "type": "column",
+          "settings": {
+            "title": "5% OFF",
+            "text": "<p>for orders of</p><h1><strong>20+</strong></h1><p>items or more</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_drTmcC": {
+          "type": "column",
+          "settings": {
+            "title": "10% OFF",
+            "text": "<p>for orders of</p><h1>50<strong>+</strong></h1><p>items or more</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_byC4hd": {
+          "type": "column",
+          "settings": {
+            "title": "15% OFF + FREE SHIPPING",
+            "text": "<p>for orders of</p><h1><strong>100+</strong></h1><p>items or more</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_c467Lm",
+        "column_drTmcC",
+        "column_byC4hd"
+      ],
+      "settings": {
+        "title": "BULK ORDER DISCOUNTS ARE AUTOMATICALLY APPLIED TO YOUR CART AT CHECKOUT",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "start bulk submission",
+        "button_link": "#",
+        "color_scheme": "scheme-2ac8a44b-c2b5-4f95-97cb-dbbbd6904a4e",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 56,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "main",
     "emblem_image_banner_wK4LG6",
-    "bulk_order_TrycaW"
+    "bulk_order_TrycaW",
+    "bulk_order_offers_qTpypV"
   ]
 }

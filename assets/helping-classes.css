@@ -454,16 +454,16 @@
   padding: 1.6rem !important;
 }
 
+.fs-16 {
+  font-size: 1.6rem !important;
+}
+
 .mt-24 {
   margin-top: 2.4rem !important;
 }
 
 .mb-40 {
   margin-bottom: 4rem !important;
-}
-
-.fs-16 {
-  font-size: 1.6rem !important;
 }
 
 .d-block {

@@ -26,6 +26,10 @@
     padding:.8rem 1.6rem;
 }
 
+.border-bottom-16{
+  border-bottom: 12px solid var(--Dark-Green, #191C00);
+}
+
 {%- endstyle -%}
 
 
@@ -140,7 +144,7 @@
 
 
 
-            <div class="multicolumn-card content-container bg-white P-16">
+            <div class="multicolumn-card content-container bg-white P-16 border-bottom-16">
               {%- if block.settings.image != blank -%}
                {{
                       block.settings.image

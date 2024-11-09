@@ -659,6 +659,10 @@ body,
   max-width: 100%;
 }
 
+.border-bottom-16 {
+  border-bottom: 12px solid var(--Dark-Green, #191c00);
+}
+
 .footer-form .field__input {
   background: rgba(var(--title-highlighted)) !important;
   color: var(--text-color-2) !important;

@@ -117,6 +117,7 @@
           "settings": {
             "title": "5% OFF",
             "text": "<p>for orders of</p><h1><strong>20+</strong></h1><p>items or more</p>",
+            "caption": "",
             "link_label": "",
             "link": ""
           }
@@ -126,6 +127,7 @@
           "settings": {
             "title": "10% OFF",
             "text": "<p>for orders of</p><h1>50<strong>+</strong></h1><p>items or more</p>",
+            "caption": "",
             "link_label": "",
             "link": ""
           }
@@ -133,8 +135,9 @@
         "column_byC4hd": {
           "type": "column",
           "settings": {
-            "title": "15% OFF + FREE SHIPPING",
+            "title": "15% OFF",
             "text": "<p>for orders of</p><h1><strong>100+</strong></h1><p>items or more</p>",
+            "caption": "+ FREE SHIPPING",
             "link_label": "",
             "link": ""
           }

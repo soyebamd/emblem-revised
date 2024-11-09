@@ -21,7 +21,7 @@
 
 
 <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} ">
-  <div class="page-width m-0 p-0">
+  <div class="page-width">
 
 
 <div class="d-flex justify-content-between align-items-center">
@@ -33,7 +33,10 @@
 
  {% comment %} heading {% endcomment %}
 
- {{  section.settings.heading_text }}
+<h2 class="h3 fw-700">{{  section.settings.heading_text }}</h2> 
+
+<h3 class="h3 fw-800">{{  section.settings. heading_text_2 }}</h3>
+
  {% comment %} paragraph {% endcomment %}
  {{ section.settings.content }}
  {% comment %} button {% endcomment %}
@@ -226,11 +229,21 @@
     },
 
     {
-        "type": "richtext",
+        "type": "inline_richtext",
         "id": "heading_text",
         "label": "Heading",
-        "default": "<h1>We are a company that values quality.</h1>"
+        "default":  "Heading 1 "
       },
+
+
+          {
+        "type": "inline_richtext",
+        "id": "heading_text_2",
+        "label": "Heading",
+        "default": "Heading 2 "
+      },
+
+
 
 
       {

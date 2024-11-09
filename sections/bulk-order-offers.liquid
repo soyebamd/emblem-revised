@@ -32,6 +32,11 @@
   }
 
 
+  .inline-richtext-heading{
+    background:var(--Dark-Green);
+  }
+
+
 {%- endstyle -%}
 
 {%- liquid
@@ -137,9 +142,9 @@
                   </div>
                 </div>
               {%- endif -%}
-              <div class="multicolumn-card__info">
+              <div class="multicolumn-card__info p-0">
                 {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext">{{ block.settings.title }}</h3>
+                  <h3 class="inline-richtext inline-richtext-heading p-16  ">{{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>

@@ -453,3 +453,39 @@
 .p-16 {
   padding: 1.6rem !important;
 }
+
+/* Default vertical margin utility classes from shopify default  (top & bottom) */
+.my-default {
+  margin-top: var(--grid-desktop-vertical-spacing);
+  margin-bottom: var(--grid-desktop-vertical-spacing);
+}
+
+/* Default horizontal margin utility classes (left & right) */
+.mx-default {
+  margin-left: var(--grid-desktop-horizontal-spacing);
+  margin-right: var(--grid-desktop-horizontal-spacing);
+}
+
+/* Default margin for top */
+.mt-default {
+  margin-top: var(--grid-desktop-vertical-spacing);
+}
+
+/* Default margin for bottom */
+.mb-default {
+  margin-bottom: var(--grid-desktop-vertical-spacing);
+}
+
+/* Default margin for left */
+.ms-default {
+  margin-left: var(--grid-desktop-horizontal-spacing);
+}
+
+/* Default margin for right */
+.me-default {
+  margin-right: var(--grid-desktop-horizontal-spacing);
+}
+
+.m-default {
+  margin: var(--grid-desktop-vertical-spacing);
+}

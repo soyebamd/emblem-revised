@@ -21,9 +21,61 @@
 
 
 <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} ">
-  <div class="page-width w-100 m-0 p-0">
+  <div class="page-width m-0 p-0">
 
-test
+
+<div class="d-flex justify-content-between align-items-center">
+
+ {% comment %} section settings {% endcomment %}
+
+ <div class="bulk-settings">
+
+
+ {% comment %} heading {% endcomment %}
+
+ {% section.settings.heading %}
+
+ {% comment %} paragraph {% endcomment %}
+ {% section.settings.text %}
+ {% comment %} button {% endcomment %}
+
+
+   {%- if section.settings.button_label != blank -%}
+                  <a
+                    {% if section.settings.button_link == blank %}
+                      role="link" aria-disabled="true"
+                    {% else %}
+                      href="{{ section.settings.button_link }}"
+                    {% endif %}
+                    class="button{% if section.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                  >
+                    {{- section.settings.button_label | escape -}}
+                  </a>
+                {%- endif -%}
+                {%- if section.settings.button_label_2 != blank -%}
+                  <a
+                    {% if section.settings.button_link_2 == blank %}
+                      role="link" aria-disabled="true"
+                    {% else %}
+                      href="{{ section.settings.button_link_2 }}"
+                    {% endif %}
+                    class="button{% if section.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
+                  >
+                    {{- section.settings.button_label_2 | escape -}}
+                  </a>
+
+
+ </div>
+
+
+
+ {% comment %} blocks settings {% endcomment %}
+
+  <div class="bulk-blocks"></div>
+
+
+</div>
+
   </div>
 
 
@@ -65,7 +117,61 @@ test
       "id": "section_color_scheme",
       "label": "t:sections.all.colors.label",
       "default": "scheme-1"
-    }
+    },
+
+    {
+        "type": "richtext",
+        "id": "heading",
+        "label": "Heading",
+        "default": "<h1>We are a company that values quality.</h1>"
+      },
+
+
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "default": "<h1>We are a company that values quality.</h1>"
+      },
+
+       {
+          "type": "text",
+          "id": "button_label",
+          "default": "t:sections.rich-text.blocks.buttons.settings.button_label_1.default",
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_label_1.label",
+          "info": "t:sections.rich-text.blocks.buttons.settings.button_label_1.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_link_1.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary",
+          "default": false,
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_1.label"
+        },
+        {
+          "type": "text",
+          "id": "button_label_2",
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_label_2.label",
+          "info": "t:sections.rich-text.blocks.buttons.settings.button_label_2.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link_2",
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_link_2.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_2",
+          "default": false,
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_2.label"
+        }
+
+
+
         
         ],
 

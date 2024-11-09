@@ -105,7 +105,8 @@
         "button_style_secondary": false,
         "button_label_2": "BULK ORDER REQUEST FORM",
         "button_link_2": "#",
-        "button_style_secondary_2": true
+        "button_style_secondary_2": true,
+        "footer_info": "Download our order spreadsheet forms <a href=\"#\" title=\"#\"><strong>here</strong></a><strong> </strong>| Any questions? Email <a href=\"mailto:sales@emblemathletic.com\" title=\"mailto:sales@emblemathletic.com\"><strong>sales@emblemathletic.com</strong></a>"
       }
     }
   },

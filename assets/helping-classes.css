@@ -84,10 +84,6 @@
   padding-top: 3rem !important;
 }
 
-.p-16 {
-  padding: 1.6rem !important;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -452,4 +448,8 @@
 
 .order-12 {
   order: 12;
+}
+
+.p-16 {
+  padding: 1.6rem !important;
 }

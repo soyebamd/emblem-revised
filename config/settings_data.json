@@ -352,9 +352,9 @@
           "text": "#191c00",
           "highlighted_color": "#fd3535",
           "button": "#fd3535",
-          "button_label": "#191c00",
+          "button_label": "#ffffff",
           "secondary_button_label": "#191c00",
-          "secondary_button_border": "#121212",
+          "secondary_button_border": "#fd3535",
           "button_bg": "#000000",
           "button_bg_text": "#fd3535",
           "shadow": "#121212"

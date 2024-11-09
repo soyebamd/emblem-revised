@@ -18,6 +18,7 @@
   --text-color-7: #fd3535;
   --super-accent: #befa23;
   --Dark-Green: #191c00;
+  --Cream: var(--text-color-4);
 }
 body {
   font-size: 1.6rem;

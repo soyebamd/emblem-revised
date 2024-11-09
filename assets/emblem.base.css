@@ -375,7 +375,9 @@ a:hover,
 .for-mob {
   display: none !important;
 }
-
+.p-16 {
+  padding: 1.6rem !important;
+}
 .for-desk {
 }
 .my-5 {

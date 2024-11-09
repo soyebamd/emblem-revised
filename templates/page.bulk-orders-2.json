@@ -148,7 +148,8 @@
       "settings": {
         "bg": "shopify://shop_images/DtoZxu_1.png",
         "title": "BULK ORDER DISCOUNTS ARE AUTOMATICALLY APPLIED TO YOUR CART AT CHECKOUT",
-        "heading_size": "h2",
+        "heading_size": "h4",
+        "content_alignment": "center",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,

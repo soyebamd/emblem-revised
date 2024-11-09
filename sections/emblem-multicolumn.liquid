@@ -137,7 +137,7 @@ mix-blend-mode: multiply;
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
-            <div class="multicolumn-card content-container">
+            <div class="multicolumn-card content-container bg-white p-16">
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
@@ -180,8 +180,7 @@ mix-blend-mode: multiply;
                   </div>
                 </div>
               {%- endif -%}
-              
-              <div class="multicolumn-card__info d-flex gap-16 p-16">
+              <div class="multicolumn-card__info d-flex gap-16">
                 {%- if block.settings.title != blank -%}
                   <h3 class="inline-richtext">{{ block.settings.title }}</h3>
                 {%- endif -%}

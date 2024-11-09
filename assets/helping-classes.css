@@ -458,6 +458,10 @@
   font-size: 1.6rem !important;
 }
 
+.d-block {
+  display: block;
+}
+
 /* Default vertical margin utility classes from shopify default  (top & bottom) */
 .my-default {
   margin-top: var(--grid-desktop-vertical-spacing);

@@ -116,7 +116,7 @@
           "type": "column",
           "settings": {
             "title": "5% OFF",
-            "text": "<p>for orders of<br/><strong>20+<br/></strong>items or more</p>",
+            "text": "<p>for orders of</p><h3><strong>20+</strong></h3><p>items or more</p>",
             "link_label": "",
             "link": ""
           }

@@ -26,6 +26,10 @@ body {
   font-weight: 400;
 }
 
+.page-width-max-930 {
+  max-width: 930px;
+}
+
 .bg-white {
   background: var(--text-color-6);
 }

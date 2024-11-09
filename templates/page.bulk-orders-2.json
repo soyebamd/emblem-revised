@@ -64,10 +64,19 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "bulk_order_TrycaW": {
+      "type": "bulk-order",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_color_scheme": ""
+      }
     }
   },
   "order": [
     "main",
-    "emblem_image_banner_wK4LG6"
+    "emblem_image_banner_wK4LG6",
+    "bulk_order_TrycaW"
   ]
 }

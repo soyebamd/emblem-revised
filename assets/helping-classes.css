@@ -454,6 +454,14 @@
   padding: 1.6rem !important;
 }
 
+.mt-24 {
+  margin-top: 2.4rem;
+}
+
+.mb-40 {
+  margin-bottom: 4rem;
+}
+
 .fs-16 {
   font-size: 1.6rem !important;
 }

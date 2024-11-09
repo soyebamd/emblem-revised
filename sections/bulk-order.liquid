@@ -13,6 +13,15 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+@media screen and (min-width: 750px) {
+  .grid__item-4{ max-width:calc(40% - var(--grid-desktop-horizontal-spacing) / 2)}
+
+
+  .grid__item-6{max-width:calc(60% - var(--grid-desktop-horizontal-spacing) / 2)}
+
+}
+
 {%- endstyle -%}
 
 
@@ -28,7 +37,7 @@
 
  {% comment %} section settings {% endcomment %}
 
- <div class="bulk-settings grid__item">
+ <div class="bulk-settings grid__item grid__item-4">
 
 
  {% comment %} heading {% endcomment %}
@@ -73,7 +82,7 @@
 
  {% comment %} blocks settings {% endcomment %}
 
-  <div class="bulk-blocks grid__item">
+  <div class="bulk-blocks grid__item grid__item-6">
 
 
                  <slider-component class="slider-mobile-gutter">

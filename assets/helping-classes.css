@@ -454,6 +454,10 @@
   padding: 1.6rem !important;
 }
 
+.fs-16 {
+  font-size: 1.6rem !important;
+}
+
 /* Default vertical margin utility classes from shopify default  (top & bottom) */
 .my-default {
   margin-top: var(--grid-desktop-vertical-spacing);

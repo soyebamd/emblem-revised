@@ -83,6 +83,9 @@
 .pt-5 {
   padding-top: 3rem !important;
 }
+.p-16 {
+  padding: 1.6rem;
+}
 
 .mx-auto {
   margin-left: auto;

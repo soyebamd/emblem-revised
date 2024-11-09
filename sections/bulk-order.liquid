@@ -110,6 +110,11 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
+
+
+
+
+
             <div class="multicolumn-card content-container">
               {%- if block.settings.image != blank -%}
                {{
@@ -122,7 +127,14 @@
                     }}
                 
               {%- endif -%}
-              <div class="multicolumn-card__info d-flex gap-16">
+
+
+              <div class="multicolumn-card__info d-flex">
+
+              <div class="number">1</div>
+
+              <div class="items">
+
                 {%- if block.settings.title != blank -%}
                   <h3 class="inline-richtext">{{ block.settings.title }}</h3>
                 {%- endif -%}
@@ -144,6 +156,7 @@
                     >
                   </a>
                 {%- endif -%}
+                </div>
               </div>
             </div>
           </li>

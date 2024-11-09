@@ -88,13 +88,13 @@
           endfor
         -%}
 
-        {%  assign count = 0 %}
+        {%  assign block_count = 0 %}
 
         {%- for block in section.blocks -%}
 
-            {{ count |  plus: 1 }}
+             {%- assign block_count = block_count | plus: 1 -%}
 
-            {{ count }}
+            {{ block_count }}
 
 
 

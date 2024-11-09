@@ -187,8 +187,11 @@
           </li>
         {%- endfor -%}
       </ul>
+</slider-component>
 
-
+<p class="bulk-footer-info">
+ {{ section.settings.footer_info }}
+</p>
   </div>
 
 
@@ -299,6 +302,13 @@
           "id": "button_style_secondary_2",
           "default": false,
           "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_2.label"
+        },
+
+         {
+          "type": "inline_richtext",
+          "id": "footer_info",
+          "default": "t:sections.multicolumn.blocks.column.settings.title.default",
+          "label": "Footer Info"
         }
 
 

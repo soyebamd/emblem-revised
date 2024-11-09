@@ -51,7 +51,7 @@
   >
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
-        <h2 class="title inline-richtext {{ section.settings.heading_size }}">
+        <h2 class="title inline-richtext {{ section.settings.heading_size }} {{section.settings.content_alignment}}">
           {{ section.settings.title }}
         </h2>
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
@@ -233,6 +233,21 @@
       "type": "select",
       "id": "heading_size",
       "options": [
+
+        {
+          "value": "h5",
+          "label": "xxx-small"
+        },
+
+  {
+          "value": "h4",
+          "label": "xx-small"
+        },
+        {
+          "value": "h3",
+          "label": "x-small"
+        },
+      
         {
           "value": "h2",
           "label": "t:sections.all.heading_size.options__1.label"
@@ -257,6 +272,27 @@
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
     },
+         {
+       
+        "type": "select",
+        "id": "content_alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__1.label"
+          },
+          {
+            "value": "center",
+            "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__2.label"
+          },
+          {
+            "value": "right",
+            "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__3.label"
+          }
+        ],
+        "default": "left",
+        "label": "t:sections.image-with-text.settings.mobile_content_alignment.label"
+      },
     {
       "type": "select",
       "id": "image_width",

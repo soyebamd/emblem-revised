@@ -34,7 +34,6 @@
  {% comment %} heading {% endcomment %}
 
  {{  section.settings.heading_text }}
-
  {% comment %} paragraph {% endcomment %}
  {{ section.settings.content }}
  {% comment %} button {% endcomment %}
@@ -81,11 +80,14 @@
 
   </div>
 
-{% schema %}
 
+{% schema %}
 {
     "name": "Bulk Order",
-      "class": "section bulk-order",
+    "class": "section bulk-order",
+    "disabled_on": {
+    "groups": ["header", "footer"]
+  },
     "settings": [
 
   {

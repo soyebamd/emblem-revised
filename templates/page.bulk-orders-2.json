@@ -146,6 +146,7 @@
         "column_byC4hd"
       ],
       "settings": {
+        "bg": "shopify://shop_images/DtoZxu_1.png",
         "title": "BULK ORDER DISCOUNTS ARE AUTOMATICALLY APPLIED TO YOUR CART AT CHECKOUT",
         "heading_size": "h2",
         "image_width": "full",

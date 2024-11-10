@@ -70,8 +70,8 @@
         "heading_hixBU4": {
           "type": "heading",
           "settings": {
-            "heading": "EXPLORE OUR three main types of Gear",
-            "heading_size": "h1"
+            "heading": "EXPLORE OUR three main <span>types of Gear</span>",
+            "heading_size": "h3"
           }
         },
         "text_EP4gyg": {

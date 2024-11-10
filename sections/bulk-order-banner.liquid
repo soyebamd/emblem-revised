@@ -113,7 +113,7 @@
   {%- endcase -%}
             {%- endfor -%}
 
-sadfsadfsdafds
+
 
  {%- for block in section.blocks -%}
               {% case block.type %}
@@ -121,7 +121,7 @@ sadfsadfsdafds
 
                   
                 {%- when 'button' -%}
-<div>
+
                 
                   {%- if block.settings.button_label != blank -%}
                     <a
@@ -136,7 +136,7 @@ sadfsadfsdafds
                       {{ block.settings.button_label | escape }}
                     </a>
                   {%- endif -%}
-</div>
+
                     {%- endcase -%}
             {%- endfor -%}
                   

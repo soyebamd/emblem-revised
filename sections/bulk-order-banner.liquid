@@ -56,16 +56,24 @@
               (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
             {%- endcapture -%}
               {%- endif -%}
+
+
+               {% if section.settings.clip_image %}
+
+                {%  assign clip_class = 'clip-path-v1'  %}
+
+               {% endif %}
+
               {{
                 section.settings.image
                 | image_url: width: 1500
                 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority, 
                 
-                {% if section.settings.clip_image %}
+               
                 
-                   class:'clip-path-v1'
+                   class:'x {{ clip_class }}'
 
-                {% endif %}
+               
               }}
             {%- else -%}
               {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}

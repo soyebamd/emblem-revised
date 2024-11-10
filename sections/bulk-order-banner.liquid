@@ -59,7 +59,13 @@
               {{
                 section.settings.image
                 | image_url: width: 1500
-                | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority, class:'clip-path-v1'
+                | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority, 
+                
+                {% if section.settings.clip_image %}
+                
+                   class:'clip-path-v1'
+
+                {% endif %}
               }}
             {%- else -%}
               {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
@@ -127,6 +133,12 @@
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
     },
+     {
+        "type": "checkbox",
+        "id": "clip_image",
+        "label": "Clip imgage",
+        "default": true
+      },
     {
       "type": "select",
       "id": "height",

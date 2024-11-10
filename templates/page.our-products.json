@@ -97,6 +97,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Image_a2fdc942-b055-4a24-bf0e-3ad241ec6b56.png",
+        "clip_image": false,
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

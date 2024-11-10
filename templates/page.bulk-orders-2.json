@@ -161,6 +161,7 @@
         "button_label": "start bulk submission",
         "button_link": "#",
         "color_scheme": "scheme-2ac8a44b-c2b5-4f95-97cb-dbbbd6904a4e",
+        "color_scheme_boxes": "scheme-2a438c20-1f5c-4baa-b277-aa5ac316f5a5",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 56,

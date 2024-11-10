@@ -110,9 +110,10 @@
                   </div>
 
                   </div>
+                  
+                {%- when 'button' -%}
 
                   <div>
-                {%- when 'button' -%}
                   {%- if block.settings.button_label != blank -%}
                     <a
                       {% if block.settings.button_link == blank %}
@@ -123,13 +124,9 @@
                       class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} m-0 align-self-center"
                       {{ block.shopify_attributes }}
                     >
-
                       {{ block.settings.button_label | escape }}
                     </a>
-
-
                   {%- endif -%}
-
                   </div>
               {%- endcase -%}
             {%- endfor -%}

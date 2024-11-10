@@ -374,6 +374,21 @@
           "button_bg_text": "#befa23",
           "shadow": "#121212"
         }
+      },
+      "scheme-4d9c2bdf-90a7-4060-9185-f9b0c3be702c": {
+        "settings": {
+          "background": "#fffdf3",
+          "background_gradient": "",
+          "text": "#191c00",
+          "highlighted_color": "#ffffff",
+          "button": "#191c00",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#191c00",
+          "secondary_button_border": "#121212",
+          "button_bg": "#000000",
+          "button_bg_text": "#befa23",
+          "shadow": "#121212"
+        }
       }
     }
   },

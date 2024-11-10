@@ -34,7 +34,7 @@
 /*change color via editor*/
   .inline-richtext-heading{
     background:rgb(var(--color-foreground));
-    color: rgba(var(--title-highlighted)) !important;
+    color: rgba(var(--title-highlighted)) ;
   }
   .content-container-offer{
     background:rgba(var(--title-highlighted))
@@ -72,7 +72,7 @@ padding: 0px !important;
   assign show_mobile_slider = false
   if section.settings.swipe_on_mobile and section.blocks.size > columns_mobile_int
     assign show_mobile_slider = true
- i endf
+  endif
 -%}
 
 

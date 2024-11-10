@@ -87,10 +87,10 @@
           >
             {%- for block in section.blocks -%}
               {% case block.type %}
-              
+               <div>
                 {%- when 'heading' -%}
 
-                  <div>
+                 
                   <h2
                     class="image-with-text__heading inline-richtext {{ block.settings.heading_size }} text-uppercase text-italic fw-700"
                     {{ block.shopify_attributes }}
@@ -104,12 +104,12 @@
                   >
                     {{ block.settings.caption | escape }}
                   </p>
-                 
                 {%- when 'text' -%}
                   <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                     {{ block.settings.text }}
                   </div>
-                   </div>
+
+                  </div>
                 {%- when 'button' -%}
                   {%- if block.settings.button_label != blank -%}
                     <a

@@ -458,6 +458,8 @@
 
 .bulk-col {
   margin: 0;
+  align-self: initial;
+  text-align: left;
 }
 @media screen and (min-width: 750px) {
   .bulk-page .image-with-text__content {

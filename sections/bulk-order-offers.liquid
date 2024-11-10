@@ -36,11 +36,11 @@
     background:rgb(var(--color-foreground));
   }
   .content-container-offer{
-    background:rgba(var(--title-highlighted))!important;
+    background:rgba(var(--title-highlighted))
     color:rgb(var(--color-foreground));
   }
 
-  .offer-caption{color:rgba(var(--title-highlighted))!important;}
+  .offer-caption{color:rgba(var(--title-highlighted))}
 
     .content-container-offer h1{
       color:rgb(var(--color-foreground));
@@ -70,7 +70,7 @@ padding: 0px !important;
   assign show_mobile_slider = false
   if section.settings.swipe_on_mobile and section.blocks.size > columns_mobile_int
     assign show_mobile_slider = true
-  endif
+ i endf
 -%}
 
 

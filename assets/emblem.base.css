@@ -264,6 +264,9 @@ a:hover,
 .field__button {
   width: 3rem;
 }
+.button {
+  letter-spacing: normal;
+}
 /* Font Weight Classes */
 .fw-100 {
   font-weight: 100;

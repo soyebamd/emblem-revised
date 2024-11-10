@@ -11,11 +11,110 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "emblem_image_banner_RTTCeC": {
+      "type": "emblem-image-banner",
+      "blocks": {
+        "slide_69RJNn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/DtoZxu_1.png",
+            "mob_image": "shopify://shop_images/DtoZxu_1.png",
+            "character_img": "shopify://shop_images/hero_produc-62_1.png",
+            "character_animation": false,
+            "page_banner": true,
+            "heading": "TAKE A LOOK AT OUT CATALOG",
+            "subheading": "",
+            "subheading_2": "",
+            "subheading_smooch": false,
+            "content": "",
+            "button_label": "see our catalog",
+            "link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "custom_shadow": false,
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2a438c20-1f5c-4baa-b277-aa5ac316f5a5",
+            "text_alignment_mobile": "center",
+            "box_align_mob": "middle-center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_69RJNn"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "bulk_order_banner_KTUKVq": {
+      "type": "bulk-order-banner",
+      "blocks": {
+        "heading_hixBU4": {
+          "type": "heading",
+          "settings": {
+            "heading": "EXPLORE OUR three main <span>types of Gear</span>",
+            "heading_size": "h3"
+          }
+        },
+        "text_EP4gyg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Core Performance, Hi-Tech Performance & Comfort</p>",
+            "text_style": "body"
+          }
+        },
+        "button_cemTAh": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE ABOUT GEAR TYPES",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hixBU4",
+        "text_EP4gyg",
+        "button_cemTAh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_a2fdc942-b055-4a24-bf0e-3ad241ec6b56.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-17c6dc68-292c-4fad-8029-edc4b5ab9ebd",
+        "color_scheme": "scheme-2ac8a44b-c2b5-4f95-97cb-dbbbd6904a4e",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main",
+    "emblem_image_banner_RTTCeC",
+    "bulk_order_banner_KTUKVq"
+  ]
 }

@@ -117,7 +117,43 @@
   {%- endcase -%}
             {%- endfor -%}
 
-</div>
+</div> 
+
+{% comment %} end bulk col {% endcomment %}
+
+
+
+  <div class="bulk-col">
+
+
+
+ {%- for block in section.blocks -%}
+              {% case block.type %}
+
+
+                  
+                {%- when 'button' -%}
+
+                
+                  {%- if block.settings.button_label != blank -%}
+                    <a
+                      {% if block.settings.button_link == blank %}
+                        role="link" aria-disabled="true"
+                      {% else %}
+                        href="{{ block.settings.button_link }}"
+                      {% endif %}
+                      class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} m-0 align-self-center"
+                      {{ block.shopify_attributes }}
+                    >
+                      {{ block.settings.button_label | escape }}
+                    </a>
+                  {%- endif -%}
+
+                    {%- endcase -%}
+            {%- endfor -%}
+
+  
+  </div>
 
           
           </div>

@@ -45,6 +45,10 @@
   margin-bottom: 0 !important;
 }
 
+.h-100 {
+  height: 100%;
+}
+
 /* Padding */
 .p-0 {
   padding: 0 !important;

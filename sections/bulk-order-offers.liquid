@@ -33,18 +33,18 @@
 
 /*change color via editor*/
   .inline-richtext-heading{
-    background:var(--Dark-Green);
+    background:rgb(var(--color-foreground));
   }
 
   .content-container-offer{
     background:var(--Cream)!important;
-    color:var(--Dark-Green);
+    color:rgb(var(--color-foreground));
   }
 
   .offer-caption{color:var(--Cream)!important;}
 
     .content-container-offer h1{
-      color:var(--Dark-Green);
+      color:rgb(var(--color-foreground));
       
     }
      .content-container-offer  *{
@@ -73,6 +73,10 @@ padding: 0px !important;
     assign show_mobile_slider = true
   endif
 -%}
+
+
+
+
 
 <div class="multicolumn  position-relative section-{{ section.id }}-bg color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div
@@ -119,7 +123,7 @@ padding: 0px !important;
 
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
-            class="multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            class="color-{{ section.settings.color_scheme_boxes }} gradient multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
@@ -431,6 +435,12 @@ padding: 0px !important;
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme_boxes",
+      "label": "Color scheme for boxes",
       "default": "scheme-1"
     },
     {

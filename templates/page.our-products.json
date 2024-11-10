@@ -118,8 +118,8 @@
         "column_DjjjbR": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "100% No Sweat Satisfaction Guarantee",
+            "text": "<p>Our products out-perform the \"competition\" so that you will, too.</p>",
             "link_label": "",
             "link": ""
           }
@@ -127,8 +127,8 @@
         "column_4UEMed": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "",
+            "text": "<p>That said, if you don’t love the way your gear looks, fits, feels, washes, or wears, email us and we’ll make it right -- no hoops, waivers, exceptions, secret passwords or red tape. Just another way we proudly support our nation’s finest.</p>",
             "link_label": "",
             "link": ""
           }

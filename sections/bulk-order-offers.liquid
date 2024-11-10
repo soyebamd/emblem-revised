@@ -58,6 +58,11 @@ padding: 0px !important;
     
 }
 
+.multicolumn-card__info p{
+  font-size: 2.4rem;
+    font-weight: 500;
+}
+
 
 {%- endstyle -%}
 
@@ -166,7 +171,8 @@ padding: 0px !important;
               {%- endif -%}
               <div class="multicolumn-card__info p-0">
                 {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext inline-richtext-heading p-16 lh-30 d-flex justify-content-center align-items-center flex-direction-column">{{ block.settings.title }}
+                  <h3 class="inline-richtext inline-richtext-heading p-16 lh-30 d-flex justify-content-center align-items-center flex-column">
+                    {{ block.settings.title }}
 
 {% if block.settings.caption %}
 <span class="offer-caption fs-16 d-block fw-500">{{ block.settings.caption }}</span>

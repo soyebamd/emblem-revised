@@ -104,11 +104,12 @@
                   >
                     {{ block.settings.caption | escape }}
                   </p>
-                  </div>
+                 
                 {%- when 'text' -%}
                   <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                     {{ block.settings.text }}
                   </div>
+                   </div>
                 {%- when 'button' -%}
                   {%- if block.settings.button_label != blank -%}
                     <a

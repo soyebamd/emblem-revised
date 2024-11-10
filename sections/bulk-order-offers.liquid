@@ -58,7 +58,7 @@ padding: 0px !important;
     
 }
 
-.multicolumn-card__info p{
+.multicolumn-card__info-fs p{
   font-size: 2.4rem;
     font-weight: 500;
 }
@@ -169,7 +169,7 @@ padding: 0px !important;
                   </div>
                 </div>
               {%- endif -%}
-              <div class="multicolumn-card__info p-0">
+              <div class="multicolumn-card__info multicolumn-card__info-fs p-0">
                 {%- if block.settings.title != blank -%}
                   <h3 class="inline-richtext inline-richtext-heading p-16 lh-30 d-flex justify-content-center align-items-center flex-column">
                     {{ block.settings.title }}
@@ -233,7 +233,7 @@ padding: 0px !important;
     <div class="center{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
       {%- if section.settings.button_label != blank -%}
         <a
-          class="button button--primary"
+          class="button button--primary m-0"
           {% if section.settings.button_link == blank %}
             role="link" aria-disabled="true"
           {% else %}

@@ -51,6 +51,12 @@
       margin:0;
      }
 
+     .lh-30 {
+  padding: 15px 0 5px !important;
+  line-height: 30px;
+}
+
+
 {%- endstyle -%}
 
 {%- liquid
@@ -158,7 +164,7 @@
               {%- endif -%}
               <div class="multicolumn-card__info p-0">
                 {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext inline-richtext-heading p-16  ">{{ block.settings.title }}
+                  <h3 class="inline-richtext inline-richtext-heading p-16 lh-30">{{ block.settings.title }}
 
 {% if block.settings.caption %}
 <span class="offer-caption fs-16 d-block fw-500">{{ block.settings.caption }}</span>

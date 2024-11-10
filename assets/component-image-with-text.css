@@ -456,6 +456,9 @@
 
 /* Bulk Page */
 
+.bulk-col {
+  margin: 0;
+}
 @media screen and (min-width: 750px) {
   .bulk-page .image-with-text__content {
     padding: 6rem 6rem 7rem 0;

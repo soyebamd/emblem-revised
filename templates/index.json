@@ -17,8 +17,12 @@
           "settings": {
             "image": "shopify://shop_images/image_116_e1f7839b-2b5a-465d-a226-a98ee1ecd65f.png",
             "mob_image": "shopify://shop_images/image_116_1.png",
+            "character_animation": false,
+            "page_banner": false,
             "heading": "PERFORMANCE GEAR",
             "subheading": "BUILT FOR SERVICE",
+            "subheading_2": "",
+            "subheading_smooch": false,
             "content": "Purpose built performance wear designed for American military and First Responders",
             "button_label": "DESIGN MY GEAR",
             "link": "#",
@@ -29,9 +33,11 @@
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
+            "custom_shadow": true,
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "center",
+            "box_align_mob": "middle-center"
           }
         },
         "slide_xWBtUh": {
@@ -39,8 +45,12 @@
           "settings": {
             "image": "shopify://shop_images/banner-collection-test.jpg",
             "mob_image": "shopify://shop_images/MKP-SUB-EA-FLG2X3_FLG3X5-TAN_499-kNS5rX-0000-Front.png",
+            "character_animation": false,
+            "page_banner": false,
             "heading": "Title One",
             "subheading": "Title Two",
+            "subheading_2": "Tell your brand's story through images",
+            "subheading_smooch": false,
             "content": "Tell your brand's story through images",
             "button_label": "Button label",
             "link": "#",
@@ -51,9 +61,11 @@
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
+            "custom_shadow": true,
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "center",
+            "box_align_mob": "middle-center"
           }
         }
       },

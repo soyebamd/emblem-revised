@@ -25,9 +25,9 @@
           "settings": {
             "image": "shopify://shop_images/DtoZxu_1.png",
             "mob_image": "shopify://shop_images/DtoZxu_1.png",
-            "character_img": "shopify://shop_images/boxes_1.png",
+            "character_img": "shopify://shop_images/product-boxes.png",
             "character_animation": false,
-            "character_img_mob": "shopify://shop_images/boxes_1.png",
+            "character_img_mob": "shopify://shop_images/product-boxes.png",
             "page_banner": true,
             "heading": "TEAM STORES",
             "subheading": "& BULK ORDERS",

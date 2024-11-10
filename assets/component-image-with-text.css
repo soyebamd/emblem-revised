@@ -461,6 +461,10 @@
     justify-content: stretch;
   }
 
+  .ps-6rem {
+    padding-left: 6rem !important;
+  }
+
   .bulk-page .image-with-text__heading {
     padding-right: 50px;
   }

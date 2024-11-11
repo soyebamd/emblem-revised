@@ -18,6 +18,19 @@
   .border-base-color{
   box-shadow: 0px 0px 2px #D8DAB8;}
 
+ .base-heading {
+      font-family: "Barlow", sans-serif;
+
+  font-family: "Barlow", sans-serif;
+
+font-size: 12px;
+  font-family: "Barlow", sans-serif;
+
+font-weight: 800;
+line-height: 28.003px; /* 233.356% */
+text-transform: uppercase;
+  }
+
 {%- endstyle -%}
 
 {%- liquid
@@ -152,7 +165,7 @@
               {%- endif -%}
               <div class="multicolumn-card__info block-base-color-{{block.id}}">
                 {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext">{{ block.settings.title }}</h3>
+                  <h3 class="inline-richtext base-heading">{{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>

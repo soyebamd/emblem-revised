@@ -80,16 +80,25 @@
             {%- assign empty_column = ' multicolumn-list__item--empty' -%}
           {%- endif -%}
 
-          {{ block.settings.background_color }} <br>  {{ block.settings.text_color }} 
+          <style>
+            .block-base-color-{{block.id}}{
+                background:{{ block.settings.background_color }}!important;
+                color: {{ block.settings.text_color }}
+            }
+          </style>
+
+        
 
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
-            class="multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            class="block-base-color-{{block.id}} multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
+
+            style=""
           >
             <div class="multicolumn-card content-container">
               {%- if block.settings.image != blank -%}

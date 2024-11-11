@@ -19,13 +19,12 @@
 
     background-image: url({{ section.settings.bg_image |  image_url }}) ;
     background-position:center;
-     background-color:#fff;
 
     }
 
-        .graphic-{{ section.id }}-bg:after{
+    
+    .graphic-{{ section.id }}-bg:after{
       content:'';
-     
     background-image: url({{ section.settings.bg_page_image |  image_url }}) ;
     background-position:center;
     background-size: contain;
@@ -50,15 +49,7 @@ z-index: -1;
   endif
 -%}
 
-<div class="multicolumn 
-
-{% if section.settings.bg_image %}
-section-{{ section.id }}-bg 
-{% else %}
-color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}
-{% endif  %}
-
-">
+<div class="multicolumn color-{{ section.settings.color_scheme }} section-{{ section.id }}-bg gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div
     class="page-width position-relative graphic-{{ section.id }}-bg section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}

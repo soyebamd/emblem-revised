@@ -43,6 +43,10 @@ body {
   font-style: normal;
 }
 
+.fs-24 {
+  font-size: 2.4rem;
+}
+
 .barlow {
   font-family: "Barlow", sans-serif !important;
 }

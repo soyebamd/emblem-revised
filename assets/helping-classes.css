@@ -49,6 +49,10 @@
   height: 100%;
 }
 
+.bg-transparent {
+  background-color: transparent !important;
+}
+
 /* Padding */
 .p-0 {
   padding: 0 !important;

@@ -27,12 +27,13 @@
       content:'';
     background-image: url({{ section.settings.bg_page_image |  image_url }}) ;
     background-position:center;
+    background-size: contain;
     position:absolute;
     width:100%;
     height:100%;
     left:0;
     top:0;
-
+z-index: -1;
     }
 
   
@@ -100,7 +101,7 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
-            <div class="multicolumn-card content-container">
+            <div class="multicolumn-card content-container bg-transparent">
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}

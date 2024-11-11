@@ -56,6 +56,11 @@ font-size:2.4rem;  line-height:normal!important;
 }
 
 
+.sweet-title span{
+  display:block;
+  color:var(--color-foreground);
+}
+
 {%- endstyle -%}
 
 {%- liquid
@@ -185,7 +190,7 @@ font-size:2.4rem;  line-height:normal!important;
                 {%- if block.settings.title != blank -%}
                   <h3 class="inline-richtext sweet-title">{{ block.settings.title }} 
                      {%- if block.settings.title2 != blank -%}
-                  {{ block.settings.title2 }}
+                <span>  {{ block.settings.title2 }}</span>
                      {% endif %}
                   </h3>
                 {%- endif -%}

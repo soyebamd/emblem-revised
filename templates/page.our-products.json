@@ -27,7 +27,7 @@
             "mob_image": "shopify://shop_images/DtoZxu_1.png",
             "character_img": "shopify://shop_images/hero_produc-62_1.png",
             "character_animation": false,
-            "page_banner": true,
+            "page_banner": false,
             "heading": "",
             "subheading": "TAKE A LOOK AT OUT CATALOG",
             "subheading_2": "",

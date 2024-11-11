@@ -407,10 +407,10 @@
       },
       "scheme-577c1ff0-4d99-4b9f-8562-e761ef4ee4c7": {
         "settings": {
-          "background": "#fffdf3",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#191c00",
-          "highlighted_color": "#54582f",
+          "highlighted_color": "#fd3535",
           "button": "#befa23",
           "button_label": "#191c00",
           "secondary_button_label": "#191c00",

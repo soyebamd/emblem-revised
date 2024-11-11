@@ -111,11 +111,55 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "sweat_satisfaction_L8B8jX": {
+      "type": "sweat-satisfaction",
+      "blocks": {
+        "column_DjjjbR": {
+          "type": "column",
+          "settings": {
+            "title": "100% No Sweat Satisfaction Guarantee",
+            "text": "<p>Our products out-perform the \"competition\" so that you will, too.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4UEMed": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>That said, if you don’t love the way your gear looks, fits, feels, washes, or wears, email us and we’ll make it right -- no hoops, waivers, exceptions, secret passwords or red tape. Just another way we proudly support our nation’s finest.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_DjjjbR",
+        "column_4UEMed"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "emblem_image_banner_RTTCeC",
-    "bulk_order_banner_KTUKVq"
+    "bulk_order_banner_KTUKVq",
+    "sweat_satisfaction_L8B8jX"
   ]
 }

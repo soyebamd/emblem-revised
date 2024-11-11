@@ -139,6 +139,7 @@
         "column_4UEMed"
       ],
       "settings": {
+        "bg_image": "shopify://shop_images/DtoZxu_1.png",
         "title": "",
         "heading_size": "h1",
         "image_width": "full",

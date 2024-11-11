@@ -13,6 +13,17 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+
+  .section-{{ section.id }}-bg{
+
+  background-image:url({{  section.settings.image | image_url: width: 2500 }})
+
+    }
+
+  
+
+
 {%- endstyle -%}
 
 {%- liquid
@@ -23,7 +34,7 @@
   endif
 -%}
 
-<div class="multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
+<div class="multicolumn color-{{ section.settings.color_scheme }}   section-{{ section.id }}-bg gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div
     class="page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
@@ -199,6 +210,14 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+
+   {
+        "type": "image_picker",
+        "id": "bg_image",
+        "label": "Background Image"
+      },
+
+
     {
       "type": "inline_richtext",
       "id": "title",

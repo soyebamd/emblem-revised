@@ -28,11 +28,14 @@
     background-image: url({{ section.settings.bg_page_image |  image_url }}) ;
     background-position:center;
     background-size: contain;
+    background-repeat:repeat-x;
     position:absolute;
     width:100%;
     height:100%;
     left:0;
-    top:0;
+    top: 50%;
+
+  transform: translateY(-50%);
 z-index: -1;
     }
 

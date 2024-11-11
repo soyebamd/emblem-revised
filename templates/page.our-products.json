@@ -118,7 +118,8 @@
         "column_DjjjbR": {
           "type": "column",
           "settings": {
-            "title": "100% No Sweat Satisfaction <span>Guarantee</span>",
+            "title": "100% No Sweat Satisfaction",
+            "title2": "Guarantee",
             "text": "<p>Our products out-perform the \"competition\" so that you will, too.</p>",
             "link_label": "",
             "link": ""
@@ -128,6 +129,7 @@
           "type": "column",
           "settings": {
             "title": "",
+            "title2": "Column",
             "text": "<p>That said, if you don’t love the way your gear looks, fits, feels, washes, or wears, email us and we’ll make it right -- no hoops, waivers, exceptions, secret passwords or red tape. Just another way we proudly support our nation’s finest.</p>",
             "link_label": "",
             "link": ""

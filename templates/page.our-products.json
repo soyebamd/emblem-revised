@@ -230,7 +230,7 @@
         "title": "Base color swatches",
         "desc_1": "<p>Our quality isn't standard issue, but our colors are pretty darn close</p>",
         "desc_2": "<p>While we do everything we can to match your government-issued uniform specs as closely as possible, difference in fabric quality and sheen can change how a color looks. Your commander has the last word on what passes muster.</p>",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,

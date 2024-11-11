@@ -31,7 +31,7 @@
     {% endif %}
   >
     {%- unless section.settings.title == blank -%}
-      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
+      <div class="title-wrapper-with-link text-center title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
         <h2 class="title inline-richtext {{ section.settings.heading_size }}">
           {{ section.settings.title }}
         </h2>
@@ -51,7 +51,7 @@
     {%- endunless -%}
 
 {% if section.settings.desc_1 %}
-<div class="color-swatch-text text-big">{{section.settings.desc_1}}</div>
+<div class="color-swatch-text text-big text-center">{{section.settings.desc_1}}</div>
 {% endif %}    
  
 
@@ -190,7 +190,7 @@
 
 
 {% if section.settings.desc_2 %}
-<div class="color-swatch-text">{{section.settings.desc_2}}</div>
+<div class="color-swatch-text text-center">{{section.settings.desc_2}}</div>
 {% endif %}   
 
 

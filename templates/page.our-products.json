@@ -159,12 +159,60 @@
         "padding_top": 44,
         "padding_bottom": 68
       }
+    },
+    "base_color_swatches_qDknm3": {
+      "type": "base-color-swatches",
+      "blocks": {
+        "column_Nkyejc": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "link": ""
+          }
+        },
+        "column_4m8dFB": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "link": ""
+          }
+        },
+        "column_KFtQyL": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Nkyejc",
+        "column_4m8dFB",
+        "column_KFtQyL"
+      ],
+      "settings": {
+        "title": "Base color swatches",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "emblem_image_banner_RTTCeC",
     "bulk_order_banner_KTUKVq",
-    "sweat_satisfaction_L8B8jX"
+    "sweat_satisfaction_L8B8jX",
+    "base_color_swatches_qDknm3"
   ]
 }

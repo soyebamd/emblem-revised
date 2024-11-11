@@ -167,42 +167,54 @@
           "type": "column",
           "settings": {
             "title": "COYOTE BROWN",
-            "link": ""
+            "link": "",
+            "background_color": "#867254",
+            "text_color": "#fffdf3"
           }
         },
         "column_4m8dFB": {
           "type": "column",
           "settings": {
             "title": "TAN499",
-            "link": ""
+            "link": "",
+            "background_color": "#928464",
+            "text_color": "#fffdf3"
           }
         },
         "column_KFtQyL": {
           "type": "column",
           "settings": {
             "title": "SAND",
-            "link": ""
+            "link": "",
+            "background_color": "#d0c9b0",
+            "text_color": "#191c00"
           }
         },
         "column_r6tM43": {
           "type": "column",
           "settings": {
             "title": "O.D. GREEN",
-            "link": ""
+            "link": "",
+            "background_color": "#747850",
+            "text_color": "#fffdf3"
           }
         },
         "column_MHP3dp": {
           "type": "column",
           "settings": {
             "title": "DARK NAVY BLUE",
-            "link": ""
+            "link": "",
+            "background_color": "#182752",
+            "text_color": "#fffdf3"
           }
         },
         "column_VgKCtk": {
           "type": "column",
           "settings": {
             "title": "police/ems midnight blue",
-            "link": ""
+            "link": "",
+            "background_color": "#121e28",
+            "text_color": "#fffdf3"
           }
         }
       },
@@ -224,7 +236,7 @@
         "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "primary",
-        "color_scheme": "",
+        "color_scheme": "scheme-577c1ff0-4d99-4b9f-8562-e761ef4ee4c7",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,

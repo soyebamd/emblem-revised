@@ -118,7 +118,7 @@
         "column_DjjjbR": {
           "type": "column",
           "settings": {
-            "title": "100% No Sweat Satisfaction Guarantee",
+            "title": "100% No Sweat Satisfaction <span>Guarantee</span>",
             "text": "<p>Our products out-perform the \"competition\" so that you will, too.</p>",
             "link_label": "",
             "link": ""

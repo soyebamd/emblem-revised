@@ -40,6 +40,7 @@ z-index: -1;
     }
 
   
+    .sweet-character-image{}
 
 
 {%- endstyle -%}
@@ -59,6 +60,28 @@ z-index: -1;
       data-cascade
     {% endif %}
   >
+
+{% if section.settings.sweet_image %}
+
+
+
+
+    {{
+                      section.settings.sweet_image
+                      | image_url: width: 3200
+                      | image_tag:
+                        widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
+                        sizes: sizes,
+                        class: 'sweet-character-image'
+                    }}
+
+{% endif %}
+
+
+
+
+
+
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
         <h2 class="title inline-richtext {{ section.settings.heading_size }}">
@@ -242,6 +265,13 @@ z-index: -1;
         "label": "Background Image 2"
       },
 
+
+      
+        {
+        "type": "image_picker",
+        "id": "sweet_image",
+        "label": "Sweet character image"
+      },
 
 
 

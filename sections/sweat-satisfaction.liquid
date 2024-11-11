@@ -91,7 +91,7 @@ z-index: -1;
 
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
-        <h2 class="title inline-richtext sweet-title {{ section.settings.heading_size }}">
+        <h2 class="title inline-richtext  {{ section.settings.heading_size }}">
           {{ section.settings.title }}
         </h2>
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
@@ -179,7 +179,7 @@ z-index: -1;
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext">{{ block.settings.title }}</h3>
+                  <h3 class="inline-richtext sweet-title">{{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>

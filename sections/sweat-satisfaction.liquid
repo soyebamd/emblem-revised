@@ -183,8 +183,16 @@ font-size:2.4rem;  line-height:normal!important;
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext sweet-title">{{ block.settings.title }}</h3>
+                  <h3 class="inline-richtext sweet-title">{{ block.settings.title }} 
+                     {%- if block.settings.title2 != blank -%}
+                  {{ block.settings.title2 }}
+                     {% endif %}
+                  </h3>
                 {%- endif -%}
+
+               
+
+
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
@@ -486,6 +494,12 @@ font-size:2.4rem;  line-height:normal!important;
         {
           "type": "inline_richtext",
           "id": "title",
+          "default": "t:sections.multicolumn.blocks.column.settings.title.default",
+          "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+        },
+         {
+          "type": "inline_richtext",
+          "id": "title2",
           "default": "t:sections.multicolumn.blocks.column.settings.title.default",
           "label": "t:sections.multicolumn.blocks.column.settings.title.label"
         },

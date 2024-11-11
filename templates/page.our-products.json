@@ -168,7 +168,7 @@
           "settings": {
             "title": "COYOTE BROWN",
             "link": "",
-            "background_color": "#191919",
+            "background_color": "#867254",
             "text_color": "#fffdf3"
           }
         },
@@ -177,8 +177,8 @@
           "settings": {
             "title": "TAN499",
             "link": "",
-            "background_color": "#191919",
-            "text_color": "#ffffff"
+            "background_color": "#928464",
+            "text_color": "#fffdf3"
           }
         },
         "column_KFtQyL": {
@@ -186,8 +186,8 @@
           "settings": {
             "title": "SAND",
             "link": "",
-            "background_color": "#191919",
-            "text_color": "#ffffff"
+            "background_color": "#d0c9b0",
+            "text_color": "#191c00"
           }
         },
         "column_r6tM43": {
@@ -195,8 +195,8 @@
           "settings": {
             "title": "O.D. GREEN",
             "link": "",
-            "background_color": "#191919",
-            "text_color": "#ffffff"
+            "background_color": "#747850",
+            "text_color": "#fffdf3"
           }
         },
         "column_MHP3dp": {
@@ -204,8 +204,8 @@
           "settings": {
             "title": "DARK NAVY BLUE",
             "link": "",
-            "background_color": "#191919",
-            "text_color": "#ffffff"
+            "background_color": "#182752",
+            "text_color": "#fffdf3"
           }
         },
         "column_VgKCtk": {
@@ -213,8 +213,8 @@
           "settings": {
             "title": "police/ems midnight blue",
             "link": "",
-            "background_color": "#191919",
-            "text_color": "#ffffff"
+            "background_color": "#121e28",
+            "text_color": "#fffdf3"
           }
         }
       },

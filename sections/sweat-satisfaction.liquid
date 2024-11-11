@@ -19,13 +19,14 @@
 
     background-image: url({{ section.settings.bg_image |  image_url }}) ;
     background-position:center;
+     background-color:#fff;
 
     }
 
     
     .graphic-{{ section.id }}-bg:after{
       content:'';
-      background-color:#fff;
+     
     background-image: url({{ section.settings.bg_page_image |  image_url }}) ;
     background-position:center;
     background-size: contain;
@@ -52,7 +53,7 @@ z-index: -1;
 
 <div class="multicolumn 
 
-{% if section.settings.bg_page_image %}
+{% if section.settings.bg_image %}
 section-{{ section.id }}-bg 
 {% else %}
 color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}

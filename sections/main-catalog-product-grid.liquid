@@ -39,26 +39,12 @@
 <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
   {%- paginate collection.products by section.settings.products_per_page -%}
     {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
-    {%- if section.settings.enable_sorting and section.settings.filter_type == 'vertical' -%}
-      <facet-filters-form class="facets facets-vertical-sort page-width small-hide
-      d-flex justify-content-between align-items-center
-           ">
-
-      
-
-  <h2 class="h5 m-0 text-uppercase">{{ collection.title }}</h2>
-
-
-      
-     
-    {%- endif -%}
+    
 
    
 
 
-    <div class="{% if section.settings.filter_type == 'vertical' %} facets-vertical page-width{% endif %}">
-      {{ 'component-facets.css' | asset_url | stylesheet_tag }}
-      <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
+    <div class="">
      
 
       <div

@@ -49,7 +49,13 @@
 
         <div class="variants">
           <div class="variant-selector">
-            {%- for variant in product.variants.size -%}
+
+          {%- assign size_variants = product.variants | where: "option1", "Size" -%}
+
+            {%- for variant in product.variants -%}
+
+                 {%- if variant.options[0] == "Size" -%}  
+
               <label for="variant-{{ variant.id }}" class="variant-option">
                 {{ variant.title }}
                 <input 
@@ -64,6 +70,8 @@
                   value="{{ variant.id }}"
                   {%- if forloop.first -%} checked="checked"{%- endif -%}>
               </label>
+
+              {% endif %}
             {%- endfor -%}
           </div>
 

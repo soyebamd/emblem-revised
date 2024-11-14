@@ -49,7 +49,7 @@
 
         <div class="variants">
           <div class="variant-selector">
-            {%- for variant in product.variants.size -%}
+            {%- for variant in product.variants -%}
               <label for="variant-{{ variant.id }}" class="variant-option">
                 {{ variant.title }}
                 <input 
@@ -68,11 +68,9 @@
           </div>
 
           <div class="variant-info">
-
-
            
             <p><strong>Inventory:</strong> <span id="variant-inventory-{{ product.id }}">{{ product.variants.first.inventory_quantity }}</span> in stock</p>
-
+            
             <p><strong>SKU:</strong> <span id="variant-sku-{{ product.id }}">{{ product.variants.first.sku }}</span></p>
             <p><strong>Available for Sale:</strong> <span id="variant-availability-{{ product.id }}">{{ product.variants.first.available | yesno }}</span></p>
             <p><strong>Weight:</strong> <span id="variant-weight-{{ product.id }}">{{ product.variants.first.weight }} {{ product.variants.first.weight_unit }}</span></p>

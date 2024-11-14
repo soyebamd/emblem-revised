@@ -146,6 +146,8 @@
             const price = selectedVariant.price | money;
             document.getElementById('variant-price-' + productId).innerText = price;
 
+            console.log(price);
+
             // Update inventory
             const inventory = selectedVariant.inventory_quantity;
             document.getElementById('variant-inventory-' + productId).innerText = inventory;

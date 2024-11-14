@@ -22,8 +22,8 @@
 {% comment %} product loop  {% endcomment %}
 
 {%- for product in collection.products -%}
-  <div class="grid">
-    <div class="grid__item">
+  <div class="grid order">
+    <div class="grid__item order__item">
       <div class="product-details">
         <h3>{{ product.title | escape }}</h3>
 
@@ -64,7 +64,7 @@
       </div>
     </div>
 
-    <div class="grid__item">
+    <div class="grid__item order__item">
  <div class="product-images">
           <!-- Featured image of the product -->
           <img id="product-image-{{ product.id }}-hold" 
@@ -114,6 +114,15 @@
         document.getElementById('variant-weight-{{ product.id }}').innerText = weight + ' ' + weightUnit;
       });
     });
+
+    //zig zag col
+
+    const main_container = document.querySelectorAll('.order');
+
+    main_container.forEach(item=>{
+        item.firstElementChild.querySelector('.order__item').style.order = "2";
+    })
+
   </script>
 
 {%- endfor -%}
@@ -126,7 +135,7 @@
             </div>
 
 
-                      <div class="grid__item "></div>
+                     
             </div>
 
 

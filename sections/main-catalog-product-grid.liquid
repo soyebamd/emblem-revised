@@ -21,62 +21,98 @@
 
 {% comment %} product loop  {% endcomment %}
 
+{%- for product in collection.products -%}
+  <div class="grid">
+    <div class="grid__item">
+      <div class="product-details">
+        <h3>{{ product.title | escape }}</h3>
 
-      {%- for product in collection.products -%}
+        <div class="product-desc">
+          {{ product.description }}
+        </div>
 
+        <div class="product-images">
+          <!-- Featured image of the product -->
+          <img id="product-image-{{ product.id }}" 
+               class="product-image" 
+               src="{{ product.featured_image | img_url: 'large' }}" 
+               alt="{{ product.title }}">
+        </div>
 
-            <div class="grid">
-                
-            <div class="grid__item ">
+        <div class="variants">
+          <div class="variant-selector">
+            {%- for variant in product.variants -%}
+              <label for="variant-{{ variant.id }}" class="variant-option">
+                {{ variant.title }}
+                <input 
+                  type="radio" 
+                  name="variant-{{ product.id }}" 
+                  id="variant-{{ variant.id }}" 
+                  data-variant-id="{{ variant.id }}"
+                  data-variant-price="{{ variant.price | money }}" 
+                  data-variant-inventory="{{ variant.inventory_quantity }}" 
+                  data-variant-in-stock="{{ variant.available }}" 
+                  data-variant-image="{{ variant.featured_image | img_url: 'large' }}" 
+                  value="{{ variant.id }}"
+                  {%- if forloop.first -%} checked="checked"{%- endif -%}>
+              </label>
+            {%- endfor -%}
+          </div>
 
+          <div class="variant-info">
+            <p><strong>Price:</strong> <span id="variant-price-{{ product.id }}">{{ product.variants.first.price | money }}</span></p>
+            <p><strong>Inventory:</strong> <span id="variant-inventory-{{ product.id }}">{{ product.variants.first.inventory_quantity }}</span> in stock</p>
+            <p><strong>SKU:</strong> <span id="variant-sku-{{ product.id }}">{{ product.variants.first.sku }}</span></p>
+            <p><strong>Available for Sale:</strong> <span id="variant-availability-{{ product.id }}">{{ product.variants.first.available | yesno }}</span></p>
+            <p><strong>Weight:</strong> <span id="variant-weight-{{ product.id }}">{{ product.variants.first.weight }} {{ product.variants.first.weight_unit }}</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-            <div class="product-details">
+  <!-- JavaScript for updating product details dynamically when a variant is selected -->
+  <script>
+    document.querySelectorAll('input[name="variant-{{ product.id }}"]').forEach(function (variantInput) {
+      variantInput.addEventListener('change', function () {
+        // Get the selected variant ID
+        const variantId = this.getAttribute('data-variant-id');
+        
+        // Find the selected variant from the product variants array
+        const selectedVariant = {{ product.variants | json }}.find(function(variant) {
+          return variant.id == variantId;
+        });
 
-            <h3> {{ product.title | escape }}</h3>
+        // Update product image
+        const imageUrl = this.getAttribute('data-variant-image');
+        document.getElementById('product-image-{{ product.id }}').src = imageUrl;
 
-            <div class="retail-price">
-               
-            {% render 'price', product: card_product, price_class: 'text-center', show_compare_at_price: true %}
+        // Update price
+        const price = this.getAttribute('data-variant-price');
+        document.getElementById('variant-price-{{ product.id }}').innerText = price;
 
-            </div>
+        // Update inventory
+        const inventory = this.getAttribute('data-variant-inventory');
+        document.getElementById('variant-inventory-{{ product.id }}').innerText = inventory;
 
-            <div class="product-desc">
-                  {{ product.description }}
-            </div>
+        // Update SKU
+        const sku = selectedVariant.sku;
+        document.getElementById('variant-sku-{{ product.id }}').innerText = sku;
 
-            <div class="variants">
-                  
-  {%- for variant in product.variants -%}
-      <div class="variant">
-        <h3>Variant: {{ variant.title }}</h3>
+        // Update availability
+        const availability = this.getAttribute('data-variant-in-stock') === 'true' ? 'Yes' : 'No';
+        document.getElementById('variant-availability-{{ product.id }}').innerText = availability;
 
-        <p><strong>Price:</strong> {{ variant.price | money }}</p>
+        // Update weight
+        const weight = selectedVariant.weight;
+        const weightUnit = selectedVariant.weight_unit;
+        document.getElementById('variant-weight-{{ product.id }}').innerText = weight + ' ' + weightUnit;
+      });
+    });
+  </script>
 
-        {%- if variant.inventory_management == 'shopify' -%}
-          <p><strong>Inventory:</strong> {{ variant.inventory_quantity }} in stock</p>
-          
-          {%- if variant.inventory_quantity <= 5 -%}
-            <p style="color: red;">Low stock!</p>
-          {%- endif -%}
-        {%- else -%}
-          <p><strong>Inventory Management:</strong> Not managed by Shopify</p>
-        {%- endif -%}
+{%- endfor -%}
 
-        <p><strong>SKU:</strong> {{ variant.sku }}</p>
-        <p><strong>Available for Sale:</strong> {{ variant.available | yesno }}</p>
-
-        {%- if variant.weight > 0 -%}
-          <p><strong>Weight:</strong> {{ variant.weight }} {{ variant.weight_unit }}</p>
-        {%- endif -%}
-
-        <p><strong>Option Values:</strong> 
-          {%- for option in variant.options -%}
-            {{ option }}{%- if forloop.last == false %}, {% endif -%}
-          {%- endfor -%}
-        </p>
-
-      </div> <!-- End of Variant -->
-    {%- endfor -%}
             </div>
 
             </div>

@@ -45,33 +45,38 @@
             </div>
 
             <div class="variants">
-                    {%- for variant in product.variants -%}
-  {%- if variant.inventory_management == 'shopify' -%}
-  
-    <span class="svg-wrapper" style="color: rgb(238, 148, 65)">
-      {{ 'icon-inventory-status.svg' | inline_asset_content }}
-    </span>
-    
-    {%- if variant.inventory_quantity <= 5 -%}
-      <span class="inventory-status">
-        {{ 'products.product.inventory_low_stock_show_count' | t: quantity: variant.inventory_quantity }}
-      </span>
-    {%- else -%}
-      <span class="inventory-status">
-        {{ 'products.product.inventory_in_stock_show_count' | t: quantity: variant.inventory_quantity }}
-      </span>
-    {%- endif -%}
-    
-  {%- else -%}
-    <span class="svg-wrapper" style="color: rgb(62, 214, 96)">
-      {{ 'icon-inventory-status.svg' | inline_asset_content }}
-    </span>
-    <span class="inventory-status">
-      {{ 'products.product.inventory_in_stock' | t }}
-    </span>
-  {%- endif -%}
-{%- endfor -%}
-  
+                  
+  {%- for variant in product.variants -%}
+      <div class="variant">
+        <h3>Variant: {{ variant.title }}</h3>
+
+        <p><strong>Price:</strong> {{ variant.price | money }}</p>
+
+        {%- if variant.inventory_management == 'shopify' -%}
+          <p><strong>Inventory:</strong> {{ variant.inventory_quantity }} in stock</p>
+          
+          {%- if variant.inventory_quantity <= 5 -%}
+            <p style="color: red;">Low stock!</p>
+          {%- endif -%}
+        {%- else -%}
+          <p><strong>Inventory Management:</strong> Not managed by Shopify</p>
+        {%- endif -%}
+
+        <p><strong>SKU:</strong> {{ variant.sku }}</p>
+        <p><strong>Available for Sale:</strong> {{ variant.available | yesno }}</p>
+
+        {%- if variant.weight > 0 -%}
+          <p><strong>Weight:</strong> {{ variant.weight }} {{ variant.weight_unit }}</p>
+        {%- endif -%}
+
+        <p><strong>Option Values:</strong> 
+          {%- for option in variant.options -%}
+            {{ option }}{%- if forloop.last == false %}, {% endif -%}
+          {%- endfor -%}
+        </p>
+
+      </div> <!-- End of Variant -->
+    {%- endfor -%}
             </div>
 
             </div>

@@ -68,9 +68,8 @@
           </div>
 
           <div class="variant-info">
-           
+            <p><strong>Price:</strong> <span id="variant-price-{{ product.id }}">{{ product.variants.first.price | money }}</span></p>
             <p><strong>Inventory:</strong> <span id="variant-inventory-{{ product.id }}">{{ product.variants.first.inventory_quantity }}</span> in stock</p>
-            
             <p><strong>SKU:</strong> <span id="variant-sku-{{ product.id }}">{{ product.variants.first.sku }}</span></p>
             <p><strong>Available for Sale:</strong> <span id="variant-availability-{{ product.id }}">{{ product.variants.first.available | yesno }}</span></p>
             <p><strong>Weight:</strong> <span id="variant-weight-{{ product.id }}">{{ product.variants.first.weight }} {{ product.variants.first.weight_unit }}</span></p>

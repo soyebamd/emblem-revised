@@ -29,6 +29,7 @@
   <div class="page-width">
 {%- for product in collection.products -%}
   
+          {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
   <div class="grid order">
     <div class="grid__item order__item">

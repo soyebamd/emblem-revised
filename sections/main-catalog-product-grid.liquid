@@ -58,6 +58,8 @@
                         {%- else -%}
                           {{- 'products.product.inventory_low_stock' | t -}}
                         {%- endif -%}
+
+                        
                       {%- else -%}
                         <span class="svg-wrapper" style="color: rgb(62, 214, 96)">
                           {{- 'icon-inventory-status.svg' | inline_asset_content -}}
@@ -70,18 +72,8 @@
                         
                           {{- 'products.product.inventory_in_stock' | t -}}
                       
-                      {%- endif -%}
-                    {%- else -%}
-                      {%- if product.selected_or_first_available_variant.inventory_policy == 'continue' -%}
-                        <span class="svg-wrapper" style="color: rgb(62, 214, 96)">
-                          {{- 'icon-inventory-status.svg' | inline_asset_content -}}
-                        </span>
-                        {{- 'products.product.inventory_out_of_stock_continue_selling' | t -}}
-                      {%- else -%}
-                        <span class="svg-wrapper" style="color: rgb(200, 200, 200)">
-                          {{- 'icon-inventory-status.svg' | inline_asset_content -}}
-                        </span>
-                        {{- 'products.product.inventory_out_of_stock' | t -}}
+                     
+                     
                     
                   {%- endif -%}
             </div>

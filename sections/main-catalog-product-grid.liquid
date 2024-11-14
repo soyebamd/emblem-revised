@@ -57,9 +57,66 @@
        
 
         <div class="variants">
+{%- assign color_option = '' %}
+{%- assign size_option = '' %}
 
-      {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
+{%- for option in product.options_with_values -%}
+  {%- if option.name == "Color" -%}
+    {%- assign color_option = option.values -%}
+  {%- elsif option.name == "Size" -%}
+    {%- assign size_option = option.values -%}
+  {%- endif -%}
+{%- endfor -%}
 
+<!-- Render Color Options -->
+<div class="color-options">
+  <h4>Choose a Color</h4>
+  {%- for color in color_option -%}
+    <label for="color-{{ color }}" class="variant-option">
+      <input 
+        type="radio" 
+        name="color-option" 
+        id="color-{{ color }}" 
+        value="{{ color }}"
+        data-color="{{ color }}">
+      {{ color }}
+    </label>
+  {%- endfor -%}
+</div>
+
+<!-- Render Size Options -->
+<div class="size-options">
+  <h4>Choose a Size</h4>
+  {%- for size in size_option -%}
+    <label for="size-{{ size }}" class="variant-option">
+      <input 
+        type="radio" 
+        name="size-option" 
+        id="size-{{ size }}" 
+        value="{{ size }}"
+        data-size="{{ size }}">
+      {{ size }}
+    </label>
+  {%- endfor -%}
+</div>
+
+<!-- Render Variant Selection (Radio Button for each variant) -->
+{%- for variant in product.variants -%}
+  <label for="variant-{{ variant.id }}" class="variant-option">
+    {{ variant.title }}
+    <input 
+      type="radio" 
+      name="variant-{{ product.id }}" 
+      id="variant-{{ variant.id }}" 
+      data-variant-id="{{ variant.id }}"
+      data-variant-price="{{ variant.price | money }}" 
+      data-variant-inventory="{{ variant.inventory_quantity }}" 
+      data-variant-in-stock="{{ variant.available }}" 
+      data-variant-image="{{ variant.featured_image | img_url: 'large' }}" 
+      value="{{ variant.id }}"
+      {%- if forloop.first -%} checked="checked"{%- endif -%}>
+  </label>
+{%- endfor -%}
 
           {% comment %} <div class="variant-selector">
 

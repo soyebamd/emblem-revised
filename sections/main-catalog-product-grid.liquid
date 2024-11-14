@@ -37,6 +37,10 @@
           {{ product.description }}
         </div>
 
+        <div class="product-price">
+            <p><strong>Price:</strong> <span id="variant-price-{{ product.id }}">{{ product.variants.first.price | money }}</span></p>
+        </div>
+
        
 
         <div class="variants">

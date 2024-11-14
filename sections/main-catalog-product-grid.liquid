@@ -100,7 +100,7 @@
   {%- endfor -%}
 </div>
 
-<!-- Render Variant Selection (Radio Button for each variant) -->
+<!-- Render Variant Selection (Radio Button for each variant) 
 {%- for variant in product.variants -%}
   <label for="variant-{{ variant.id }}" class="variant-option">
     {{ variant.title }}
@@ -116,7 +116,7 @@
       value="{{ variant.id }}"
       {%- if forloop.first -%} checked="checked"{%- endif -%}>
   </label>
-{%- endfor -%}
+{%- endfor -%}-->
 
           {% comment %} <div class="variant-selector">
 

@@ -3,14 +3,6 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 
 
-  {% unless product.has_only_default_variant %}
-    {{ 'component-product-variant-picker.css' | asset_url | stylesheet_tag }}
-    {{ 'component-swatch-input.css' | asset_url | stylesheet_tag }}
-    {{ 'component-swatch.css' | asset_url | stylesheet_tag }}
-  {% endunless %}
-  {%- if product.quantity_price_breaks_configured? -%}
-    {{ 'component-volume-pricing.css' | asset_url | stylesheet_tag }}
-  {%- endif -%}
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -31,180 +23,139 @@
 {%- endstyle -%}
 
 
-<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }} catalog-grid">
-  {% comment %} product loop {% endcomment %}
+<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }} catalog-grid" >
+
+{% comment %} product loop  {% endcomment %}
   <div class="page-width">
-    {%- for product in collection.products -%}
+{%- for product in collection.products -%}
+  
 
-      {%- assign product_form_id = 'product-form-' | append: product.id -%}
+  <div class="grid order">
+    <div class="grid__item order__item">
+      <div class="product-details">
+        <h3>{{ product.title | escape }}</h3>
 
-      <div class="grid order">
-        <div class="grid__item order__item">
-          <div class="product-details">
-            <h3>{{ product.title | escape }}</h3>
-
-            <div class="product-price">
-              <p><strong>Retail Price:</strong> <span id="variant-price-{{ product.id }}">{{ product.variants.first.price | money }}</span></p>
-            </div>
-
-            <div class="product-desc">
-              {{ product.description }}
-            </div>
-
-            <div class="variants">
-              {%- assign color_option = '' %}
-              {%- assign size_option = '' %}
-
-              {%- for option in product.options_with_values -%}
-                {%- if option.name == "Color" -%}
-                  {%- assign color_option = option.values -%}
-                {%- elsif option.name == "Size" -%}
-                  {%- assign size_option = option.values -%}
-                {%- endif -%}
-              {%- endfor -%}
-
-              <!-- Render Color Options -->
-              <div class="color-options">
-                <h4>Choose a Color</h4>
-                {%- for color in color_option -%}
-                  <label for="color-{{ product.id }}-{{ color }}" class="variant-option">
-                    <input 
-                      type="radio" 
-                      name="color-option-{{ product.id }}" 
-                      id="color-{{ product.id }}-{{ color }}" 
-                      value="{{ color }}"
-                      data-color="{{ color }}">
-                    {{ color }}
-                  </label>
-                {%- endfor -%}
-              </div>
-
-              <!-- Render Size Options -->
-              <div class="size-options">
-                <h4>Choose a Size</h4>
-                {%- for size in size_option -%}
-                  <label for="size-{{ product.id }}-{{ size }}" class="variant-option">
-                    <input 
-                      type="radio" 
-                      name="size-option-{{ product.id }}" 
-                      id="size-{{ product.id }}-{{ size }}" 
-                      value="{{ size }}"
-                      data-size="{{ size }}">
-                    {{ size }}
-                  </label>
-                {%- endfor -%}
-              </div>
-            </div>
-
-            <div class="variant-info">
-              <p><strong>Inventory:</strong> <span id="variant-inventory-{{ product.id }}">{{ product.variants.first.inventory_quantity }}</span> in stock</p>
-              <p><strong>SKU:</strong> <span id="variant-sku-{{ product.id }}">{{ product.variants.first.sku }}</span></p>
-              <p><strong>Available for Sale:</strong> <span id="variant-availability-{{ product.id }}">{{ product.variants.first.available | yesno }}</span></p>
-              <p><strong>Weight:</strong> <span id="variant-weight-{{ product.id }}">{{ product.variants.first.weight }} {{ product.variants.first.weight_unit }}</span></p>
-            </div>
-          </div>
+           <div class="product-price">
+            <p><strong>Retail Price:</strong> <span id="variant-price-{{ product.id }}">{{ product.variants.first.price | money }}</span></p>
         </div>
 
-        <div class="grid__item order__item">
-          <div class="product-images">
-            <!-- Featured image of the product -->
-            <img id="product-image-{{ product.id }}-hold" 
-                 class="product-image" 
-                 src="{{ product.featured_image | img_url: 'large' }}" 
-                 alt="{{ product.title }}">
+
+        <div class="product-desc">
+          {{ product.description }}
+        </div>
+
+     
+       
+
+        <div class="variants">
+          <div class="variant-selector">
+            {%- for variant in product.variants.size -%}
+              <label for="variant-{{ variant.id }}" class="variant-option">
+                {{ variant.title }}
+                <input 
+                  type="radio" 
+                  name="variant-{{ product.id }}" 
+                  id="variant-{{ variant.id }}" 
+                  data-variant-id="{{ variant.id }}"
+                  data-variant-price="{{ variant.price | money }}" 
+                  data-variant-inventory="{{ variant.inventory_quantity }}" 
+                  data-variant-in-stock="{{ variant.available }}" 
+                  data-variant-image="{{ variant.featured_image | img_url: 'large' }}" 
+                  value="{{ variant.id }}"
+                  {%- if forloop.first -%} checked="checked"{%- endif -%}>
+              </label>
+            {%- endfor -%}
+          </div>
+
+          <div class="variant-info">
+
+
+           
+            <p><strong>Inventory:</strong> <span id="variant-inventory-{{ product.id }}">{{ product.variants.first.inventory_quantity }}</span> in stock</p>
+
+            <p><strong>SKU:</strong> <span id="variant-sku-{{ product.id }}">{{ product.variants.first.sku }}</span></p>
+            <p><strong>Available for Sale:</strong> <span id="variant-availability-{{ product.id }}">{{ product.variants.first.available | yesno }}</span></p>
+            <p><strong>Weight:</strong> <span id="variant-weight-{{ product.id }}">{{ product.variants.first.weight }} {{ product.variants.first.weight_unit }}</span></p>
           </div>
         </div>
       </div>
+    </div>
 
-      <!-- JavaScript for updating product details dynamically when a variant is selected -->
-      <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          // Function to set the initial variant data (pre-select first available variant)
-          function setInitialVariantData(productId) {
-            const firstAvailableVariant = {{ product.variants | json }}.find(function(variant) {
-              return variant.available;
-            });
+    <div class="grid__item order__item">
+ <div class="product-images">
+          <!-- Featured image of the product -->
+          <img id="product-image-{{ product.id }}-hold" 
+               class="product-image" 
+               src="{{ product.featured_image | img_url: 'large' }}" 
+               alt="{{ product.title }}">
+        </div>
 
-            if (firstAvailableVariant) {
-              // Pre-select the color and size radio buttons
-              const colorOption = firstAvailableVariant.options[0];
-              const sizeOption = firstAvailableVariant.options[1];
+    </div>
 
-              // Pre-select the correct color and size radio buttons
-              document.querySelector(`input[name="color-option-${productId}"][value="${colorOption}"]`).checked = true;
-              document.querySelector(`input[name="size-option-${productId}"][value="${sizeOption}"]`).checked = true;
-
-              updateProductInfo(productId, firstAvailableVariant);
-            }
-          }
-
-          // Function to update product info dynamically
-          function updateProductInfo(productId, selectedVariant) {
-            if (!selectedVariant) return;
-
-            // Update price
-            const price = selectedVariant.price | money;
-            document.getElementById('variant-price-' + productId).innerText = price;
-
-            console.log(price);
-
-            // Update inventory
-            const inventory = selectedVariant.inventory_quantity;
-            document.getElementById('variant-inventory-' + productId).innerText = inventory;
-
-            // Update SKU
-            const sku = selectedVariant.sku;
-            document.getElementById('variant-sku-' + productId).innerText = sku;
-
-            // Update availability
-            const availability = selectedVariant.available ? 'Yes' : 'No';
-            document.getElementById('variant-availability-' + productId).innerText = availability;
-
-            // Update weight
-            const weight = selectedVariant.weight;
-            const weightUnit = selectedVariant.weight_unit;
-            document.getElementById('variant-weight-' + productId).innerText = weight + ' ' + weightUnit;
-
-            // Update the product image
-            const imageUrl = selectedVariant.featured_image ? selectedVariant.featured_image | img_url: 'large' : "{{ product.featured_image | img_url: 'large' }}";
-            document.getElementById('product-image-' + productId + '-hold').src = imageUrl;
-          }
-
-          // Listen for changes on color options
-          document.querySelectorAll('input[name="color-option-{{ product.id }}"]').forEach(function (colorInput) {
-            colorInput.addEventListener('change', function () {
-              const selectedColor = this.value;
-              const selectedSize = document.querySelector(`input[name="size-option-{{ product.id }}"]:checked`)?.value;
-
-              const selectedVariant = {{ product.variants | json }}.find(function (variant) {
-                return variant.options[0] === selectedColor && variant.options[1] === selectedSize;
-              });
-
-              updateProductInfo({{ product.id }}, selectedVariant);
-            });
-          });
-
-          // Listen for changes on size options
-          document.querySelectorAll('input[name="size-option-{{ product.id }}"]').forEach(function (sizeInput) {
-            sizeInput.addEventListener('change', function () {
-              const selectedSize = this.value;
-              const selectedColor = document.querySelector(`input[name="color-option-{{ product.id }}"]:checked`)?.value;
-
-              const selectedVariant = {{ product.variants | json }}.find(function (variant) {
-                return variant.options[0] === selectedColor && variant.options[1] === selectedSize;
-              });
-
-              updateProductInfo({{ product.id }}, selectedVariant);
-            });
-          });
-
-          // Set initial data for the first available variant
-          setInitialVariantData({{ product.id }});
+    
+  <!-- JavaScript for updating product details dynamically when a variant is selected -->
+  <script>
+    document.querySelectorAll('input[name="variant-{{ product.id }}"]').forEach(function (variantInput) {
+      variantInput.addEventListener('change', function () {
+        // Get the selected variant ID
+        const variantId = this.getAttribute('data-variant-id');
+        
+        // Find the selected variant from the product variants array
+        const selectedVariant = {{ product.variants | json }}.find(function(variant) {
+          return variant.id == variantId;
         });
-      </script>
 
-    {%- endfor -%}
+        // Update product image
+        // const imageUrl = this.getAttribute('data-variant-image');
+        // document.getElementById('product-image-{{ product.id }}').src = imageUrl;
+
+        // Update price
+        const price = this.getAttribute('data-variant-price');
+        document.getElementById('variant-price-{{ product.id }}').innerText = price;
+
+        // Update inventory
+        const inventory = this.getAttribute('data-variant-inventory');
+        document.getElementById('variant-inventory-{{ product.id }}').innerText = inventory;
+
+        // Update SKU
+        const sku = selectedVariant.sku;
+        document.getElementById('variant-sku-{{ product.id }}').innerText = sku;
+
+        // Update availability
+        const availability = this.getAttribute('data-variant-in-stock') === 'true' ? 'Yes' : 'No';
+        document.getElementById('variant-availability-{{ product.id }}').innerText = availability;
+
+        // Update weight
+        const weight = selectedVariant.weight;
+        const weightUnit = selectedVariant.weight_unit;
+        document.getElementById('variant-weight-{{ product.id }}').innerText = weight + ' ' + weightUnit;
+      });
+    });
+
+    //zig zag col
+
+  </script>
+
+
   </div>
+
+
+{%- endfor -%}
+
+            </div>
+
+            </div>
+
+
+            </div>
+
+
+                     
+            </div>
+</div>
+
+        {% comment %} product title  {% endcomment %}
+
 </div>
 
 {% schema %}

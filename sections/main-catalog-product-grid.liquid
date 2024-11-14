@@ -34,8 +34,8 @@
   {% comment %} product loop {% endcomment %}
   <div class="page-width">
     {%- for product in collection.products -%}
-    
-      {%- assign product_form_id = 'product-form-' | append: section.id -%}
+
+      {%- assign product_form_id = 'product-form-' | append: product.id -%}
 
       <div class="grid order">
         <div class="grid__item order__item">
@@ -66,11 +66,11 @@
               <div class="color-options">
                 <h4>Choose a Color</h4>
                 {%- for color in color_option -%}
-                  <label for="color-{{ color }}" class="variant-option">
+                  <label for="color-{{ product.id }}-{{ color }}" class="variant-option">
                     <input 
                       type="radio" 
                       name="color-option-{{ product.id }}" 
-                      id="color-{{ color }}" 
+                      id="color-{{ product.id }}-{{ color }}" 
                       value="{{ color }}"
                       data-color="{{ color }}">
                     {{ color }}
@@ -82,11 +82,11 @@
               <div class="size-options">
                 <h4>Choose a Size</h4>
                 {%- for size in size_option -%}
-                  <label for="size-{{ size }}" class="variant-option">
+                  <label for="size-{{ product.id }}-{{ size }}" class="variant-option">
                     <input 
                       type="radio" 
                       name="size-option-{{ product.id }}" 
-                      id="size-{{ size }}" 
+                      id="size-{{ product.id }}-{{ size }}" 
                       value="{{ size }}"
                       data-size="{{ size }}">
                     {{ size }}
@@ -117,49 +117,67 @@
       
       <!-- JavaScript for updating product details dynamically when a variant is selected -->
       <script>
-        // Listen for changes on color options
-        document.querySelectorAll('input[name="color-option-{{ product.id }}"]').forEach(function (colorInput) {
-          colorInput.addEventListener('change', function () {
-            updateProductInfo('{{ product.id }}');
-          });
-        });
-
-        // Listen for changes on size options
-        document.querySelectorAll('input[name="size-option-{{ product.id }}"]').forEach(function (sizeInput) {
-          sizeInput.addEventListener('change', function () {
-            updateProductInfo('{{ product.id }}');
-          });
-        });
-
-        function updateProductInfo(productId) {
-          const selectedColor = document.querySelector('input[name="color-option-' + productId + '"]:checked');
-          const selectedSize = document.querySelector('input[name="size-option-' + productId + '"]:checked');
-
-          let variantToFind;
-          
-          // Find the selected variant based on color and size
-          if (selectedColor && selectedSize) {
-            const colorValue = selectedColor.value;
-            const sizeValue = selectedSize.value;
-
-            variantToFind = {{ product.variants | json }}.find(function(variant) {
-              return variant.options[0] == colorValue && variant.options[1] == sizeValue;
+        // Wait for the DOM to be ready
+        document.addEventListener('DOMContentLoaded', function () {
+          // Listen for changes on color options
+          document.querySelectorAll('input[name="color-option-{{ product.id }}"]').forEach(function (colorInput) {
+            colorInput.addEventListener('change', function () {
+              updateProductInfo({{ product.id }});
             });
-          }
+          });
 
-          // If a variant is found, update the product info
-          if (variantToFind) {
-            document.getElementById('variant-price-' + productId).innerText = variantToFind.price | money;
-            document.getElementById('variant-inventory-' + productId).innerText = variantToFind.inventory_quantity;
-            document.getElementById('variant-sku-' + productId).innerText = variantToFind.sku;
-            document.getElementById('variant-availability-' + productId).innerText = variantToFind.available ? 'Yes' : 'No';
-            document.getElementById('variant-weight-' + productId).innerText = variantToFind.weight + ' ' + variantToFind.weight_unit;
+          // Listen for changes on size options
+          document.querySelectorAll('input[name="size-option-{{ product.id }}"]').forEach(function (sizeInput) {
+            sizeInput.addEventListener('change', function () {
+              updateProductInfo({{ product.id }});
+            });
+          });
 
-            // Update the product image (if needed)
-            const imageUrl = variantToFind.featured_image | img_url: 'large';
-            document.getElementById('product-image-' + productId + '-hold').src = imageUrl;
+          function updateProductInfo(productId) {
+            const selectedColor = document.querySelector('input[name="color-option-' + productId + '"]:checked');
+            const selectedSize = document.querySelector('input[name="size-option-' + productId + '"]:checked');
+
+            let variantToFind;
+            
+            // Find the selected variant based on color and size
+            if (selectedColor && selectedSize) {
+              const colorValue = selectedColor.value;
+              const sizeValue = selectedSize.value;
+
+              variantToFind = {{ product.variants | json }}.find(function(variant) {
+                return variant.options[0] == colorValue && variant.options[1] == sizeValue;
+              });
+            }
+
+            // If a variant is found, update the product info
+            if (variantToFind) {
+              // Update price
+              const price = variantToFind.price | money;
+              document.getElementById('variant-price-' + productId).innerText = price;
+
+              // Update inventory
+              const inventory = variantToFind.inventory_quantity;
+              document.getElementById('variant-inventory-' + productId).innerText = inventory;
+
+              // Update SKU
+              const sku = variantToFind.sku;
+              document.getElementById('variant-sku-' + productId).innerText = sku;
+
+              // Update availability
+              const availability = variantToFind.available ? 'Yes' : 'No';
+              document.getElementById('variant-availability-' + productId).innerText = availability;
+
+              // Update weight
+              const weight = variantToFind.weight;
+              const weightUnit = variantToFind.weight_unit;
+              document.getElementById('variant-weight-' + productId).innerText = weight + ' ' + weightUnit;
+
+              // Update the product image
+              const imageUrl = variantToFind.featured_image | img_url: 'large';
+              document.getElementById('product-image-' + productId + '-hold').src = imageUrl;
+            }
           }
-        }
+        });
       </script>
     {%- endfor -%}
   </div>

@@ -46,10 +46,7 @@
 
             <div class="variants">
                       {%- if product.selected_or_first_available_variant.inventory_management == 'shopify' -%}
-                    {%- if product.selected_or_first_available_variant.inventory_quantity > 0 -%}
-                      {%- if product.selected_or_first_available_variant.inventory_quantity
-                          <= block.settings.inventory_threshold
-                      -%}
+                   
                         <span class="svg-wrapper" style="color: rgb(238, 148, 65)">
                           {{- 'icon-inventory-status.svg' | inline_asset_content -}}
                         </span>
@@ -85,8 +82,7 @@
                           {{- 'icon-inventory-status.svg' | inline_asset_content -}}
                         </span>
                         {{- 'products.product.inventory_out_of_stock' | t -}}
-                      {%- endif -%}
-                    {%- endif -%}
+                    
                   {%- endif -%}
             </div>
 

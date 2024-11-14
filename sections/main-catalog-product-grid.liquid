@@ -31,7 +31,6 @@
 {%- endstyle -%}
 
 
-
 <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }} catalog-grid">
   {% comment %} product loop {% endcomment %}
   <div class="page-width">
@@ -116,18 +115,18 @@
           </div>
         </div>
       </div>
-      
+
       <!-- JavaScript for updating product details dynamically when a variant is selected -->
       <script>
         document.addEventListener('DOMContentLoaded', function() {
-          // Find the first available variant based on color and size
+          // Function to set the initial variant data (pre-select first available variant)
           function setInitialVariantData(productId) {
             const firstAvailableVariant = {{ product.variants | json }}.find(function(variant) {
               return variant.available;
             });
 
             if (firstAvailableVariant) {
-              // Pre-select the color and size based on the first available variant
+              // Pre-select the color and size radio buttons
               const colorOption = firstAvailableVariant.options[0];
               const sizeOption = firstAvailableVariant.options[1];
 
@@ -139,7 +138,7 @@
             }
           }
 
-          // Update product info when a variant is selected
+          // Function to update product info dynamically
           function updateProductInfo(productId, selectedVariant) {
             if (!selectedVariant) return;
 
@@ -165,7 +164,7 @@
             document.getElementById('variant-weight-' + productId).innerText = weight + ' ' + weightUnit;
 
             // Update the product image
-            const imageUrl = selectedVariant.featured_image | img_url: 'large';
+            const imageUrl = selectedVariant.featured_image ? selectedVariant.featured_image | img_url: 'large' : "{{ product.featured_image | img_url: 'large' }}";
             document.getElementById('product-image-' + productId + '-hold').src = imageUrl;
           }
 
@@ -201,11 +200,10 @@
           setInitialVariantData({{ product.id }});
         });
       </script>
+
     {%- endfor -%}
   </div>
 </div>
-
-
 
 {% schema %}
 {

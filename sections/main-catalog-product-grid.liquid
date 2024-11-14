@@ -48,14 +48,18 @@
        
 
         <div class="variants">
+
+          {%- when 'variant_picker' -%}
+
+
           <div class="variant-selector">
 
 
             {%- for variant in product.variants -%}
 
-                {{variant.name}}
+               
 
-                 {%- if variant.options[0] == "Size" -%}  
+               
 
               <label for="variant-{{ variant.id }}" class="variant-option">
                 {{ variant.title }}
@@ -72,7 +76,7 @@
                   {%- if forloop.first -%} checked="checked"{%- endif -%}>
               </label>
 
-              {% endif %}
+              
             {%- endfor -%}
           </div>
 

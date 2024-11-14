@@ -31,13 +31,7 @@
           {{ product.description }}
         </div>
 
-        <div class="product-images">
-          <!-- Featured image of the product -->
-          <img id="product-image-{{ product.id }}-hold" 
-               class="product-image" 
-               src="{{ product.featured_image | img_url: 'large' }}" 
-               alt="{{ product.title }}">
-        </div>
+       
 
         <div class="variants">
           <div class="variant-selector">
@@ -68,6 +62,17 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="grid__item">
+ <div class="product-images">
+          <!-- Featured image of the product -->
+          <img id="product-image-{{ product.id }}-hold" 
+               class="product-image" 
+               src="{{ product.featured_image | img_url: 'large' }}" 
+               alt="{{ product.title }}">
+        </div>
+
     </div>
   </div>
 

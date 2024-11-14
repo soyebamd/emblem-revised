@@ -50,9 +50,10 @@
         <div class="variants">
           <div class="variant-selector">
 
-          {%- assign size_variants = product.variants | where: "option1", "Size" -%}
 
             {%- for variant in product.variants -%}
+
+                {{variant.name}}
 
                  {%- if variant.options[0] == "Size" -%}  
 

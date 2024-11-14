@@ -15,6 +15,11 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .order:nth-child(1n) .order__item:nth-child(1n) {
+    order:2;
+  }
+
 {%- endstyle -%}
 
 <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
@@ -116,12 +121,6 @@
     });
 
     //zig zag col
-
-    const main_container = document.querySelectorAll('.order');
-
-    main_container.forEach(item=>{
-        item.firstElementChild.querySelector('.order__item').style.order = "2";
-    })
 
   </script>
 

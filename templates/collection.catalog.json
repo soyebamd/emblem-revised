@@ -115,8 +115,8 @@
         "color_scheme": "scheme-4",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "emblem_product_catalog_fRb6ix": {
@@ -164,8 +164,8 @@
         "color_scheme": "scheme-4",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     }
   },

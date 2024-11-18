@@ -35,7 +35,9 @@
 .bg-transparent{
   background:transparent!important;
 }
-
+.media > :not(.zoom):not(.deferred-media__poster-button), .media model-viewer{
+    height:auto!important;
+}
 
 {%- endstyle -%}
 
@@ -60,6 +62,8 @@
               style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
             {% endif %}
           >
+
+
             {%- if section.settings.image != blank -%}
               {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
                 {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}

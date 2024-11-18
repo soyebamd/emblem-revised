@@ -61,27 +61,6 @@
             "size": "S - 4XL"
           }
         },
-        "color_GGNht4": {
-          "type": "color",
-          "settings": {
-            "color": "#000000",
-            "color_text": "Black"
-          }
-        },
-        "color_J4Wapn": {
-          "type": "color",
-          "settings": {
-            "color": "#635b42",
-            "color_text": "Tan 499"
-          }
-        },
-        "color_8KNE6V": {
-          "type": "color",
-          "settings": {
-            "color": "#604e3d",
-            "color_text": "Coyote Brown"
-          }
-        },
         "characteristics_AEBKRq": {
           "type": "characteristics",
           "settings": {
@@ -94,9 +73,6 @@
         "caption_QQtaaE",
         "text_EUHWn8",
         "size_6R7NRh",
-        "color_GGNht4",
-        "color_J4Wapn",
-        "color_8KNE6V",
         "characteristics_AEBKRq"
       ],
       "settings": {

@@ -210,7 +210,7 @@ line-height: 24px; /* 150% */
 
                   
 
-Retail Price:   {{ block.settings.caption | escape }}
+<strong>Retail Price:  </strong> {{ block.settings.caption | escape }}
                   </p>
 
 
@@ -229,7 +229,7 @@ Retail Price:   {{ block.settings.caption | escape }}
    {%- when 'size' -%}
 
                   <div class="border-section w-100 border-left-0 border-right-0 image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }} >
-              Size:      {{ block.settings.size }}
+            <p> <strong> Size:     </strong> {{ block.settings.size }} </p> 
               
               </div>
 
@@ -242,7 +242,7 @@ Retail Price:   {{ block.settings.caption | escape }}
              <div class="color gap-8 w-100 border-section border-left-0 border-right-0 border-top-0"  {{ block.shopify_attributes }}>
 
 
-               Color: 
+          <p> <strong> Color:</strong> </p>    
 <div class=" d-flex flex-wrap">
 
   {% for i in (1..20) %}

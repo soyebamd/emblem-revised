@@ -75,6 +75,13 @@
             "color_text": "Tan 499"
           }
         },
+        "color_8KNE6V": {
+          "type": "color",
+          "settings": {
+            "color": "#604e3d",
+            "color_text": "Coyote Brown"
+          }
+        },
         "characteristics_AEBKRq": {
           "type": "characteristics",
           "settings": {
@@ -89,6 +96,7 @@
         "size_6R7NRh",
         "color_GGNht4",
         "color_J4Wapn",
+        "color_8KNE6V",
         "characteristics_AEBKRq"
       ],
       "settings": {

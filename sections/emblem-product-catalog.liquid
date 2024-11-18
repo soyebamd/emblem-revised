@@ -246,10 +246,11 @@ line-height: 24px; /* 150% */
 <div class=" d-flex flex-wrap">
 
 
-  {% assign color_count = color_count | plus: 1 %}
-
-
-  {{color_count}}
+ {% for setting in block.settings %}
+  {% if setting.type == "color" %}
+    {% assign color_count = color_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
 
 
 

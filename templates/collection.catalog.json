@@ -61,19 +61,35 @@
             "size": "S - 4XL"
           }
         },
+        "color_iDpARW": {
+          "type": "color",
+          "settings": {
+            "color_plate_1": "#000000",
+            "color_text_1": "Black",
+            "color_plate_2": "#e31b1b",
+            "color_text_2": "ertert",
+            "color_plate_3": "#604E3D",
+            "color_text_3": "Coyote Brown",
+            "color_plate_4": "#444936",
+            "color_text_4": "Olive Drab Green",
+            "color_plate_5": "#171E3F",
+            "color_text_5": "Navy Blue",
+            "color_plate_6": "#051C26",
+            "color_text_6": "Midnight Blue",
+            "color_plate_7": "#f2f2f2",
+            "color_text_7": "Unlimited Colors",
+            "color_plate_8": "#cccccc",
+            "color_text_8": "Gray",
+            "color_plate_9": "#CD7F32",
+            "color_text_9": "Bronze",
+            "color_plate_10": "#0000FF",
+            "color_text_10": "Blue"
+          }
+        },
         "characteristics_AEBKRq": {
           "type": "characteristics",
           "settings": {
             "character_text": "<ul><li>4oz 100% polyester with a subtle breathable mesh.</li><li>Design dyed deep into the threads.</li><li>Printed, cut, and sewn in the U.S.A.</li></ul>"
-          }
-        },
-        "color_iDpARW": {
-          "type": "color",
-          "settings": {
-            "color_plate_1": "#000",
-            "color_text_1": "Black",
-            "color_plate_2": "#e31b1b",
-            "color_text_2": "ertert"
           }
         }
       },
@@ -82,8 +98,8 @@
         "caption_QQtaaE",
         "text_EUHWn8",
         "size_6R7NRh",
-        "characteristics_AEBKRq",
-        "color_iDpARW"
+        "color_iDpARW",
+        "characteristics_AEBKRq"
       ],
       "settings": {
         "image": "shopify://shop_images/CORE_PERFORMANCE_HOODED_SWEATSHIRT_1.png",

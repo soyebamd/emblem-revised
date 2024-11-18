@@ -116,7 +116,7 @@ line-height: 24px; /* 150% */
     assign remove_color_classes = true
   endif
 -%}
-
+{% comment %} 
 {% assign color_count = 0 %}
 
 {% for block in section.blocks %}
@@ -132,7 +132,7 @@ line-height: 24px; /* 150% */
  
 {% endfor %}
 
-<p>There are {{ color_count }} color settings.</p>
+<p>There are {{ color_count }} color settings.</p> {% endcomment %}
 
 
 
@@ -268,7 +268,7 @@ line-height: 24px; /* 150% */
 
 
 
-  {% for i in (1..20) %}
+  {% for i in (1..10) %}
 
     {% assign color_text_key = 'color_text_' | append: i %}    
     {% assign color_text_value = block.settings[color_text_key] %}

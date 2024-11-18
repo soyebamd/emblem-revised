@@ -66,6 +66,15 @@
           "settings": {
             "character_text": "<ul><li>4oz 100% polyester with a subtle breathable mesh.</li><li>Design dyed deep into the threads.</li><li>Printed, cut, and sewn in the U.S.A.</li></ul>"
           }
+        },
+        "color_iDpARW": {
+          "type": "color",
+          "settings": {
+            "color_plate_1": "#000",
+            "color_text_1": "Black",
+            "color_plate_2": "#e31b1b",
+            "color_text_2": "red"
+          }
         }
       },
       "block_order": [
@@ -73,7 +82,8 @@
         "caption_QQtaaE",
         "text_EUHWn8",
         "size_6R7NRh",
-        "characteristics_AEBKRq"
+        "characteristics_AEBKRq",
+        "color_iDpARW"
       ],
       "settings": {
         "image": "shopify://shop_images/CORE_PERFORMANCE_HOODED_SWEATSHIRT_1.png",

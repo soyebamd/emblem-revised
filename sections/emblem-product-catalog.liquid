@@ -65,6 +65,16 @@ line-height: 16px; /* 133.333% */
 
 }
 
+.price-caption{
+    margin:0;
+    color: var(--Super-Accent, #BEFA23);
+  font-family: "Barlow", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+}
+
 .color-item span{
   width:32px;
   height:32px;
@@ -183,7 +193,7 @@ line-height: 16px; /* 133.333% */
                   </h2>
                 {%- when 'caption' -%}
                   <p
-                    class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
+                    class="price-caption image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
                     {{ block.shopify_attributes }}
                   >
                  

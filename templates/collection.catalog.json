@@ -22,6 +22,7 @@
     },
     "product-grid": {
       "type": "main-catalog-product-grid",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-4",
         "show_secondary_image": true,
@@ -36,7 +37,7 @@
           "type": "heading",
           "settings": {
             "heading": "Image with text",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_EUHWn8": {

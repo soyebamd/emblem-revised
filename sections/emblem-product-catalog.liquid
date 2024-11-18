@@ -97,6 +97,12 @@ line-height: 24px; /* 150% */
     z-index:0;
 }
 
+.border-section{
+    padding:8px 0;
+    border:solid 1px #D8DAB8;
+    
+}
+
 
 
 {%- endstyle -%}
@@ -192,6 +198,9 @@ line-height: 24px; /* 150% */
                     {{ block.settings.heading }}
                   </h2>
                 {%- when 'caption' -%}
+
+
+
                   <p
                     class="price-caption image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
                     {{ block.shopify_attributes }}
@@ -199,8 +208,15 @@ line-height: 24px; /* 150% */
                  
                 
 
+                  
+
 Retail Price:   {{ block.settings.caption | escape }}
                   </p>
+
+
+
+
+
                 {%- when 'text' -%}
                   <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                     {{ block.settings.text }}
@@ -211,9 +227,11 @@ Retail Price:   {{ block.settings.caption | escape }}
 
 
    {%- when 'size' -%}
-                  <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }} >
+
+                  <div class="border-section border-left-0 border-right-0 image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }} >
               Size:      {{ block.settings.size }}
-                  </div>
+              
+              </div>
 
    {%- when 'color' -%}
 
@@ -221,7 +239,7 @@ Retail Price:   {{ block.settings.caption | escape }}
   Color:   
 
     
-             <div class="color d-flex flex-wrap gap-8"  {{ block.shopify_attributes }}>
+             <div class="color d-flex flex-wrap gap-8 border-section border-left-0 border-right-0"  {{ block.shopify_attributes }}>
 
   {% for i in (1..20) %}
 

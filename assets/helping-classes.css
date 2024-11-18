@@ -196,6 +196,22 @@
   text-align: justify !important;
 }
 
+.border-top-0 {
+  border-top: 0 !important;
+}
+
+.border-bottom-0 {
+  border-bottom: 0 !important;
+}
+
+.border-left-0 {
+  border-left: 0 !important;
+}
+
+.border-right-0 {
+  border-right: 0 !important;
+}
+
 /* Font Weight */
 .font-weight-light {
   font-weight: 300 !important;

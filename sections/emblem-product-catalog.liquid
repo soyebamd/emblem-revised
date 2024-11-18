@@ -121,9 +121,13 @@ line-height: 24px; /* 150% */
 
 {% for block in section.blocks %}
 
+{% for inblock in block.settings %}
 
+    {{inblock}}
 
-   ddd {{block.settings.type}}
+{% endfo %}
+
+ 
 
 
   {% assign color_count = color_count | plus: 1 %}

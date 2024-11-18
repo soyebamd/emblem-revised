@@ -163,6 +163,19 @@ Retail Price:   {{ block.settings.caption | escape }}
              
                   </div>
 
+  <div class="characteristics">
+
+  Characteristics:
+               
+              
+               <div>{{ block.settings.characteristics }}</div>
+              
+             
+                  </div>
+
+
+                  
+
 
 
 
@@ -545,6 +558,18 @@ Retail Price:   {{ block.settings.caption | escape }}
     ]
         },
 
+ {
+          "type": "characteristics",
+      "name": "Characteristics",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "character_size",
+          "default": "Some characteristics descriton here",
+          "label": "Add text"
+        }]
+        },
 
 
 

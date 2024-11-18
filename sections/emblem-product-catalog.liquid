@@ -159,6 +159,8 @@ Retail Price:   {{ block.settings.caption | escape }}
   {% for i in (1..2) %}
 
      {% assign color_text_picker_append = 'color_text_' | append: i %}
+
+     {{color_text_picker_append}}
      {% assign color_text_picker = block.settings.color_text_picker_append %}
 
     {% assign color_plate = block.settings['color_plate_i'] %}

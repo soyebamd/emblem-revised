@@ -62,13 +62,20 @@
             "button_link": "",
             "button_style_secondary": false
           }
+        },
+        "size_6R7NRh": {
+          "type": "size",
+          "settings": {
+            "size": "S - 4XL"
+          }
         }
       },
       "block_order": [
         "heading_R8Vr7y",
         "caption_QQtaaE",
         "text_EUHWn8",
-        "button_kRkDbt"
+        "button_kRkDbt",
+        "size_6R7NRh"
       ],
       "settings": {
         "image": "shopify://shop_images/CORE_PERFORMANCE_HOODED_SWEATSHIRT_1.png",

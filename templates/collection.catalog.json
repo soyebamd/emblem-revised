@@ -102,6 +102,7 @@
         "characteristics_AEBKRq"
       ],
       "settings": {
+        "background_image": "shopify://shop_images/DtoZxu_2.png",
         "image": "shopify://shop_images/CORE_PERFORMANCE_HOODED_SWEATSHIRT_1.png",
         "image_2": "shopify://shop_images/CORE_PERFORMANCE_HOODED_SWEATSHIRT.png",
         "height": "adapt",
@@ -110,8 +111,8 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-3ad8ffdf-550c-4532-8ec6-a8ef0654a5d0",
-        "color_scheme": "scheme-3ad8ffdf-550c-4532-8ec6-a8ef0654a5d0",
+        "section_color_scheme": "scheme-4",
+        "color_scheme": "scheme-4",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -150,6 +151,7 @@
         "caption_LjV6bA"
       ],
       "settings": {
+        "background_image": "shopify://shop_images/DtoZxu_2.png",
         "image": "shopify://shop_images/CORE_PERFORMANCE_HOODED_SWEATSHIRT_1.png",
         "image_2": "shopify://shop_images/CORE_PERFORMANCE_HOODED_SWEATSHIRT.png",
         "height": "adapt",
@@ -158,8 +160,8 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-3ad8ffdf-550c-4532-8ec6-a8ef0654a5d0",
-        "color_scheme": "scheme-3ad8ffdf-550c-4532-8ec6-a8ef0654a5d0",
+        "section_color_scheme": "scheme-4",
+        "color_scheme": "scheme-4",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,

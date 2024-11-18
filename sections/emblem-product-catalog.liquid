@@ -239,11 +239,19 @@ line-height: 24px; /* 150% */
    
 
     
-             <div class="color gap-8 w-100 border-section border-left-0 border-right-0 border-top-0"  {{ block.shopify_attributes }}>
+             <div class="color m-0 gap-8 w-100 border-section border-left-0 border-right-0 border-top-0"  {{ block.shopify_attributes }}>
 
 
           <p> <strong> Color:</strong> </p>    
 <div class=" d-flex flex-wrap">
+
+
+  {% assign color_count = color_count | plus: 1 %}
+
+
+  {{color_count}}
+
+
 
   {% for i in (1..20) %}
 

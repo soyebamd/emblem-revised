@@ -40,6 +40,14 @@
             "heading_size": "h2"
           }
         },
+        "caption_QQtaaE": {
+          "type": "caption",
+          "settings": {
+            "caption": "$40.00",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        },
         "text_EUHWn8": {
           "type": "text",
           "settings": {
@@ -58,6 +66,7 @@
       },
       "block_order": [
         "heading_R8Vr7y",
+        "caption_QQtaaE",
         "text_EUHWn8",
         "button_kRkDbt"
       ],

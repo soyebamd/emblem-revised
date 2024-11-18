@@ -110,6 +110,8 @@ line-height: 24px; /* 150% */
 
 
        .pr-shadow{   
+        display:block;
+        margin:auto;
 /*         
        width: 268px;
 height: 22px; border-radius: 268px;
@@ -219,6 +221,21 @@ display:block; */
           </div>
           
             {% comment %} Image Shadow {% endcomment %}
+
+
+             <a
+                      {% if section.settings.button_link == blank %}
+                        role="link" aria-disabled="true"
+                      {% else %}
+                        href="{{ section.settings.button_link }}"
+                      {% endif %}
+                      class="button{% if section.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                      {{ section.shopify_attributes }}
+                    >
+                      {{ section.settings.button_label | escape }}
+                    </a>
+
+
 
 
 
@@ -441,6 +458,27 @@ display:block; */
       "label": "t:sections.image-with-text.settings.desktop_image_width.label",
       "info": "t:sections.image-with-text.settings.desktop_image_width.info"
     },
+
+     {
+          "type": "text",
+          "id": "button_label",
+          "default": "t:sections.image-with-text.blocks.button.settings.button_label.default",
+          "label": "t:sections.image-with-text.blocks.button.settings.button_label.label",
+          "info": "t:sections.image-with-text.blocks.button.settings.button_label.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary",
+          "default": false,
+          "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
+        }
+
+        ,
     {
       "type": "select",
       "id": "layout",

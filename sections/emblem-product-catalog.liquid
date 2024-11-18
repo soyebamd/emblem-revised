@@ -250,14 +250,13 @@ line-height: 24px; /* 150% */
 
 
 
+{% for setting in block.settings %}
+    {% if setting.type == "color" %}
+      {% assign color_count = color_count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
 
- {% for setting in color.settings %}
-  {% if setting.type == "color" %}
-    {% assign color_count = color_count | plus: 1 %}
-  {% endif %}
-{% endfor %}
-
-
+<p>There are {{ color_count }} color blocks.</p>
 
   {% for i in (1..20) %}
 

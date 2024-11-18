@@ -238,7 +238,7 @@ display:block; */
                       {% else %}
                         href="{{ section.settings.button_link }}"
                       {% endif %}
-                      class="button{% if section.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                      class="button button-catalog {% if section.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                       {{ section.shopify_attributes }}
                     >
                       {{ section.settings.button_label | escape }}
@@ -368,7 +368,6 @@ display:block; */
 
                   
 
-
                 {%- when 'button' -%}
                   {%- if block.settings.button_label != blank -%}
                     <a
@@ -377,7 +376,7 @@ display:block; */
                       {% else %}
                         href="{{ block.settings.button_link }}"
                       {% endif %}
-                      class="button button-catalog {% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                      class="button {% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                       {{ block.shopify_attributes }}
                     >
                       {{ block.settings.button_label | escape }}

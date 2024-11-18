@@ -65,7 +65,7 @@
           "type": "color",
           "settings": {
             "color": "#000000",
-            "color_text": "#000"
+            "color_text": "black"
           }
         },
         "color_J4Wapn": {
@@ -73,6 +73,12 @@
           "settings": {
             "color": "#d02b2b",
             "color_text": "red"
+          }
+        },
+        "characteristics_AEBKRq": {
+          "type": "characteristics",
+          "settings": {
+            "character_size": "<p>Some characteristics descriton heresss</p>"
           }
         }
       },
@@ -82,7 +88,8 @@
         "text_EUHWn8",
         "size_6R7NRh",
         "color_GGNht4",
-        "color_J4Wapn"
+        "color_J4Wapn",
+        "characteristics_AEBKRq"
       ],
       "settings": {
         "image": "shopify://shop_images/CORE_PERFORMANCE_HOODED_SWEATSHIRT_1.png",

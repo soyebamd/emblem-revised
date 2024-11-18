@@ -134,7 +134,9 @@
                     class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
                     {{ block.shopify_attributes }}
                   >
-                  
+                 
+                
+
 
 Retail Price:   {{ block.settings.caption | escape }}
                   </p>
@@ -143,12 +145,14 @@ Retail Price:   {{ block.settings.caption | escape }}
                     {{ block.settings.text }}
                   </div>
 
+
+
+
+
    {%- when 'size' -%}
-                  <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+                  <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }} >
               Size:      {{ block.settings.size }}
                   </div>
-
-
 
    {%- when 'color' -%}
 
@@ -156,7 +160,7 @@ Retail Price:   {{ block.settings.caption | escape }}
   Color:   
 
     
-             <div class="color d-flex">
+             <div class="color d-flex"  {{ block.shopify_attributes }}>
 
   {% for i in (1..2) %}
 

@@ -152,9 +152,15 @@ Retail Price:   {{ block.settings.caption | escape }}
 
 
    {%- when 'color' -%}
-    sdfsdafdsa
-                  <div class="">
-              Color:      {{ block.settings.color }}
+    
+                  <div class="color">
+              Color:      
+              
+              <span style="background: {{ block.settings.color }}; width:40px; height:40px" ></span>
+
+              {{ block.settings.color_text }}
+              
+             
                   </div>
 
 
@@ -526,7 +532,17 @@ Retail Price:   {{ block.settings.caption | escape }}
           "id": "color",
           "default": "#000",
           "label": "Add Color"
-        }]
+        },
+    
+    
+     {
+          "type": "text",
+          "id": "color_text",
+          "default": "#000",
+          "label": "Add Color Name"
+        }
+    
+    ]
         },
 
 

@@ -120,11 +120,7 @@ line-height: 24px; /* 150% */
 {% assign color_count = 0 %}
 
 {% for block in section.blocks %}
-  {% for setting in block.settings %}
-    {% if setting.type == "color" %}
-      {% assign color_count = color_count | plus: 1 %}
-    {% endif %}
-  {% endfor %}
+  {% assign color_count = color_count | plus: 1 %}
 {% endfor %}
 
 <p>There are {{ color_count }} color settings.</p>

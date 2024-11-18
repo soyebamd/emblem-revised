@@ -55,14 +55,6 @@
             "text_style": "body"
           }
         },
-        "button_kRkDbt": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        },
         "size_6R7NRh": {
           "type": "size",
           "settings": {
@@ -74,7 +66,6 @@
         "heading_R8Vr7y",
         "caption_QQtaaE",
         "text_EUHWn8",
-        "button_kRkDbt",
         "size_6R7NRh"
       ],
       "settings": {

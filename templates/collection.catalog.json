@@ -64,13 +64,15 @@
         "color_GGNht4": {
           "type": "color",
           "settings": {
-            "color": "#000"
+            "color": "#000000",
+            "color_text": "#000"
           }
         },
         "color_J4Wapn": {
           "type": "color",
           "settings": {
-            "color": "#d02b2b"
+            "color": "#d02b2b",
+            "color_text": "red"
           }
         }
       },

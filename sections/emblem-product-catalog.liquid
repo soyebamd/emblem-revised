@@ -159,12 +159,15 @@ Retail Price:   {{ block.settings.caption | escape }}
   {% for i in (1..2) %}
 
     {% assign color_text_key = 'color_text_' | append: i %}
-     {{color_text_key}}
-     {% assign color_text_picker = block.settings.color_text_key %}
+    
+     {% assign color_text = block.settings.color_text_key %}
 
-    {% assign color_plate = block.settings['color_plate_i'] %}
 
-    {{color_text_picker}}
+         {% assign color_plate_key = 'color_plate_' | append: i %}
+
+    {% assign color_plate = block.settings.color_plate_key %}
+
+    {{color_text}}     {{color_plate}}
 
 
 

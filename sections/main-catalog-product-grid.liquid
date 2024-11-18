@@ -80,37 +80,22 @@
     <div class="grid__item order__item">
  <div class="product-images">
           <!-- Featured image of the product -->
-          <img id="product-image-{{ product.id }}-hold" 
-               class="product-image" 
-               src="{{ product.featured_image | img_url: 'large' }}" 
-               alt="{{ product.title }}">
-
-
-
-
-
-
-
-<br>
-
-sd
-{{product.media[1] }}<br>
-md{{product.media}}
-
+        
+  <div class="card-wrapper product-card-wrapper underline-links-hover">
 
 <img  
-               class="product-image" 
+               class="product-image motion-reduce" 
                src="{{ product.featured_media | img_url: 'large' }}" 
                alt="{{ product.title }}">
 
 
                
 <img  
-               class="product-image" 
+               class="product-image motion-reduce" 
                src="{{ product.media[1] | img_url: 'large' }}" 
                alt="{{ product.title }}">
 
-
+</div>
 
 
 

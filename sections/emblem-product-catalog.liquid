@@ -123,7 +123,7 @@ line-height: 24px; /* 150% */
 
 {% for inblock in block.settings %}
 
-    {{inblock}} <br>{% assign color_count = color_count | plus: 1 %}
+    {{inblock.type}} <br>{% assign color_count = color_count | plus: 1 %}
 
 {% endfor %}
 

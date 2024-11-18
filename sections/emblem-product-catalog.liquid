@@ -233,6 +233,9 @@ line-height: 24px; /* 150% */
               
               </div>
 
+
+
+
    {%- when 'color' -%}
 
     
@@ -245,6 +248,8 @@ line-height: 24px; /* 150% */
           <p> <strong> Color:</strong> </p>    
 <div class=" d-flex flex-wrap">
 
+
+{{color}}
 
  {% for setting in block.settings %}
   {% if setting.type == "color" %}

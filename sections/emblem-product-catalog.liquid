@@ -37,6 +37,22 @@
 }
 .media > :not(.zoom):not(.deferred-media__poster-button), .media model-viewer{}
 
+.flex-wrap{
+     flex-wrap: wrap;  /* Allow items to wrap to the next line */
+}
+
+.color-item{
+    
+
+  flex: 1 1 calc(100% / 7 - 10px); /* 7 items per row, accounting for gap */
+  box-sizing: border-box; /* Ensure padding and borders are included in width calculation */
+  padding: 10px; /* Optional: Add padding for your items */
+
+
+
+}
+
+
 {%- endstyle -%}
 
 {%- liquid
@@ -160,7 +176,7 @@ Retail Price:   {{ block.settings.caption | escape }}
   Color:   
 
     
-             <div class="color d-flex"  {{ block.shopify_attributes }}>
+             <div class="color d-flex flex-wrap"  {{ block.shopify_attributes }}>
 
   {% for i in (1..20) %}
 

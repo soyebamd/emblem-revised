@@ -121,6 +121,15 @@ display:block; */
 
        }
 
+
+
+.button-catalog{position: absolute;
+  left: 50%;
+  bottom: 85px;
+  transform: translate(-50% , -50%);
+}
+
+
 {%- endstyle -%}
 
 {%- liquid
@@ -371,7 +380,7 @@ display:block; */
                       {% else %}
                         href="{{ block.settings.button_link }}"
                       {% endif %}
-                      class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                      class="button button-catalog {% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                       {{ block.shopify_attributes }}
                     >
                       {{ block.settings.button_label | escape }}

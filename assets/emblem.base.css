@@ -89,6 +89,10 @@ h5 span {
   letter-spacing: 0.907px;
 }
 
+.lh-40 {
+  line-height: 4rem;
+}
+
 .mt-24 {
   margin-top: 24px;
 }

@@ -155,26 +155,23 @@ Retail Price:   {{ block.settings.caption | escape }}
    {%- when 'color' -%}
     
                   <div class="color d-flex">
-               
-              
-              <span style="background: {{ block.settings.color_plate_1 }}; width:40px; height:40px; display:inline-block" ></span>
 
-              <div>{{ block.settings.color_text_1 }}           
+
+               {% for i in (1..20) %}
+
+                {%  assign color_text = block.settings["color_text_" | append:i] %}
+                 {%  assign color_plate = block.settings["color_plate_" | append:i] %}
+
+               
+              {% if color_text %}
+              <span style="background: {{ color_plate }}; width:40px; height:40px; display:inline-block" ></span>
+
+              <div>{{ block.settings.color_text }}           
              
                   </div>
                   </div>
 
 
-
-                  <div class="color d-flex">
-               
-              
-              <span style="background: {{ block.settings.color_plate_2 }}; width:40px; height:40px; display:inline-block" ></span>
-
-              <div>{{ block.settings.color_text_2 }}           
-             
-                  </div>
-                  </div>
 
 
 

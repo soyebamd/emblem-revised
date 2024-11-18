@@ -228,7 +228,7 @@ Retail Price:   {{ block.settings.caption | escape }}
 
    {%- when 'size' -%}
 
-                  <div class="border-section border-left-0 border-right-0 image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }} >
+                  <div class="border-section w-100 border-left-0 border-right-0 image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }} >
               Size:      {{ block.settings.size }}
               
               </div>
@@ -236,11 +236,11 @@ Retail Price:   {{ block.settings.caption | escape }}
    {%- when 'color' -%}
 
     
-  Color:   
+  
 
     
-             <div class="color d-flex flex-wrap gap-8 border-section border-left-0 border-right-0"  {{ block.shopify_attributes }}>
-
+             <div class="color d-flex flex-wrap gap-8 w-100 border-section border-left-0 border-right-0"  {{ block.shopify_attributes }}>
+  Color: 
   {% for i in (1..20) %}
 
     {% assign color_text_key = 'color_text_' | append: i %}    

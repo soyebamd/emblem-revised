@@ -16,6 +16,18 @@
     }
   }
 
+    .card-wrapper:hover .media.media--hover-effect > img{
+      position:relative;
+    }
+  @media screen and (min-width: 990px) {
+  .card-wrapper:hover .media.media--hover-effect > img + img {
+    opacity: 1;
+    transition: transform var(--duration-long) ease;
+    transform: scale(1);
+    transition: all 1s;
+  }
+}
+
 .catalog-grid .order:nth-child(2n) .order__item:first-child {
 
   order: 2;

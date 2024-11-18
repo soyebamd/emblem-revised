@@ -22,7 +22,7 @@
   @media screen and (min-width: 990px) {
   .card-wrapper:hover .media.media--hover-effect > img + img {
     opacity: 1;
-    transition: transform var(--duration-long) ease;
+   
     transform: scale(1);
     transition: all 1s;
   }
@@ -32,6 +32,11 @@
 
   order: 2;
 }
+
+.bg-transparent{
+  background:transparent!important;
+}
+
 {%- endstyle -%}
 
 
@@ -93,7 +98,7 @@
  <div class="product-images">
           <!-- Featured image of the product -->
         
-  <div class="card-wrapper product-card-wrapper underline-links-hover media--transparent">
+  <div class="card-wrapper product-card-wrapper underline-links-hover bg-transparent">
 
     <div class="media media--transparent media--hover-effect">
 

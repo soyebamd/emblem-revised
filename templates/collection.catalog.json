@@ -65,20 +65,27 @@
           "type": "color",
           "settings": {
             "color": "#000000",
-            "color_text": "black"
+            "color_text": "Black"
           }
         },
         "color_J4Wapn": {
           "type": "color",
           "settings": {
-            "color": "#d02b2b",
-            "color_text": "red"
+            "color": "#635b42",
+            "color_text": "Tan 499"
+          }
+        },
+        "color_8KNE6V": {
+          "type": "color",
+          "settings": {
+            "color": "#604e3d",
+            "color_text": "Coyote Brown"
           }
         },
         "characteristics_AEBKRq": {
           "type": "characteristics",
           "settings": {
-            "character_size": "<p>Some characteristics descriton heresss</p>"
+            "character_text": "<ul><li>4oz 100% polyester with a subtle breathable mesh.</li><li>Design dyed deep into the threads.</li><li>Printed, cut, and sewn in the U.S.A.</li></ul>"
           }
         }
       },
@@ -89,6 +96,7 @@
         "size_6R7NRh",
         "color_GGNht4",
         "color_J4Wapn",
+        "color_8KNE6V",
         "characteristics_AEBKRq"
       ],
       "settings": {

@@ -41,12 +41,16 @@
      flex-wrap: wrap;  /* Allow items to wrap to the next line */
 }
 
+.gap-8{
+    gap:8px;
+}
+
 .color-item{
     
 
-  flex: 1 1 calc(100% / 7 - 10px); /* 7 items per row, accounting for gap */
-  box-sizing: border-box; /* Ensure padding and borders are included in width calculation */
-  padding: 10px; /* Optional: Add padding for your items */
+  flex: 1 1 calc(100% / 7 - 10px); 
+  box-sizing: border-box;
+  padding: 0px;
 
 
 
@@ -189,7 +193,7 @@ Retail Price:   {{ block.settings.caption | escape }}
 
 
     {% if color_text_value != '' %}
-        <div class="color-item" style="margin-right: 10px;">
+        <div class="color-item" >
             <span style="background: {{ color_plate_value }}; width:40px; height:40px; display:inline-block;"></span>
             <div>{{ color_text_value }}</div>
         </div>

@@ -68,21 +68,21 @@
             "color_text_1": "Black",
             "color_plate_2": "#e31b1b",
             "color_text_2": "ertert",
-            "color_plate_3": "#604E3D",
+            "color_plate_3": "#604e3d",
             "color_text_3": "Coyote Brown",
             "color_plate_4": "#444936",
             "color_text_4": "Olive Drab Green",
-            "color_plate_5": "#171E3F",
+            "color_plate_5": "#171e3f",
             "color_text_5": "Navy Blue",
-            "color_plate_6": "#051C26",
+            "color_plate_6": "#051c26",
             "color_text_6": "Midnight Blue",
             "color_plate_7": "#f2f2f2",
             "color_text_7": "Unlimited Colors",
             "color_plate_8": "#cccccc",
             "color_text_8": "Gray",
-            "color_plate_9": "#CD7F32",
+            "color_plate_9": "#cd7f32",
             "color_text_9": "Bronze",
-            "color_plate_10": "#0000FF",
+            "color_plate_10": "#0000ff",
             "color_text_10": "Blue"
           }
         },
@@ -106,12 +106,60 @@
         "image_2": "shopify://shop_images/CORE_PERFORMANCE_HOODED_SWEATSHIRT.png",
         "height": "adapt",
         "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3ad8ffdf-550c-4532-8ec6-a8ef0654a5d0",
+        "color_scheme": "scheme-3ad8ffdf-550c-4532-8ec6-a8ef0654a5d0",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "emblem_product_catalog_fRb6ix": {
+      "type": "emblem-product-catalog",
+      "blocks": {
+        "heading_xdGRkm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_akUcda": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "caption_LjV6bA": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add Price",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xdGRkm",
+        "text_akUcda",
+        "caption_LjV6bA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/CORE_PERFORMANCE_HOODED_SWEATSHIRT_1.png",
+        "image_2": "shopify://shop_images/CORE_PERFORMANCE_HOODED_SWEATSHIRT.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-3ad8ffdf-550c-4532-8ec6-a8ef0654a5d0",
+        "color_scheme": "scheme-3ad8ffdf-550c-4532-8ec6-a8ef0654a5d0",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -122,6 +170,7 @@
   "order": [
     "banner",
     "product-grid",
-    "emblem_product_catalog_NpHagX"
+    "emblem_product_catalog_NpHagX",
+    "emblem_product_catalog_fRb6ix"
   ]
 }

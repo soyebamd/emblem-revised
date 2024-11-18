@@ -157,15 +157,7 @@ Retail Price:   {{ block.settings.caption | escape }}
              <div class="color d-flex">
 
   {% for i in (1..20) %}
-    {% assign color_text = block.settings["color_text_" | append: i] %}
-    {% assign color_plate = block.settings["color_plate_" | append: i] %}
-
-    {% if color_text and color_plate %}
-      <div class="color-item" style="margin-right: 10px;">
-        <span style="background: {{ color_plate }}; width:40px; height:40px; display:inline-block;"></span>
-        <div>{{ color_text }}</div>
-      </div>
-    {% endif %}
+   {{i}}
   {% endfor %}
 
 </div>

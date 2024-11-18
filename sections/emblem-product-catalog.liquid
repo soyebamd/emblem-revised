@@ -120,6 +120,11 @@ line-height: 24px; /* 150% */
 {% assign color_count = 0 %}
 
 {% for block in section.blocks %}
+
+
+    {{block.settings.type}}
+
+
   {% assign color_count = color_count | plus: 1 %}
 {% endfor %}
 

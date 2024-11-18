@@ -28,80 +28,10 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "featured_product_A9iBLY": {
-      "type": "featured-product",
-      "blocks": {
-        "text_JyxCHV": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_pztRHh": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_kVhPgY": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_p6YFHa": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_9RUAM9": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_AFJdP7": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_4Yj3bc": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_JyxCHV",
-        "title_pztRHh",
-        "price_kVhPgY",
-        "variant_picker_p6YFHa",
-        "quantity_selector_9RUAM9",
-        "buy_buttons_AFJdP7",
-        "share_4Yj3bc"
-      ],
-      "settings": {
-        "product": "1eaaz-store-14729-crew-neck-sweatshirt-coksuy",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "banner",
-    "product-grid",
-    "featured_product_A9iBLY"
+    "product-grid"
   ]
 }

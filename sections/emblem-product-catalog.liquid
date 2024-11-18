@@ -167,7 +167,15 @@ Retail Price:   {{ block.settings.caption | escape }}
 
     {% assign color_plate_value = block.settings[color_plate_key] %}
 
-    {{color_text_value}}     {{color_plate_value}}
+
+    {% if color_text_value %}
+      <div class="color-item" style="margin-right: 10px;">
+        <span style="background: {{ color_plate_value }}; width:40px; height:40px; display:inline-block;"></span>
+        <div>{{ color_text_value }}</div>
+      </div>
+    {% endif %}
+
+
 
 
 

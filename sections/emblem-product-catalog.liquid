@@ -151,6 +151,11 @@ Retail Price:   {{ block.settings.caption | escape }}
 
 
 
+   {%- when 'color' -%}
+                  <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+              Color:      {{ block.settings.color }}
+                  </div>
+
 
 
 
@@ -506,6 +511,25 @@ Retail Price:   {{ block.settings.caption | escape }}
           "label": "Size"
         }]
         },
+
+
+
+        
+      {
+          "type": "Color",
+      "name": "Color",
+     
+      "settings": [
+        {
+          "type": "color",
+          "id": "color",
+          "default": "#000",
+          "label": "Add Color"
+        }]
+        },
+
+
+
 
 
         

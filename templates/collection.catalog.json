@@ -60,13 +60,27 @@
           "settings": {
             "size": "S - 4XL"
           }
+        },
+        "color_GayjEE": {
+          "type": "Color",
+          "settings": {
+            "color": "#a12727"
+          }
+        },
+        "color_NcV6HR": {
+          "type": "Color",
+          "settings": {
+            "color": "#000"
+          }
         }
       },
       "block_order": [
         "heading_R8Vr7y",
         "caption_QQtaaE",
         "text_EUHWn8",
-        "size_6R7NRh"
+        "size_6R7NRh",
+        "color_GayjEE",
+        "color_NcV6HR"
       ],
       "settings": {
         "image": "shopify://shop_images/CORE_PERFORMANCE_HOODED_SWEATSHIRT_1.png",

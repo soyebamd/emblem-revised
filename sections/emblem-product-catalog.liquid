@@ -202,6 +202,14 @@ line-height: 24px; /* 150% */
             {%- endif -%}
 
 
+
+            {% comment %} Image Shadow {% endcomment %}
+
+
+            {{ 'pr-shadow.svg' | asset_url | img_tag: width: 268, class: 'pr-shadow' }}
+
+
+
             
           </div>
         </div>

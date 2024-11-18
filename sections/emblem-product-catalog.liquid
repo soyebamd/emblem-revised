@@ -134,7 +134,9 @@
                     class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
                     {{ block.shopify_attributes }}
                   >
-                    {{ block.settings.caption | escape }}
+                  
+
+Retail Price:   {{ block.settings.caption | escape }}
                   </p>
                 {%- when 'text' -%}
                   <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
@@ -430,14 +432,14 @@
     },
     {
       "type": "caption",
-      "name": "t:sections.image-with-text.blocks.caption.name",
+      "name": "Price",
       "limit": 1,
       "settings": [
         {
           "type": "text",
           "id": "caption",
           "default": "t:sections.image-with-text.blocks.caption.settings.text.default",
-          "label": "t:sections.image-with-text.blocks.caption.settings.text.label"
+          "label": "Price"
         },
         {
           "type": "select",
@@ -541,6 +543,9 @@
         },
         {
           "type": "text"
+        },
+         {
+          "type": "caption"
         },
         {
           "type": "button"

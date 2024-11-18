@@ -52,6 +52,11 @@
   box-sizing: border-box;
   padding: 0px;
 
+  width:32px;
+  height:32px;
+
+  border-radius:100%;
+
 
 
 }
@@ -194,7 +199,7 @@ Retail Price:   {{ block.settings.caption | escape }}
 
     {% if color_text_value != '' %}
         <div class="color-item" >
-            <span style="background: {{ color_plate_value }}; width:40px; height:40px; display:inline-block;"></span>
+            <span style="background: {{ color_plate_value }}"></span>
             <div>{{ color_text_value }}</div>
         </div>
     {% endif %}

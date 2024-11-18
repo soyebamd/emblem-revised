@@ -162,7 +162,7 @@ Retail Price:   {{ block.settings.caption | escape }}
     
              <div class="color d-flex"  {{ block.shopify_attributes }}>
 
-  {% for i in (1..2) %}
+  {% for i in (1..20) %}
 
     {% assign color_text_key = 'color_text_' | append: i %}    
     {% assign color_text_value = block.settings[color_text_key] %}
@@ -603,7 +603,16 @@ Retail Price:   {{ block.settings.caption | escape }}
           "id": "color_text_2",
           "default": "Black",
           "label": "Add  color name"
+        },
+
+
+         {
+          "type": "text",
+          "id": "color_text_3",
+          "default": "Black",
+          "label": "Add  color name"
         }
+
 
 
     

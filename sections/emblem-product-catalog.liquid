@@ -142,6 +142,19 @@ Retail Price:   {{ block.settings.caption | escape }}
                   <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                     {{ block.settings.text }}
                   </div>
+
+   {%- when 'size' -%}
+                  <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+              Size:      {{ block.settings.size }}
+                  </div>
+
+
+
+
+
+
+
+
                 {%- when 'button' -%}
                   {%- if block.settings.button_label != blank -%}
                     <a
@@ -438,7 +451,7 @@ Retail Price:   {{ block.settings.caption | escape }}
         {
           "type": "text",
           "id": "caption",
-          "default": "t:sections.image-with-text.blocks.caption.settings.text.default",
+          "default": "Add Price",
           "label": "Price"
         },
         {
@@ -488,8 +501,8 @@ Retail Price:   {{ block.settings.caption | escape }}
       "settings": [
         {
           "type": "text",
-          "id": "caption",
-          "default": "t:sections.image-with-text.blocks.caption.settings.text.default",
+          "id": "size",
+          "default": "Add a Size",
           "label": "Size"
         }]
         },

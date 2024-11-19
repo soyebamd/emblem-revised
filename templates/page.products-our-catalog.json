@@ -387,14 +387,14 @@
         "heading_WEXe4V": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "CORE PERFORMANCE HOODED SWEATSHIRT",
             "heading_size": "h5"
           }
         },
         "caption_7fNk7x": {
           "type": "caption",
           "settings": {
-            "caption": "Add Price",
+            "caption": "$49.99",
             "text_style": "caption-with-letter-spacing",
             "text_size": "small"
           }
@@ -402,14 +402,14 @@
         "text_pdhTfe": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>This hoodie combines durability with comfort and freedom of movement. Crafted with Stretchfleece fabric, it's ideal for cold weather training, providing warmth and breathability while preventing overheating. It's designed to be your go-to training hoodie for years.</p>",
             "text_style": "body"
           }
         },
         "size_TDdajj": {
           "type": "size",
           "settings": {
-            "size": "Add a size"
+            "size": "S -4XL"
           }
         },
         "color_LmmG3h": {
@@ -440,7 +440,7 @@
         "characteristics_GMGRN3": {
           "type": "characteristics",
           "settings": {
-            "character_text": "<p>Some characteristics description here</p>"
+            "character_text": "<ul><li>Soft, heavyweight 100% polyester stretch fleece.</li><li>Design dyed deep into the threads.</li><li>Printed, cut, and sewn in the U.S.A.</li></ul>"
           }
         }
       },

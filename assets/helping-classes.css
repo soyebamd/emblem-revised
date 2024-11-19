@@ -37,12 +37,11 @@
   margin-top: 3rem !important;
 }
 
-.mb-8 {
-  margin-bottom: 8px !important;
-}
-
 .mb-0 {
   margin-bottom: 0 !important;
+}
+.mb-8 {
+  margin-bottom: 8px !important;
 }
 .gap-0 {
   gap: 0 !important;

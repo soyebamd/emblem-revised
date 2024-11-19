@@ -234,10 +234,12 @@ const content__table = document.querySelectorAll('.tab-content__table');
 
 header.forEach(tab=>{
 
-tab.classList.remove('tab-active');
 
 tab.addEventListener('click',
     function(){
+
+    tab.classList.remove('tab-active');
+
 
 
       content__table.forEach(content=>{

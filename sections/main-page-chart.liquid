@@ -224,30 +224,34 @@ font-weight: 700;}
 
 
 //COLLASPE CODE
+const headers = document.querySelectorAll('.tab-content__header');
+const contentTables = document.querySelectorAll('.tab-content__table');
 
-const header = document.querySelectorAll('.tab-content__header');
-const content__table = document.querySelectorAll('.tab-content__table');
+headers.forEach(tab => {
+  tab.addEventListener('click', function () {
+    // Close all other tables (hide them with max-height 0)
+    contentTables.forEach(content => {
+      content.style.maxHeight = '0'; // Collapse the content
+      content.style.display = 'none'; // Hide the content after the transition ends
+    });
 
+    // Get the next sibling (the content table)
+    const nextContent = this.nextElementSibling;
 
-header.forEach(tab=>{
-
-tab.addEventListener('click',
-    function(){
-
-
-      content__table.forEach(content=>{
-        content.classList.remove('d-flex');
-      })
-
-      const getHeight =  this.nextElementSibling.scrollHeight;
-
-
-
-        this.nextElementSibling.classList.add('d-flex').style.height = getHeight+'px' ;
+    if (nextContent.style.maxHeight === '0px' || !nextContent.style.maxHeight) {
+      // Get the scrollHeight of the content to set as max-height for animation
+      const getHeight = nextContent.scrollHeight;
+      
+      nextContent.style.display = 'flex'; // Make it visible
+      nextContent.style.maxHeight = getHeight + 'px'; // Slide it down to the full height
+    } else {
+      // If it's already visible, slide it up (collapse it)
+      nextContent.style.maxHeight = '0';
+      nextContent.style.display = 'none'; // Hide it after transition
     }
-)
+  });
+});
 
-})
 
 
 </script>

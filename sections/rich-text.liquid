@@ -12,10 +12,33 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-{%- endstyle -%}
 
+
+  
+.bg-page-{{ section.id }}{
+  position:relative;
+}
+
+ .bg-page-{{ section.id }}:after{
+    content:'';
+background-image: url({{ section.settings.image_background |  image_url }}) !important;
+background-size:cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+mix-blend-mode: multiply;
+
+  }
+
+  
+{%- endstyle -%}
+<div class="background {% if section.settings.image_background %} bg-page-{{ section.id }} {% endif %}  color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %}"></div>
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
+  <div class="rich-text content-container rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
       <div class="rich-text__blocks {{ section.settings.content_alignment }}">
         {%- for block in section.blocks -%}
@@ -103,6 +126,14 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+
+   
+   {
+      "type": "image_picker",
+      "id": "image_background",
+      "label": "background Image"
+    },
+
     {
       "type": "select",
       "id": "desktop_content_position",

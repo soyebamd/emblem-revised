@@ -11,13 +11,104 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "emblem_product_catalog_WYPapK": {
+      "type": "emblem-product-catalog",
+      "blocks": {
+        "heading_aRQxaN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h5"
+          }
+        },
+        "caption_3H7iDp": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add Price",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
+          }
+        },
+        "text_afdLUx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "size_TxVif3": {
+          "type": "size",
+          "settings": {
+            "size": "Add a size"
+          }
+        },
+        "color_LkAVaD": {
+          "type": "color",
+          "settings": {
+            "color_plate_1": "#000000",
+            "color_text_1": "Black",
+            "color_plate_2": "#635B42",
+            "color_text_2": "Tan 499",
+            "color_plate_3": "#604E3D",
+            "color_text_3": "Coyote Brown",
+            "color_plate_4": "#444936",
+            "color_text_4": "Olive Drab Green",
+            "color_plate_5": "#171E3F",
+            "color_text_5": "Navy Blue",
+            "color_plate_6": "#051C26",
+            "color_text_6": "Midnight Blue",
+            "color_plate_7": "#f2f2f2",
+            "color_text_7": "Unlimited Colors",
+            "color_plate_8": "#cccccc",
+            "color_text_8": "Gray",
+            "color_plate_9": "#CD7F32",
+            "color_text_9": "Bronze",
+            "color_plate_10": "#0000FF",
+            "color_text_10": "Blue"
+          }
+        },
+        "characteristics_qkz49j": {
+          "type": "characteristics",
+          "settings": {
+            "character_text": "<p>Some characteristics description here</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aRQxaN",
+        "caption_3H7iDp",
+        "text_afdLUx",
+        "size_TxVif3",
+        "color_LkAVaD",
+        "characteristics_qkz49j"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "button_label": "Button label",
+        "button_link": "",
+        "button_style_secondary": false,
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "emblem_product_catalog_WYPapK"
   ]
 }

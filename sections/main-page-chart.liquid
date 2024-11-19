@@ -219,34 +219,36 @@ font-weight: 700;}
 });
 
 
-//COLLASPE CODE
 const headers = document.querySelectorAll('.tab-content__header');
 const contentTables = document.querySelectorAll('.tab-content__table');
 
 headers.forEach(tab => {
   tab.addEventListener('click', function () {
-    // Close all other tables (hide them with max-height 0)
+    const currentContent = this.nextElementSibling; // Get the table content after the header
+
+    // Close all other content tables (set max-height to 0)
     contentTables.forEach(content => {
-      content.style.maxHeight = '0'; // Collapse the content
-      content.style.display = 'none'; // Hide the content after the transition ends
+      if (content !== currentContent) {
+        content.style.maxHeight = '0'; // Collapse other content
+        content.style.display = 'none'; // Remove from layout after transition
+      }
     });
 
-    // Get the next sibling (the content table)
-    const nextContent = this.nextElementSibling;
+    // Check if the current content is already open
+    if (currentContent.style.maxHeight === '0px' || !currentContent.style.maxHeight) {
+      // Get the scrollHeight of the content
+      const getHeight = currentContent.scrollHeight;
 
-    if (nextContent.style.maxHeight === '0px' || !nextContent.style.maxHeight) {
-      // Get the scrollHeight of the content to set as max-height for animation
-      const getHeight = nextContent.scrollHeight;
-      
-      nextContent.style.display = 'flex'; // Make it visible
-      nextContent.style.maxHeight = getHeight + 'px'; // Slide it down to the full height
+      currentContent.style.display = 'flex'; // Make the content visible using flex
+      currentContent.style.maxHeight = getHeight + 'px'; // Expand it to its full height
     } else {
-      // If it's already visible, slide it up (collapse it)
-      nextContent.style.maxHeight = '0';
-      nextContent.style.display = 'none'; // Hide it after transition
+      // Collapse the current content if it's already expanded
+      currentContent.style.maxHeight = '0';
+      currentContent.style.display = 'none'; // Hide after the transition
     }
   });
 });
+
 
 
 

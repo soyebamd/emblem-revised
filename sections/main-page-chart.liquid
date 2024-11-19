@@ -108,6 +108,19 @@ font-weight: 700;}
     margin-bottom:20px;
 }
 
+.content {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.content.active {
+  display: block;
+  opacity: 1;
+}
+
+
+
 {%- endstyle -%}
 
 <section class="cart-bg  bg-{{ page.id }}">
@@ -132,38 +145,66 @@ font-weight: 700;}
 </div>
 
 
-  <div class="tab-container">
-
-
-<ul class="tab-header text-big">
-    <li class="active"><a href="#core-performance">CORE PERFORMANCE</a></li>
-    <li><a href="#comfort">COMFORT</a></li>
-    <li><a href="#hi-tech-performance">HI-TECH PERFORMANCE</a></li>
-</ul>
-
-
+<div class="tab-container">
+  <ul class="tab-header text-big">
+    <li class="tab active" data-target="#core-performance">CORE PERFORMANCE</li>
+    <li class="tab" data-target="#comfort">COMFORT</li>
+    <li class="tab" data-target="#hi-tech-performance">HI-TECH PERFORMANCE</li>
+  </ul>
 
   <div class="tab-content">
-
-  <div id="core-performance">{% render 'sizechart-core-performance' %} </div>
-
-
-  
-  <div id="comfort">{% render 'sizechart-comfort' %} </div>
-
-<div id="hi-tech-performance">
-{% render 'sizechart-hitech-performance' %}
-
+    <div id="core-performance" class="content active">
+      <!-- Core Performance Content -->
+      {% render 'sizechart-core-performance' %}
+    </div>
+    <div id="comfort" class="content">
+      <!-- Comfort Content -->
+      {% render 'sizechart-comfort' %}
+    </div>
+    <div id="hi-tech-performance" class="content">
+      <!-- Hi-Tech Performance Content -->
+      {% render 'sizechart-hitech-performance' %}
+    </div>
+  </div>
 </div>
 
-  </div>
-
-  </div>
 
 
 
 </div>
 </section>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+  const tabs = document.querySelectorAll('.tab');
+  const contents = document.querySelectorAll('.content');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', function () {
+      // Remove active class from all tabs and contents
+      tabs.forEach(t => t.classList.remove('active'));
+      contents.forEach(c => {
+        c.classList.remove('active');
+        c.style.opacity = 0; // Start with zero opacity
+      });
+
+      // Add active class to the clicked tab
+      this.classList.add('active');
+      const target = document.querySelector(this.getAttribute('data-target'));
+
+      // Add active class and fade-in effect to the content
+      target.classList.add('active');
+      setTimeout(() => {
+        target.style.opacity = 1; // Fade-in effect
+      }, 10); // Small delay to allow CSS transition
+    });
+  });
+});
+
+</script>
+
+
 {% schema %}
 {
   "name": "t:sections.main-page.name",

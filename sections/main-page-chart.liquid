@@ -120,6 +120,14 @@ font-weight: 700;}
   opacity: 1;
 }
 
+.open{
+    display:flex!important;
+}
+
+.tab-content__table{
+    display:none;
+}
+
 {%- endstyle -%}
 
 <section class="cart-bg  bg-{{ page.id }}">
@@ -192,6 +200,23 @@ font-weight: 700;}
     });
   });
 });
+
+
+//COLLASPE CODE
+
+const header = document.querySelectorAll('.tab-content__header');
+
+header.forEach(tab=>{
+
+tab.addEventListener('click',
+    function(){
+        console.log(this);
+
+        this.nextElementSibling.classList.add('open')
+    }
+)
+
+})
 
 
 </script>

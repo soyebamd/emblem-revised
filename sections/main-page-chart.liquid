@@ -1,0 +1,162 @@
+{{ 'section-main-page.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .cart-bg{
+    background-color:#54582F;
+    color:#fff;
+  }
+
+{%- endstyle -%}
+
+<section class="cart-bg">
+
+<div class="page-width page-width--narrow section-{{ section.id }}-padding">
+  <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+    {{ page.title | escape }}
+  </h1>
+
+
+  <div class="tab-container">
+
+
+  <div class="tab-header">
+tab content
+  </div>
+
+
+  <div class="tab-content">
+
+    <div class="tab-content__header">
+        <div><h3>Core Men's SS & LS</h3>
+<p>Performance Tees</p></div>
+
+
+
+<div>
+
+<p><strong>Material:</strong> 100% Polyester with a subtle mesh.</p>
+<p><strong>Material:</strong> 100% Polyester with a subtle mesh.</p>
+
+</div>
+
+
+    </div>
+
+
+
+    <div class="tab-content__table d-flex">
+
+    <div class="tab-content__table__content">
+
+<table border="1" style="border-collapse: collapse; text-align: center; width: 100%; background-color: #4A4A20; color: white;">
+    <thead>
+        <tr>
+            <th></th>
+            <th>S</th>
+            <th>M</th>
+            <th>L</th>
+            <th>XL</th>
+            <th>2XL</th>
+            <th>3XL</th>
+            <th>4XL</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>CHEST</td>
+            <td>17.5 IN</td>
+            <td>19.5 IN</td>
+            <td>21.5 IN</td>
+            <td>23.5 IN</td>
+            <td>25.5 IN</td>
+            <td>27.5 IN</td>
+            <td>29.5 IN</td>
+        </tr>
+        <tr>
+            <td>HIPS</td>
+            <td>17.5 IN</td>
+            <td>19.5 IN</td>
+            <td>21.5 IN</td>
+            <td>23.5 IN</td>
+            <td>25.5 IN</td>
+            <td>27.5 IN</td>
+            <td>29.5 IN</td>
+        </tr>
+        <tr>
+            <td>HEIGHT</td>
+            <td>26 IN</td>
+            <td>29 IN</td>
+            <td>31 IN</td>
+            <td>32 IN</td>
+            <td>33.5 IN</td>
+            <td>34.5 IN</td>
+            <td>35.5 IN</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+    </div>
+
+    <div class="tab-content__table__imgage"></div>
+
+    </div>
+
+  </div>
+
+  </div>
+
+
+
+
+  <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    {{ page.content }}
+  </div>
+</div>
+</section>
+{% schema %}
+{
+  "name": "t:sections.main-page.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ]
+}
+{% endschema %}

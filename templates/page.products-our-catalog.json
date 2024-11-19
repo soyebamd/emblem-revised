@@ -289,12 +289,102 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "emblem_product_catalog_6DrTTd": {
+      "type": "emblem-product-catalog",
+      "blocks": {
+        "heading_iDKVEx": {
+          "type": "heading",
+          "settings": {
+            "heading": "COMFORT CREW NECK SWEATSHIRt",
+            "heading_size": "h5"
+          }
+        },
+        "caption_k8rM99": {
+          "type": "caption",
+          "settings": {
+            "caption": "$49.99",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
+          }
+        },
+        "text_cqGJ6h": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This sweatshirt is designed for a comfortable fit that allows full range of motion. It provides warmth without restricting mobility, making it ideal for both casual wear and active duty.</p>",
+            "text_style": "body"
+          }
+        },
+        "size_BYYCq3": {
+          "type": "size",
+          "settings": {
+            "size": "S - 2XL"
+          }
+        },
+        "color_peXjH4": {
+          "type": "color",
+          "settings": {
+            "color_plate_1": "#000000",
+            "color_text_1": "Black",
+            "color_plate_2": "#635B42",
+            "color_text_2": "Tan 499",
+            "color_plate_3": "#604E3D",
+            "color_text_3": "Coyote Brown",
+            "color_plate_4": "#444936",
+            "color_text_4": "Olive Drab Green",
+            "color_plate_5": "#171E3F",
+            "color_text_5": "Navy Blue",
+            "color_plate_6": "#051C26",
+            "color_text_6": "Midnight Blue",
+            "color_plate_7": "#f2f2f2",
+            "color_text_7": "Unlimited Colors",
+            "color_plate_8": "#cccccc",
+            "color_text_8": "Gray",
+            "color_plate_9": "#CD7F32",
+            "color_text_9": "Bronze",
+            "color_plate_10": "#0000FF",
+            "color_text_10": "Blue"
+          }
+        },
+        "characteristics_NUwAqQ": {
+          "type": "characteristics",
+          "settings": {
+            "character_text": "<ul><li>Soft, Medium Weight Cotton/Polyester Blend Fleece.</li><li>Unisex fit, size up for relaxed fit.</li><li>Ideal for everyday wear.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iDKVEx",
+        "caption_k8rM99",
+        "text_cqGJ6h",
+        "size_BYYCq3",
+        "color_peXjH4",
+        "characteristics_NUwAqQ"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "button_label": "Button label",
+        "button_link": "",
+        "button_style_secondary": false,
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
     "main",
     "emblem_product_catalog_WYPapK",
     "emblem_product_catalog_Tkbf9r",
-    "emblem_product_catalog_MELFwH"
+    "emblem_product_catalog_MELFwH",
+    "emblem_product_catalog_6DrTTd"
   ]
 }

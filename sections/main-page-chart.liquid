@@ -238,7 +238,11 @@ header.forEach(tab=>{
 tab.addEventListener('click',
     function(){
 
-    tab.classList.remove('tab-active');
+    header.forEach(removeActiveTab=>{
+        removeActiveTab.classList.remove('tab-active');
+    })
+
+    
 
 
 

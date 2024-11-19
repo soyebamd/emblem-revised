@@ -182,8 +182,8 @@
       "settings": {
         "height": "adapt",
         "desktop_image_width": "medium",
-        "button_label": "Button label",
-        "button_link": "",
+        "button_label": "START DESIGNING",
+        "button_link": "#",
         "button_style_secondary": false,
         "layout": "text_first",
         "desktop_content_position": "top",

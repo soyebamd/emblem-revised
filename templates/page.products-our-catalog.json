@@ -23,14 +23,14 @@
         "heading_aRQxaN": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "core performance ss tee",
             "heading_size": "h5"
           }
         },
         "caption_3H7iDp": {
           "type": "caption",
           "settings": {
-            "caption": "Add Price",
+            "caption": "$34.99",
             "text_style": "caption-with-letter-spacing",
             "text_size": "small"
           }
@@ -38,14 +38,14 @@
         "text_afdLUx": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>The Core Performance SS Tee is our state-of-the-art performance shirt. This dye sublimation tee is designed for those who demand durability and style. The fabric offers superior breathability and moisture-wicking capabilities, keeping you mission-ready in any environment. The dye sublimation process ensures vibrant, long-lasting colors that won’t fade under pressure.</p>",
             "text_style": "body"
           }
         },
         "size_TxVif3": {
           "type": "size",
           "settings": {
-            "size": "Add a size"
+            "size": "S - 4XL"
           }
         },
         "color_LkAVaD": {
@@ -76,7 +76,7 @@
         "characteristics_qkz49j": {
           "type": "characteristics",
           "settings": {
-            "character_text": "<p>Some characteristics description here</p>"
+            "character_text": "<ul><li>4oz 100% polyester with a subtle breathable mesh.</li><li>Design dyed deep into the threads.</li><li>Printed, cut, and sewn in the U.S.A.</li></ul>"
           }
         }
       },

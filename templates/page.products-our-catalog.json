@@ -362,6 +362,8 @@
         "characteristics_NUwAqQ"
       ],
       "settings": {
+        "image": "shopify://shop_images/image_119.png",
+        "image_2": "shopify://shop_images/image_119_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "button_label": "Button label",
@@ -371,8 +373,8 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-fc286b6d-0355-48e8-8a52-f84236555a07",
+        "color_scheme": "scheme-fc286b6d-0355-48e8-8a52-f84236555a07",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 40,

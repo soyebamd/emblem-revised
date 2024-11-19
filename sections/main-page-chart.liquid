@@ -136,18 +136,25 @@ font-weight: 700;}
 
 
 <ul class="tab-header text-big">
-    <li class="active"><a href="#">CORE PERFORMANCE</a></li>
-    <li><a href="#">COMFORT</a></li>
-    <li><a href="#">HI-TECH PERFORMANCE</a></li>
+    <li class="active"><a href="#core-performance">CORE PERFORMANCE</a></li>
+    <li><a href="#comfort">COMFORT</a></li>
+    <li><a href="#hi-tech-performance">HI-TECH PERFORMANCE</a></li>
 </ul>
 
 
 
   <div class="tab-content">
 
-  
+  <div id="core-performance">{% render 'sizechart-core-performance' %} </div>
 
-{% render 'sizechart-core-performance' %}
+
+  
+  <div id="comfort">{% render 'sizechart-comfort' %} </div>
+
+<div id="hi-tech-performance">
+{% render 'sizechart-hitech-performance' %}
+
+</div>
 
   </div>
 

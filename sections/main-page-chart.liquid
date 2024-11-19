@@ -205,12 +205,18 @@ font-weight: 700;}
 //COLLASPE CODE
 
 const header = document.querySelectorAll('.tab-content__header');
+const content__table = document.querySelectorAll('.tab-content__table');
+
 
 header.forEach(tab=>{
 
 tab.addEventListener('click',
     function(){
-        console.log(this);
+
+
+      content__table.foreach(content=>{
+        content.classList.remove('d-flex');
+      })
 
         this.nextElementSibling.classList.add('d-flex');
     }

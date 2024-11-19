@@ -12,10 +12,12 @@
     "main": {
       "type": "main-page-chart",
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "padding_top": 56,
+        "padding_bottom": 56
       }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main"
+  ]
 }

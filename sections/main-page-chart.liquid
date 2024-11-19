@@ -137,17 +137,13 @@ font-weight: 700;}
 }
 
 
-
-.tab-content__table{
-    
-    overflow: hidden; height: 0;
-    transition:all 1s;
-    display:flex;
+.tab-content__table {
+  display: none; /* Initially hidden */
+  overflow: hidden; /* Prevent overflow while collapsing */
+  max-height: 0; /* Collapse to 0 height initially */
+  transition: max-height 0.5s ease-in-out; /* Smooth transition for max-height */
 }
 
-.d-flex{
-  overflow: visible;   transition:all 1s;
-}
 
 {%- endstyle -%}
 

@@ -33,7 +33,7 @@
 
      ul.tab-header li{
         font-weight:700;
-      
+        position:relative;
      }
 
       ul.tab-header li a{color:#fff; opacity:.5;
@@ -45,6 +45,17 @@
     }
 
        ul.tab-header li.active a{color:#fff; opacity:1;}
+
+       ul.tab-header li.active a:after{
+            content:'';
+            height:4px;
+            background:#BEFA23;
+            width:100%;
+            position:absolute;
+            bottom:0;
+       }
+
+
 
 {%- endstyle -%}
 

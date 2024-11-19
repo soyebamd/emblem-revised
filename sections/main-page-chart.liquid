@@ -72,7 +72,7 @@ transition:all 600ms;
 
 
 .tab-content__header:hover {
-  transform: scale(1.02);
+transition:scale(.2)
 }
 .table-style{
     border-collapse: collapse;
@@ -136,9 +136,13 @@ font-weight: 700;}
   opacity: 1;
 }
 
+.open{
+    display:flex!important;
+}
 
-
-
+.tab-content__table{
+    display:none;
+}
 
 {%- endstyle -%}
 
@@ -229,10 +233,8 @@ tab.addEventListener('click',
       content__table.forEach(content=>{
         content.classList.remove('d-flex');
       })
-      
-        this.nextElementSibling.classList.add('d-flex');
-         this.nextElementSibling.style.height = '0px';
 
+        this.nextElementSibling.classList.add('d-flex');
     }
 )
 

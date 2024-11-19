@@ -243,7 +243,7 @@ headers.forEach(tab => {
       currentContent.style.maxHeight = getHeight + 'px'; // Expand it to its full height
     } else {
       // Collapse the current content if it's already expanded
-      currentContent.style.maxHeight = '0';
+      currentContent.style.maxHeight = 'auto';
       currentContent.style.display = 'none'; // Hide after the transition
     }
   });

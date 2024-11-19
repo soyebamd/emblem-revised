@@ -138,13 +138,16 @@ font-weight: 700;}
 
 
 
-.tab-content__table {
-  display: none; /* Initially hidden */
-  overflow: hidden; /* Prevent overflow while collapsing */
-  max-height: 0; /* Collapse to 0 height initially */
-  transition: max-height 0.5s ease-in-out; /* Smooth transition for max-height */
+.tab-content__table{
+    
+    overflow: hidden; max-height: 0;
+    transition:all 1s;
+    display:flex;
 }
 
+.d-flex{
+  overflow: visible;   transition:all 1s;
+}
 
 {%- endstyle -%}
 
@@ -220,37 +223,28 @@ font-weight: 700;}
 });
 
 
-const headers = document.querySelectorAll('.tab-content__header');
-const contentTables = document.querySelectorAll('.tab-content__table');
+//COLLASPE CODE
 
-headers.forEach(tab => {
-  tab.addEventListener('click', function () {
-    const currentContent = this.nextElementSibling; // Get the table content after the header
+const header = document.querySelectorAll('.tab-content__header');
+const content__table = document.querySelectorAll('.tab-content__table');
 
-    // Close all other content tables (set max-height to 0)
-    contentTables.forEach(content => {
-      if (content !== currentContent) {
-        content.style.maxHeight = 'auto'; // Collapse other content
-        content.style.display = 'none'; // Remove from layout after transition
-      }
-    });
 
-    // Check if the current content is already open
-    if (currentContent.style.maxHeight === '0px' || !currentContent.style.maxHeight) {
-      // Get the scrollHeight of the content
-      const getHeight = 200;
+header.forEach(tab=>{
 
-      currentContent.style.display = 'flex'; // Make the content visible using flex
-      currentContent.style.maxHeight = getHeight + 'px'; // Expand it to its full height
-    } else {
-      // Collapse the current content if it's already expanded
-      currentContent.style.maxHeight = 'auto';
-      currentContent.style.display = 'none'; // Hide after the transition
+tab.addEventListener('click',
+    function(){
+
+
+      content__table.forEach(content=>{
+        content.classList.remove('d-flex');
+      })
+      
+
+        this.nextElementSibling.classList.add('d-flex');
     }
-  });
-});
+)
 
-
+})
 
 
 </script>

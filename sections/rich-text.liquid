@@ -33,11 +33,11 @@ background-size:cover;
 mix-blend-mode: multiply;
 
   }
-  
+
 
   
 {%- endstyle -%}
-<div class="background {% if section.settings.image_background %} bg-page-{{ section.id }} {% endif %}  color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %}"></div>
+<div class="background {% if section.settings.image_background %} bg-page-{{ section.id }} {% endif %}  color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %}">
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="rich-text content-container rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
@@ -117,7 +117,7 @@ mix-blend-mode: multiply;
     </div>
   </div>
 </div>
-
+</div>
 {% schema %}
 {
   "name": "t:sections.rich-text.name",

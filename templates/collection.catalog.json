@@ -102,7 +102,6 @@
         "characteristics_AEBKRq"
       ],
       "settings": {
-        "background_image": "shopify://shop_images/DtoZxu_2.png",
         "image": "shopify://shop_images/CORE_PERFORMANCE_HOODED_SWEATSHIRT_1.png",
         "image_2": "shopify://shop_images/CORE_PERFORMANCE_HOODED_SWEATSHIRT.png",
         "height": "adapt",
@@ -121,11 +120,101 @@
         "padding_top": 76,
         "padding_bottom": 40
       }
+    },
+    "emblem_product_catalog_KgyKJq": {
+      "type": "emblem-product-catalog",
+      "blocks": {
+        "heading_JzFHjB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h5"
+          }
+        },
+        "caption_jd8PYC": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add Price",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
+          }
+        },
+        "text_c8Jy7n": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "size_JyAzKd": {
+          "type": "size",
+          "settings": {
+            "size": "Add a size"
+          }
+        },
+        "color_yRyrzd": {
+          "type": "color",
+          "settings": {
+            "color_plate_1": "#000000",
+            "color_text_1": "Black",
+            "color_plate_2": "#635B42",
+            "color_text_2": "Tan 499",
+            "color_plate_3": "#604E3D",
+            "color_text_3": "Coyote Brown",
+            "color_plate_4": "#444936",
+            "color_text_4": "Olive Drab Green",
+            "color_plate_5": "#171E3F",
+            "color_text_5": "Navy Blue",
+            "color_plate_6": "#051C26",
+            "color_text_6": "Midnight Blue",
+            "color_plate_7": "#f2f2f2",
+            "color_text_7": "Unlimited Colors",
+            "color_plate_8": "#cccccc",
+            "color_text_8": "Gray",
+            "color_plate_9": "#CD7F32",
+            "color_text_9": "Bronze",
+            "color_plate_10": "#0000FF",
+            "color_text_10": "Blue"
+          }
+        },
+        "characteristics_Q6nmEp": {
+          "type": "characteristics",
+          "settings": {
+            "character_text": "<p>Some characteristics description here</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JzFHjB",
+        "caption_jd8PYC",
+        "text_c8Jy7n",
+        "size_JyAzKd",
+        "color_yRyrzd",
+        "characteristics_Q6nmEp"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "button_label": "Button label",
+        "button_link": "",
+        "button_style_secondary": false,
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "emblem_product_catalog_NpHagX"
+    "emblem_product_catalog_NpHagX",
+    "emblem_product_catalog_KgyKJq"
   ]
 }

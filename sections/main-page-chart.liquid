@@ -238,7 +238,7 @@ headers.forEach(tab => {
     // Check if the current content is already open
     if (currentContent.style.maxHeight === '0px' || !currentContent.style.maxHeight) {
       // Get the scrollHeight of the content
-      const getHeight = currentContent.scrollHeight;
+      const getHeight = 200;
 
       currentContent.style.display = 'flex'; // Make the content visible using flex
       currentContent.style.maxHeight = getHeight + 'px'; // Expand it to its full height

@@ -108,19 +108,6 @@ font-weight: 700;}
     margin-bottom:20px;
 }
 
-.content {
-  display: none;
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-
-.content.active {
-  display: block;
-  opacity: 1;
-}
-
-
-
 {%- endstyle -%}
 
 <section class="cart-bg  bg-{{ page.id }}">
@@ -145,29 +132,33 @@ font-weight: 700;}
 </div>
 
 
-<div class="tab-container">
-  <ul class="tab-header text-big">
-    <li class="tab active" data-target="#core-performance">CORE PERFORMANCE</li>
-    <li class="tab" data-target="#comfort">COMFORT</li>
-    <li class="tab" data-target="#hi-tech-performance">HI-TECH PERFORMANCE</li>
-  </ul>
+  <div class="tab-container">
+
+
+<ul class="tab-header text-big">
+    <li class="active"><a href="#core-performance">CORE PERFORMANCE</a></li>
+    <li><a href="#comfort">COMFORT</a></li>
+    <li><a href="#hi-tech-performance">HI-TECH PERFORMANCE</a></li>
+</ul>
+
+
 
   <div class="tab-content">
-    <div id="core-performance" class="content active">
-      <!-- Core Performance Content -->
-      {% render 'sizechart-core-performance' %}
-    </div>
-    <div id="comfort" class="content">
-      <!-- Comfort Content -->
-      {% render 'sizechart-comfort' %}
-    </div>
-    <div id="hi-tech-performance" class="content">
-      <!-- Hi-Tech Performance Content -->
-      {% render 'sizechart-hitech-performance' %}
-    </div>
-  </div>
+
+  <div id="core-performance"  class="content active">{% render 'sizechart-core-performance' %} </div>
+
+
+  
+  <div id="comfort"  class="content ">{% render 'sizechart-comfort' %} </div>
+
+<div id="hi-tech-performance"  class="content " >
+{% render 'sizechart-hitech-performance' %}
+
 </div>
 
+  </div>
+
+  </div>
 
 
 

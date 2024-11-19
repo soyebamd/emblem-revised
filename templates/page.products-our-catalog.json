@@ -180,12 +180,14 @@
         "characteristics_7eEYWk"
       ],
       "settings": {
+        "image": "shopify://shop_images/COMFORT_SS_TEE_Design.png",
+        "image_2": "shopify://shop_images/COMFORT_SS_TEE_Design_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "button_label": "START DESIGNING",
         "button_link": "#",
         "button_style_secondary": false,
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",

@@ -229,7 +229,7 @@ headers.forEach(tab => {
     // Close all other content tables (set max-height to 0)
     contentTables.forEach(content => {
       if (content !== currentContent) {
-        content.style.maxHeight = '0'; // Collapse other content
+        content.style.maxHeight = 'auto'; // Collapse other content
         content.style.display = 'none'; // Remove from layout after transition
       }
     });

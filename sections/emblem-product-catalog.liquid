@@ -88,7 +88,7 @@ line-height: 24px; /* 150% */
  .bg-{{ section.id }}:after{
     content:'';
     mix-blend-mode: multiply;
-    background-image: url({{ section.settings.background_image |  image_url }}) !important;
+    background-image: url({{ 'DtoZxu_2.png' |  file_url }}) !important;
     width:100%;
     height:100%;
     left:0;
@@ -400,7 +400,13 @@ display:block; */
     </div>
   </div>
 </div>
+{% comment %} 
 
+   {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background image"
+    }, {% endcomment %}
 {% schema %}
 {
   "name": "Emblem Catalog Product",
@@ -410,12 +416,6 @@ display:block; */
   },
   "settings": [
 
-
-   {
-      "type": "image_picker",
-      "id": "background_image",
-      "label": "Background image"
-    },
     {
       "type": "image_picker",
       "id": "image",

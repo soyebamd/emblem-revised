@@ -226,6 +226,8 @@ const content__table = document.querySelectorAll('.tab-content__table');
 
 header.forEach(tab=>{
 
+tab.classList.remove('tab-active');
+
 tab.addEventListener('click',
     function(){
 
@@ -233,6 +235,9 @@ tab.addEventListener('click',
       content__table.forEach(content=>{
         content.classList.remove('d-flex');
       })
+
+
+      this.classList.add('tab-active');
 
         this.nextElementSibling.classList.add('d-flex');
     }

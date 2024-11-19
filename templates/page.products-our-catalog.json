@@ -107,10 +107,421 @@
         "padding_top": 72,
         "padding_bottom": 40
       }
+    },
+    "emblem_product_catalog_Tkbf9r": {
+      "type": "emblem-product-catalog",
+      "blocks": {
+        "heading_YGYCzi": {
+          "type": "heading",
+          "settings": {
+            "heading": "COMFORT SS TEE",
+            "heading_size": "h5"
+          }
+        },
+        "caption_r8DKg6": {
+          "type": "caption",
+          "settings": {
+            "caption": "$29.99",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
+          }
+        },
+        "text_Q9RF9d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This tee is built for all-day comfort and durability. Soft, durable fabric ensures ease of movement, making it ideal for both off-duty relaxation and on-the-go operations. Reinforced seams provide long-lasting wear, while the breathable cotton keeps you cool under pressure.</p>",
+            "text_style": "body"
+          }
+        },
+        "size_PmVh8j": {
+          "type": "size",
+          "settings": {
+            "size": "S - 4XL"
+          }
+        },
+        "color_Up8DKk": {
+          "type": "color",
+          "settings": {
+            "color_plate_1": "#000000",
+            "color_text_1": "Black",
+            "color_plate_2": "#635B42",
+            "color_text_2": "Tan 499",
+            "color_plate_3": "#604E3D",
+            "color_text_3": "Coyote Brown",
+            "color_plate_4": "#444936",
+            "color_text_4": "Olive Drab Green",
+            "color_plate_5": "#171E3F",
+            "color_text_5": "Navy Blue",
+            "color_plate_6": "#051C26",
+            "color_text_6": "Midnight Blue",
+            "color_plate_7": "#f2f2f2",
+            "color_text_7": "Unlimited Colors",
+            "color_plate_8": "#cccccc",
+            "color_text_8": "Gray",
+            "color_plate_9": "#CD7F32",
+            "color_text_9": "Bronze",
+            "color_plate_10": "#0000FF",
+            "color_text_10": "Blue"
+          }
+        },
+        "characteristics_7eEYWk": {
+          "type": "characteristics",
+          "settings": {
+            "character_text": "<ul><li>100% Airlume combed and ring-spun cotton.</li><li>Durable and breathable.</li><li>Design is printed on film and pressed onto the garment.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YGYCzi",
+        "caption_r8DKg6",
+        "text_Q9RF9d",
+        "size_PmVh8j",
+        "color_Up8DKk",
+        "characteristics_7eEYWk"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/COMFORT_SS_TEE_Design.png",
+        "image_2": "shopify://shop_images/COMFORT_SS_TEE_Design_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "button_label": "START DESIGNING",
+        "button_link": "#",
+        "button_style_secondary": false,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-fc286b6d-0355-48e8-8a52-f84236555a07",
+        "color_scheme": "scheme-fc286b6d-0355-48e8-8a52-f84236555a07",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "emblem_product_catalog_MELFwH": {
+      "type": "emblem-product-catalog",
+      "blocks": {
+        "heading_7tnwAm": {
+          "type": "heading",
+          "settings": {
+            "heading": "HI-TECH LONG SLEEVE TEE",
+            "heading_size": "h5"
+          }
+        },
+        "caption_YKXA3M": {
+          "type": "caption",
+          "settings": {
+            "caption": "$39.99",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
+          }
+        },
+        "text_AjnWJ8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lightweight performance long sleeve tee designed for breathability and comfort. Made from moisture-wicking fabric, it keeps you cool and dry during intense activities. The athletic fit allows for unrestricted movement, and it’s quick-drying, perfect for training or everyday wear.</p>",
+            "text_style": "body"
+          }
+        },
+        "size_NzjJWq": {
+          "type": "size",
+          "settings": {
+            "size": "S - 4XL"
+          }
+        },
+        "color_N4eK9e": {
+          "type": "color",
+          "settings": {
+            "color_plate_1": "#000000",
+            "color_text_1": "Black",
+            "color_plate_2": "#635B42",
+            "color_text_2": "Tan 499",
+            "color_plate_3": "#604E3D",
+            "color_text_3": "Coyote Brown",
+            "color_plate_4": "#444936",
+            "color_text_4": "Olive Drab Green",
+            "color_plate_5": "#171E3F",
+            "color_text_5": "Navy Blue",
+            "color_plate_6": "#051C26",
+            "color_text_6": "Midnight Blue",
+            "color_plate_7": "#f2f2f2",
+            "color_text_7": "Unlimited Colors",
+            "color_plate_8": "#cccccc",
+            "color_text_8": "Gray",
+            "color_plate_9": "#CD7F32",
+            "color_text_9": "Bronze",
+            "color_plate_10": "#0000FF",
+            "color_text_10": "Blue"
+          }
+        },
+        "characteristics_mbdHB6": {
+          "type": "characteristics",
+          "settings": {
+            "character_text": "<ul><li>100% Moisture-Wicking Polyester.</li><li>Lightweight and roomy fit.</li><li>Perfect for intense workouts.</li><li>Design is printed on film and pressed onto the garment.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7tnwAm",
+        "caption_YKXA3M",
+        "text_AjnWJ8",
+        "size_NzjJWq",
+        "color_N4eK9e",
+        "characteristics_mbdHB6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/HI-TECH_LONG_SLEEVE_TEE.png",
+        "image_2": "shopify://shop_images/HI-TECH_LONG_SLEEVE_TEE_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "button_label": "START DESIGNING",
+        "button_link": "#",
+        "button_style_secondary": false,
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-fc286b6d-0355-48e8-8a52-f84236555a07",
+        "color_scheme": "scheme-fc286b6d-0355-48e8-8a52-f84236555a07",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "emblem_product_catalog_6DrTTd": {
+      "type": "emblem-product-catalog",
+      "blocks": {
+        "heading_iDKVEx": {
+          "type": "heading",
+          "settings": {
+            "heading": "COMFORT CREW NECK SWEATSHIRt",
+            "heading_size": "h5"
+          }
+        },
+        "caption_k8rM99": {
+          "type": "caption",
+          "settings": {
+            "caption": "$49.99",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
+          }
+        },
+        "text_cqGJ6h": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This sweatshirt is designed for a comfortable fit that allows full range of motion. It provides warmth without restricting mobility, making it ideal for both casual wear and active duty.</p>",
+            "text_style": "body"
+          }
+        },
+        "size_BYYCq3": {
+          "type": "size",
+          "settings": {
+            "size": "S - 2XL"
+          }
+        },
+        "color_peXjH4": {
+          "type": "color",
+          "settings": {
+            "color_plate_1": "#000000",
+            "color_text_1": "Black",
+            "color_plate_2": "#635B42",
+            "color_text_2": "Tan 499",
+            "color_plate_3": "#604E3D",
+            "color_text_3": "Coyote Brown",
+            "color_plate_4": "#444936",
+            "color_text_4": "Olive Drab Green",
+            "color_plate_5": "#171E3F",
+            "color_text_5": "Navy Blue",
+            "color_plate_6": "#051C26",
+            "color_text_6": "Midnight Blue",
+            "color_plate_7": "#f2f2f2",
+            "color_text_7": "Unlimited Colors",
+            "color_plate_8": "#cccccc",
+            "color_text_8": "Gray",
+            "color_plate_9": "#CD7F32",
+            "color_text_9": "Bronze",
+            "color_plate_10": "#0000FF",
+            "color_text_10": "Blue"
+          }
+        },
+        "characteristics_NUwAqQ": {
+          "type": "characteristics",
+          "settings": {
+            "character_text": "<ul><li>Soft, Medium Weight Cotton/Polyester Blend Fleece.</li><li>Unisex fit, size up for relaxed fit.</li><li>Ideal for everyday wear.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iDKVEx",
+        "caption_k8rM99",
+        "text_cqGJ6h",
+        "size_BYYCq3",
+        "color_peXjH4",
+        "characteristics_NUwAqQ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/image_119.png",
+        "image_2": "shopify://shop_images/image_119_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "button_label": "START DESIGNING",
+        "button_link": "#",
+        "button_style_secondary": false,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-fc286b6d-0355-48e8-8a52-f84236555a07",
+        "color_scheme": "scheme-fc286b6d-0355-48e8-8a52-f84236555a07",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "emblem_product_catalog_KmKAa7": {
+      "type": "emblem-product-catalog",
+      "blocks": {
+        "heading_WEXe4V": {
+          "type": "heading",
+          "settings": {
+            "heading": "CORE PERFORMANCE HOODED SWEATSHIRT",
+            "heading_size": "h5"
+          }
+        },
+        "caption_7fNk7x": {
+          "type": "caption",
+          "settings": {
+            "caption": "$49.99",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
+          }
+        },
+        "text_pdhTfe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This hoodie combines durability with comfort and freedom of movement. Crafted with Stretchfleece fabric, it's ideal for cold weather training, providing warmth and breathability while preventing overheating. It's designed to be your go-to training hoodie for years.</p>",
+            "text_style": "body"
+          }
+        },
+        "size_TDdajj": {
+          "type": "size",
+          "settings": {
+            "size": "S -4XL"
+          }
+        },
+        "color_LmmG3h": {
+          "type": "color",
+          "settings": {
+            "color_plate_1": "#000000",
+            "color_text_1": "Black",
+            "color_plate_2": "#635B42",
+            "color_text_2": "Tan 499",
+            "color_plate_3": "#604E3D",
+            "color_text_3": "Coyote Brown",
+            "color_plate_4": "#444936",
+            "color_text_4": "Olive Drab Green",
+            "color_plate_5": "#171E3F",
+            "color_text_5": "Navy Blue",
+            "color_plate_6": "#051C26",
+            "color_text_6": "Midnight Blue",
+            "color_plate_7": "#f2f2f2",
+            "color_text_7": "Unlimited Colors",
+            "color_plate_8": "#cccccc",
+            "color_text_8": "Gray",
+            "color_plate_9": "#CD7F32",
+            "color_text_9": "Bronze",
+            "color_plate_10": "#0000FF",
+            "color_text_10": "Blue"
+          }
+        },
+        "characteristics_GMGRN3": {
+          "type": "characteristics",
+          "settings": {
+            "character_text": "<ul><li>Soft, heavyweight 100% polyester stretch fleece.</li><li>Design dyed deep into the threads.</li><li>Printed, cut, and sewn in the U.S.A.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WEXe4V",
+        "caption_7fNk7x",
+        "text_pdhTfe",
+        "size_TDdajj",
+        "color_LmmG3h",
+        "characteristics_GMGRN3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/CORE_PERFORMANCE_HOODED_SWEATSHIRT_2.png",
+        "image_2": "shopify://shop_images/CORE_PERFORMANCE_HOODED_SWEATSHIRT_3.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "button_label": "START DESIGNING",
+        "button_link": "#",
+        "button_style_secondary": false,
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-fc286b6d-0355-48e8-8a52-f84236555a07",
+        "color_scheme": "scheme-fc286b6d-0355-48e8-8a52-f84236555a07",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_Apdd9G": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GnhAHt": {
+          "type": "heading",
+          "settings": {
+            "heading": "DOWNLOAD OUR FULL CATALOG",
+            "heading_size": "h2"
+          }
+        },
+        "text_rmajXF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The items above are out bestsellers. To see our full product catalog download the pdf.</p>"
+          }
+        },
+        "button_3xfxyL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Download Full Catalog",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_GnhAHt",
+        "text_rmajXF",
+        "button_3xfxyL"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3ad8ffdf-550c-4532-8ec6-a8ef0654a5d0",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
     }
   },
   "order": [
     "main",
-    "emblem_product_catalog_WYPapK"
+    "emblem_product_catalog_WYPapK",
+    "emblem_product_catalog_Tkbf9r",
+    "emblem_product_catalog_MELFwH",
+    "emblem_product_catalog_6DrTTd",
+    "emblem_product_catalog_KmKAa7",
+    "rich_text_Apdd9G"
   ]
 }

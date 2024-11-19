@@ -271,6 +271,8 @@
         "characteristics_mbdHB6"
       ],
       "settings": {
+        "image": "shopify://shop_images/HI-TECH_LONG_SLEEVE_TEE.png",
+        "image_2": "shopify://shop_images/HI-TECH_LONG_SLEEVE_TEE_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "button_label": "Button label",

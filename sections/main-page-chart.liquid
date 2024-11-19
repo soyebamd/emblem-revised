@@ -143,34 +143,20 @@ font-weight: 700;}
 
 </div>
 
-
-  <div class="tab-container">
-
-
-<ul class="tab-header text-big">
-    <li class="tab  active"><a href="#core-performance">CORE PERFORMANCE</a></li>
-    <li class="tab"><a href="#comfort">COMFORT</a></li>
-    <li class="tab"><a href="#hi-tech-performance">HI-TECH PERFORMANCE</a></li>
-</ul>
-
-
+<div class="tab-container">
+  <ul class="tab-header text-big">
+    <li class="tab active" data-target="#core-performance"><a href="#core-performance">CORE PERFORMANCE</a></li>
+    <li class="tab" data-target="#comfort"><a href="#comfort">COMFORT</a></li>
+    <li class="tab" data-target="#hi-tech-performance"><a href="#hi-tech-performance">HI-TECH PERFORMANCE</a></li>
+  </ul>
 
   <div class="tab-content">
-
-  <div id="core-performance"  class="content active">{% render 'sizechart-core-performance' %} </div>
-
-
-  
-  <div id="comfort"  class="content ">{% render 'sizechart-comfort' %} </div>
-
-<div id="hi-tech-performance"  class="content" >
-{% render 'sizechart-hitech-performance' %}
-
+    <div id="core-performance" class="content active">{% render 'sizechart-core-performance' %}</div>
+    <div id="comfort" class="content">{% render 'sizechart-comfort' %}</div>
+    <div id="hi-tech-performance" class="content">{% render 'sizechart-hitech-performance' %}</div>
+  </div>
 </div>
 
-  </div>
-
-  </div>
 
 
 
@@ -179,12 +165,14 @@ font-weight: 700;}
 
 
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
+   document.addEventListener('DOMContentLoaded', function () {
   const tabs = document.querySelectorAll('.tab');
   const contents = document.querySelectorAll('.content');
 
   tabs.forEach(tab => {
-    tab.addEventListener('click', function () {
+    tab.addEventListener('click', function (event) {
+      event.preventDefault(); // Prevent default anchor behavior
+
       // Remove active class from all tabs and contents
       tabs.forEach(t => t.classList.remove('active'));
       contents.forEach(c => {
@@ -204,6 +192,7 @@ font-weight: 700;}
     });
   });
 });
+
 
 </script>
 

@@ -81,10 +81,25 @@ font-weight: 700;}
     padding:1em 1.6em!important;
 }
 
+ .bg-{{ page.id }}{
+    position:relative;
+ }
+ .bg-{{ page.id }}:after{
+    content:'';
+    mix-blend-mode: multiply;
+    background-image: url({{ 'DtoZxu_2.png' |  file_url }}) !important;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    position:absolute;
+    z-index:0;
+}
+
 
 {%- endstyle -%}
 
-<section class="cart-bg">
+<section class="cart-bg  bg-{{ page.id }}">
 
 <div class="page-width  section-{{ section.id }}-padding">
 

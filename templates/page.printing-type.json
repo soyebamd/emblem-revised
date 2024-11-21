@@ -79,8 +79,9 @@
         "column_4CmxUb": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Durability.svg",
+            "title": "Durability",
+            "text": "<p>Sublimated shirts are highly resistant to wear and tear, making them ideal for active lifestyles and work environments.</p>",
             "link_label": "",
             "link": ""
           }

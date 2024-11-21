@@ -107,6 +107,11 @@ h5 span {
   letter-spacing: 0.907px;
 }
 
+.fw-96 {
+  font-size: 9.6rem;
+  line-height: 9.6rem;
+}
+
 h1,
 .h1 {
   font-size: 7.2rem;

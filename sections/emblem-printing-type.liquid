@@ -31,6 +31,8 @@
     {% endif %}
   >
 
+
+  {% comment %} settings image {% endcomment %}
  {%- unless section.settings.image == blank -%}
  {{
                       section.settings.image
@@ -43,7 +45,7 @@
  {% endunless %}
 
   
-
+{% comment %} settings title {% endcomment %}
 
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
@@ -60,7 +62,7 @@
 
 
 
-
+{% comment %} settings description {% endcomment %}
 {% unless section.settings.desc == blank %}
     <p>{{ section.settings.desc }}</p>
 {% endunless %}

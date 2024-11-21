@@ -23,15 +23,16 @@
         "slide_bmfh4A": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "image": "shopify://shop_images/Hero_1_1.png",
+            "heading": "PRINTING  STYLE",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "",
             "text_alignment_mobile": "center"

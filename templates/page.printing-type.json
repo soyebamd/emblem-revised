@@ -25,7 +25,7 @@
           "settings": {
             "image": "shopify://shop_images/Hero_1_1.png",
             "heading": "PRINTING  TYPES",
-            "heading_size": "hxxl",
+            "heading_size": "fw-96",
             "subheading": "",
             "button_label": "",
             "link": "",
@@ -129,7 +129,7 @@
         "header_image": "shopify://shop_images/Zoom.png",
         "title": "Cut & Sew Dye Sublimation",
         "desc": "Dye sublimation is considered the best technique for creating all-over-print products; the inks are chemically bonded to the material, which results in long-lasting, high-quality products. Cut & sew dye sub lets you print all over polyester garments, with the added advantage of a seamless finish without creases or patches.",
-        "heading_size": "h2",
+        "heading_size": "h5",
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,

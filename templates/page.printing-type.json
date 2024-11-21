@@ -161,7 +161,8 @@
         "column_kh4DxE": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify://shop_images/Unlimited_Colors.svg",
+            "title": "Works on Any Fabric",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""

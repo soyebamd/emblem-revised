@@ -13,6 +13,20 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+
+  .print-style .multicolumn-card__info h3{
+        font-size: 24px;
+
+
+  }
+
+   .print-style h1,
+  .print-style h2,
+  .print-style h3,
+  .print-style h4,
+  .print-style h5{font-family: "Barlow", sans-serif !important;}
+
 {%- endstyle -%}
 
 {%- liquid
@@ -117,7 +131,7 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
-            <div class="multicolumn-card content-container">
+            <div class="multicolumn-card content-container bg-transparent">
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
@@ -241,7 +255,7 @@
 {% schema %}
 {
   "name": "Printing Type",
-  "class": "section",
+  "class": "section print-style",
   "tag": "section",
   "disabled_on": {
     "groups": ["header", "footer"]

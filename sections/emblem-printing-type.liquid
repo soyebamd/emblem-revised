@@ -18,6 +18,8 @@
   .print-style .multicolumn-card__info h3{
         font-size: 24px;
 
+        color:rgba(var(--title-highlighted));
+
 
   }
 
@@ -176,7 +178,7 @@
               {%- endif -%}
               <div class="multicolumn-card__info p-0">
                 {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext">{{ block.settings.title }}</h3>
+                  <h3 class="inline-richtext my-8">{{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>

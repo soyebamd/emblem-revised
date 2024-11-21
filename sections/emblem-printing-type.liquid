@@ -33,7 +33,7 @@
 
 
   {% comment %} settings image {% endcomment %}
- {%- unless section.settings.image == blank -%}
+ {%- unless section.settings.header_image == blank -%}
  {{
                       section.settings.image
                       | image_url: width: 120
@@ -235,7 +235,7 @@
 
    {
         "type": "image_picker",
-        "id": "image",
+        "id": "header_image",
         "label": "Image"
       },
 

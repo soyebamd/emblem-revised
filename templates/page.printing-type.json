@@ -69,8 +69,9 @@
         "column_WFXhHd": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Soft_Touch.svg",
+            "title": "Soft & Comfortable",
+            "text": "<p>The dye is embedded into the fabric, preserving the shirt's softness and flexibility without the stiffness of traditional prints.</p>",
             "link_label": "",
             "link": ""
           }

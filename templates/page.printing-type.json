@@ -59,8 +59,9 @@
         "column_b3QHTN": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/ion_color-fill-outline.svg",
+            "title": "Color Vibrancy",
+            "text": "<p>Dye sublimation shirts provide bright, high-quality prints that remain intact after repeated washes, without fading, cracking, or peeling.</p>",
             "link_label": "",
             "link": ""
           }
@@ -124,14 +125,14 @@
         "title": "Cut & Sew Dye Sublimation",
         "desc": "Dye sublimation is considered the best technique for creating all-over-print products; the inks are chemically bonded to the material, which results in long-lasting, high-quality products. Cut & sew dye sub lets you print all over polyester garments, with the added advantage of a seamless finish without creases or patches.",
         "heading_size": "h2",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Button label",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-b226f1da-dc29-42d4-a623-d2890884c752",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,

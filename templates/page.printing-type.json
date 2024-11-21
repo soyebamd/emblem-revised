@@ -82,12 +82,42 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_XJipDf": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iCMNen": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eMEgGL": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_b3QHTN",
         "column_WFXhHd",
-        "column_4CmxUb"
+        "column_4CmxUb",
+        "column_XJipDf",
+        "column_iCMNen",
+        "column_eMEgGL"
       ],
       "settings": {
         "header_image": "shopify://shop_images/Zoom.png",

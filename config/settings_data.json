@@ -437,10 +437,10 @@
       },
       "scheme-8b16fcef-c23f-4ea7-be3b-c423051fb213": {
         "settings": {
-          "background": "#fffdf3",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#191c00",
-          "highlighted_color": "#54582f",
+          "highlighted_color": "#fd3535",
           "button": "#befa23",
           "button_label": "#191c00",
           "secondary_button_label": "#191c00",

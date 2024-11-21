@@ -59,8 +59,9 @@
         "column_b3QHTN": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/ion_color-fill-outline.svg",
+            "title": "Color Vibrancy",
+            "text": "<p>Dye sublimation shirts provide bright, high-quality prints that remain intact after repeated washes, without fading, cracking, or peeling.</p>",
             "link_label": "",
             "link": ""
           }

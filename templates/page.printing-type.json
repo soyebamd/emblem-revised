@@ -89,8 +89,9 @@
         "column_XJipDf": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Versatility.svg",
+            "title": "Custom Design",
+            "text": "<p>Customers can create unique, custom designs with unlimited color options, perfect for personalized or branded shirts.</p>",
             "link_label": "",
             "link": ""
           }
@@ -98,8 +99,9 @@
         "column_iCMNen": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Efficiency.svg",
+            "title": "Moisture-Wicking",
+            "text": "<p>Many sublimation shirts are made from polyester, which helps wick away moisture, keeping the wearer cool and dry during activities.</p>",
             "link_label": "",
             "link": ""
           }
@@ -107,8 +109,9 @@
         "column_eMEgGL": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Efficiency_1.svg",
+            "title": "Breathable",
+            "text": "<p>These shirts are lightweight and breathable, making them perfect for sportswear or casual use, offering comfort and performance.</p>",
             "link_label": "",
             "link": ""
           }

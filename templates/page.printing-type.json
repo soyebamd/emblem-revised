@@ -90,6 +90,7 @@
         "column_4CmxUb"
       ],
       "settings": {
+        "header_image": "shopify://shop_images/Zoom.png",
         "title": "Multicolumn",
         "desc": "Description text",
         "heading_size": "h1",

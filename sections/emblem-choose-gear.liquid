@@ -212,13 +212,13 @@ text-transform: uppercase;
 
                   
                   
-
+                  
 {% comment %} settings product_features {% endcomment %}
 
-
+<div class="core-product-feature">
 {% unless block.settings.product_features_icon == blank %}
 {{
-  block.settings.product_features_icon
+  block.settings.product_features_icon |
   image_url: width: 20 | image_tag
 }}
 {% endunless %}
@@ -226,7 +226,7 @@ text-transform: uppercase;
 {% unless block.settings.product_features == blank %}
     <p class="feature-text">{{ block.settings.product_features }}</p>
 {% endunless %}
-
+</div>
                   </div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}

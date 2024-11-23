@@ -59,6 +59,22 @@ margin: auto;
 
 }
 
+.core-product-feature{
+  margin-top:24px;
+}
+
+.core-product-feature p{
+  color:  #54582F;
+
+  font-family: "Barlow Condensed", sans-serif;
+
+font-size: 12px;
+
+font-weight: 700;
+line-height: 16px; /* 133.333% */
+text-transform: uppercase;
+}
+
 {%- endstyle -%}
 
 {%- liquid
@@ -197,24 +213,18 @@ margin: auto;
                   
 {% comment %} settings product_features {% endcomment %}
 
+<div class="core-product-feature">
 {% unless block.settings.product_features_icon == blank %}
-
-
-
 {{
-                      block.settings.product_features_icon
-                      | image_url: width: 20 | image_tag
-                       
-                    }}
-
+  block.settings.product_features_icon
+  image_url: width: 20 | image_tag:class: 'icon-fetaure'
+}}
 {% endunless %}
-
-
 
 {% unless block.settings.product_features == blank %}
-    <p>{{ block.settings.product_features }}</p>
+    <p class="feature-text">{{ block.settings.product_features }}</p>
 {% endunless %}
-
+</div>
                   </div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}

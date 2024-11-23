@@ -42,7 +42,7 @@ header_second value -
   {{section.settings.header_second}}
 
 
-<header class="printing-type__header ">
+<header class="printing-type__header {% if section.settings.header_second == 2 %} order-2 {% endif %} ">
 
   {% comment %} settings image {% endcomment %}
  {%- unless section.settings.header_image == blank -%}

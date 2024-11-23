@@ -238,12 +238,70 @@
         "padding_top": 96,
         "padding_bottom": 96
       }
+    },
+    "emblem_printing_type_f8Tkfi": {
+      "type": "emblem-printing-type",
+      "blocks": {
+        "column_XqjBVc": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ijYUwQ": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jW9KMh": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_XqjBVc",
+        "column_ijYUwQ",
+        "column_jW9KMh"
+      ],
+      "settings": {
+        "header_image": "shopify://shop_images/Zoom_4.png",
+        "title": "Embroidery",
+        "desc": "Embroidery gives products an expensive, high-quality look that lasts. Embroidered logos don't fade or wear off, so your logo or design stays sharp. Plus, embroidery adds a nice textured finish that feels more premium and personalized. It’s a great way to make your custom gear stand out.",
+        "heading_size": "h5",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "header_second": "1",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "color_scheme_blocks": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
     }
   },
   "order": [
     "main",
     "slideshow_EhkhYY",
     "emblem_printing_type_kr4VE8",
-    "emblem_printing_type_4VtLJt"
+    "emblem_printing_type_4VtLJt",
+    "emblem_printing_type_f8Tkfi"
   ]
 }

@@ -177,12 +177,34 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_DzfK8F": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Durability.svg",
+            "title": "Durability",
+            "text": "<p>These prints are durable, resisting fading, cracking, or peeling, even after repeated washes, keeping your designs fresh and vibrant over time.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7MpxbB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Group_1.svg",
+            "title": "Endless Creativity",
+            "text": "<p>Explore endless possibilities for custom designs, allowing you to express yourself uniquely and creatively. The sky's the limit!</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_Q3bg7g",
         "column_kh4DxE",
-        "column_zbM7Fb"
+        "column_zbM7Fb",
+        "column_DzfK8F",
+        "column_7MpxbB"
       ],
       "settings": {
         "header_image": "shopify://shop_images/Zoom_1.png",

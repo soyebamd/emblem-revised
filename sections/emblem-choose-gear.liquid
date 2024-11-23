@@ -214,7 +214,7 @@
     <div class="center{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
       {%- if section.settings.button_label != blank -%}
         <a
-          class="button button--primary"
+          class="{% if section.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
           {% if section.settings.button_link == blank %}
             role="link" aria-disabled="true"
           {% else %}
@@ -224,6 +224,24 @@
           {{ section.settings.button_label | escape }}
         </a>
       {%- endif -%}
+
+
+
+      {%- if section.settings.button_label_2 != blank -%}
+        <a
+          class="{% if section.settings.button_style_secondary_2 %}button--secondary{% else %}button--primary{% endif %}"
+          {% if section.settings.button_link_2 == blank %}
+            role="link" aria-disabled="true"
+          {% else %}
+            href="{{ section.settings.button_link_2 }}"
+          {% endif %}
+        >
+          {{ section.settings.button_label_2 | escape }}
+        </a>
+      {%- endif -%}
+
+
+
     </div>
   </div>
 </div>
@@ -377,6 +395,37 @@
       "id": "button_link",
       "label": "t:sections.multicolumn.settings.button_link.label"
     },
+
+     {
+          "type": "checkbox",
+          "id": "button_style_secondary",
+          "label": "t:sections.slideshow.blocks.slide.settings.secondary_style.label",
+          "default": false
+        },
+
+
+
+
+     {
+      "type": "text",
+      "id": "button_label_2",
+      "default": "t:sections.multicolumn.settings.button_label.default",
+      "label": "t:sections.multicolumn.settings.button_label.label"
+    },
+    {
+      "type": "url",
+      "id": "button_link_2",
+      "label": "t:sections.multicolumn.settings.button_link.label"
+    },
+
+     {
+          "type": "checkbox",
+          "id": "button_style_secondary_2",
+          "label": "t:sections.slideshow.blocks.slide.settings.secondary_style.label",
+          "default": false
+        },
+
+
     {
       "type": "color_scheme",
       "id": "color_scheme",

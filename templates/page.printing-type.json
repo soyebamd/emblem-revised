@@ -171,8 +171,9 @@
         "column_zbM7Fb": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Soft_Touch.svg",
+            "title": "Soft & Comfortable",
+            "text": "<p>Moving with you throughout the day without the stiff, plastic feel, so you can stay comfortable while looking great.</p>",
             "link_label": "",
             "link": ""
           }

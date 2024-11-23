@@ -65,7 +65,7 @@
       "settings": {
         "bg_image": "shopify://shop_images/background_2.png",
         "content_alignment": "center",
-        "title": "CHOOSE YOUR GEAR TYPE",
+        "title": "CHOOSE <em>YOUR GEAR</em> TYPE",
         "desc": "We offer 3 different types of gear,so we’ve got you covered in every situation.",
         "heading_size": "h2",
         "image_width": "full",

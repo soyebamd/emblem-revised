@@ -142,6 +142,19 @@
 
                   
 {% comment %} settings product_features {% endcomment %}
+
+{% unless block.settings.product_features_icon == blank %}
+
+
+
+{{
+                      block.settings.product_features_icon
+                      | image_url: width: 20
+                      | image_tag:
+                       
+                    }}
+
+{% endunless %}
 {% unless block.settings.product_features == blank %}
     <p>{{ block.settings.product_features }}</p>
 {% endunless %}
@@ -445,11 +458,20 @@
           "label": "t:sections.multicolumn.blocks.column.settings.text.label"
         },
 
+         {
+          "type": "image_picker",
+          "id": "product_features_icon",
+          "default": "Design is dyed deep into the fabric",
+          "label": "Product feature icon"
+        },
+
+
+
           {
           "type": "inline_richtext",
           "id": "product_features",
           "default": "Design is dyed deep into the fabric",
-          "label": "Product Feature Text"
+          "label": "Product feature text"
         },
 
 

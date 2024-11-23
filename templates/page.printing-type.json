@@ -245,8 +245,9 @@
         "column_XqjBVc": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Efficiency_2.svg",
+            "title": "Timeless",
+            "text": "<p>Adds a high-quality, professional finish to apparel and accessories that stands out compared to regular prints.</p>",
             "link_label": "",
             "link": ""
           }

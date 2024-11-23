@@ -39,7 +39,7 @@
   <div class="d-flex printing-type gap-32">
 
 
-<header class="printing-type__header">
+<header class="printing-type__header {%if %} {% endif %}">
 
   {% comment %} settings image {% endcomment %}
  {%- unless section.settings.header_image == blank -%}
@@ -272,6 +272,9 @@
     },
 
 
+
+
+
     {
       "type": "select",
       "id": "heading_size",
@@ -358,6 +361,24 @@
       "default": 3,
       "label": "t:sections.multicolumn.settings.columns_desktop.label"
     },
+
+       {
+      "type": "select",
+      "id": "header_second",
+      "options": [
+        {
+          "value": "0",
+          "label": "Header first"
+        },
+        {
+          "value": "2",
+          "label": "Header second"
+        }
+      ],
+      "default": "0",
+      "label": "Header first"
+    },
+
     {
       "type": "select",
       "id": "column_alignment",

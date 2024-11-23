@@ -35,9 +35,11 @@
         "column_GpRUMF": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "product_features": "Design is dyed deep into the fabric",
+            "image": "shopify://shop_images/Garment_2.png",
+            "title": "hi-tech PERFORMANCE",
+            "text": "<ul><li>100% Polyester</li><li>Direct To Film (Heat Transfer)</li><li>Standard Design Options</li></ul>",
+            "product_features_icon": "shopify://shop_images/Modo_de_aislamiento_1.svg",
+            "product_features": "design is printed on film and heat-pressed onto the fabric",
             "link_label": "",
             "link": ""
           }

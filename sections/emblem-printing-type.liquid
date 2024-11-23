@@ -39,7 +39,7 @@
   <div class="d-flex printing-type gap-32">
 
 
-<header class="printing-type__header {%if %} {% endif %}">
+<header class="printing-type__header {%if section.settings.header_second == 0 %} order-0 {% else  %} order-1 {% endif %}">
 
   {% comment %} settings image {% endcomment %}
  {%- unless section.settings.header_image == blank -%}

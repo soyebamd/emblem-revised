@@ -23,32 +23,20 @@
         "heading_9abDBy": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading": "WHAT’S THE DIFFERENCE?",
+            "heading_size": "h2"
           }
         },
         "text_6A8wGF": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_qMVCc4": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>We offer two types of core performance shirts - Core Performance and Core Flex Performance.</p>"
           }
         }
       },
       "block_order": [
         "heading_9abDBy",
-        "text_6A8wGF",
-        "button_qMVCc4"
+        "text_6A8wGF"
       ],
       "settings": {
         "image_background": "shopify://shop_images/background_2.png",

@@ -19,6 +19,8 @@
  .bg-{{ section.id }}{
     position:relative;
  }
+
+
  .bg-{{ section.id }}:after{
     content:'';
     mix-blend-mode: multiply;    
@@ -50,6 +52,13 @@
       data-cascade
     {% endif %}
   >
+
+
+  <div class="{{ section.settings.content_alignment }}">
+  
+  
+
+
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
         <h2 class="title inline-richtext {{ section.settings.heading_size }}">
@@ -71,7 +80,7 @@
     <p>{{ section.settings.desc }}</p>
 {% endunless %}
 
-
+</div>
 
 
 
@@ -283,6 +292,31 @@
         "id": "bg_image",
         "label": "Background image"
       },
+
+
+           {
+       
+        "type": "select",
+        "id": "content_alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__1.label"
+          },
+          {
+            "value": "center",
+            "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__2.label"
+          },
+          {
+            "value": "right",
+            "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__3.label"
+          }
+        ],
+        "default": "center",
+        "label": "t:sections.image-with-text.settings.mobile_content_alignment.label"
+      },
+
+
 
     {
       "type": "inline_richtext",

@@ -39,7 +39,7 @@
 <div class="background  bg-{{ section.id }} {% if section.settings.image_background %} z-0 bg-page-{{ section.id }} {% endif %}  color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %}">
 <div class="z-2 isolate{% unless section.settings.full_width %} page-width{% endunless %} position-relative z-1">
   <div class="rich-text content-container rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
-    <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
+    <div class="rich-text__wrapper d-block rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
       <div class="rich-text__blocks {{ section.settings.content_alignment }}">
         {%- for block in section.blocks -%}
           {%- case block.type -%}

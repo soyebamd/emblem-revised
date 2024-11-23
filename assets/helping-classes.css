@@ -497,6 +497,11 @@
 .mb-16 {
   margin-bottom: 1rem;
 }
+
+.mb-36 {
+  margin-bottom: 3.6rem;
+}
+
 .p-16 {
   padding: 1.6rem !important;
 }

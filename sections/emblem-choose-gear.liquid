@@ -38,6 +38,19 @@
   color:rgba(var( --title-highlighted));
 }
 
+.list-start-style{
+  list-style:none;
+}
+
+.list-start-style:before{
+
+content:'';
+position:relative;
+background:url({{'star-7.svg' |  asset_url}});
+width:17px;
+height:17px;
+
+}
 
 {%- endstyle -%}
 
@@ -166,7 +179,7 @@
                   </div>
                 </div>
               {%- endif -%}
-              <div class="multicolumn-card__info">
+              <div class="multicolumn-card__info list-start-style">
                 {%- if block.settings.title != blank -%}
                   <h3 class="inline-richtext l-h-normal h5 highlighted-text">{{ block.settings.title }}</h3>
                 {%- endif -%}

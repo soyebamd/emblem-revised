@@ -66,6 +66,10 @@
   line-height: normal;
 }
 
+.mr-16 {
+  margin-right: 16px;
+}
+
 /* Padding */
 .p-0 {
   padding: 0 !important;

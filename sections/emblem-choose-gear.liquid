@@ -61,7 +61,7 @@
 
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link d-block title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
-        <h2 class="title inline-richtext {{ section.settings.heading_size }}">
+        <h2 class="title inline-richtext mb-16 {{ section.settings.heading_size }}">
           {{ section.settings.title }}
         </h2>
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
@@ -77,7 +77,7 @@
     
 {% comment %} settings description {% endcomment %}
 {% unless section.settings.desc == blank %}
-    <p>{{ section.settings.desc }}</p>
+    <p class="text-big">{{ section.settings.desc }}</p>
 {% endunless %}
 
 </div>

@@ -494,6 +494,9 @@
   z-index: 1;
 }
 
+.mb-16 {
+  margin-bottom: 1rem;
+}
 .p-16 {
   padding: 1.6rem !important;
 }

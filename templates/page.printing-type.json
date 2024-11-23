@@ -238,12 +238,106 @@
         "padding_top": 96,
         "padding_bottom": 96
       }
+    },
+    "emblem_printing_type_f8Tkfi": {
+      "type": "emblem-printing-type",
+      "blocks": {
+        "column_XqjBVc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Efficiency_2.svg",
+            "title": "Timeless",
+            "text": "<p>Adds a high-quality, professional finish to apparel and accessories that stands out compared to regular prints.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ijYUwQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Durability.svg",
+            "title": "Durability",
+            "text": "<p>Highly durable, resisting wear, washing, and long-term use without fading, peeling, or cracking.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jW9KMh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Versatility.svg",
+            "title": "Custom Design",
+            "text": "<p>Allows for fully custom designs, from logos to monograms, tailored to your style or occasion.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Y4LiwX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Soft_Touch.svg",
+            "title": "Soft Touch",
+            "text": "<p>Provides depth and texture, making designs stand out and creating a tactile, elevated look.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3HQJVC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Seamless_finish.svg",
+            "title": "Perfect for Gifting",
+            "text": "<p>Personal and thoughtful, ideal for special gifts with attention to detail like names or logos.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yfVUN7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Flexibility.svg",
+            "title": "Works on Any Fabric",
+            "text": "<p>Versatile, suitable for clothing, hats, bags, home décor, and more, allowing for endless customization options.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_XqjBVc",
+        "column_ijYUwQ",
+        "column_jW9KMh",
+        "column_Y4LiwX",
+        "column_3HQJVC",
+        "column_yfVUN7"
+      ],
+      "settings": {
+        "header_image": "shopify://shop_images/Zoom_4.png",
+        "title": "Embroidery",
+        "desc": "Embroidery gives products an expensive, high-quality look that lasts. Embroidered logos don't fade or wear off, so your logo or design stays sharp. Plus, embroidery adds a nice textured finish that feels more premium and personalized. It’s a great way to make your custom gear stand out.",
+        "heading_size": "h5",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "header_second": "1",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-8b16fcef-c23f-4ea7-be3b-c423051fb213",
+        "color_scheme_blocks": "scheme-8b16fcef-c23f-4ea7-be3b-c423051fb213",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
     }
   },
   "order": [
     "main",
     "slideshow_EhkhYY",
     "emblem_printing_type_kr4VE8",
-    "emblem_printing_type_4VtLJt"
+    "emblem_printing_type_4VtLJt",
+    "emblem_printing_type_f8Tkfi"
   ]
 }

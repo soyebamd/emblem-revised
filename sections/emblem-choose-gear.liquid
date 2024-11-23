@@ -62,7 +62,23 @@ margin: auto;
 
 .title em{
    color:rgba(var( --title-highlighted));
+   position:relative;
+
 }
+
+.title em:after{
+    content:'';
+ 
+   position:relative;
+
+   display:block;
+background:url({{'icon-line.svg' |  asset_url}}) no-repeat;
+   
+
+
+}
+
+
 
 
 .core-product-feature{

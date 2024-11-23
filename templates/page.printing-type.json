@@ -271,12 +271,44 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_Y4LiwX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Soft_Touch.svg",
+            "title": "Soft Touch",
+            "text": "<p>Provides depth and texture, making designs stand out and creating a tactile, elevated look.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3HQJVC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Seamless_finish.svg",
+            "title": "Perfect for Gifting",
+            "text": "<p>Personal and thoughtful, ideal for special gifts with attention to detail like names or logos.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yfVUN7": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_XqjBVc",
         "column_ijYUwQ",
-        "column_jW9KMh"
+        "column_jW9KMh",
+        "column_Y4LiwX",
+        "column_3HQJVC",
+        "column_yfVUN7"
       ],
       "settings": {
         "header_image": "shopify://shop_images/Zoom_4.png",

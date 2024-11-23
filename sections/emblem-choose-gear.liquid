@@ -34,6 +34,10 @@
     background-position: center;
 }
 
+.highlighted-text{
+  color:rgba(var( --title-highlighted));
+}
+
 
 {%- endstyle -%}
 
@@ -164,7 +168,7 @@
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext l-h-normal">{{ block.settings.title }}</h3>
+                  <h3 class="inline-richtext l-h-normal h5 highlighted-text">{{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}

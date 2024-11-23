@@ -38,11 +38,11 @@
 
   <div class="d-flex printing-type gap-32">
 
-  
+
   {{section.settings.header_second}}
 
 
-<header class="printing-type__header {%if section.settings.header_second == 1 %} order-1 {% else  %} order-2 {% endif %}">
+<header class="printing-type__header {%if section.settings.header_second == 0 %} order-1 {% else  %} order-2 {% endif %}">
 
   {% comment %} settings image {% endcomment %}
  {%- unless section.settings.header_image == blank -%}
@@ -82,7 +82,7 @@
 </header>
 
 
-<div class="printing-type__content  {%if section.settings.header_second == 1 %} order-2 {% else  %} order-1 {% endif %}">
+<div class="printing-type__content">
 
 
 
@@ -370,15 +370,15 @@
       "id": "header_second",
       "options": [
         {
-          "value": "1",
+          "value": "0",
           "label": "Header first"
         },
         {
-          "value": "2",
+          "value": "1",
           "label": "Header second"
         }
       ],
-      "default": "1",
+      "default": "0",
       "label": "Header first"
     },
 

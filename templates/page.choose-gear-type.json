@@ -26,6 +26,8 @@
             "image": "shopify://shop_images/Garment_1.png",
             "title": "Core Performance",
             "text": "<ul><li>100% polyester</li><li>dye sublimation (dye-hard)</li><li>unlimited design options</li><li>design is dyed deep into the fabric</li></ul>",
+            "product_features_icon": "shopify://shop_images/Modo_de_aislamiento.svg",
+            "product_features": "Design is dyed deep into the fabric",
             "link_label": "",
             "link": ""
           }
@@ -35,6 +37,7 @@
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "product_features": "Design is dyed deep into the fabric",
             "link_label": "",
             "link": ""
           }
@@ -44,6 +47,7 @@
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "product_features": "Design is dyed deep into the fabric",
             "link_label": "",
             "link": ""
           }

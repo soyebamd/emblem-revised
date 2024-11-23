@@ -24,7 +24,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Garment_1.png",
-            "title": "Core Performance",
+            "title": "CORE PERFORMANCE",
             "text": "<ul><li>100% polyester</li><li>dye sublimation (dye-hard)</li><li>unlimited design options</li><li>design is dyed deep into the fabric</li></ul>",
             "product_features_icon": "shopify://shop_images/Modo_de_aislamiento.svg",
             "product_features": "Design is dyed deep into the fabric",
@@ -36,7 +36,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Garment_2.png",
-            "title": "hi-tech PERFORMANCE",
+            "title": "HI-TECH PERFORMANCE",
             "text": "<ul><li>100% Polyester</li><li>Direct To Film (Heat Transfer)</li><li>Standard Design Options</li></ul>",
             "product_features_icon": "shopify://shop_images/Modo_de_aislamiento_1.svg",
             "product_features": "design is printed on film and heat-pressed onto the fabric",

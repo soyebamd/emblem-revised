@@ -53,6 +53,9 @@
 
 
 
+
+
+
     <slider-component class="slider-mobile-gutter">
       <ul
         class="multicolumn-list contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop{% if show_mobile_slider %} slider slider--tablet grid--peek{% endif %}"
@@ -134,7 +137,16 @@
                   <h3 class="inline-richtext">{{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="rte">{{ block.settings.text }}</div>
+                  <div class="rte">{{ block.settings.text }}
+
+
+                  
+{% comment %} settings product_features {% endcomment %}
+{% unless block.settings.product_features == blank %}
+    <p>{{ block.settings.product_features }}</p>
+{% endunless %}
+
+                  </div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
                   <a
@@ -422,6 +434,9 @@
           "id": "title",
           "default": "t:sections.multicolumn.blocks.column.settings.title.default",
           "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+
+         
+
         },
         {
           "type": "richtext",
@@ -429,6 +444,15 @@
           "default": "t:sections.multicolumn.blocks.column.settings.text.default",
           "label": "t:sections.multicolumn.blocks.column.settings.text.label"
         },
+
+          {
+          "type": "inline_richtext",
+          "id": "product_features",
+          "default": "Design is dyed deep into the fabric",
+          "label": "Product Feature Text"
+        },
+
+
         {
           "type": "text",
           "id": "link_label",

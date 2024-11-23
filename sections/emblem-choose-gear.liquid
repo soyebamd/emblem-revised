@@ -21,8 +21,8 @@
  }
  .bg-{{ section.id }}:after{
     content:'';
-    mix-blend-mode: multiply;
-    background-image: url({{ section.settings.bg_image |  file_url }}) !important;
+    mix-blend-mode: multiply;    
+    background-image: url({{ section.settings.bg_image |  image_url }}) !important;
     width:100%;
     height:100%;
     left:0;

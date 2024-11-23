@@ -197,6 +197,16 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_6mfDM3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/On_Demand.png",
+            "title": "Flexible Orders Size",
+            "text": "<p>Whether for personal use or larger events, DTF makes it easy and affordable with no big setup costs or minimum orders, ensuring you get exactly what you need.</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -204,7 +214,8 @@
         "column_kh4DxE",
         "column_zbM7Fb",
         "column_DzfK8F",
-        "column_7MpxbB"
+        "column_7MpxbB",
+        "column_6mfDM3"
       ],
       "settings": {
         "header_image": "shopify://shop_images/Zoom_1.png",

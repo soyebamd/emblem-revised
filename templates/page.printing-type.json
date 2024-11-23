@@ -255,8 +255,9 @@
         "column_ijYUwQ": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Durability.svg",
+            "title": "Durability",
+            "text": "<p>Highly durable, resisting wear, washing, and long-term use without fading, peeling, or cracking.</p>",
             "link_label": "",
             "link": ""
           }
@@ -264,8 +265,9 @@
         "column_jW9KMh": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Versatility.svg",
+            "title": "Custom Design",
+            "text": "<p>Allows for fully custom designs, from logos to monograms, tailored to your style or occasion.</p>",
             "link_label": "",
             "link": ""
           }
@@ -287,10 +289,10 @@
         "header_second": "1",
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
-        "color_scheme": "",
-        "color_scheme_blocks": "",
+        "color_scheme": "scheme-8b16fcef-c23f-4ea7-be3b-c423051fb213",
+        "color_scheme_blocks": "scheme-8b16fcef-c23f-4ea7-be3b-c423051fb213",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 96,

@@ -25,7 +25,7 @@
           "settings": {
             "image": "shopify://shop_images/Garment_1.png",
             "title": "CORE PERFORMANCE",
-            "text": "<ul><li>100% polyester</li><li>dye sublimation (dye-hard)</li><li>unlimited design options</li><li>design is dyed deep into the fabric</li></ul>",
+            "text": "<ul><li>100% polyester</li><li>dye sublimation (dye-hard)</li><li>unlimited design options</li></ul>",
             "product_features_icon": "shopify://shop_images/Modo_de_aislamiento.svg",
             "product_features": "Design is dyed deep into the fabric",
             "link_label": "",
@@ -64,6 +64,7 @@
       ],
       "settings": {
         "bg_image": "shopify://shop_images/background_2.png",
+        "content_alignment": "center",
         "title": "CHOOSE YOUR GEAR TYPE",
         "desc": "We offer 3 different types of gear,so we’ve got you covered in every situation.",
         "heading_size": "h2",

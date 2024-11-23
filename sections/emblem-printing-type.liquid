@@ -1,5 +1,6 @@
 {{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
+{{ 'printing-style.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -14,29 +15,6 @@
     }
   }
 
-    .print-style .multicolumn {
-        border-bottom:20px solid rgba(var(--title-highlighted));
-    }
-
-  .print-style .multicolumn-card__info h3{
-        font-size: 24px;
-
-        color:rgba(var(--title-highlighted));
-
-        
-
-
-  }
-
-  .printing-type__header{
-    max-width:260px; width:100%;
-  }
-
-   .print-style h1,
-  .print-style h2,
-  .print-style h3,
-  .print-style h4,
-  .print-style h5{font-family: "Barlow", sans-serif !important;}
 
 {%- endstyle -%}
 

@@ -144,11 +144,104 @@
         "padding_top": 96,
         "padding_bottom": 96
       }
+    },
+    "emblem_printing_type_4VtLJt": {
+      "type": "emblem-printing-type",
+      "blocks": {
+        "column_Q3bg7g": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Versatility.svg",
+            "title": "Custom Design",
+            "text": "<p>Allows you to bring your vision to life with vibrant, full-color designs, ensuring crisp, detailed prints that match your imagination.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kh4DxE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Unlimited_Colors.svg",
+            "title": "Works on Any Fabric",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zbM7Fb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Soft_Touch.svg",
+            "title": "Soft & Comfortable",
+            "text": "<p>Moving with you throughout the day without the stiff, plastic feel, so you can stay comfortable while looking great.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DzfK8F": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Durability.svg",
+            "title": "Durability",
+            "text": "<p>These prints are durable, resisting fading, cracking, or peeling, even after repeated washes, keeping your designs fresh and vibrant over time.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7MpxbB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Design_Versatility.svg",
+            "title": "Endless Creativity",
+            "text": "<p>Explore endless possibilities for custom designs, allowing you to express yourself uniquely and creatively. The sky's the limit!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6mfDM3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/On_Demand.png",
+            "title": "Flexible Orders Size",
+            "text": "<p>Whether for personal use or larger events, DTF makes it easy and affordable with no big setup costs or minimum orders, ensuring you get exactly what you need.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Q3bg7g",
+        "column_kh4DxE",
+        "column_zbM7Fb",
+        "column_DzfK8F",
+        "column_7MpxbB",
+        "column_6mfDM3"
+      ],
+      "settings": {
+        "header_image": "shopify://shop_images/Zoom_1.png",
+        "title": "Direct Transfer Film",
+        "desc": "This revolutionary printing method transfers designs directly onto all types of fabrics without the need of any pre-treatment. It produces vibrant, long-lasting imprints that ultimately result in better products, higher durability and less waste.",
+        "heading_size": "h5",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-8b16fcef-c23f-4ea7-be3b-c423051fb213",
+        "color_scheme_blocks": "scheme-8b16fcef-c23f-4ea7-be3b-c423051fb213",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "slideshow_EhkhYY",
-    "emblem_printing_type_kr4VE8"
+    "emblem_printing_type_kr4VE8",
+    "emblem_printing_type_4VtLJt"
   ]
 }

@@ -23,9 +23,9 @@
         "collapsible_row_xQ8Lz4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "- What payment methods do you accept?",
+            "icon": "none",
+            "row_content": "<p>We accept most major credit and debit cards. Payments are processed through Rebill, for your convenience and maximum security. </p>",
             "page": ""
           }
         },

@@ -17,19 +17,10 @@
         "padding_bottom": 28
       }
     },
-    "collapsible_content_884CXi": {
-      "type": "collapsible-content",
+    "emblem_faq_bXxVaR": {
+      "type": "emblem-faq",
       "blocks": {
-        "collapsible_row_xQ8Lz4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What payment methods do you accept?",
-            "icon": "none",
-            "row_content": "<p>We accept most major credit and debit cards. Payments are processed through Rebill, for your convenience and maximum security. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_zW8Ld6": {
+        "collapsible_row_TkAUdc": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
@@ -38,7 +29,7 @@
             "page": ""
           }
         },
-        "collapsible_row_DP3KjF": {
+        "collapsible_row_WPp9KN": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
@@ -47,7 +38,16 @@
             "page": ""
           }
         },
-        "collapsible_row_jAmxqh": {
+        "collapsible_row_VJtfA8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_Gnmtb8": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
@@ -58,17 +58,17 @@
         }
       },
       "block_order": [
-        "collapsible_row_xQ8Lz4",
-        "collapsible_row_zW8Ld6",
-        "collapsible_row_DP3KjF",
-        "collapsible_row_jAmxqh"
+        "collapsible_row_TkAUdc",
+        "collapsible_row_WPp9KN",
+        "collapsible_row_VJtfA8",
+        "collapsible_row_Gnmtb8"
       ],
       "settings": {
         "caption": "",
-        "heading": "Subscriptión",
+        "heading": "Collapsible content",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "button_label": "",
+        "button_label": "Button label",
         "button_link": "",
         "button_style_secondary": false,
         "button_label_2": "",
@@ -86,6 +86,6 @@
   },
   "order": [
     "main",
-    "collapsible_content_884CXi"
+    "emblem_faq_bXxVaR"
   ]
 }

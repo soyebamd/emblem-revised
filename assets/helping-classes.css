@@ -53,6 +53,13 @@
   height: 100%;
 }
 
+.gap-64 {
+  gap: 64px !important;
+}
+
+.transition-all-6 {
+  transition: all 1s;
+}
 .max-912 {
   max-width: 912px;
 }

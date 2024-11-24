@@ -111,7 +111,7 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "scheme-2ac8a44b-c2b5-4f95-97cb-dbbbd6904a4e",
-        "full_width": true,
+        "full_width": false,
         "padding_top": 40,
         "padding_bottom": 52
       }

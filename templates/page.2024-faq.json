@@ -24,7 +24,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -33,7 +33,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -42,7 +42,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -51,7 +51,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }

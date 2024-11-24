@@ -71,6 +71,10 @@ h5,
   letter-spacing: normal;
 }
 
+.barlow-semi-condensed {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
 h1 span,
 h2 span,
 h3 span,

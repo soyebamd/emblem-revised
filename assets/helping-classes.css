@@ -41,7 +41,7 @@
 }
 
 .mb-11 {
-  margin-bottom: 11px;
+  margin-bottom: 11px !important;
 }
 
 .mb-0 {

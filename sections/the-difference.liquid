@@ -228,7 +228,8 @@ function checkIfInCenter() {
     // Get the element's position and dimensions
     const rect = brandProduct.getBoundingClientRect();
     const windowHeight = window.innerHeight;
-
+    
+    console.log(rect);
     // Check if the div is in the center of the viewport
     // Div is considered in center if its top is greater than one quarter of the viewport height
     // and its bottom is less than three quarters of the viewport height

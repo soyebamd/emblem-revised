@@ -83,6 +83,10 @@ h5 span {
   color: rgba(var(--title-highlighted)) !important;
 }
 
+.ls-1 {
+  letter-spacing: 1px;
+}
+
 .fs-normal {
   font-style: normal !important;
 }

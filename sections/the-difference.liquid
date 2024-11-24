@@ -79,8 +79,17 @@ position: absolute;
 
 .icon-flex{
   position:absolute;
-  opacity:0;
-  transition:rotate(180deg)
+
+  opacity: 0;
+  transform: rotate(180deg);
+ 
+  bottom: 37px;
+  right: 40px;
+}
+
+.gap-64 .icon-flex{
+    opacity: 0;
+      transform: rotate(0deg);
 }
 
 
@@ -204,7 +213,7 @@ position: absolute;
 
      <img src="{{ 'right-side.png' | asset_url }}" class="t-shirt-fly fly-right">
 
-     <img src="{{'icon-flex.svg' | asset_url }}" class="icon-flex">
+     <img src="{{'icon-flex.svg' | asset_url }}" class="icon-flex transition-all-6">
 
   </div>
 

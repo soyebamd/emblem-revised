@@ -64,8 +64,8 @@
         "collapsible_row_Gnmtb8"
       ],
       "settings": {
-        "caption": "",
-        "heading": "Collapsible content",
+        "caption": "FAQs",
+        "heading": "FAQs",
         "heading_size": "h1",
         "heading_alignment": "center",
         "button_label": "Button label",
@@ -75,7 +75,7 @@
         "button_link_2": "",
         "button_style_secondary_2": false,
         "layout": "none",
-        "color_scheme": "",
+        "color_scheme": "scheme-932773f0-57a9-4aec-84e0-6a8de361157e",
         "container_color_scheme": "",
         "open_first_collapsible_row": false,
         "desktop_layout": "image_second",

@@ -230,9 +230,7 @@ function checkIfInCenter() {
     const windowHeight = window.innerHeight;
     
     console.log(rect);
-    // Check if the div is in the center of the viewport
-    // Div is considered in center if its top is greater than one quarter of the viewport height
-    // and its bottom is less than three quarters of the viewport height
+   
     if (rect.top >= windowHeight / 4 && rect.bottom <= windowHeight * 3 / 4) {
         // Add 'gap-64' class if the div is in the center
         if (!brandProduct.classList.contains('gap-64')) {

@@ -220,30 +220,43 @@ margin: 8px 0;
 
 
 <script>
-
+// Select the target div (class "difference-section")
 const brandProduct = document.querySelector('.difference-section');
 
 function checkIfInCenter() {
+    // Get the element's position and dimensions
     const rect = brandProduct.getBoundingClientRect();
     const windowHeight = window.innerHeight;
 
-    // Check if the div is at the center of the viewport (50% visible)
+    // Check if the div is in the center of the viewport
+    // Div is considered in center if its top is greater than one quarter of the viewport height
+    // and its bottom is less than three quarters of the viewport height
     if (rect.top >= windowHeight / 4 && rect.bottom <= windowHeight * 3 / 4) {
         // Add 'gap-64' class if the div is in the center
-        brandProduct.classList.add('gap-64');
+        if (!brandProduct.classList.contains('gap-64')) {
+            brandProduct.classList.add('gap-64');
+        }
     } else {
         // Remove 'gap-64' class if the div is not in the center
-        brandProduct.classList.remove('gap-64');
+        if (brandProduct.classList.contains('gap-64')) {
+            brandProduct.classList.remove('gap-64');
+        }
     }
 }
 
 // Add event listener to the scroll event
 window.addEventListener('scroll', checkIfInCenter);
 
-// Check on page load in case the div is already visible
+// Check on page load in case the div is already visible on load
 window.addEventListener('load', checkIfInCenter);
 
+// Also, we check initially if it's already in the center when the page loads
+checkIfInCenter();
+
 </script>
+
+
+
 {% schema %}
 {
     "name": "Emblem The Difference",

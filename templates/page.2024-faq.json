@@ -175,6 +175,24 @@
             "row_content": "<p>Puede recibirlo cualquier persona que deje registrado su documento de identidad.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_96eimj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Puedo solicitar una fecha de envío específica?",
+            "icon": "none",
+            "row_content": "<p>Podemos facilitarte algunos días específicos y determinadas franjas horarias.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4mnePp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cómo puedo ponerme en contacto con Culto para obtener asistencia?",
+            "icon": "none",
+            "row_content": "<p>Podés ponerte en contacto con nosotros –únicamente– a través de WhatsApp al 094 787 478.Nuestro horario de atención es de lunes a viernes de 15 a 18.30 hs.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -187,7 +205,9 @@
         "collapsible_row_EeMNL4",
         "collapsible_row_eMRyk7",
         "collapsible_row_R3qRd6",
-        "collapsible_row_rNDy7c"
+        "collapsible_row_rNDy7c",
+        "collapsible_row_96eimj",
+        "collapsible_row_4mnePp"
       ],
       "settings": {
         "caption": "Shipping",

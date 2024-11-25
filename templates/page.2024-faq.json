@@ -228,11 +228,68 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "emblem_faq_zgCLAk": {
+      "type": "emblem-faq",
+      "blocks": {
+        "collapsible_row_a7wPcT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Por qué ahora me entregan los dos paquetes en un solo envío?",
+            "icon": "none",
+            "row_content": "<p>Por varios motivos:</p><ol><li>Simplificar: Al enviarte tu suscripción en una sola entrega reducimos el margen de error en la logística y el servicio de entrega.</li><li>Redestinar gastos: El costo innecesario que evitamos en packaging y envíos, lo destinamos a mejorar nuestros servicios y comprar mejor café.</li><li>Experimentar: Al contar con dos cafés en simultáneo, tenés la oportunidad de experimentar cafés de distintas características al mismo tiempo. Esto te permite comparar, y esa es la mejor forma de aprender más sobre el mundo del café.</li><li>Reducir: Estamos apuntando a reducir nuestra huella ambiental. Con esta modalidad usamos menos materiales para empaquetar tu producto, y además reducimos emisiones de transporte.</li></ol>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xCcDN4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿La frescura de mi café se verá afectada al enviar dos paquetes en una sola entrega?",
+            "icon": "none",
+            "row_content": "<p>La frescura no se ve afectada. El momento en el cual el café alcanza y sostiene su pico de calidad es a partir de las 24 hrs. de tostado y durante los siguientes 35-45 días, dependiendo del grano y sus características. Tu café va a estar siempre fresco y en óptimas condiciones.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_36WNYM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Por qué cambiaron las bolsas negras?",
+            "icon": "none",
+            "row_content": "<p>Las nuevas bolsas nos encantan, y esperamos que a ustedes también. Fueron diseñadas exclusivamente pensando en nuestros suscriptores. No requieren válvula, son de un material más liviano y semipermeable que permite la liberación de gases. Son producidas en Uruguay, al igual que las nuevas etiquetas.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_a7wPcT",
+        "collapsible_row_xCcDN4",
+        "collapsible_row_36WNYM"
+      ],
+      "settings": {
+        "caption": "Extras",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "button_label": "Button label",
+        "button_link": "",
+        "button_style_secondary": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_style_secondary_2": false,
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "emblem_faq_bXxVaR",
-    "emblem_faq_ycWdBT"
+    "emblem_faq_ycWdBT",
+    "emblem_faq_zgCLAk"
   ]
 }

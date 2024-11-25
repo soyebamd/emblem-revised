@@ -81,7 +81,7 @@ border-bottom:0;
             
 
               {%- if section.settings.heading != blank -%}
-            <h2 class="collapsible-content__heading inline-richtext m-0 mb-8 {{ section.settings.heading_size }} {{ section.settings.heading_alignment }}">
+            <h2 class="collapsible-content__heading inline-richtext m-0 mb-48 barlow-semi-condensed {{ section.settings.heading_size }} {{ section.settings.heading_alignment }}">
               {{ section.settings.heading }}
             </h2>
           {%- else -%}
@@ -89,7 +89,7 @@ border-bottom:0;
           {% endif %}
 
 {%- if section.settings.caption != blank -%}
-            <p class="text-big mt-0" >
+            <p class="text-big mt-0 barlow-semi-condensed h5" >
               {{ section.settings.caption | escape }}
             </p>
           {% endif %}

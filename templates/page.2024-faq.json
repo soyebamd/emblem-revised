@@ -139,6 +139,42 @@
             "row_content": "<p>Despachamos los paquetes vía UES todos los días luego de las 10:00 am.Una vez que los paquetes llegan al centro logístico de UES, te llegarán SMS actualizándote sobre cada etapa de la entrega de tu pedido. En el SMS recibirás tu número de guía: UES#############, con el cual podrás obtener más información del envío.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_EeMNL4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Dónde puedo encontrar el estado de mi envío y rastrearlo?",
+            "icon": "none",
+            "row_content": "<p>En nuestra web lo podés encontrar en __________También podés rastrearlo, ingresando el número de guía que se te otorgó, a través de la web de UES – www.ues.com.uy.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_eMRyk7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "El transportista intentó entregar mi paquete, pero me perdí la entrega. ¿Qué hago ahora?",
+            "icon": "none",
+            "row_content": "<p>UES concurre 2 veces a la dirección de envío. Si no se pudo efectuar la entrega en ninguna de esas dos visitas, el paquete queda 24 hs. en el Pick Up Center UES más cercano a tu dirección de envío.En caso de que no lo retires a tiempo, vuelve a nosotros. Para volver a coordinar la entrega, escribinos por WhatsApp al número de atención al cliente: 094 787 478.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_R3qRd6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Mi paquete acaba de enviarse, pero no estaré en casa para firmar la entrega, ¿qué puedo hacer?",
+            "icon": "none",
+            "row_content": "<p>Aún tenés una segunda oportunidad para recibirlo, UES concurre dos veces a la dirección de envío. En caso de que no hayas podido en ninguna de las dos ocasiones, comunicate con nosotros vía WhatsApp al número de atención al cliente 094 787 478, para volver a coordinar la entrega.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rNDy7c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Quién puede aceptar el envío de mi paquete?",
+            "icon": "none",
+            "row_content": "<p>Puede recibirlo cualquier persona que deje registrado su documento de identidad.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -147,7 +183,11 @@
         "collapsible_row_fxwcNA",
         "collapsible_row_xhatmy",
         "collapsible_row_CmkLeP",
-        "collapsible_row_NwydAx"
+        "collapsible_row_NwydAx",
+        "collapsible_row_EeMNL4",
+        "collapsible_row_eMRyk7",
+        "collapsible_row_R3qRd6",
+        "collapsible_row_rNDy7c"
       ],
       "settings": {
         "caption": "Shipping",

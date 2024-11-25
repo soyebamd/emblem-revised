@@ -70,6 +70,7 @@
 }
 
 
+
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
@@ -124,10 +125,10 @@
                     open
                   {% endif %}
                 >
-                  <summary id="Summary-{{ block.id }}-{{ section.id }}">
+                  <summary id="Summary-{{ block.id }}-{{ section.id }}" class="flex-column">
                     {% render 'icon-accordion', icon: block.settings.icon %}
 
-
+<div>
                     <span class="icon-accordion plus">+</span>
                     <span class="icon-accordion minus">-</span>
 
@@ -136,11 +137,7 @@
                       {{ block.settings.heading | default: block.settings.page.title | escape }}
                     </h3>
 
-{% comment %} 
-                    {{- 'icon-caret.svg' | inline_asset_content -}}
-
- {% endcomment %}
-
+</div>
                   </summary>
                   <div
                     class="accordion__content rte"

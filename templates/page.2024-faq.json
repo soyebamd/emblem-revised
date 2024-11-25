@@ -244,27 +244,18 @@
         "collapsible_row_xCcDN4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "¿La frescura de mi café se verá afectada al enviar dos paquetes en una sola entrega?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>La frescura no se ve afectada. El momento en el cual el café alcanza y sostiene su pico de calidad es a partir de las 24 hrs. de tostado y durante los siguientes 35-45 días, dependiendo del grano y sus características. Tu café va a estar siempre fresco y en óptimas condiciones.</p>",
             "page": ""
           }
         },
         "collapsible_row_36WNYM": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "¿Por qué cambiaron las bolsas negras?",
             "icon": "none",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_pHpjqW": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Las nuevas bolsas nos encantan, y esperamos que a ustedes también. Fueron diseñadas exclusivamente pensando en nuestros suscriptores. No requieren válvula, son de un material más liviano y semipermeable que permite la liberación de gases. Son producidas en Uruguay, al igual que las nuevas etiquetas.</p>",
             "page": ""
           }
         }
@@ -272,8 +263,7 @@
       "block_order": [
         "collapsible_row_a7wPcT",
         "collapsible_row_xCcDN4",
-        "collapsible_row_36WNYM",
-        "collapsible_row_pHpjqW"
+        "collapsible_row_36WNYM"
       ],
       "settings": {
         "caption": "Extras",

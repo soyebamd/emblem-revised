@@ -37,10 +37,10 @@
 
 
 
-.accordion{    background: #FFFDF3;
+.faq-page .accordion{    background: #FFFDF3;
 border:solid 1px #191C00!important;
 border-bottom:0;
-    margin-bottom: 8px;}
+    margin-bottom: 16px;}
 
     .accordion summary, .accordion__content {
    
@@ -48,6 +48,8 @@ border-bottom:0;
     margin:0;
 
 }
+
+.faq-page .accordion{  margin-bottom: 16px; }
 
 .accordion summary{   
    align-items: center; border-bottom: 1px solid var(--Dark-Green, #191C00);
@@ -89,7 +91,7 @@ border-bottom:0;
           {% endif %}
 
 {%- if section.settings.caption != blank -%}
-            <p class="text-big mt-0 barlow-semi-condensed h5" >
+            <p class="text-big mt-0 barlow-semi-condensed h5 mb-0" >
               {{ section.settings.caption | escape }}
             </p>
           {% endif %}
@@ -224,7 +226,7 @@ border-bottom:0;
 {
    "name": "Emblem FAQ",
   "tag": "section",
-  "class": "section",
+  "class": "section faq-page",
   "disabled_on": {
     "groups": ["header", "footer"]
   },

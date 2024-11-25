@@ -235,9 +235,9 @@
         "collapsible_row_a7wPcT": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "¿Por qué ahora me entregan los dos paquetes en un solo envío?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Por varios motivos:</p><ol><li>Simplificar: Al enviarte tu suscripción en una sola entrega reducimos el margen de error en la logística y el servicio de entrega.</li><li>Redestinar gastos: El costo innecesario que evitamos en packaging y envíos, lo destinamos a mejorar nuestros servicios y comprar mejor café.</li><li>Experimentar: Al contar con dos cafés en simultáneo, tenés la oportunidad de experimentar cafés de distintas características al mismo tiempo. Esto te permite comparar, y esa es la mejor forma de aprender más sobre el mundo del café.</li><li>Reducir: Estamos apuntando a reducir nuestra huella ambiental. Con esta modalidad usamos menos materiales para empaquetar tu producto, y además reducimos emisiones de transporte.</li></ol>",
             "page": ""
           }
         },

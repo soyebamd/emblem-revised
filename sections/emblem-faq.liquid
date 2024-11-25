@@ -105,11 +105,11 @@ background: var(--Cream, #FFFDF3);
         
             {%- for block in section.blocks -%}
               <div
-                class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
+                class="accordion{% if section.settings.layout == 'row' %} content-container {% endif %}"
                 {{ block.shopify_attributes }}
               >
                 <details
-                  id="Details-{{ block.id }}-{{ section.id }}"
+                  id="Details-{{ block.id }}-{{ section.id }}" class="color-{{ section.settings.container_color_scheme }} gradient"
                   {% if section.settings.open_first_collapsible_row and forloop.first %}
                     open
                   {% endif %}

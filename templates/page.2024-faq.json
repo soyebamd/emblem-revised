@@ -121,13 +121,33 @@
             "row_content": "<p>Los envíos están a cargo de UES, en ellos depositamos la confianza de hacerte llegar tu café. En nuestra web contamos con el sistema de seguimiento integrado, que te permite recibir notificaciones en tiempo real de cada etapa del proceso de tu entrega.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_CmkLeP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cómo cambio mi dirección de envío?",
+            "icon": "none",
+            "row_content": "<p>Iniciá sesión con tu usuario, y desde tu perfil podrás cambiar la dirección de envío.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NwydAx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cómo funcionan las notificaciones de envío por SMS?",
+            "icon": "none",
+            "row_content": "<p>Despachamos los paquetes vía UES todos los días luego de las 10:00 am.Una vez que los paquetes llegan al centro logístico de UES, te llegarán SMS actualizándote sobre cada etapa de la entrega de tu pedido. En el SMS recibirás tu número de guía: UES#############, con el cual podrás obtener más información del envío.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_VmDnaR",
         "collapsible_row_HqecVp",
         "collapsible_row_fxwcNA",
-        "collapsible_row_xhatmy"
+        "collapsible_row_xhatmy",
+        "collapsible_row_CmkLeP",
+        "collapsible_row_NwydAx"
       ],
       "settings": {
         "caption": "Shipping",

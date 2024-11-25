@@ -107,7 +107,7 @@
         "collapsible_row_fxwcNA": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "- ¿Las entregas se hacen a todo el país?",
+            "heading": "¿Las entregas se hacen a todo el país?",
             "icon": "none",
             "row_content": "<p>Sí, llegamos a todo Uruguay sin costo adicional. En caso de que tu dirección esté fuera de alcance, contamos con puntos de retiro Pick Up UES en todos los departamentos.</p>",
             "page": ""
@@ -116,7 +116,7 @@
         "collapsible_row_xhatmy": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "- ¿A cargo de quién esta mi envío?",
+            "heading": "¿A cargo de quién esta mi envío?",
             "icon": "none",
             "row_content": "<p>Los envíos están a cargo de UES, en ellos depositamos la confianza de hacerte llegar tu café. En nuestra web contamos con el sistema de seguimiento integrado, que te permite recibir notificaciones en tiempo real de cada etapa del proceso de tu entrega.</p>",
             "page": ""
@@ -134,7 +134,7 @@
         "heading": "",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "button_style_secondary": false,
         "button_label_2": "",

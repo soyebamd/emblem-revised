@@ -52,6 +52,9 @@
 .gap-0 {
   gap: 0 !important;
 }
+.gap-8 {
+  gap: 8px !important;
+}
 .h-100 {
   height: 100%;
 }

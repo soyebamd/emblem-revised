@@ -64,7 +64,7 @@
         "collapsible_row_Gnmtb8"
       ],
       "settings": {
-        "caption": "FAQs",
+        "caption": "Subscriptión",
         "heading": "FAQs",
         "heading_size": "h1",
         "heading_alignment": "center",
@@ -76,7 +76,7 @@
         "button_style_secondary_2": false,
         "layout": "none",
         "color_scheme": "scheme-1",
-        "container_color_scheme": "scheme-2",
+        "container_color_scheme": "scheme-8b16fcef-c23f-4ea7-be3b-c423051fb213",
         "open_first_collapsible_row": false,
         "desktop_layout": "image_second",
         "padding_top": 36,

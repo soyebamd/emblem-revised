@@ -23,36 +23,36 @@
         "collapsible_row_TkAUdc": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What payment methods do you accept?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>We accept most major credit and debit cards. Payments are processed through Rebill, for your convenience and maximum security. </p>",
             "page": ""
           }
         },
         "collapsible_row_WPp9KN": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What payment methods do you accept?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>We accept most major credit and debit cards. Payments are processed through Rebill, for your convenience and maximum security. </p>",
             "page": ""
           }
         },
         "collapsible_row_VJtfA8": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What payment methods do you accept?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>We accept most major credit and debit cards. Payments are processed through Rebill, for your convenience and maximum security. </p>",
             "page": ""
           }
         },
         "collapsible_row_Gnmtb8": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "¿Puedo cancelar la suscripción cuando quiera?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>¡Obvio! Solamente tenés que esperar que transcurra el primer mes desde el inicio de tu suscripción. Una vez transcurrido, solo tenés que inciar sesión y cancelar la suscripción desde tu perfil.*Si te suscribiste antes del 9 de mayo de 2022, escribinos por WhatsApp al número de atención al cliente 094 787 478 y te damos de baja manualmente.</p>",
             "page": ""
           }
         }
@@ -64,11 +64,11 @@
         "collapsible_row_Gnmtb8"
       ],
       "settings": {
-        "caption": "FAQs",
+        "caption": "Subscriptión",
         "heading": "FAQs",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "button_style_secondary": false,
         "button_label_2": "",
@@ -76,7 +76,153 @@
         "button_style_secondary_2": false,
         "layout": "none",
         "color_scheme": "scheme-1",
-        "container_color_scheme": "scheme-2",
+        "container_color_scheme": "scheme-8b16fcef-c23f-4ea7-be3b-c423051fb213",
+        "open_first_collapsible_row": false,
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "emblem_faq_ycWdBT": {
+      "type": "emblem-faq",
+      "blocks": {
+        "collapsible_row_VmDnaR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much does shipping cost?",
+            "icon": "none",
+            "row_content": "<p>Nothing. Shipping is free!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HqecVp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cuándo se entregará mi suscripción cada mes?",
+            "icon": "none",
+            "row_content": "<p>La primera entrega se realiza el día después que te registrás.Pasado un mes, tu suscripción se va a volver a cobrar ya que nuestro sistema de recurrencia es de cobro automático. Una vez aprobado el pago nuevamente, recibirás bajo la misma dinámica.</p><p>Ej: Te suscribís el 2 de abril, recibís el 3 todos tus paquetes correspondientes al mes. Se te vuelve a cobrar el 2 de mayo, recibís el 3 todos tus paquetes correspondientes.</p><p>Puede suceder que en algún momento nos encontremos con problemas con el cobro, por ejemplo: seguridad, fondos insuficientes, fecha de vencimiento, u otros problemas del banco. En este caso no se te entregará hasta que entre el pago en nuestro sistema, pero no te preocupes, nos contactaremos contigo en caso que tu suscripción caiga en alguna de estas situaciones.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fxwcNA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Las entregas se hacen a todo el país?",
+            "icon": "none",
+            "row_content": "<p>Sí, llegamos a todo Uruguay sin costo adicional. En caso de que tu dirección esté fuera de alcance, contamos con puntos de retiro Pick Up UES en todos los departamentos.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xhatmy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿A cargo de quién esta mi envío?",
+            "icon": "none",
+            "row_content": "<p>Los envíos están a cargo de UES, en ellos depositamos la confianza de hacerte llegar tu café. En nuestra web contamos con el sistema de seguimiento integrado, que te permite recibir notificaciones en tiempo real de cada etapa del proceso de tu entrega.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CmkLeP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cómo cambio mi dirección de envío?",
+            "icon": "none",
+            "row_content": "<p>Iniciá sesión con tu usuario, y desde tu perfil podrás cambiar la dirección de envío.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NwydAx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cómo funcionan las notificaciones de envío por SMS?",
+            "icon": "none",
+            "row_content": "<p>Despachamos los paquetes vía UES todos los días luego de las 10:00 am.Una vez que los paquetes llegan al centro logístico de UES, te llegarán SMS actualizándote sobre cada etapa de la entrega de tu pedido. En el SMS recibirás tu número de guía: UES#############, con el cual podrás obtener más información del envío.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EeMNL4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Dónde puedo encontrar el estado de mi envío y rastrearlo?",
+            "icon": "none",
+            "row_content": "<p>En nuestra web lo podés encontrar en __________También podés rastrearlo, ingresando el número de guía que se te otorgó, a través de la web de UES – www.ues.com.uy.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_eMRyk7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "El transportista intentó entregar mi paquete, pero me perdí la entrega. ¿Qué hago ahora?",
+            "icon": "none",
+            "row_content": "<p>UES concurre 2 veces a la dirección de envío. Si no se pudo efectuar la entrega en ninguna de esas dos visitas, el paquete queda 24 hs. en el Pick Up Center UES más cercano a tu dirección de envío.En caso de que no lo retires a tiempo, vuelve a nosotros. Para volver a coordinar la entrega, escribinos por WhatsApp al número de atención al cliente: 094 787 478.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_R3qRd6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Mi paquete acaba de enviarse, pero no estaré en casa para firmar la entrega, ¿qué puedo hacer?",
+            "icon": "none",
+            "row_content": "<p>Aún tenés una segunda oportunidad para recibirlo, UES concurre dos veces a la dirección de envío. En caso de que no hayas podido en ninguna de las dos ocasiones, comunicate con nosotros vía WhatsApp al número de atención al cliente 094 787 478, para volver a coordinar la entrega.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rNDy7c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Quién puede aceptar el envío de mi paquete?",
+            "icon": "none",
+            "row_content": "<p>Puede recibirlo cualquier persona que deje registrado su documento de identidad.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_96eimj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Puedo solicitar una fecha de envío específica?",
+            "icon": "none",
+            "row_content": "<p>Podemos facilitarte algunos días específicos y determinadas franjas horarias.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4mnePp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cómo puedo ponerme en contacto con Culto para obtener asistencia?",
+            "icon": "none",
+            "row_content": "<p>Podés ponerte en contacto con nosotros –únicamente– a través de WhatsApp al 094 787 478.Nuestro horario de atención es de lunes a viernes de 15 a 18.30 hs.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_VmDnaR",
+        "collapsible_row_HqecVp",
+        "collapsible_row_fxwcNA",
+        "collapsible_row_xhatmy",
+        "collapsible_row_CmkLeP",
+        "collapsible_row_NwydAx",
+        "collapsible_row_EeMNL4",
+        "collapsible_row_eMRyk7",
+        "collapsible_row_R3qRd6",
+        "collapsible_row_rNDy7c",
+        "collapsible_row_96eimj",
+        "collapsible_row_4mnePp"
+      ],
+      "settings": {
+        "caption": "Shipping",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_style_secondary_2": false,
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "scheme-8b16fcef-c23f-4ea7-be3b-c423051fb213",
         "open_first_collapsible_row": false,
         "desktop_layout": "image_second",
         "padding_top": 36,
@@ -86,6 +232,7 @@
   },
   "order": [
     "main",
-    "emblem_faq_bXxVaR"
+    "emblem_faq_bXxVaR",
+    "emblem_faq_ycWdBT"
   ]
 }

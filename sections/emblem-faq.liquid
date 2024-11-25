@@ -54,7 +54,18 @@
 
 .faq-page .accordion summary{   
    align-items: center; border: 1px solid var(--Dark-Green, #191C00);
+
+   position:relative;
     gap: 10px;}
+
+  .faq-page .accordion summary:after  {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: var(--Dark-Green, #191C00);
+  margin: 0;
+}
 
    .faq-page [open] summary{
       border-bottom:0!important

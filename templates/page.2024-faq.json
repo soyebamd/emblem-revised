@@ -32,18 +32,18 @@
         "collapsible_row_WPp9KN": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What payment methods do you accept?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>We accept most major credit and debit cards. Payments are processed through Rebill, for your convenience and maximum security. </p>",
             "page": ""
           }
         },
         "collapsible_row_VJtfA8": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Puedo cancelar la suscripción cuando quiera?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>¡Obvio! Solamente tenés que esperar que transcurra el primer mes desde el inicio de tu suscripción. Una vez transcurrido, solo tenés que inciar sesión y cancelar la suscripción desde tu perfil.*Si te suscribiste antes del 9 de mayo de 2022, escribinos por WhatsApp al número de atención al cliente 094 787 478 y te damos de baja manualmente.</p>",
             "page": ""
           }
         },

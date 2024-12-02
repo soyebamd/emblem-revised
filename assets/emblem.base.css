@@ -241,6 +241,10 @@ details[open] > .header__menu-item {
   border-color: var(--super-accent);
 }
 
+.list-menu--disclosure {
+  top: 39px;
+  left: 7px;
+}
 .super-accent {
   color: var(--super-accent);
 }

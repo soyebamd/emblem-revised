@@ -242,7 +242,8 @@ header__submenu .header__menu-item,
   border-bottom: solid 2px transparent;
 }
 
-.header__submenu .header__menu-item:hover {
+.header__submenu .header__menu-item:hover,
+.list-menu__item--active {
   text-decoration-line: none;
   border-bottom: solid 2px var(--super-accent) !important;
 }

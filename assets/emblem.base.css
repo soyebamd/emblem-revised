@@ -233,7 +233,7 @@ details[open] > .header__menu-item {
 }
 
 .header__menu-item span.header__active-menu-item {
-  border-color: var(--super-accent);
+  border-color: var(--super-accent) !important;
 }
 
 .header__menu-item:hover span,

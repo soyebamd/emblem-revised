@@ -179,6 +179,10 @@ a:hover,
   text-decoration: none;
 }
 
+details[open] > .header__menu-item {
+  text-decoration: none !important;
+}
+
 .absolute-center {
   left: 50%;
   top: 50%;
@@ -232,7 +236,8 @@ a:hover,
   border-color: var(--text-color-3);
 }
 
-.header__menu-item:hover span {
+.header__menu-item:hover span,
+header-menu open .header__menu-item span {
   border-color: var(--super-accent);
 }
 

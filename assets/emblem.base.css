@@ -232,6 +232,10 @@ details[open] > .header__menu-item {
   transition: all 600ms;
 }
 
+.header__submenu.list-menu {
+  padding: 1rem;
+}
+
 .header__menu-item span.header__active-menu-item {
   border-color: var(--super-accent) !important;
 }

@@ -236,6 +236,10 @@ details[open] > .header__menu-item {
   border-color: var(--super-accent) !important;
 }
 
+header__submenu .header__menu-item {
+  text-decoration: none !important;
+}
+
 .header__menu-item:hover span,
 [open] .header__menu-item span {
   border-color: var(--super-accent);

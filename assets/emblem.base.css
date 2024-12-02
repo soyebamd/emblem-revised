@@ -240,6 +240,11 @@ header__submenu .header__menu-item {
   text-decoration: none !important;
 }
 
+.header__submenu .header__menu-item:hover {
+  text-decoration-line: none;
+  border-bottom: solid 2px var(--super-accent) !important;
+}
+
 .header__menu-item:hover span,
 [open] .header__menu-item span {
   border-color: var(--super-accent);

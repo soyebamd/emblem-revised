@@ -241,6 +241,11 @@ header-menu open .header__menu-item span {
   border-color: var(--super-accent);
 }
 
+header-menu open .header__menu-item span {
+  border-color: var(--super-accent);
+  border: solid 2px;
+}
+
 .super-accent {
   color: var(--super-accent);
 }

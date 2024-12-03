@@ -3,6 +3,10 @@
   position: relative;
 }
 
+.secondary-heading {
+  color: rgba(var(--title-highlighted)) !important;
+}
+
 .emblemSlider .custom-shadow:after {
   content: "";
   width: 100%;

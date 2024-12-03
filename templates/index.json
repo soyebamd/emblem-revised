@@ -198,6 +198,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/image_95_1.png",
+        "clip_image": true,
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -205,7 +206,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-2",
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-17c6dc68-292c-4fad-8029-edc4b5ab9ebd",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,

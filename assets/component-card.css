@@ -7,6 +7,10 @@
   padding: 24px;
 }
 
+.featured-collection .card-wrapper {
+  padding: 0 !important;
+}
+
 .card {
   text-decoration: none;
   text-align: var(--text-alignment);

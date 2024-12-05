@@ -271,8 +271,8 @@
       ],
       "settings": {
         "title": "CHECK OUT OUR EXCLUSIVE <span>READY-MADE</span> COLLECTIONS",
-        "heading_size": "h1",
-        "description": "",
+        "heading_size": "h4",
+        "description": "<p>Predesigned. Customizable. Ready to Order</p>",
         "show_description": false,
         "description_style": "body",
         "image_ratio": "square",

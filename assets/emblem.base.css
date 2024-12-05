@@ -711,6 +711,10 @@ body,
   color: rgba(var(--color-foreground), 1);
 }
 
+.link {
+  text-decoration: none !important;
+}
+
 .text-uppercase {
   text-transform: uppercase !important;
 }

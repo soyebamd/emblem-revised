@@ -319,6 +319,7 @@
 }
 
 .card__heading {
+  font-family: "Barlow Condensed", sans-serif;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;

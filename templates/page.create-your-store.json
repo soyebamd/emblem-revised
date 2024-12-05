@@ -233,6 +233,12 @@
           "settings": {
             "list_items": "<p>Remove old products</p>"
           }
+        },
+        "text_xiCQmP": {
+          "type": "text",
+          "settings": {
+            "list_items": "<p>Upgrade your current store to the Partnership Lite Program</p>"
+          }
         }
       },
       "block_order": [
@@ -240,7 +246,8 @@
         "text_rEcTCq",
         "text_phTejB",
         "text_DY6aRg",
-        "text_yKedB9"
+        "text_yKedB9",
+        "text_xiCQmP"
       ],
       "settings": {
         "image_background": "shopify://shop_images/Background_1.png",

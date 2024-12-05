@@ -248,7 +248,7 @@
         "featured_collection_7xNifB": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "mothers-day"
           }
         },
         "featured_collection_MpDfPp": {
@@ -275,6 +275,7 @@
         "description": "<p>Predesigned. Customizable. Ready to Order</p>",
         "show_description": false,
         "description_style": "body",
+        "content_alignment": "center",
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "",

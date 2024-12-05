@@ -248,26 +248,33 @@
         "featured_collection_7xNifB": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "mothers-day"
           }
         },
         "featured_collection_MpDfPp": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "american-pride"
           }
         },
         "featured_collection_3fEjBa": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "2d-law-enforcement-battalion-store-1"
+          }
+        },
+        "featured_collection_eMwNcF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "153rd-military-police-company-store-1"
           }
         }
       },
       "block_order": [
         "featured_collection_7xNifB",
         "featured_collection_MpDfPp",
-        "featured_collection_3fEjBa"
+        "featured_collection_3fEjBa",
+        "featured_collection_eMwNcF"
       ],
       "settings": {
         "title": "CHECK OUT OUR EXCLUSIVE <span>READY-MADE</span> COLLECTIONS",
@@ -275,10 +282,11 @@
         "description": "<p>Predesigned. Customizable. Ready to Order</p>",
         "show_description": false,
         "description_style": "body",
+        "content_alignment": "center",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "color_scheme": "",
-        "show_view_all": false,
+        "show_view_all": true,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,

@@ -285,7 +285,7 @@
         "show_description": false,
         "description_style": "body",
         "content_alignment": "center",
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "columns_desktop": 4,
         "color_scheme": "",
         "show_view_all": true,

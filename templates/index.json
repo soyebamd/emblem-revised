@@ -263,13 +263,15 @@
         "featured_collection_3fEjBa": {
           "type": "featured_collection",
           "settings": {
-            "collection": "2d-law-enforcement-battalion-store-1"
+            "collection": "police",
+            "collection_image": "shopify://shop_images/Rectangle_1189_1.png"
           }
         },
         "featured_collection_eMwNcF": {
           "type": "featured_collection",
           "settings": {
-            "collection": "153rd-military-police-company-store-1"
+            "collection": "military",
+            "collection_image": "shopify://shop_images/Rectangle_1190_2.png"
           }
         }
       },

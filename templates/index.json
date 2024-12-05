@@ -256,7 +256,8 @@
         "featured_collection_MpDfPp": {
           "type": "featured_collection",
           "settings": {
-            "collection": "american-pride"
+            "collection": "american-pride",
+            "collection_image": "shopify://shop_images/Rectangle_1190.png"
           }
         },
         "featured_collection_3fEjBa": {

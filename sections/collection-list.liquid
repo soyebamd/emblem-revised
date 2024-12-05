@@ -3,6 +3,8 @@
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
 
+
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -20,6 +22,16 @@
   background:#D8DAB8;
   border-bottom:solid 8px #86895D;
           padding: 1.6rem !important;
+}
+
+.featured-collection .card__heading {
+  
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 2.4rem;
+
+  font-weight: 700;
+  line-height: 3.2rem;
+
 }
 
 {%- endstyle -%}

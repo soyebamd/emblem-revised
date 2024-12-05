@@ -3,6 +3,7 @@
 
   Accepts:
   - card_collection: {Object} Collection Liquid object
+  - collection_image: card custom collection image
   - media_aspect_ratio: {String} Size of the product image card. Values are "square" and "portrait". Default is "square" (optional)
   - columns: {Number}
   - extend_height: {Boolean} Card height extends to available container space. Default: false (optional)
@@ -47,7 +48,7 @@
       class="card__inner {% if card_style == 'standard' %}color-{{ card_color_scheme }} gradient{% endif %}{% if card_collection.featured_image or card_style == 'standard' %} ratio{% endif %}"
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >
-      {%- if card_collection.featured_image -%}
+      {%- if card_collection.featured_image && collection_image != '' -%}
         <div class="card__media">
           <div class="media media--transparent media--hover-effect">
             <img
@@ -76,6 +77,11 @@
           </div>
         </div>
       {%- endif -%}
+
+
+
+
+
       {%- if card_collection == blank -%}
         <div class="card__media">
           {{ placeholder_image | placeholder_svg_tag: 'placeholder-svg' }}

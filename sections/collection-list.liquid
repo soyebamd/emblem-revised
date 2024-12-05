@@ -109,6 +109,7 @@
             {% render 'card-collection',
               card_collection: block.settings.collection,
               media_aspect_ratio: section.settings.image_ratio,
+              collection_image:section.settings.collection_image,
               columns: columns,
               placeholder_image: placeholder_image
             %}
@@ -382,7 +383,15 @@
           "type": "collection",
           "id": "collection",
           "label": "t:sections.collection-list.blocks.featured_collection.settings.collection.label"
+        },
+
+          {
+          "type": "image_picker",
+          "id": "collection_image",
+          "label": "Collection image"
         }
+
+
       ]
     }
   ],

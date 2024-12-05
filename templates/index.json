@@ -215,7 +215,6 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "CHECK OUT OUR EXCLUSIVE <span>READY-MADE</span> COLLECTIONS",
         "heading_size": "h4",

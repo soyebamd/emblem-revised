@@ -1,18 +1,47 @@
 {%- style -%}
+
+ .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+
+
 .section-{{ section.id }}-hr {
     width: 100%;
     height: {{ section.settings.divisor }}px;
+    margin:0;
+    background-color:{{ section.settings.hr_color }};
 }
 {% endstyle %}
 
+<div class="section-{{ section.id }}-padding color-{{ section.settings.color_scheme }} isolate gradient">
 
-<hr class="color-{{ section.settings.color_scheme }} isolate gradient section-{{ section.id }}-hr"  {{ block.shopify_attributes }}>
+
+
+<hr class="section-{{ section.id }}-hr"  {{ block.shopify_attributes }}>
+
+
+</div>
 
 
 {% schema %}
 {
     "name": "Divisor",
     "settings": [
+        {
+            "type": "color_scheme",
+            "id": "color_scheme",
+            "label": "Divisor color",
+            "default": "scheme-1"
+        },
         {
             "type": "range",
             "id": "divisor",
@@ -22,12 +51,13 @@
             "label": "Divisor stroke width",
             "default": 1
         },
-        {
-            "type": "color_scheme",
-            "id": "color_scheme",
-            "label": "Divisor color",
-            "default": "scheme-1"
-        }
+         {
+        "type": "color",
+        "id": "hr_color",
+        "label": "Line color",
+        "default": "#000"
+      }
+        
     ],
     "presets": [
         {

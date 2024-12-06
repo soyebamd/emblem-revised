@@ -31,6 +31,50 @@
         "color_scheme": "scheme-59c06c0f-b880-40f3-910d-b27c6d89420a"
       }
     },
+    "collection_list_48ALAN": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_mCYrid": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_edcfqN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_XWphmi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_mCYrid",
+        "featured_collection_edcfqN",
+        "featured_collection_XWphmi"
+      ],
+      "settings": {
+        "title": "SHOP EMBLEM BRANDED COLLECITONS",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "content_alignment": "center",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-8b16fcef-c23f-4ea7-be3b-c423051fb213",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -55,6 +99,7 @@
   "order": [
     "shop_collection_banner_9TR9zf",
     "banner",
+    "collection_list_48ALAN",
     "product-grid"
   ]
 }

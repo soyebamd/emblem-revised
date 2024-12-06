@@ -54,12 +54,20 @@
             "collection": "police",
             "collection_image": "shopify://shop_images/Rectangle_1189_1.png"
           }
+        },
+        "featured_collection_tD3DEV": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "military",
+            "collection_image": "shopify://shop_images/Rectangle_1190_2.png"
+          }
         }
       },
       "block_order": [
         "featured_collection_mCYrid",
         "featured_collection_edcfqN",
-        "featured_collection_XWphmi"
+        "featured_collection_XWphmi",
+        "featured_collection_tD3DEV"
       ],
       "settings": {
         "title": "SHOP EMBLEM BRANDED COLLECITONS",

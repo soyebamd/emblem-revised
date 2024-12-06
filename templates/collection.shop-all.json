@@ -89,7 +89,7 @@
     "divisor_3g9KHb": {
       "type": "divisor",
       "settings": {
-        "divisor": 6,
+        "divisor": 1,
         "color_scheme": "scheme-3"
       }
     },

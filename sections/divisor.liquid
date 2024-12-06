@@ -1,0 +1,37 @@
+{%- style -%}
+
+.section-{{ section.id }}-hr{
+    width:100%;
+    height:{{ section.settings.divisor  }}px;
+}
+
+{% endstyle %}
+
+<hr class="color-{{ section.settings.color_scheme }} isolate gradient section-{{ section.id }}-hr">
+
+
+{% schema %}
+{
+    "name": "Divisor",
+    "settings": [
+
+    {
+        "type": "range",
+        "id": "divisor",
+        "min": 1,
+        "max": 6,
+        "step": 1,
+        "label": "Divisor strok width",
+        "default":1
+    },
+
+    {
+        "type": "color",
+        "id": "color_sheme",
+        "label": "Divisor color",
+        "default":"scheme-1"
+    }
+        
+        ]
+}
+{% endschema %}

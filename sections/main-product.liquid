@@ -49,6 +49,13 @@
 
         .product--emblem-thumbnail .thumbnail-slider{}
 
+        @media screen and (min-width: 990px) {
+  .product--emblem-thumbnail .thumbnail-list {
+    grid-template-columns: repeat(1,1fr);
+    width: 70px;
+  }
+        }
+
   {%- endstyle -%}
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>

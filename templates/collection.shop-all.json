@@ -83,14 +83,17 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "divisor_3g9KHb": {
       "type": "divisor",
       "settings": {
+        "color_scheme": "scheme-64cafb40-d7c7-4565-8342-583380714197",
         "divisor": 1,
-        "color_scheme": "scheme-3"
+        "hr_color": "#d8dab8",
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
     "product-grid": {
@@ -109,7 +112,7 @@
         "filter_type": "vertical",
         "enable_sorting": true,
         "columns_mobile": "2",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     }

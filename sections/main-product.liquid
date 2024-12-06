@@ -37,6 +37,18 @@
         padding-bottom: {{ section.settings.padding_bottom }}px;
       }
     }
+
+
+    .product--emblem-thumbnail .thumbnail-slider{
+      position: absolute;
+  z-index: 9;
+  width: 100%;
+  top: 0;
+  left: 0;
+    }
+
+        .product--emblem-thumbnail .thumbnail-slider{}
+
   {%- endstyle -%}
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>

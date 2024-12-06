@@ -86,6 +86,13 @@
         "padding_bottom": 36
       }
     },
+    "divisor_3g9KHb": {
+      "type": "divisor",
+      "settings": {
+        "divisor": 6,
+        "color_scheme": "scheme-3"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -105,20 +112,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "divisor_3g9KHb": {
-      "type": "divisor",
-      "settings": {
-        "divisor": 6,
-        "color_scheme": "scheme-3"
-      }
     }
   },
   "order": [
     "shop_collection_banner_9TR9zf",
     "banner",
     "collection_list_48ALAN",
-    "product-grid",
-    "divisor_3g9KHb"
+    "divisor_3g9KHb",
+    "product-grid"
   ]
 }

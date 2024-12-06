@@ -37,19 +37,22 @@
         "featured_collection_mCYrid": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "mothers-day",
+            "collection_image": "shopify://shop_images/Rectangle_1189.png"
           }
         },
         "featured_collection_edcfqN": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "american-pride",
+            "collection_image": "shopify://shop_images/Rectangle_1190.png"
           }
         },
         "featured_collection_XWphmi": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "police",
+            "collection_image": "shopify://shop_images/Rectangle_1189_1.png"
           }
         }
       },

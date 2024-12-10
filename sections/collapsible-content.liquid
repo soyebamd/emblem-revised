@@ -173,7 +173,7 @@ border-bottom:0;
           <div class="grid__item">
             {%- for block in section.blocks -%}
               <div
-                class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
+                class="accordion{% if section.settings.layout == 'row' %} content-container  {% endif %} color-{{ section.settings.container_color_scheme }} gradient"
                 {{ block.shopify_attributes }}
               >
                 <details

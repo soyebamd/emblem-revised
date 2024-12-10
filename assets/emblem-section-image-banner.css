@@ -9,7 +9,7 @@
 
 #Slide-template--17708546064583__emblem_image_banner_wK4LG6-1
   .secondary-heading {
-  color: rgb(var(--color-foreground));
+  color: rgb(var(--color-foreground)) !important;
 }
 
 .banner__sub-heading {

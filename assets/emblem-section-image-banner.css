@@ -3,9 +3,9 @@
   position: relative;
 }
 
-/* .secondary-heading {
+.secondary-heading {
   color: rgba(var(--title-highlighted)) !important;
-} */
+}
 
 .banner__sub-heading {
   color: rgba(var(--title-highlighted));

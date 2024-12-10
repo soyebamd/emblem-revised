@@ -3,8 +3,12 @@
   position: relative;
 }
 
-.secondary-heading {
+/* .secondary-heading {
   color: rgba(var(--title-highlighted)) !important;
+} */
+
+.banner__sub-heading {
+  color: rgba(var(--title-highlighted));
 }
 
 .emblemSlider .custom-shadow:after {
@@ -49,10 +53,6 @@
   background: transparent !important;
   width: 1.6rem;
   height: 1.6rem;
-}
-
-.banner__sub-heading {
-  color: rgba(var(--title-highlighted));
 }
 
 .emblemSlider .slider-counter__link {

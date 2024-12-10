@@ -51,9 +51,9 @@
   height: 1.6rem;
 }
 
-.banner__sub-heading {
+/* .banner__sub-heading {
   color: rgba(var(--title-highlighted));
-}
+} */
 
 .emblemSlider .slider-counter__link {
   padding: 0.4rem;

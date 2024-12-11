@@ -212,7 +212,7 @@ text-transform: uppercase;
 
 {% for i in (1..5) %}
 
-<div  class="multicolumn-card__info" style="background:{{ block.settings.["background_color_" |  append: i }}">
+<div  class="multicolumn-card__info" style="background:{{ block.settings["background_color_" |  append: i }}">
                 {%- if block.settings.title_1 != blank -%}
                   <h3 class="inline-richtext base-heading" style="color:{{ block.settings.text_color_i }}">{{ block.settings.title_1 }}</h3>
                 {%- endif -%}

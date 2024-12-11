@@ -150,7 +150,7 @@
         "collapsible_row_xGXfPG": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What payment methods do you accept?",
             "icon": "none",
             "row_content": "<p>Aceptamos las principales tarjetas de crédito y débito. Contamos con todas las seguridades de un corredor de pagos tercerizado.</p>",
             "page": ""
@@ -159,7 +159,7 @@
         "collapsible_row_nHLLVe": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Can I delete the store whenever I want?",
             "icon": "none",
             "row_content": "<p>Aceptamos las principales tarjetas de crédito y débito. Contamos con todas las seguridades de un corredor de pagos tercerizado.</p>",
             "page": ""
@@ -168,16 +168,7 @@
         "collapsible_row_mwNn8E": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "none",
-            "row_content": "<p>Aceptamos las principales tarjetas de crédito y débito. Contamos con todas las seguridades de un corredor de pagos tercerizado.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_6N9CEb": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
+            "heading": "How many items can I upload?",
             "icon": "none",
             "row_content": "<p>Aceptamos las principales tarjetas de crédito y débito. Contamos con todas las seguridades de un corredor de pagos tercerizado.</p>",
             "page": ""
@@ -187,8 +178,7 @@
       "block_order": [
         "collapsible_row_xGXfPG",
         "collapsible_row_nHLLVe",
-        "collapsible_row_mwNn8E",
-        "collapsible_row_6N9CEb"
+        "collapsible_row_mwNn8E"
       ],
       "settings": {
         "caption": "Answers to frequently asked questions",

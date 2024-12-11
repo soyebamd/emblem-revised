@@ -209,6 +209,8 @@ text-transform: uppercase;
 {% comment %}
   sub dropdown color platre
 {% endcomment %}
+
+{%if block.settings.subswathed%}
 {% for i in (1..4) %}
   {% assign background_color_key = "background_color_" | append: i %}
   {% assign title_key = "title_" | append: i %}
@@ -223,7 +225,7 @@ text-transform: uppercase;
   </div>
 {% endfor %}
 
-
+{% endif %}
 
           </li>
         {%- endfor -%}

@@ -841,7 +841,7 @@ body,
 }
 
 .arrow-color {
-  transition: all 600ms;
+  transition: all 400ms;
   transform: rotate(0deg);
 }
 

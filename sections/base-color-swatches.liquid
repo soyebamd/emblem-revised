@@ -116,6 +116,9 @@ text-transform: uppercase;
             }
 
              .block-base-color-{{block.id}} h3{ color: {{ block.settings.text_color }}}
+
+            
+
           </style>
 
         
@@ -176,7 +179,7 @@ text-transform: uppercase;
               {%- endif -%}
 
 
-              <div class="multicolumn-card__info block-base-color-{{block.id}}">
+              <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
                   <h3 class="inline-richtext base-heading">{{ block.settings.title }}</h3>
                 {%- endif -%}
@@ -210,9 +213,13 @@ text-transform: uppercase;
               Sub color swatched
             {% endcomment %}
 
-              <div class="multicolumn-card__info block-base-color-{{block.id}}">
+              <div class="multicolumn-card__info sub_block-base-color-{{block.id}}"
+              
+              style="background:{{ block.settings.background_color_2 }}"
+
+              >
                 {%- if block.settings.title_2 != blank -%}
-                  <h3 class="inline-richtext base-heading">{{ block.settings.title_2 }}</h3>
+                  <h3 class="inline-richtext base-heading" style="{{block.settings.color_2}}">{{ block.settings.title_2 }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text_2 != blank -%}
                   <div class="rte">{{ block.settings.text_2 }}</div>

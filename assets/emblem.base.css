@@ -844,6 +844,9 @@ body,
   .header--middle-left {
     column-gap: 4.8rem;
   }
+  .w-80 {
+    max-width: 80%;
+  }
 }
 
 .gap-32 {

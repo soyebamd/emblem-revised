@@ -202,8 +202,12 @@ text-transform: uppercase;
 
 
 
-            
-<div style="background:{{ block.settings.background_color_1 }}" class="submenu">
+
+{% comment %}
+  sub dropdown color platre
+{% endcomment %}
+
+<div  class="multicolumn-card__info" style="background:{{ {{ block.settings.background_color_1 }} }}">
                 {%- if block.settings.title_1 != blank -%}
                   <h3 class="inline-richtext base-heading" style="{{ block.settings.text_color_1 }}">{{ block.settings.title_1 }}</h3>
                 {%- endif -%}
@@ -211,18 +215,8 @@ text-transform: uppercase;
                
               </div>
 
-
           </li>
         {%- endfor -%}
-
-        
-
-{% comment %}
-  sub dropdown color platre
-{% endcomment %}
-
-
-
       </ul>
 
       {%- if show_mobile_slider -%}

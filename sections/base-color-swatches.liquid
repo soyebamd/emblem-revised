@@ -209,16 +209,20 @@ text-transform: uppercase;
 {% comment %}
   sub dropdown color platre
 {% endcomment %}
-
 {% for i in (1..4) %}
-  <div class="multicolumn-card__info" style="background: {{ block.settings["background_color_" | append: i] }}">
-    {%- if block.settings["title_" | append: i] != blank -%}
-      <h3 class="inline-richtext base-heading" style="color: {{ block.settings["text_color_" | append: i] }}">
-        {{ block.settings["title_" | append: i] }}
+  {% assign background_color_key = "background_color_" | append: i %}
+  {% assign title_key = "title_" | append: i %}
+  {% assign text_color_key = "text_color_" | append: i %}
+
+  <div class="multicolumn-card__info" style="background: {{ block.settings[background_color_key] }}">
+    {%- if block.settings[title_key] != blank -%}
+      <h3 class="inline-richtext base-heading" style="color: {{ block.settings[text_color_key] }}">
+        {{ block.settings[title_key] }}
       </h3>
     {%- endif -%}
   </div>
 {% endfor %}
+
 
 
           </li>

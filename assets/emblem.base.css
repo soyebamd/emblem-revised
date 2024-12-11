@@ -842,6 +842,7 @@ body,
 
 .arrow-color {
   transition: all 600ms;
+  transform: rotate(0deg);
 }
 
 .arrow-down {

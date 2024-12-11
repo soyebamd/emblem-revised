@@ -202,6 +202,16 @@ text-transform: uppercase;
 
 
 
+            
+<div style="background:{{ {{ block.settings.background_color_1 }} }}" class="submenu">
+                {%- if block.settings.title_1 != blank -%}
+                  <h3 class="inline-richtext base-heading" style="{{ block.settings.text_color_1 }}">{{ block.settings.title_1 }}</h3>
+                {%- endif -%}
+               
+               
+              </div>
+
+
           </li>
         {%- endfor -%}
 
@@ -211,16 +221,8 @@ text-transform: uppercase;
   sub dropdown color platre
 {% endcomment %}
 
-<div style="background:{{ {{ block.settings.background_color_1 }} }}">
-                {%- if block.settings.title_1 != blank -%}
-                  <h3 class="inline-richtext base-heading" style="{{ block.settings.text_color_1 }}">{{ block.settings.title_1 }}</h3>
-                {%- endif -%}
-               
-               
-              </div>
 
 
-              
       </ul>
 
       {%- if show_mobile_slider -%}

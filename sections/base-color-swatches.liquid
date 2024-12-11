@@ -314,7 +314,8 @@ const toggleMe = document.querySelectorAll('.toggle-me-for-next');
 
 toggleMe.forEach(toggle=>{
   toggle.addEventListener('click', function(){
-   this.nextElementSibling.classList.toggle('arrow-down')
+   this.classList.toggle('arrow-down');
+   this.nextElementSibling.classList.toggle('d-none')
   })
 })
 

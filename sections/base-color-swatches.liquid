@@ -140,7 +140,7 @@ text-transform: uppercase;
 
             style=""
           >
-            <div class="multicolumn-card content-container">
+            <div class="multicolumn-card content-container toggle-me-for-next">
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
@@ -306,6 +306,19 @@ text-transform: uppercase;
     </div>
   </div>
 </div>
+
+
+<script>
+
+const toggleMe = document.querySelectorAll('.toggle-me-for-next');
+
+toggleMe.forEach(toggle=>{
+  toggle.addEventListener('click', function(){
+   this.nextElementSibling.classList.toggle('arrow-down')
+  })
+})
+
+</script>
 
 {% schema %}
 {

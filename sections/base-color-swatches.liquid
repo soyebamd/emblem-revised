@@ -198,6 +198,23 @@ text-transform: uppercase;
                 {%- endif -%}
               </div>
             </div>
+
+
+
+
+
+{% comment %}
+  sub dropdown color platre
+{% endcomment %}
+
+<div class="multicolumn-card__info">
+                {%- if block.settings.title_1 != blank -%}
+                  <h3 class="inline-richtext base-heading">{{ block.settings.title_1 }}</h3>
+                {%- endif -%}
+               
+               
+              </div>
+
           </li>
         {%- endfor -%}
       </ul>

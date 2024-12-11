@@ -116,8 +116,6 @@ text-transform: uppercase;
             }
 
              .block-base-color-{{block.id}} h3{ color: {{ block.settings.text_color }}}
-
-            
           </style>
 
         
@@ -176,9 +174,7 @@ text-transform: uppercase;
                   </div>
                 </div>
               {%- endif -%}
-
-
-              <div class="multicolumn-card__info">
+              <div class="multicolumn-card__info block-base-color-{{block.id}}">
                 {%- if block.settings.title != blank -%}
                   <h3 class="inline-richtext base-heading">{{ block.settings.title }}</h3>
                 {%- endif -%}
@@ -201,15 +197,7 @@ text-transform: uppercase;
                   </a>
                 {%- endif -%}
               </div>
-
-
-
-
             </div>
-
-
-
-
           </li>
         {%- endfor -%}
       </ul>
@@ -511,116 +499,7 @@ text-transform: uppercase;
         "id": "text_color",
         "label": "Text Color",
         "default": "#ffffff"
-      },
-
-    {
-      "type": "header",
-      "content": "Sub Color Swatches"
-    },
-
-     {
-      "type": "checkbox",
-      "id": "sub_color",
-      "default": false,
-      "label": "Subcolor display"
-    },
-
-    {
-          "type": "inline_richtext",
-          "id": "title_2",
-          "default": "t:sections.multicolumn.blocks.column.settings.title.default",
-          "label": "Color heading 2"
-        },
-
-       {
-        "type": "color",
-        "id": "background_color_2",
-        "label": "Background Color 2",
-        "default": "#191919"
-      },
-
-        {
-        "type": "color",
-        "id": "text_color_2",
-        "label": "Text Color 2",
-        "default": "#ffffff"
-      },
-
-      {
-          "type": "inline_richtext",
-          "id": "title_3",
-          "default": "t:sections.multicolumn.blocks.column.settings.title.default",
-          "label": "Color heading 3"
-        },
-
-       {
-        "type": "color",
-        "id": "background_color_3",
-        "label": "Background Color 3",
-        "default": "#191919"
-      },
-
-        {
-        "type": "color",
-        "id": "text_color_3",
-        "label": "Text Color 3",
-        "default": "#ffffff"
-      },
-
-
-
-        {
-          "type": "inline_richtext",
-          "id": "title_4",
-          "default": "t:sections.multicolumn.blocks.column.settings.title.default",
-          "label": "Color heading 4"
-        },
-
-       {
-        "type": "color",
-        "id": "background_color_4",
-        "label": "Background Color 4",
-        "default": "#191919"
-      },
-
-        {
-        "type": "color",
-        "id": "text_color_4",
-        "label": "Text Color 4",
-        "default": "#ffffff"
-      },
-
-
-
-
-
-
-      
-        {
-          "type": "inline_richtext",
-          "id": "title_5",
-          "default": "t:sections.multicolumn.blocks.column.settings.title.default",
-          "label": "Color heading 5"
-        },
-
-       {
-        "type": "color",
-        "id": "background_color_5",
-        "label": "Background Color 5",
-        "default": "#191919"
-      },
-
-        {
-        "type": "color",
-        "id": "text_color_5",
-        "label": "Text Color 5",
-        "default": "#ffffff"
       }
-
-
-
-      
-
 
       ]
     }

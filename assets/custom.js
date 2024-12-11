@@ -31,7 +31,7 @@ function topScrollPos() {
       ? tag.classList.add("fix-top")
       : tag.classList.remove("fix-top");
 
-  console.log("Scroll Position:", scrollTop);
+  //console.log("Scroll Position:", scrollTop);
 }
 
 topScrollPos();

@@ -211,16 +211,15 @@ text-transform: uppercase;
 {% endcomment %}
 
 {% for i in (1..4) %}
+  <div class="multicolumn-card__info" style="background: {{ block.settings["background_color_" | append: i] }}">
+    {%- if block.settings["title_" | append: i] != blank -%}
+      <h3 class="inline-richtext base-heading" style="color: {{ block.settings["text_color_" | append: i] }}">
+        {{ block.settings["title_" | append: i] }}
+      </h3>
+    {%- endif -%}
+  </div>
+{% endfor %}
 
-<div  class="multicolumn-card__info" style="background:{{ block.settings["background_color_" |  append: i }}">
-                {%- if block.settings.title_1 != blank -%}
-                  <h3 class="inline-richtext base-heading" style="color:{{ block.settings.text_color_i }}">{{ block.settings.title_1 }}</h3>
-                {%- endif -%}
-               
-               
-              </div>
-
-              {% endfor %}
 
           </li>
         {%- endfor -%}

@@ -529,6 +529,19 @@ header__submenu .header__menu-item,
   }
 }
 
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 989px) {
+  .header__heading {
+    display: none;
+  }
+  .mobile-only {
+    display: block;
+  }
+}
+
 .mb-16 {
   margin-bottom: 16px !important;
 }

@@ -884,5 +884,6 @@ body,
 
   .header--mobile-left {
     grid-template-columns: auto !important;
+    justify-content: center;
   }
 }

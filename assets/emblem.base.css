@@ -519,6 +519,10 @@ header__submenu .header__menu-item,
   z-index: 99;
 }
 
+.menu-opening .open {
+  display: none;
+}
+
 @media (max-width: 749px) {
   .for-mob {
     display: block !important;

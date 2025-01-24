@@ -867,7 +867,7 @@ body,
 }
 
 .mobile-only {
-  display: none !important;
+  display: none;
 }
 
 @media (max-width: 989px) {

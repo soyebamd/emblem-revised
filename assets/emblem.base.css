@@ -519,7 +519,7 @@ header__submenu .header__menu-item,
   z-index: 99;
 }
 
-.menu-opening svg:first-child {
+.menu-opening .open {
   display: none;
 }
 

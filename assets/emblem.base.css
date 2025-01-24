@@ -883,6 +883,6 @@ body,
   }
 
   .header--mobile-left {
-    grid-template-columns: auto;
+    grid-template-columns: auto !important;
   }
 }

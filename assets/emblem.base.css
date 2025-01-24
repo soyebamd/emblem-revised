@@ -866,15 +866,14 @@ body,
   gap: 32px;
 }
 
-.mobile-only {
-  display: none;
-}
-
 @media (max-width: 989px) {
   .header__heading {
     display: none;
   }
+}
+
+@media screen and (min-width: 990px) {
   .mobile-only {
-    display: block;
+    display: none;
   }
 }

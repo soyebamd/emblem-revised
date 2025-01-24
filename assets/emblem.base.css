@@ -523,7 +523,7 @@ header__submenu .header__menu-item,
   display: none;
 }
 
-.open .icon {
+.open + .icon {
   width: 3rem;
   height: 3rem;
 }

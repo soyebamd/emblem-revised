@@ -863,7 +863,7 @@ body,
 }
 
 .mobile-only {
-  display: none;
+  display: none !important;
 }
 
 @media (max-width: 989px) {

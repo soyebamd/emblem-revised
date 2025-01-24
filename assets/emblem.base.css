@@ -881,4 +881,8 @@ body,
   .mobile-only {
     display: none !important;
   }
+
+  .header--mobile-left {
+    grid-template-columns: auto;
+  }
 }

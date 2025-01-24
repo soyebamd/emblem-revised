@@ -523,6 +523,11 @@ header__submenu .header__menu-item,
   display: none;
 }
 
+.open .icon {
+  width: 3rem;
+  height: 3rem;
+}
+
 @media (max-width: 749px) {
   .for-mob {
     display: block !important;
@@ -874,6 +879,6 @@ body,
 
 @media screen and (min-width: 990px) {
   .mobile-only {
-    display: none;
+    display: none !important;
   }
 }

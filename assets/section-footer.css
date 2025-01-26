@@ -16,17 +16,15 @@
 }
 
 @media screen and (max-width: 749px) {
-  @media (min-width: 600px) {
-    /* For larger screens, keep 2nd and 3rd div on the same row */
-    .footer__blocks-wrapper .footer-block:nth-child(2),
-    .footer__blocks-wrapper .footer-block:nth-child(3) {
-      flex: 1 1 48%; /* Adjust width to fit two divs in a row */
-    }
+  /* For larger screens, keep 2nd and 3rd div on the same row */
+  .footer__blocks-wrapper .footer-block:nth-child(2),
+  .footer__blocks-wrapper .footer-block:nth-child(3) {
+    flex: 1 1 48%; /* Adjust width to fit two divs in a row */
+  }
 
-    .footer__blocks-wrapper .footer-block:nth-child(1),
-    .footer__blocks-wrapper .footer-block:nth-child(4) {
-      flex: 1 1 100%; /* Ensure first and fourth divs take full width */
-    }
+  .footer__blocks-wrapper .footer-block:nth-child(1),
+  .footer__blocks-wrapper .footer-block:nth-child(4) {
+    flex: 1 1 100%; /* Ensure first and fourth divs take full width */
   }
 
   .footer-block-image.center {

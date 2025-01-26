@@ -530,7 +530,23 @@
 
 
 
+{% if section.settings.show_tag and section.settings.description %}
 
+  <div class="tag-cover">
+
+    <div class="tag">
+    
+  
+
+    {{ 'flag.svg' |  asset_url |  image_tag: class: 'icon-flag' }}
+
+    
+    
+    {{ section.settings.description }}
+    </div>
+  </div>
+
+{% endif %}
 
 {% schema %}
 

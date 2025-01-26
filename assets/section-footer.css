@@ -534,10 +534,6 @@
 }
 
 @media screen and (min-width: 750px) {
-  .footer-block__details-content {
-    margin-bottom: 0rem;
-  }
-
   .policies li a {
     padding: 0;
   }
@@ -557,6 +553,10 @@
 /* check for flexbox gap in older Safari versions */
 @supports not (inset: 10px) {
   @media screen and (max-width: 749px) {
+    .footer-block__details-content {
+      margin-bottom: 0rem;
+    }
+
     .footer .grid {
       margin-left: 0;
     }

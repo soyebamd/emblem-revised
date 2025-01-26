@@ -531,6 +531,10 @@
 }
 
 @media screen and (min-width: 750px) {
+  .footer-block__details-content {
+    margin-bottom: 0rem;
+  }
+
   .policies li a {
     padding: 0;
   }

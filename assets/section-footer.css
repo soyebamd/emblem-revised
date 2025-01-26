@@ -554,7 +554,7 @@
 @supports not (inset: 10px) {
   @media screen and (max-width: 749px) {
     .footer-block__details-content {
-      margin-bottom: 0rem;
+      margin-bottom: 0rem !important;
     }
 
     .footer .grid {

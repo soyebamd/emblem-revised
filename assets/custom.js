@@ -42,3 +42,12 @@ window.addEventListener("load", moveButton);
 
 // Run the function whenever the window is resized
 window.addEventListener("resize", moveButton);
+
+// clone footer contetnt to menu drwaer
+const originalFooter = document.querySelector(".footer");
+
+const footerContentContainer = document.getElementById("footer-content");
+
+const clonedFooter = originalFooter.cloneNode(true);
+
+footerContentContainer.appendChild(clonedFooter);

@@ -16,7 +16,7 @@
   border-right: 0.1rem solid rgba(var(--color-foreground), 0.08);
   display: block;
   height: calc(100% - 1.6rem);
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
 }
@@ -25,7 +25,7 @@
   border-right: 0.1rem solid rgba(var(--color-foreground), 0.08);
   display: block;
   height: calc(100% - 1.8rem);
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
 }
@@ -54,13 +54,13 @@
 }
 
 .search__button .icon {
-  height: 1.8rem;
-  width: 1.8rem;
+  height: 2.4rem;
+  width: 2.4rem;
 }
 
 .reset__button .icon.icon-close {
-  height: 1.8rem;
-  width: 1.8rem;
+  height: 2.4rem;
+  width: 2.4rem;
   stroke-width: 0.1rem;
 }
 

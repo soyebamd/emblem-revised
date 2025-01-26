@@ -11,8 +11,13 @@
   <link rel="stylesheet" href="{{ 'component-mega-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
 
-
 <style>
+
+
+  @media(max-width:749px){ .header-wrapper{
+    padding:65px 16px 16px;
+  }}
+  
   header-drawer {
     justify-self: start;
     margin-left: -1.2rem;
@@ -107,6 +112,7 @@
 -%}
 
 <{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
+ 
   {%- liquid
     assign social_links = false
     assign localization_forms = false
@@ -119,11 +125,31 @@
       assign localization_forms = true
     endif
   -%}
-  <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled %} header--has-account{% endif %}{% if localization_forms %} header--has-localizations{% endif %}">
+
+
+    <section id="header-top" class="mobile-only justify-content-between d-flex">
+
+    <div class="mob-logo">
+      {{ 'Logo_1.svg' |  file_url |  img_tag }}
+    </div>
+
     {%- liquid
       if section.settings.menu != blank
         render 'header-drawer'
       endif
+
+      -%}
+  </section>
+
+
+  
+  <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled %} header--has-account{% endif %}{% if localization_forms %} header--has-localizations{% endif %}">
+  
+
+  
+  
+  {%- liquid
+     
 
       if section.settings.logo_position == 'top-center' or section.settings.menu == blank
         render 'header-search', input_id: 'Search-In-Modal-1'
@@ -239,7 +265,7 @@
        <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form header__search">
           <div class="field">
            
-            <label class="field__label" for="{{ input_id }}">{{ 'general.search.search' | t }}</label>
+            <label class="field__label" for="{{ input_id }}">FIND YOUR STORE...</label>
             <input type="hidden" name="options[prefix]" value="last">
             <button
               type="reset"
@@ -258,12 +284,12 @@
 
 
              <input
-              class="search__input field__input"
+              class="search__input field__input text-uppercase"
               id="{{ input_id }}"
               type="search"
               name="q"
               value="{{ search.terms | escape }}"
-              placeholder="{{ 'general.search.search' | t }}"
+              placeholder="FIND YOUR STORE..."
               {%- if settings.predictive_search_enabled -%}
                 role="combobox"
                 aria-expanded="false"
@@ -342,6 +368,7 @@
       </a>
     </div>
   </header>
+
 
 
 
@@ -506,7 +533,6 @@
 
 
 
-
 {% schema %}
 
   {
@@ -596,21 +622,6 @@
       "default": true,
       "label": "t:sections.header.settings.show_line_separator.label"
     },
-
-     {
-      "type": "richtext",
-      "id": "description",
-      "label": "t:sections.featured-collection.settings.description.label"
-    },
-
-
-      {
-      "type": "checkbox",
-      "id": "show_tag",
-      "default": true,
-      "label": "Show Tag"
-    },
-
 
     {
       "type": "header",

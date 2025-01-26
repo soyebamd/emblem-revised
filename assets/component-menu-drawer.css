@@ -253,3 +253,7 @@ details[open].menu-opening > .menu-drawer__submenu {
     transition: none !important;
   }
 }
+
+.footer-content .footer {
+  background: transparent;
+}

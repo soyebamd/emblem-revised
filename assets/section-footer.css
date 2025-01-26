@@ -271,6 +271,11 @@
     On a small screen we want all the items to be centered
     because they will be stacked.
    */
+
+  .footer-block__details-content {
+    margin-bottom: 0rem !important;
+  }
+
   .footer-block--newsletter {
     display: flex;
     flex-direction: column;
@@ -553,10 +558,6 @@
 /* check for flexbox gap in older Safari versions */
 @supports not (inset: 10px) {
   @media screen and (max-width: 749px) {
-    .footer-block__details-content {
-      margin-bottom: 0rem !important;
-    }
-
     .footer .grid {
       margin-left: 0;
     }

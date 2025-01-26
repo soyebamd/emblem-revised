@@ -283,12 +283,12 @@
 
 
              <input
-              class="search__input field__input"
+              class="search__input field__input text-uppercase"
               id="{{ input_id }}"
               type="search"
               name="q"
               value="{{ search.terms | escape }}"
-              placeholder="{{ 'general.search.search' | t }}"
+              placeholder="FIND YOUR STORE..."
               {%- if settings.predictive_search_enabled -%}
                 role="combobox"
                 aria-expanded="false"

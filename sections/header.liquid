@@ -354,24 +354,6 @@
     </div>
   </header>
 
-{% if section.settings.show_tag and section.settings.description %}
-
-  <div class="tag-cover">
-
-    <div class="tag">
-    
-    <img class="icon-flag" src="{{ 'flag.svg' |  asset_url }}" alt="flag"> 
-
-       <div>
-    {{ section.settings.description }}
-    </div>
-    
-    </div>
-  
-  
-    </div>
-
-{% endif %}
 
 
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>

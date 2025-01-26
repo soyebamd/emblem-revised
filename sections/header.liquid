@@ -11,12 +11,12 @@
   <link rel="stylesheet" href="{{ 'component-mega-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
 
+
 <style>
 
-
-  @media(max-width:749px){ .header-wrapper{
+   .header-wrapper{
     padding:65px 16px 16px;
-  }}
+  }
   
   header-drawer {
     justify-self: start;
@@ -112,7 +112,6 @@
 -%}
 
 <{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
- 
   {%- liquid
     assign social_links = false
     assign localization_forms = false
@@ -369,7 +368,24 @@
     </div>
   </header>
 
+{% if section.settings.show_tag and section.settings.description %}
 
+  <div class="tag-cover">
+
+    <div class="tag">
+    
+    <img class="icon-flag" src="{{ 'flag.svg' |  asset_url }}" alt="flag"> 
+
+       <div>
+    {{ section.settings.description }}
+    </div>
+    
+    </div>
+  
+  
+    </div>
+
+{% endif %}
 
 
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
@@ -622,6 +638,21 @@
       "default": true,
       "label": "t:sections.header.settings.show_line_separator.label"
     },
+
+     {
+      "type": "richtext",
+      "id": "description",
+      "label": "t:sections.featured-collection.settings.description.label"
+    },
+
+
+      {
+      "type": "checkbox",
+      "id": "show_tag",
+      "default": true,
+      "label": "Show Tag"
+    },
+
 
     {
       "type": "header",

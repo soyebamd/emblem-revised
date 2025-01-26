@@ -19,7 +19,7 @@
   /* For larger screens, keep 2nd and 3rd div on the same row */
   .footer__blocks-wrapper .footer-block:nth-child(2),
   .footer__blocks-wrapper .footer-block:nth-child(3) {
-    flex: 1 1 48%; /* Adjust width to fit two divs in a row */
+    flex: 1 1 46%; /* Adjust width to fit two divs in a row */
   }
 
   .footer__blocks-wrapper .footer-block:nth-child(2) {

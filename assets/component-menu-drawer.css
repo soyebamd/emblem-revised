@@ -162,7 +162,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   text-decoration: none;
   display: flex;
   align-items: center;
-  font-size: 1.4rem;
+  font-size: 2rem;
   width: 100%;
   background-color: transparent;
   font-family: var(--font-body-family);
@@ -173,7 +173,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 .menu-drawer__close-button .svg-wrapper {
   transform: rotate(180deg);
   margin-right: 1rem;
-  width: 15px;
+  width: 12px;
 }
 
 .menu-drawer__utility-links {

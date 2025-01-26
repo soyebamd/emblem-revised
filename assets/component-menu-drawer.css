@@ -133,9 +133,9 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .menu-drawer__menu-item > .svg-wrapper {
-  width: 15px;
+  width: 12px;
   position: absolute;
-  right: -5rem;
+  right: -2rem;
   top: 50%;
   transform: translateY(-50%);
 }

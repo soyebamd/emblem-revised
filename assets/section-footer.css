@@ -16,6 +16,11 @@
 }
 
 @media screen and (max-width: 749px) {
+  .footer__content-top {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+
   /* For larger screens, keep 2nd and 3rd div on the same row */
   .footer__blocks-wrapper .footer-block:nth-child(2),
   .footer__blocks-wrapper .footer-block:nth-child(3) {

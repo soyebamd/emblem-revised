@@ -368,21 +368,17 @@
     </div>
   </header>
 
-  
 {% if section.settings.show_tag and section.settings.description %}
 
   <div class="tag-cover">
 
     <div class="tag">
-      
-
-    {{ 'flag.svg' |  asset_url |  image_tag }}
+    
+    <img class="icon-flag" src="{{ 'flag.svg' |  asset_url }}" alt="flag"> 
 
     
     
-  
-
-
+    {{ section.settings.description }}
     </div>
   </div>
 

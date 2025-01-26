@@ -247,9 +247,9 @@
               </div>
             {%- endfor -%}
 
-<div class="flex-mobile"     {{ block.shopify_attributes }}>
+<div class="flex-mobile"   >
       {%- for block in section.blocks -%}
-
+<div   {{ block.shopify_attributes }}>
           {%- case block.type -%}
             {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank -%}
@@ -266,7 +266,10 @@
                         {%- endfor -%}
                       </ul>
                     {%- endif -%}
+
+                    
                       {%- endcase -%}
+                      </div>
   {%- endfor -%}
 </div>
 

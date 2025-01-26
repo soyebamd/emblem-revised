@@ -27,6 +27,27 @@
   }
 {%- endstyle -%}
 
+{% if section.settings.show_tag and section.settings.description %}
+
+  <div class="tag-cover">
+
+    <div class="tag">
+    
+    <img class="icon-flag" src="{{ 'flag.svg' |  asset_url }}" alt="flag" height="" width=""> 
+
+       <div>
+    {{ section.settings.description }}
+    </div>
+    
+    </div>
+  
+  
+    </div>
+
+{% endif %}
+
+
+
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   {%- liquid
     assign has_social_icons = true

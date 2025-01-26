@@ -92,7 +92,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .menu-drawer__navigation {
-  padding: 3rem 0;
+  padding: 1rem 0 3rem 0;
 }
 
 .menu-drawer__inner-submenu {

@@ -111,7 +111,9 @@
   endfor
 -%}
 
-<{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}<div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
+<div {% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
+ 
+ 
   {%- liquid
     assign social_links = false
     assign localization_forms = false
@@ -125,16 +127,19 @@
     endif
   -%}
 
-  <section id="header-top" class="mobile-only justify-content-between d-flex">
+
+    <section id="header-top" class="mobile-only justify-content-between d-flex">
+
     <div class="mob-logo">
-      {{ 'Logo_1.svg' | file_url | img_tag }}
+      {{ 'Logo_1.svg' |  file_url |  img_tag }}
     </div>
 
     {%- liquid
       if section.settings.menu != blank
         render 'header-drawer'
       endif
-    -%}
+
+      -%}
   </section>
 
 

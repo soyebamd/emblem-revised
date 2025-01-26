@@ -12,6 +12,9 @@
 }
 
 @media screen and (max-width: 749px) {
+  .flex-mobile {
+    display: flex;
+  }
   .footer-block-image.center {
     justify-content: start !important;
   }

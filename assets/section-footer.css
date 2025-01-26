@@ -448,6 +448,9 @@
 }
 
 @media screen and (max-width: 749px) {
+  .get-list .super-accent {
+    display: block;
+  }
   .footer-block-image,
   .footer-block-image.left,
   .footer-block-image.center,

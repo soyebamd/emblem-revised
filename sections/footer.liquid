@@ -250,6 +250,8 @@
 <div class="flex-mobile">
       {%- for block in section.blocks -%}
 
+          {%- case block.type -%}
+
             {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank -%}
                       <ul class="footer-block__details-content list-unstyled">
@@ -265,6 +267,7 @@
                         {%- endfor -%}
                       </ul>
                     {%- endif -%}
+                      {%- endcase -%}
   {%- endfor -%}
 </div>
 

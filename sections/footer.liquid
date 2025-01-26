@@ -247,7 +247,8 @@
               </div>
             {%- endfor -%}
 
-<div class="flex-mobile"   data-cascade>
+<div class="flex-mobile footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                {{ block.shopify_attributes }}   >
       {%- for block in section.blocks -%}
 
           {%- case block.type -%}

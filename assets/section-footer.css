@@ -10,11 +10,12 @@
   padding-bottom: 5rem;
   display: block;
 }
+.flex-mobile {
+  display: flex;
+  gap: 6rem;
+}
 
 @media screen and (max-width: 749px) {
-  .flex-mobile {
-    display: flex;
-  }
   .footer-block-image.center {
     justify-content: start !important;
   }

@@ -49,7 +49,7 @@
 
   .footer .grid {
     /* display: block; */
-    gap: 0;
+    gap: 34;
   }
 
   .footer-block.grid__item {

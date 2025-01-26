@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 749px) {
   .footer .grid {
-    display: block;
+    /* display: block; */
   }
 
   .footer-block.grid__item {

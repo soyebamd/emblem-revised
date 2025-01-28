@@ -113,6 +113,19 @@
 -%}
 
 
+<header id="header-top" class="mobile-only justify-content-between d-flex">
+  <!-- Mobile header top section -->
+  <div class="mob-logo">
+    {{ 'Logo_1.svg' | file_url | img_tag: 'Logo' }}
+  </div>
+
+  {%- liquid
+    if section.settings.menu != blank
+      render 'header-drawer'
+    endif
+  -%}
+</header>
+
 
 <{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
   {%- liquid

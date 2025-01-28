@@ -47,7 +47,7 @@
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-2",
             "text_alignment_mobile": "center",
-            "box_align_mob": "bottom-center"
+            "box_align_mob": "bottom-left"
           }
         }
       },

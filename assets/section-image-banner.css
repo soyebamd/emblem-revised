@@ -340,7 +340,7 @@
 
 @media screen and (max-width: 749px) {
   .banner__content {
-    padding: 5rem;
+    padding: 0rem;
   }
 
   .banner__content_mob--top-left {

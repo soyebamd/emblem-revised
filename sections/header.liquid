@@ -134,7 +134,10 @@
     {{ 'Logo_1.svg' | file_url | img_tag: 'Logo' }}
     </div>
 
-   
+    {%- liquid
+      if section.settings.menu != blank
+        render 'header-drawer'
+      endif -%}
   </section>
 
   
@@ -142,14 +145,7 @@
   
 
   
-  
-  {%- liquid
-     
 
-      if section.settings.logo_position == 'top-center' or section.settings.menu == blank
-        render 'header-search', input_id: 'Search-In-Modal-1'
-      endif
-    -%}
 
     {%- if section.settings.logo_position != 'middle-center' -%}
       {%- if request.page_type == 'index' -%}

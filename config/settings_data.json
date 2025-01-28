@@ -260,7 +260,7 @@
           "background": "#191c00",
           "background_gradient": "",
           "text": "#ffffff",
-          "highlighted_color": "#191c00",
+          "highlighted_color": "#ec1515",
           "button": "#ec1515",
           "button_label": "#ffffff",
           "secondary_button_label": "#fd3535",

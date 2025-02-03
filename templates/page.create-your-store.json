@@ -181,6 +181,7 @@
       ],
       "settings": {
         "image_background": "shopify://shop_images/Background_1.png",
+        "mob_image_background": "shopify://shop_images/Fondo_vector.png",
         "heading": "Starter Package",
         "heading_size": "f-56",
         "caption": "",

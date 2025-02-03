@@ -126,6 +126,7 @@
 @media screen and (max-width: 749px) {
   .emblem-section-banner .banner__content {
     position: absolute !important;
+    top: 45px;
   }
 
   .emblem-section-banner .slideshow__text.banner__box {
@@ -134,6 +135,21 @@
 
   .emblem-section-banner .banner__media {
     height: 62rem !important;
+  }
+
+  .emblem-section-banner .banner--mobile-bottom .banner__box {
+    padding: 0 5px;
+  }
+
+  .emblem-section-banner
+    .slideshow__media.page-banner.banner__media
+    .character-img {
+    max-width: 710px;
+    height: auto;
+    top: auto;
+    right: 0;
+    transform: none;
+    bottom: 40px;
   }
 
   .page-banner h3.banner__sub-heading {

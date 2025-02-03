@@ -124,6 +124,19 @@
 }
 
 @media screen and (max-width: 749px) {
+  .page-banner h3.banner__sub-heading {
+    font-size: 90px;
+  }
+
+  .page-banner h3 {
+    font-size: 62px;
+  }
+
+  .page-banner h2 {
+    font-family: Barlow, sans-serif;
+    font-size: 55px;
+  }
+
   .slideshow__media.banner__media .character-img {
     left: 0;
     right: 0;

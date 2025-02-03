@@ -124,7 +124,7 @@
 }
 
 @media screen and (max-width: 749px) {
-  .emblem-section-banner .page-banner {
+  .emblem-section-banner .banner__content {
     position: absolute !important;
   }
 

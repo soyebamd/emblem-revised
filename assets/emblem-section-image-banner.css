@@ -124,6 +124,18 @@
 }
 
 @media screen and (max-width: 749px) {
+  .emblem-section-banner .page-banner {
+    position: absolute;
+  }
+
+  .emblem-section-banner .slideshow__text.banner__box {
+    background: transparent;
+  }
+
+  .emblem-section-banner .banner__media {
+    height: 62rem;
+  }
+
   .page-banner h3.banner__sub-heading {
     font-size: 90px;
   }

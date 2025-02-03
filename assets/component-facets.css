@@ -1279,6 +1279,9 @@ input.mobile-facets__checkbox {
 }
 
 @media screen and (max-width: 749px) {
+  .ProductCountDesktop {
+    display: none !important;
+  }
   .product-count__text,
   .facet-filters__label {
     font-size: 1.6rem !important;

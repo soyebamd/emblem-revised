@@ -70,6 +70,15 @@ mix-blend-mode: multiply;
 }
 
 @media(max-width:759px){
+
+ .bg-store-{{ section.id }}:after{
+ 
+background-image: url({{ section.settings.mob_image_background |  image_url }}) !important;
+
+
+  }
+
+
   .package-list {
     max-width: 348px;
   flex-direction:column;
@@ -237,6 +246,12 @@ mix-blend-mode: multiply;
    {
       "type": "image_picker",
       "id": "image_background",
+      "label": "background Image"
+    },
+
+      {
+      "type": "image_picker",
+      "id": "mob_image_background",
       "label": "background Image"
     },
 

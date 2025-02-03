@@ -135,14 +135,30 @@ mix-blend-mode: multiply;
           background-image:url({{'text-background.png' |  asset_url }})
         }
 
-        
+
+        @media(max-width:990px){
+
+        .shop-collection .collection-hero__title {
+
+  font-size: 40PX;
+
+  line-height: normal;
+}
+
+
+        }
 
 {%- endstyle -%}
 
 <div class="collection-hero collection-hero-image-bg position-relative shop-collection {% if section.settings.show_collection_image and collection.image %} p-0 collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient ">
   
 
-<img src="{{ section.settings.image_background |  image_url: width: 2000 }}" class="collection-bg" width="auto" height="auto">       
+<img src="{{ section.settings.image_background |  image_url: width: 2000 }}" class="collection-bg" width="auto" height="auto">   
+
+{% comment %} 
+<img src="{{ section.settings.image_background |  image_url: width: 2000 }}" class="collection-bg" width="auto" height="auto">    {% endcomment %}
+
+
 
 
 

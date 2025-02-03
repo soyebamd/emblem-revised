@@ -88,7 +88,9 @@ background-image: url({{ section.settings.mob_image_background |  image_url }}) 
 
 .package-list li{  width: calc(100% - 10px); 
 
-text-align:center;
+ .text-mob-center{
+  text-align:center!important;
+ }
 
 }
 }
@@ -148,7 +150,7 @@ text-align:center;
 
 
 
-<ul class="package-list text-left bg-transparent">
+<ul class="package-list text-left bg-transparent text-mob-center">
 
         {%- for block in section.blocks -%}
           {%- case block.type -%}

@@ -123,6 +123,10 @@
   .card__heading.h5 {
     font-size: 14px;
   }
+
+  .product-grid__emblem li {
+    padding: 12px 8px;
+  }
 }
 
 /*custom template css*/

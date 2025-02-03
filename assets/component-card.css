@@ -627,3 +627,9 @@
     clip-path: polygon(var(--shape--blob-5));
   }
 }
+
+@media (max-width: 749px) {
+  .card-wrapper {
+    padding: 0px;
+  }
+}

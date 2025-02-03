@@ -35,10 +35,12 @@ font-size: 15px;
 }
 
 @media(max-width:749px){
-.bulk-wrapper{flex-direction: column; max-width: 100%;
+.bulk-wrapper,   .bulk-wrapper .grid {flex-direction: column; max-width: 100%;
   width: 100%;}
 
-  .bulk-settings, .bulk-blocks{ width: 100%; max-width: 100%; }
+
+
+  .bulk-settings, .bulk-blocks, .bulk-blocks .multicolumn-list__item { width: 100%; max-width: 100%; }
 }
 {%- endstyle -%}
 

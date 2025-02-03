@@ -119,6 +119,12 @@
   padding: 24px 20px;
 }
 
+@media (max-width: 749px) {
+  .card__heading.h5 {
+    font-size: 14px;
+  }
+}
+
 /*custom template css*/
 
 /* .slider-mobile-gutter {

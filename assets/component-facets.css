@@ -1279,6 +1279,10 @@ input.mobile-facets__checkbox {
 }
 
 @media screen and (max-width: 749px) {
+  .facets {
+    flex-direction: column;
+  }
+
   #ProductCountDesktop {
     display: none !important;
   }

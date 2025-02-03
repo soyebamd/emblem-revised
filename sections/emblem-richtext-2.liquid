@@ -53,13 +53,7 @@ mix-blend-mode: multiply;
    
 }
 
-@media(max-width:759px){
-  .package-list {
-  flex-direction:column;
- 
-  align-content: center;
-}
-}
+
 
 .package-list li {
     width: calc(50% - 10px); 
@@ -73,6 +67,15 @@ mix-blend-mode: multiply;
       margin-bottom: 6px;
     font-size: 24px;
     font-family: "Barlow Condensed", sans-serif;
+}
+
+@media(max-width:759px){
+  .package-list {
+    max-width: 348px;
+  flex-direction:column;
+    width: calc(100% - 10px); 
+  align-content: center;
+}
 }
 
 

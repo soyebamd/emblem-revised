@@ -160,6 +160,12 @@ font-weight: 700;}
     transform:rotate(180deg);
 }
 
+@media(max-width:749px){
+
+.tab-content__header{    flex-direction: column;
+    gap: 2rem;}
+}
+
 
 
 {%- endstyle -%}
@@ -241,33 +247,44 @@ font-weight: 700;}
 const header = document.querySelectorAll('.tab-content__header');
 const content__table = document.querySelectorAll('.tab-content__table');
 
+const checkWindowSize = () => {
+    return window.innerWidth >= 749;
+};
 
-header.forEach(tab=>{
+header.forEach(tab => {
+    tab.addEventListener('click', function () {
 
+        // Remove active class from all tabs and hide all tables
+        header.forEach(removeActiveTab => {
+            removeActiveTab.classList.remove('tab-active');
+        });
 
-tab.addEventListener('click',
-    function(){
+        content__table.forEach(content => {
+            content.classList.remove('d-flex');
+        });
 
-    header.forEach(removeActiveTab=>{
-        removeActiveTab.classList.remove('tab-active');
-    })
+        if (checkWindowSize()) {
+            // Add active class only if the window width is >= 749px
+            this.classList.add('tab-active');
+            this.nextElementSibling.classList.add('d-flex');
+        }
+    });
+});
 
-    
+// Optionally, add resize listener if you want to handle changes during window resizing
+window.addEventListener('resize', () => {
+    if (!checkWindowSize()) {
+        // On window resize below 749px, remove 'tab-active' and 'd-flex' classes
+        header.forEach(removeActiveTab => {
+            removeActiveTab.classList.remove('tab-active');
+        });
 
-
-
-      content__table.forEach(content=>{
-        content.classList.remove('d-flex');
-      })
-
-
-      this.classList.add('tab-active');
-
-        this.nextElementSibling.classList.add('d-flex');
+        content__table.forEach(content => {
+            content.classList.remove('d-flex');
+        });
     }
-)
+});
 
-})
 
 
 </script>

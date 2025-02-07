@@ -223,7 +223,14 @@
  {% endcomment %}
 
 
- <div class="for-mob mob_slideshow__media mob-image">
+ <div class="for-mob mob_slideshow__media mob-image
+ {% if block.settings.mobile_image_bottom %}
+ 
+ mobile_image_bottom
+ 
+ {% endif %}
+ 
+ ">
 
 
 
@@ -808,6 +815,15 @@
           "default": "center",
           "label": "t:sections.slideshow.blocks.slide.settings.text_alignment_mobile.label"
         },
+       {
+      "type": "checkbox",
+      "id": "mobile_image_bottom",
+      "label": "t:sections.slideshow.settings.auto_rotate.label",
+      "default": false
+    },
+
+
+
          {
           "type": "select",
           "id": "box_align_mob",
@@ -852,7 +868,7 @@
           "default": "middle-center",
           "label": "t:sections.slideshow.blocks.slide.settings.box_align.label",
           "info": "t:sections.slideshow.blocks.slide.settings.box_align.info"
-        },
+        }
       ]
     }
   ],

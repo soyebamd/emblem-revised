@@ -175,6 +175,11 @@
     margin-top: 25px;
   }
 
+  .mobile_image_bottom .character-img {
+    top: auto;
+    bottom: 50px !important;
+  }
+
   .smooch-subheading {
     font-size: 4.8rem !important;
     line-height: 4.8rem !important;

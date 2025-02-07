@@ -42,29 +42,7 @@ z-index: -1;
 
  
 
-   @media(max-width:1000px){
-
-
-
-   
   
-    .sweet-character-image{display:none;
-}
-
-
-        .graphic-{{ section.id }}-bg:after{
-     
-        background:transparent!important;
-
-    }
-
-
-     .section-{{ section.id }} p{
-      color:#000!important;
-     }
-
-
-    }
 
 .sweet-title {
   line-height:normal!important;
@@ -81,6 +59,40 @@ font-size:2.4rem;  line-height:normal!important;
   color:rgb(var(--color-foreground))!important;
 }
 
+
+ @media(max-width:1000px){
+
+
+
+   
+  
+    .sweet-character-image{display:none;
+}
+
+
+        .graphic-{{ section.id }}-bg:after{
+     
+        background:transparent!important;
+
+    }
+
+
+    .sweat-section  p{
+      color:#000!important;
+     }
+
+   .sweat-section   .sweet-title span {
+  display: block;
+  color: #000 !important;
+}
+
+
+
+
+    }
+
+    
+
 {%- endstyle -%}
 
 {%- liquid
@@ -93,7 +105,7 @@ font-size:2.4rem;  line-height:normal!important;
 
 <div class="multicolumn color-{{ section.settings.color_scheme }} section-{{ section.id }}-bg gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div
-    class="page-width position-relative graphic-{{ section.id }}-bg section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    class="page-width sweat-section position-relative graphic-{{ section.id }}-bg section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
       data-cascade
     {% endif %}

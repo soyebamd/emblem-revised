@@ -13,13 +13,7 @@
         display: block;
       }
 
-       #Slider-{{ section.id }} .mobileText{
-
-       color:    
-
-       {{ section.settings.mob_color_scheme }}
-
-  }
+       
     }
 
     @media screen and (min-width: 750px) {
@@ -30,6 +24,15 @@
         display: block;
       }
     }
+
+    #Slider-{{ section.id }} .mobileText{
+
+       color:    
+
+       {{ section.settings.mob_color_scheme }}
+
+  }
+  
   {%- endstyle -%}
 {%- endif -%}
 

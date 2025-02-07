@@ -21,3 +21,15 @@
 .print-style h5 {
   font-family: "Barlow", sans-serif !important;
 }
+
+@media (max-width: 990px) {
+  .printing-type__header,
+  .print-style .multicolumn-card {
+    max-width: 100%;
+  }
+
+  .printing-type__header {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}

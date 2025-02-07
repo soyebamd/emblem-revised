@@ -12,8 +12,6 @@
         content: '';
         display: block;
       }
-
-       
     }
 
     @media screen and (min-width: 750px) {
@@ -25,14 +23,15 @@
       }
     }
 
-    #Slider-{{ section.id }} .mobileText{
+      @media screen and (max-width: 749px) {
 
-       color:    
+        .text-mob-white{
+          color:#fff;
+        }
 
-       {{ section.settings.mob_color_scheme }}
+        }
 
-  }
-  
+
   {%- endstyle -%}
 {%- endif -%}
 
@@ -172,7 +171,7 @@
         <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
           <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
             {%- if block.settings.heading != blank -%}
-              <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}">
+              <h2 class="banner__heading text-mob-white inline-richtext {{ block.settings.heading_size }}">
                 {{ block.settings.heading }}
               </h2>
             {%- endif -%}
@@ -387,16 +386,6 @@
       "label": "t:sections.slideshow.settings.show_text_below.label",
       "default": true
     },
-
-
-     {
-          "type": "color_scheme",
-          "id": "mob_color_scheme",
-          "label": "t:sections.all.colors.label",
-          "default": "scheme-1"
-        },
-
-
     {
       "type": "header",
       "content": "t:sections.slideshow.settings.accessibility.content"

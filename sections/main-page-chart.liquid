@@ -295,6 +295,49 @@ window.addEventListener('resize', () => {
 });
 
 
+document.addEventListener("DOMContentLoaded", function () {
+    function restructureTable() {
+        if (window.innerWidth <= 768) {
+            const table = document.querySelector(".table-style");
+            if (!table) return;
+
+            const oldBody = table.querySelector("tbody");
+            const oldHead = table.querySelector("thead");
+            if (!oldBody || !oldHead) return;
+
+            const rows = [...oldBody.rows];
+            const headers = [...oldHead.querySelectorAll("th")].slice(1); // Skip first empty header
+
+            // New table structure
+            let newBody = document.createElement("tbody");
+
+            headers.forEach((header, colIndex) => {
+                let newRow = document.createElement("tr");
+
+                // Add size label (S, M, L, etc.)
+                let sizeCell = document.createElement("td");
+                sizeCell.innerHTML = `<strong>${header.textContent}</strong>`;
+                newRow.appendChild(sizeCell);
+
+                // Add CHEST and HIPS data dynamically
+                rows.forEach((row) => {
+                    let newCell = document.createElement("td");
+                    newCell.textContent = row.cells[colIndex + 1].textContent; // Adjust for skipped header
+                    newRow.appendChild(newCell);
+                });
+
+                newBody.appendChild(newRow);
+            });
+
+            // Replace the old table body with the new one
+            table.replaceChild(newBody, oldBody);
+        }
+    }
+
+    restructureTable();
+    window.addEventListener("resize", restructureTable);
+});
+
 
 </script>
 

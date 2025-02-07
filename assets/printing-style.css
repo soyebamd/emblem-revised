@@ -23,6 +23,9 @@
 }
 
 @media (max-width: 990px) {
+  .mob-flex-column {
+    flex-direction: column !important;
+  }
   .printing-type__header,
   .print-style .multicolumn-card {
     max-width: 100%;

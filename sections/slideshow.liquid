@@ -12,6 +12,14 @@
         content: '';
         display: block;
       }
+
+       #Slider-{{ section.id }} .mobileText{
+
+       color:    
+
+       {{ section.settings.mob_color_scheme }}
+
+
     }
 
     @media screen and (min-width: 750px) {
@@ -376,6 +384,16 @@
       "label": "t:sections.slideshow.settings.show_text_below.label",
       "default": true
     },
+
+
+     {
+          "type": "color_scheme",
+          "id": "mob_color_scheme",
+          "label": "t:sections.all.colors.label",
+          "default": "scheme-1"
+        },
+
+
     {
       "type": "header",
       "content": "t:sections.slideshow.settings.accessibility.content"

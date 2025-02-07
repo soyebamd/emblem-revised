@@ -44,6 +44,7 @@
             "show_text_box": false,
             "text_alignment": "left",
             "custom_shadow": false,
+            "mobile_image_bottom": true,
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-17c6dc68-292c-4fad-8029-edc4b5ab9ebd",
             "text_alignment_mobile": "center",

@@ -295,48 +295,67 @@ window.addEventListener('resize', () => {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
-    function restructureTable() {
-        if (window.innerWidth <= 768) {
-            const table = document.querySelector(".table-style");
-            if (!table) return;
 
-            const oldBody = table.querySelector("tbody");
-            const oldHead = table.querySelector("thead");
-            if (!oldBody || !oldHead) return;
+// adjust table for mobile
 
-            const rows = [...oldBody.rows];
-            const headers = [...oldHead.querySelectorAll("th")].slice(1); // Skip first empty header
+function transformTableForMobile() {
+  const table = document.querySelector(".table-style");
+  if (!table) return;
 
-            // New table structure
-            let newBody = document.createElement("tbody");
+  const thead = table.querySelector("thead");
+  const tbody = table.querySelector("tbody");
 
-            headers.forEach((header, colIndex) => {
-                let newRow = document.createElement("tr");
+  if (window.innerWidth <= 768) {
+    // Convert table for mobile
+    const newTable = document.createElement("table");
+    newTable.className = "table-style";
 
-                // Add size label (S, M, L, etc.)
-                let sizeCell = document.createElement("td");
-                sizeCell.innerHTML = `<strong>${header.textContent}</strong>`;
-                newRow.appendChild(sizeCell);
+    // Create new table head
+    const newThead = document.createElement("thead");
+    const newHeadRow = document.createElement("tr");
 
-                // Add CHEST and HIPS data dynamically
-                rows.forEach((row) => {
-                    let newCell = document.createElement("td");
-                    newCell.textContent = row.cells[colIndex + 1].textContent; // Adjust for skipped header
-                    newRow.appendChild(newCell);
-                });
+    // Add empty top-left cell
+    newHeadRow.appendChild(document.createElement("th"));
 
-                newBody.appendChild(newRow);
-            });
+    // Extract first column (CHEST, HIPS, HEIGHT) and set as new headers
+    [...tbody.rows].forEach((row) => {
+      const th = document.createElement("th");
+      th.innerHTML = row.cells[0].innerHTML;
+      newHeadRow.appendChild(th);
+    });
 
-            // Replace the old table body with the new one
-            table.replaceChild(newBody, oldBody);
-        }
+    newThead.appendChild(newHeadRow);
+    newTable.appendChild(newThead);
+
+    // Create new table body
+    const newTbody = document.createElement("tbody");
+
+    // Iterate over size columns (S, M, L, XL, etc.)
+    for (let col = 1; col < thead.rows[0].cells.length; col++) {
+      const newRow = document.createElement("tr");
+
+      // Add size name as first column
+      const sizeTh = document.createElement("th");
+      sizeTh.innerHTML = thead.rows[0].cells[col].innerHTML;
+      newRow.appendChild(sizeTh);
+
+      // Add corresponding CHEST, HIPS, HEIGHT data
+      [...tbody.rows].forEach((row) => {
+        const newCell = document.createElement("td");
+        newCell.innerHTML = row.cells[col].innerHTML;
+        newRow.appendChild(newCell);
+      });
+
+      newTbody.appendChild(newRow);
     }
 
-    restructureTable();
-    window.addEventListener("resize", restructureTable);
-});
+    newTable.appendChild(newTbody);
+    table.parentElement.replaceChild(newTable, table);
+  }
+}
+// Run on page load and resize
+window.addEventListener("load", transformTableForMobile);
+window.addEventListener("resize", transformTableForMobile);
 
 
 </script>

@@ -298,64 +298,66 @@ window.addEventListener('resize', () => {
 
 // adjust table for mobile
 
-function transformTableForMobile() {
-  const table = document.querySelector(".table-style");
-  if (!table) return;
+function transformTablesForMobile() {
+  document.querySelectorAll("table").forEach((table) => {
+    // Ensure the table has the correct structure
+    const thead = table.querySelector("thead");
+    const tbody = table.querySelector("tbody");
+    if (!thead || !tbody) return;
 
-  const thead = table.querySelector("thead");
-  const tbody = table.querySelector("tbody");
+    if (window.innerWidth <= 768) {
+      // Convert table for mobile
+      const newTable = document.createElement("table");
+      newTable.className = table.className; // Retain all existing classes
 
-  if (window.innerWidth <= 768) {
-    // Convert table for mobile
-    const newTable = document.createElement("table");
-    newTable.className = "table-style";
+      // Create new table head
+      const newThead = document.createElement("thead");
+      const newHeadRow = document.createElement("tr");
 
-    // Create new table head
-    const newThead = document.createElement("thead");
-    const newHeadRow = document.createElement("tr");
+      // Add empty top-left cell
+      newHeadRow.appendChild(document.createElement("th"));
 
-    // Add empty top-left cell
-    newHeadRow.appendChild(document.createElement("th"));
-
-    // Extract first column (CHEST, HIPS, HEIGHT) and set as new headers
-    [...tbody.rows].forEach((row) => {
-      const th = document.createElement("th");
-      th.innerHTML = row.cells[0].innerHTML;
-      newHeadRow.appendChild(th);
-    });
-
-    newThead.appendChild(newHeadRow);
-    newTable.appendChild(newThead);
-
-    // Create new table body
-    const newTbody = document.createElement("tbody");
-
-    // Iterate over size columns (S, M, L, XL, etc.)
-    for (let col = 1; col < thead.rows[0].cells.length; col++) {
-      const newRow = document.createElement("tr");
-
-      // Add size name as first column
-      const sizeTh = document.createElement("th");
-      sizeTh.innerHTML = thead.rows[0].cells[col].innerHTML;
-      newRow.appendChild(sizeTh);
-
-      // Add corresponding CHEST, HIPS, HEIGHT data
+      // Extract first column (CHEST, HIPS, HEIGHT) and set as new headers
       [...tbody.rows].forEach((row) => {
-        const newCell = document.createElement("td");
-        newCell.innerHTML = row.cells[col].innerHTML;
-        newRow.appendChild(newCell);
+        const th = document.createElement("th");
+        th.innerHTML = row.cells[0].innerHTML;
+        newHeadRow.appendChild(th);
       });
 
-      newTbody.appendChild(newRow);
-    }
+      newThead.appendChild(newHeadRow);
+      newTable.appendChild(newThead);
 
-    newTable.appendChild(newTbody);
-    table.parentElement.replaceChild(newTable, table);
-  }
+      // Create new table body
+      const newTbody = document.createElement("tbody");
+
+      // Iterate over size columns (S, M, L, XL, etc.)
+      for (let col = 1; col < thead.rows[0].cells.length; col++) {
+        const newRow = document.createElement("tr");
+
+        // Add size name as first column
+        const sizeTh = document.createElement("th");
+        sizeTh.innerHTML = thead.rows[0].cells[col].innerHTML;
+        newRow.appendChild(sizeTh);
+
+        // Add corresponding CHEST, HIPS, HEIGHT data
+        [...tbody.rows].forEach((row) => {
+          const newCell = document.createElement("td");
+          newCell.innerHTML = row.cells[col].innerHTML;
+          newRow.appendChild(newCell);
+        });
+
+        newTbody.appendChild(newRow);
+      }
+
+      newTable.appendChild(newTbody);
+      table.parentElement.replaceChild(newTable, table);
+    }
+  });
 }
+
 // Run on page load and resize
-window.addEventListener("load", transformTableForMobile);
-window.addEventListener("resize", transformTableForMobile);
+window.addEventListener("load", transformTablesForMobile);
+window.addEventListener("resize", transformTablesForMobile);
 
 
 </script>

@@ -975,6 +975,15 @@ bottom: 12px;
 }
 
 
+.field__label, .customer .field label{
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.field__input:focus ~ .field__label{
+   top: 0;
+}
+
 @media (max-width: 989px) {
   .header__heading {
     display: none;
@@ -985,6 +994,7 @@ bottom: 12px;
   }
 
 
+  
 
         
 @media screen and (min-width: 990px) {

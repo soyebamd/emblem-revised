@@ -143,6 +143,29 @@ display:block; */
     padding: 0 5rem;
 }
 
+.color-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 items per row */
+    gap: 10px;
+    padding: 20px;
+}
+
+.color-item {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+
+
 @media(max-width:1000px){
  .pr-catalog .image-with-text__content{
     padding: 0 2rem;
@@ -345,7 +368,7 @@ display:block; */
 
 
           <p class="m-0">  <strong> Color:</strong> </p>    
-<div class=" d-flex  flex-wrap">
+<div class="color-container">
 
 
 

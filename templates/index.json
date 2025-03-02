@@ -34,6 +34,7 @@
             "show_text_box": false,
             "text_alignment": "left",
             "custom_shadow": true,
+            "mobile_image_bottom": false,
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-2",
             "text_alignment_mobile": "center",
@@ -62,6 +63,7 @@
             "show_text_box": false,
             "text_alignment": "left",
             "custom_shadow": true,
+            "mobile_image_bottom": false,
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-2",
             "text_alignment_mobile": "center",
@@ -195,6 +197,10 @@
       "block_order": [
         "heading_hdYVbt",
         "button_xyGeDD"
+      ],
+      "custom_css": [
+        ".button {color: #fff; border-color: #ec1515;}",
+        "h2 span {color: #ec1515!important;}"
       ],
       "settings": {
         "image": "shopify://shop_images/image_95_1.png",

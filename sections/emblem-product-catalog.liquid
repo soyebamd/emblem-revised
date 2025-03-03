@@ -445,25 +445,26 @@ display:block; */
       let items = container.querySelectorAll(".color-item");
 
       if (items.length > 7) {
-        // Hide extra color items
+        // Hide extra items
         items.forEach((item, index) => {
           if (index >= 7) {
             item.classList.add("hidden");
           }
         });
 
-        // Create the "Show More" button as a .color-item
-        let showMoreBtn = document.createElement("div");
-        showMoreBtn.classList.add("color-item", "show-more-btn");
-        showMoreBtn.innerHTML = `<span style="background: transparent">+</span> <div>More</div>`;
+        // Prevent multiple "Show More" buttons
+        if (!container.querySelector(".show-more-btn")) {
+          let showMoreBtn = document.createElement("div");
+          showMoreBtn.classList.add("color-item", "show-more-btn");
+          showMoreBtn.innerHTML = `<span style="background: transparent">+</span> <div>More</div>`;
+          
+          container.appendChild(showMoreBtn); // Append button once
 
-        container.appendChild(showMoreBtn); // Append inside the container
-        showMoreBtn.style.display = "flex"; // Make it visible
-
-        showMoreBtn.addEventListener("click", function () {
-          items.forEach((item) => item.classList.remove("hidden"));
-          showMoreBtn.remove(); // Remove button after revealing items
-        });
+          showMoreBtn.addEventListener("click", function () {
+            items.forEach(item => item.classList.remove("hidden"));
+            showMoreBtn.remove(); // Remove button after revealing items
+          });
+        }
       }
     });
   });

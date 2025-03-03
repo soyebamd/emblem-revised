@@ -386,6 +386,10 @@ display:block; */
 
   {% endfor %}
 </div>
+
+<div class="show-more-btn" onclick="showMore()">Show More</div>
+
+
 </div>
 
 
@@ -433,6 +437,32 @@ display:block; */
     </div>
   </div>
 </div>
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+    let items = document.querySelectorAll(".color-item");
+    let showMoreBtn = document.querySelector(".show-more-btn");
+
+    if (items.length > 7) {
+      showMoreBtn.style.display = "block"; // Show "Show More" button
+      items.forEach((item, index) => {
+        if (index >= 7) {
+          item.classList.add("hidden"); // Hide items beyond 7
+        }
+      });
+    }
+  });
+
+  function showMore() {
+    document.querySelectorAll(".hidden").forEach(item => {
+      item.classList.remove("hidden");
+    });
+    document.querySelector(".show-more-btn").style.display = "none"; // Hide button after showing
+  }
+
+</script>
 
 {% comment %} 
 

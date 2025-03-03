@@ -441,26 +441,37 @@ display:block; */
 
 <script>
 
-document.addEventListener("DOMContentLoaded", function () {
-    let items = document.querySelectorAll(".color-item");
-    let showMoreBtn = document.querySelector(".show-more-btn");
+ document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".color-container").forEach(container => {
+      let items = container.querySelectorAll(".color-item");
+      
+      if (items.length > 7) {
+        let showMoreBtn = document.createElement("div");
+        showMoreBtn.classList.add("show-more-btn");
+        showMoreBtn.textContent = "Show More";
+        showMoreBtn.addEventListener("click", function () {
+          items.forEach((item, index) => {
+            if (index >= 7) {
+              item.classList.remove("hidden");
+            }
+          });
+          showMoreBtn.style.display = "none"; // Hide button after revealing
+        });
 
-    if (items.length > 7) {
-      showMoreBtn.style.display = "block"; // Show "Show More" button
-      items.forEach((item, index) => {
-        if (index >= 7) {
-          item.classList.add("hidden"); // Hide items beyond 7
-        }
-      });
-    }
-  });
+        container.appendChild(showMoreBtn); // Add button to the container
 
-  function showMore() {
-    document.querySelectorAll(".hidden").forEach(item => {
-      item.classList.remove("hidden");
+        // Hide extra color items
+        items.forEach((item, index) => {
+          if (index >= 7) {
+            item.classList.add("hidden");
+          }
+        });
+
+        // Show button
+        showMoreBtn.style.display = "block";
+      }
     });
-    document.querySelector(".show-more-btn").style.display = "none"; // Hide button after showing
-  }
+  });
 
 </script>
 

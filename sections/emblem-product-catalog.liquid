@@ -457,7 +457,7 @@ display:block; */
         // Prevent multiple "Show More" buttons
         if (!container.querySelector(".show-more-btn")) {
           let showMoreBtn = document.createElement("div");
-          showMoreBtn.classList.add("color-item", "show-more-btn", "d-flex");
+          showMoreBtn.classList.add("color-item", "show-more-btn", "d-block");
           showMoreBtn.innerHTML = `<span style="background: transparent">+</span> <div>More</div>`;
           
           container.appendChild(showMoreBtn); // Append button once

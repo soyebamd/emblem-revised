@@ -444,10 +444,12 @@ display:block; */
     document.querySelectorAll(".color-container").forEach(container => {
       let items = container.querySelectorAll(".color-item");
 
-      if (items.length > 7) {
+      const maxCount = 7;
+
+      if (items.length > maxCount) {
         // Hide extra items
         items.forEach((item, index) => {
-          if (index >= 7) {
+          if (index >= maxCount) {
             item.classList.add("hidden");
           }
         });

@@ -440,25 +440,11 @@ display:block; */
 
 <script>
 
- document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll(".color-container").forEach(container => {
       let items = container.querySelectorAll(".color-item");
       
       if (items.length > 7) {
-        let showMoreBtn = document.createElement("div");
-        showMoreBtn.classList.add("show-more-btn");
-        showMoreBtn.textContent = "Show More";
-        showMoreBtn.addEventListener("click", function () {
-          items.forEach((item, index) => {
-            if (index >= 7) {
-              item.classList.remove("hidden");
-            }
-          });
-          showMoreBtn.style.display = "none"; // Hide button after revealing
-        });
-
-        container.appendChild(showMoreBtn); // Add button to the container
-
         // Hide extra color items
         items.forEach((item, index) => {
           if (index >= 7) {
@@ -466,8 +452,18 @@ display:block; */
           }
         });
 
-        // Show button
-        showMoreBtn.style.display = "block";
+        // Create "Show More" button
+        let showMoreBtn = document.createElement("div");
+        showMoreBtn.classList.add("show-more-btn");
+        showMoreBtn.textContent = "Show More";
+        container.appendChild(showMoreBtn); // Add button to the container
+
+        showMoreBtn.style.display = "block"; // Ensure it appears
+
+        showMoreBtn.addEventListener("click", function () {
+          items.forEach((item) => item.classList.remove("hidden"));
+          showMoreBtn.remove(); // Remove button after showing all colors
+        });
       }
     });
   });

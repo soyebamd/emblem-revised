@@ -391,13 +391,15 @@ const contentSizeChart = document.querySelector('.position-fixed--size-chart');
 const tabContainer = document.querySelector('.tab-container');
 
 function getHeight(){
-  
+
 contentSizeChartHeight = contentSizeChart.offsetHeight;
 
 tabContainer.style.paddingTop = contentSizeChartHeight + 'px';
 
 
 }
+
+getHeight()
 
 document.addEventListener('resize', getHeight);
 document.addEventListener('load', getHeight);

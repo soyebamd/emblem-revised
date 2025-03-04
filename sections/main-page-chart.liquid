@@ -193,29 +193,20 @@ ul.tab-header li {
 <div class="page-width  section-{{ section.id }}-padding position-relative z-2">
 
 
-<div class="text-center">
+<div class="text-center position-fixed">
 
-<div class="pos-fixed">
-
-  <h1 class="mb-8 text-uppercase main-page-title h2 page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+  <h1 class="mb-8 main-page-title h2 page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {{ page.title | escape }}
   </h1>
 
 
-<div class="tab-container">
-  <ul class="tab-header text-big">
+   <ul class="tab-header text-big">
     <li class="tab active" data-target="#core-performance"><a href="#core-performance">CORE PERFORMANCE</a></li>
     <li class="tab" data-target="#comfort"><a href="#comfort">COMFORT</a></li>
     <li class="tab" data-target="#hi-tech-performance"><a href="#hi-tech-performance">HI-TECH PERFORMANCE</a></li>
   </ul>
 
-  <div class="tab-content">
-    <div id="core-performance" class="content active">{% render 'sizechart-core-performance' %}</div>
-    <div id="comfort" class="content">{% render 'sizechart-comfort' %}</div>
-    <div id="hi-tech-performance" class="content">{% render 'sizechart-hitech-performance' %}</div>
-  </div>
-</div>
-</div>
+
   
 
   <div class="text-big {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -224,6 +215,15 @@ ul.tab-header li {
 
 </div>
 
+<div class="tab-container">
+ 
+
+  <div class="tab-content">
+    <div id="core-performance" class="content active">{% render 'sizechart-core-performance' %}</div>
+    <div id="comfort" class="content">{% render 'sizechart-comfort' %}</div>
+    <div id="hi-tech-performance" class="content">{% render 'sizechart-hitech-performance' %}</div>
+  </div>
+</div>
 
 
 

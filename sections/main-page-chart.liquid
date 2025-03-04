@@ -97,7 +97,7 @@ font-weight: 700;}
  }
  .bg-{{ page.id }}:after{
     content:'';
-    mix-blend-mode: multiply;
+    /* mix-blend-mode: multiply; */
     background-image: url({{ 'DtoZxu_2.png' |  file_url }}) !important;
     background-position:center;
     width:100%;
@@ -205,8 +205,9 @@ ul.tab-header li {
 
 <section>
 
-<div class="text-center position-fixed page-width position-fixed--size-chart">
+<div class="text-center position-fixed w-100 position-fixed--size-chart">
 
+<div class="page-width">
   <h1 class="mb-8 main-page-title h2 page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {{ page.title | escape }}
   </h1>
@@ -224,7 +225,7 @@ ul.tab-header li {
   <div class="text-big {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     {{ page.content }}
   </div>
-
+</div>
 </div>
 
 <div  class="cart-bg  bg-{{ page.id }}">

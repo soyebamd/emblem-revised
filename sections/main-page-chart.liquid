@@ -383,6 +383,32 @@ window.addEventListener("load", transformTablesForMobile);
 window.addEventListener("resize", transformTablesForMobile);
 
 
+
+//top fixed postion for content
+
+
+const contentSizeChart = document.querySelector('.position-fixed--size-chart');
+const tabContainer = document.querySelector('.tab-container');
+
+function getHeight(){
+  
+contentSizeChartHeight = contentSizeChart.offsetHeight;
+
+tabContainer.style.paddingTop = contentSizeChartHeight + 'px';
+
+
+}
+
+document.addEventListener('resize', getHeight);
+document.addEventListener('load', getHeight);
+document.addEventListener('resize', getHeight);
+
+
+
+
+
+
+
 </script>
 
 

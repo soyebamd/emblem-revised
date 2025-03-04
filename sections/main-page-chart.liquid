@@ -195,19 +195,12 @@ ul.tab-header li {
 
 <div class="text-center">
 
+<div class="pos-fixed">
+
   <h1 class="mb-8 text-uppercase main-page-title h2 page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {{ page.title | escape }}
   </h1>
 
-
-
-  
-
-  <div class="text-big {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-    {{ page.content }}
-  </div>
-
-</div>
 
 <div class="tab-container">
   <ul class="tab-header text-big">
@@ -222,6 +215,15 @@ ul.tab-header li {
     <div id="hi-tech-performance" class="content">{% render 'sizechart-hitech-performance' %}</div>
   </div>
 </div>
+</div>
+  
+
+  <div class="text-big {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    {{ page.content }}
+  </div>
+
+</div>
+
 
 
 

@@ -223,7 +223,9 @@ ul.tab-header li {
   
 
   <div class="text-big {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-    {{ page.content }}
+    <p id="content-core-performance" class="hidden">1</p>
+     <p id="content-comfort">2</p>
+      <p id="content-hi-tech-performance">3</p>
   </div>
 </div>
 </div>
@@ -417,7 +419,23 @@ document.addEventListener('resize', getHeight);
 
 
 
+ const tabs = document.querySelectorAll(".tab");
+    const contents = document.querySelectorAll("p[id^='content-']");
 
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", function () {
+        // Remove active class from all tabs
+        tabs.forEach((t) => t.classList.remove("active"));
+        this.classList.add("active");
+
+        // Hide all content
+        contents.forEach((content) => content.classList.add("hidden"));
+
+        // Show the selected content
+        const targetId = this.getAttribute("data-target");
+        document.getElementById(targetId).classList.remove("hidden");
+      });
+    });
 
 
 </script>

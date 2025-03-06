@@ -223,9 +223,7 @@ ul.tab-header li {
   
 
   <div class="text-big {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-    <p id="content-core-performance">Comfort & Hi-Tech items may be substituted based on availability at the time of ordering</p>
-     <p id="content-comfort" class="hidden">Comfort & Hi-Tech items may be substituted based on availability at the time of ordering</p>
-      <p id="content-hi-tech-performance" class="hidden">Comfort & Hi-Tech items may be substituted based on availability at the time of ordering</p>
+    {{ page.content }}
   </div>
 </div>
 </div>
@@ -420,32 +418,9 @@ document.addEventListener('resize', getHeight);
 
 
 
+
+
 </script>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const tabs = document.querySelectorAll(".tab");
-    const contents = document.querySelectorAll("p[id^='content-']");
-
-    tabs.forEach((tab) => {
-      tab.addEventListener("click", function (event) {
-        event.preventDefault(); // Prevent default anchor behavior
-
-        // Remove active class from all tabs
-        tabs.forEach((t) => t.classList.remove("active"));
-        this.classList.add("active");
-
-        // Hide all content
-        contents.forEach((content) => content.classList.add("hidden"));
-
-        // Extract the target ID and show the corresponding content
-        const targetId = this.getAttribute("data-target").replace("#", "content-");
-        document.getElementById(targetId).classList.remove("hidden");
-      });
-    });
-  });
-</script>
-
 
 
 {% schema %}

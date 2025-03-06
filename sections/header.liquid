@@ -265,7 +265,7 @@
        <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form header__search">
           <div class="field">
            
-            <label class="field__label" for="{{ input_id }}">FIND YOUR STORE...</label>
+          
             <input type="hidden" name="options[prefix]" value="last">
             <button
               type="reset"
@@ -281,6 +281,8 @@
                 {{- 'icon-search.svg' | inline_asset_content -}}
               </span>
             </button>
+
+
 
 
              <input
@@ -303,6 +305,8 @@
                 spellcheck="false"
               {%- endif -%}
             >
+
+              <label class="field__label" for="{{ input_id }}">FIND YOUR STORE...</label>
 
             
           </div>

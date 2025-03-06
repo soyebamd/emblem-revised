@@ -296,6 +296,9 @@
         "heading_zPEA7m",
         "button_QVENfP"
       ],
+      "custom_css": [
+        ".button{border-color:#FD3535;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/image_95_1.png",
         "clip_image": true,

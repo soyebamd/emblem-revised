@@ -11,6 +11,9 @@
   "sections": {
     "main": {
       "type": "main-page-chart",
+      "custom_css": [
+        "p{color:#fff;}"
+      ],
       "settings": {
         "padding_top": 56,
         "padding_bottom": 56

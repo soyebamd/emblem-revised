@@ -62,8 +62,7 @@
                 spellcheck="false"
               {%- endif -%}
             >
-          
-            <input type="hidden" name="options[prefix]" value="last">
+          <input type="hidden" name="options[prefix]" value="last">
             <button
               type="reset"
               class="reset__button field__button{% if search.terms == blank %} hidden{% endif %}"
@@ -80,7 +79,7 @@
             </button>
 
               <label class="field__label" for="{{ input_id }}">FIND YOUR STORE...</label>
-              
+
           </div>
 
           {%- if settings.predictive_search_enabled -%}

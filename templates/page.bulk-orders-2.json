@@ -44,6 +44,7 @@
             "show_text_box": false,
             "text_alignment": "left",
             "custom_shadow": false,
+            "mobile_image_bottom": false,
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-2a438c20-1f5c-4baa-b277-aa5ac316f5a5",
             "text_alignment_mobile": "center",
@@ -71,7 +72,6 @@
         "column_xRB9t3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/white-glossy-mug-white-15-oz-front-view-672e78fedf8ff.jpg",
             "title": "Column",
             "text": "<p>Design your gear with our free in-house design team and select the “Bulk Order” category when you fill out the New Store Request Form.</p>",
             "link_label": "",
@@ -81,7 +81,6 @@
         "column_mYTt4V": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/white-glossy-mug-white-20-oz-front-view-672e78fedea19.jpg",
             "title": "Column",
             "text": "<p>Place your own bulk order online through your free personalized store, or fill out the Bulk order Request Form and submit your order speadsheet to our staff.</p>",
             "link_label": "",
